@@ -1,0 +1,80 @@
+name: Distribution scout
+
+# Every 8 hours, find Bengaluru property discussions where a PropertyLens page is
+# genuinely the best answer and draft the comment. Runs in GitHub's cloud, so it
+# keeps working overnight with the laptop shut. Review the queue at
+# property-lens.ai/admin/scout and post by hand — nothing here posts anywhere.
+on:
+  schedule:
+    - cron: "23 */8 * * *" # 05:53, 13:53, 21:53 IST — off the hour on purpose
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max leads to keep this cycle"
+        default: "10"
+      mode:
+        description: "sweep = normal cycle · rewrite = re-draft the existing board, no search"
+        type: choice
+        options: [sweep, rewrite]
+        default: sweep
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scout for threads
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: a free Reddit "script" app lifts the anonymous rate limit. Falls back to RSS if unset.
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          SITE_URL: https://property-lens.ai
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "rewrite" ]; then
+            npm run scout -- --rewrite
+          else
+            npm run scout -- --limit ${{ github.event.inputs.limit || '10' }}
+          fi
+
+      - name: Install Chromium for screenshots
+        run: npx playwright install --with-deps chromium
+
+      - name: Screenshot each lead's shots
+        env:
+          SITE_URL: https://property-lens.ai
+        run: npm run shoot
+
+      - name: Commit the queue
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/scout-queue.json data/scout-history.json public/scout
+          if git diff --cached --quiet; then echo "No new leads — skipping"; exit 0; fi
+          git commit -m "chore: scout queue ($(date -u +'%F %H:%M') UTC)"
+          for attempt in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push origin main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep 5
+          done
+          echo "could not push the queue after 3 attempts" >&2
+          exit 1

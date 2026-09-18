@@ -1,0 +1,15 @@
+{
+  "name": "property-lens-scout",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Distribution scout for PropertyLens: finds live Bengaluru property discussions where a PropertyLens page is the honest best answer, drafts the reply, screenshots the evidence. Nothing here posts anywhere.",
+  "scripts": {
+    "scout": "tsx scripts/scout.ts",
+    "shoot": "tsx scripts/shoot.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.111.0",
+    "playwright": "^1.63.0",
+    "tsx": "^4.19.1"
+  }
+}
