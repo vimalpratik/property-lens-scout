@@ -51,8 +51,17 @@ async function shoot(page: Page, lead: ScoutLead, spec: ShotSpec, out: string): 
   const target = targetFor(spec, lead.landing);
   await page.goto(target, { waitUntil: "networkidle", timeout: 60_000 });
   // The share row and bottom nav sit over the content on every page.
-  await page.addStyleTag({ content: `.sharebar,.bottomnav,.tip{display:none!important}` }).catch(() => {});
-  if (spec.kind === "map") await page.waitForTimeout(6000); // tiles and clusters
+  // The site header and the project bar are sticky: left alone they get painted
+  // across the middle of any crop below the fold. Pin them to the top instead.
+  await page.addStyleTag({ content: `.sharebar,.bottomnav,.tip{display:none!important} header.top,.projhead{position:static!important}` }).catch(() => {});
+  if (spec.kind === "map") {
+    // Google Maps: wait until the base tiles have actually drawn, not just the clusters.
+    await page.waitForFunction(() => {
+      const imgs = [...document.querySelectorAll<HTMLImageElement>("#gmap img")].filter((i) => i.naturalWidth >= 128);
+      return imgs.length >= 4 && imgs.every((i) => i.complete);
+    }, null, { timeout: 20_000 }).catch(() => note("map tiles did not finish loading"));
+    await page.waitForTimeout(2000);
+  }
   else if (spec.kind === "compare" || spec.kind === "list") await page.waitForTimeout(3500); // client data
   else await page.waitForTimeout(1200);
   if (spec.kind === "list") {
@@ -62,7 +71,8 @@ async function shoot(page: Page, lead: ScoutLead, spec: ShotSpec, out: string): 
   const el = page.locator(f.sel).first();
   await el.scrollIntoViewIfNeeded().catch(() => {});
   await page.waitForTimeout(400);
-  const box = await el.boundingBox().catch(() => null);
+  // fullPage clips are in document coordinates; boundingBox() is viewport-relative.
+  const box = await el.evaluate((n) => { const r = n.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, width: r.width, height: r.height }; }).catch(() => null);
   if (box && box.width > 200) {
     await page.screenshot({
       path: out,
