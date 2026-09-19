@@ -1,6 +1,117 @@
 {
-  "generatedAt": "2026-09-18T16:31:33.023Z",
+  "generatedAt": "2026-09-19T12:33:51.264Z",
   "leads": [
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/How-much-appreciation-can-be-expected-for-a-flat-in-a-apartment-from-a-reputed-builder-near-to-ORR-in-Bangalore-within-3-5-years-of-construction",
+      "title": "How much appreciation can be expected for a flat from a reputed builder near ORR in Bangalore within 3-5 years?",
+      "context": "Quora",
+      "postedAt": "2018-03-11T00:00:00Z",
+      "evergreen": true,
+      "fit": 88,
+      "intent": "Wants a realistic appreciation number for an ORR flat over a 3-5 year hold.",
+      "landing": "https://property-lens.ai/map?loc=bellandur-orr",
+      "landingWhy": "The Bellandur/ORR locality map shows every analysed project on that exact stretch with its score and projected growth, which is the evidence for the median figures quoted; the homepage would make them hunt for the corridor.",
+      "draft": "Expect your actual return to land three to four percentage points a year below the headline appreciation number, and plan around that.\n\nAcross the 36 projects I have scored on the Bellandur / ORR / Kadubeesanahalli stretch from Karnataka RERA filings, the median projected price growth is 9.5% a year over five years, at a median of about ₹11,500 per sq ft (a modelled estimate, not a quoted rate). Reputed-builder projects there sit a little above that: Prestige Kew Gardens at a projected 10.8% a year, The Urban Forest at 10.5%.\n\nNow the costs. On an eight-year hold with a 75% home loan, and after GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs, Kew Gardens works out to a net-wealth CAGR of 6.4% and The Urban Forest 6.7%. Gross rental yield in that belt is only about 3 to 3.4%, so very little of the return comes from rent.\n\nThree to five years is the hard window, because roughly 5% GST on an under-construction purchase plus about 6-7% stamp duty and registration are sunk on day one, and you need several years of growth just to clear them. An under-construction flat also earns no rent until handover, which is often two of those five years.\n\nA reputed builder mainly buys delivery certainty, not price growth, so still read the RERA completion date and extensions, the complaint register and the occupancy certificate. These are model projections, not promises.",
+      "risk": "low",
+      "riskNote": "No link, no project recommendation, every number labelled as a projection or a modelled estimate; Quora deletes link-bearing answers, so attribution sits in the profile credential.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "prestige-kew-gardens-000058",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-kew-gardens-000058",
+          "caption": "Prestige Kew Gardens: projected 10.8%/yr price growth versus a 6.4% net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "bellandur-orr",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=bellandur-orr",
+          "caption": "Score map of the Bellandur/ORR belt: 36 analysed projects, median score 53, median projected growth 9.5%/yr."
+        }
+      ],
+      "id": "21c98c457d5b67ed",
+      "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-it-to-buy-a-property-at-1-crore-INR-in-Whitefield-Bangalore-for-the-long-term",
+      "title": "Is it worth it to buy a property at 1 crore INR in Whitefield, Bangalore for the long-term?",
+      "context": "Quora",
+      "postedAt": "2017-08-22T00:00:00Z",
+      "evergreen": true,
+      "fit": 86,
+      "intent": "Wants to know what ₹1 Cr actually buys in Whitefield and whether it holds up long term.",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The Whitefield locality map carries the 90 analysed projects, their scores and projected growth behind the medians quoted, which is exactly what the asker needs to sanity-check a ₹1 Cr purchase.",
+      "draft": "At roughly ₹11,750 a sq ft, a modelled estimate for Whitefield rather than a quoted rate, ₹1 Cr buys about 850 sq ft of saleable area today, so realistically a compact 2BHK or an older 3BHK in resale.\n\nAcross the 90 Whitefield projects I have scored from Karnataka RERA filings, the median investment score is 61 out of 100, where 50 is the average analysed Bengaluru project, and the median projected price growth is 9.7% a year over five years. Whitefield scores well on employment access and social infrastructure; the weak spots are water, traffic and the volume of new supply arriving.\n\nThe number most buyers miss is the gap between price growth and their own return. Gross rental yields there run about 3 to 4%, and after GST, stamp duty and registration, interiors, maintenance, loan interest and selling costs, an eight-year hold on a 75% loan nets out far below the headline. Prestige Pine Forest, for example, scores 81 with projected 10.9% a year price growth but a net-wealth CAGR of 7.5% once every cost is counted.\n\nBefore committing a crore, pull the project's K-RERA page: the declared completion date and any extensions, the complaint count against that registration (one large Whitefield project currently shows 15), land ownership, and for a ready flat the occupancy certificate.\n\nWhether it is worth it depends mostly on whether you will live in it. As a pure investment at that yield, it is a bet on the corridor's growth, not on income.",
+      "risk": "low",
+      "riskNote": "Answers the question fully without a link or a buy recommendation; price per sq ft is explicitly flagged as an estimate and growth as a projection.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield score map: 90 analysed projects, median score 61, median projected growth 9.7%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: score 81, projected 10.9%/yr, net-wealth CAGR 7.5% after all costs."
+        }
+      ],
+      "id": "a08ce05a1021e359",
+      "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Bangalore-Real-Estate-Devanahalli-Vs-Sarjapur-Road-Which-one-is-better",
+      "title": "Bangalore Real Estate: Devanahalli Vs Sarjapur Road. Which one is better?",
+      "context": "Quora",
+      "postedAt": "2016-11-03T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants a corridor comparison between Devanahalli and Sarjapur Road for a purchase.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city score map lets the reader flip between both corridors and see the per-project scores behind the two sets of medians, which a single project page cannot do.",
+      "draft": "They are not comparable on price, and that is the first thing to fix. From the Karnataka RERA filings I have scored, Sarjapur Road has 278 analysed projects at a median of about ₹8,450 a sq ft, while Devanahalli, Airport Road and Bagalur have 194 at about ₹4,700 — roughly half. Both are modelled estimates, not quoted rates.\n\nMedian investment score is 54 on Sarjapur Road against 49 at Devanahalli, out of 100, where 50 is the average analysed Bengaluru project. Median projected five-year price growth runs the other way: 11.2% a year at Devanahalli against 10.5% on Sarjapur Road.\n\nIn plain terms, Devanahalli is the cheaper entry with more of the upside still ahead, Sarjapur the deeper and more liquid market with the jobs already next door. What separates them in the scoring is not growth but employment access, social infrastructure and resale liquidity. Devanahalli's rental demand today is thin because the airport-corridor offices are still arriving; Sarjapur already has ORR and the Whitefield belt commutable.\n\nTwo concrete points: Sattva Aeropolis Phase 2 at Devanahalli scores 65 with a ₹32.0 L ticket for its smaller unit, while Godrej Lakeside Orchard on Sarjapur Road scores 76 with projected 11.4% a year. Both are under construction, so neither earns rent until handover.\n\nWhichever way you lean, check that specific project's RERA timeline and extensions, its complaint register and the land ownership before the location debate matters at all.",
+      "risk": "low",
+      "riskNote": "Comparative and neutral, no link, no 'best' claim; medians and projections are labelled as such.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 278 analysed projects, median score 54, median projected growth 10.5%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli/Airport corridor: 194 analysed projects, median score 49, median projected growth 11.2%/yr."
+        }
+      ],
+      "id": "c3479146969a1a15",
+      "foundAt": "2026-09-19T12:33:51.264Z"
+    },
     {
       "platform": "quora",
       "url": "https://www.quora.com/Is-Sarjapur-Road-Bangalore-a-good-location-for-buying-premium-flats",
@@ -48,6 +159,80 @@
       "foundAt": "2026-09-18T16:31:33.023Z"
     },
     {
+      "platform": "quora",
+      "url": "https://bangalorerealestate.quora.com/Which-are-the-reliable-most-reputed-builders-in-Bangalore",
+      "title": "Which are the reliable & most reputed builders in Bangalore?",
+      "context": "Quora · BANGALORE REAL ESTATE space",
+      "postedAt": "2015-09-07T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants to know which Bengaluru builders can be trusted to deliver.",
+      "landing": "https://property-lens.ai/developers",
+      "landingWhy": "The developers view shows delivery record and project-level complaint counts side by side, which is the evidence for the point that risk sits at project level, not brand level.",
+      "draft": "The reliable-builder question is aimed at the wrong unit. Delivery risk in Bengaluru sits at project level, and the K-RERA complaint register shows it plainly: one Casagrand project in KR Puram / Mahadevapura carries 102 complaints against its registration, while Casagrand Regal on Hennur Road carries none. Same developer, same city.\n\nOther examples from the filings: Godrej Lake Gardens on ORR shows 8 complaints, Bhartiya's Nikoo Homes V phases show 7 each, and one large Mahindra phase in Whitefield shows 15 — all promoters most buyers would call safe.\n\nSo instead of ranking brands, check four things on the specific registration you are buying into:\n- the declared completion date and how many extensions have been filed\n- complaints and court cases listed against that project\n- construction progress versus bookings in the quarterly updates, and how much money has actually moved through the RERA account\n- land ownership, own land or joint development, and for ready homes the occupancy certificate\n\nIf a promoter has taken two extensions and sold 80% while building 30%, the brand name will not protect your money. If the quarterly progress reports track the declared timeline and the designated account is being used properly, that tells you more than any builder ranking.\n\nPublic credit ratings are worth a look too. Several mid-size Bengaluru promoters are rated, and an NBFC-funded project from a weakly rated promoter is a different risk from a listed developer's balance sheet. All of this is free to read on the K-RERA site once you know which fields matter.",
+      "risk": "medium",
+      "riskNote": "Names complaint counts, so it stays strictly factual and sourced to the K-RERA register, states no opinion about any builder's honesty, and carries no link.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "Due diligence view showing 102 complaints on the RERA register against this single project."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Casagrand",
+          "url": "https://property-lens.ai/?dev=Casagrand",
+          "caption": "Same developer, project by project: scores and complaint counts vary widely across the portfolio."
+        }
+      ],
+      "id": "4ceb3c0177389c58",
+      "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-a-good-idea-to-buy-a-flat-in-Bangalore-now-as-an-investment-If-so-where-can-we-get-flats-at-budget-prices",
+      "title": "Is it a good idea to buy a flat in Bangalore now as an investment? If so, where can we get flats at budget prices?",
+      "context": "Quora",
+      "postedAt": "2019-06-18T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know whether a Bengaluru flat works as an investment and where the sub-₹50L stock is.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The ranked city list is the one page that answers 'where are the budget options' — it sorts every analysed project by score with ticket size, rather than forcing a locality guess first.",
+      "draft": "Sub-₹50 lakh options do still exist, but almost all of them sit in the outer corridors, and at that price you are buying projected price growth, not income.\n\nFrom what I have scored out of the Karnataka RERA filings, a few concrete ticket sizes for the smaller unit in each project:\n- Sattva Aeropolis Phase 2, Devanahalli — score 65, projected 11.7%/yr, ₹32.0 L\n- Radiance Gardenia, Hennur Road — score 68, ready, ₹32.7 L\n- Brigade Calista Phase 2, Budigere Cross — score 62, projected 10.4%/yr, ₹38.2 L\n- Brigade Insignia, Yelahanka — score 79, projected 11.0%/yr, ₹42.1 L\n\nScores are out of 100, where 50 is the average analysed Bengaluru project and 12 points is one standard deviation.\n\nTwo things to be honest about. Gross rental yields in these pockets run about 3.7 to 4.5%, so rent will not cover an EMI; the case rests on the corridor's growth, which is a projection, not a promise. And an under-construction flat earns nothing until handover, two to four years out on most of these, while loan interest starts immediately.\n\nIf you go ahead, read the project's RERA page before the brochure: declared completion date, extensions filed, complaints against that registration, and whether the promoter owns the land or is building under a joint development agreement. At this budget that paperwork is what actually protects you.",
+      "risk": "low",
+      "riskNote": "Lists options with their weaknesses rather than recommending one, no link, all growth figures labelled projections and prices labelled per-project tickets.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked cards for every analysed Bengaluru project, with score and ticket size for the budget end."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia, Yelahanka: score 79, projected 11.0%/yr, ₹42.1 L for the default unit."
+        }
+      ],
+      "id": "aeb755166e1835af",
+      "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
       "platform": "reddit",
       "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wjnpu3/home_purchase_is_it_a_good_decision_to_buy_now/",
       "title": "Home Purchase : Is it a good decision to buy now",
@@ -86,19 +271,19 @@
     }
   ],
   "stats": {
-    "candidates": 5,
-    "kept": 2,
+    "candidates": 2,
+    "kept": 5,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1,
-      "reddit": 1
+      "quora": 5
     },
     "errors": [
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
