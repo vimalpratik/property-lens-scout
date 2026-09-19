@@ -31,14 +31,16 @@ export const PLATFORM_RULES: Record<Platform, string> = {
     "lines, never a markdown table: the default composer is rich text and renders table syntax as literal garbage. " +
     "r/bangalore and r/IndiaRealEstate are hostile to anything that smells like a broker.",
   x:
-    "Reply in the thread, conversational, no hashtags, no links. Lead with the actual number or " +
-    "insight — the reply has to be worth reading on its own, because there is nothing to click.",
+    "Reply in the thread, conversational, no hashtags. Lead with the actual number or insight — the " +
+    "reply has to be worth reading on its own. End with the lead's landing URL on its own line (the one " +
+    "link allowed; X counts it as 23 characters toward the 280).",
   linkedin:
     "Comment as a practitioner. No emoji-bullet listicles. No links. The post collapses after ~210 characters " +
     "behind 'see more', so the opening must be a complete thought that earns the expand.",
   quora:
-    "Long-form answer, no links — link-bearing answers get deleted by moderation. Answer the " +
-    "question completely and let the profile credential carry the attribution.",
+    "Long-form answer. Write it with no links: the scout itself appends the relevant PropertyLens " +
+    "page to half of the Quora answers, as one closing line. Answer the question completely so it " +
+    "stands with or without that line.",
   hn: "No links. Only comment if you can add real substance (data source, methodology, what RERA filings " +
     "actually contain). No images and no tables — figures go inline in prose.",
   forum:

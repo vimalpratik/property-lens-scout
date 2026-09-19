@@ -281,6 +281,59 @@ function linkMap(digestIds: Set<string>): string[] {
   ];
 }
 
+/**
+ * Enforce the link rule in code, not just the prompt: X drafts may carry the
+ * lead's landing URL and nothing else; every other platform gets no URL and no
+ * bare mention of the domain.
+ */
+function enforceLinks(platform: Platform, draft: string, landing: string): string {
+  const keep = platform === "x" ? landing.replace(/\/+$/, "") : null;
+  const out = draft
+    .replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, (_m, text: string, url: string) => (keep && url.replace(/\/+$/, "") === keep ? url : text))
+    .replace(/https?:\/\/[^\s)>\]]+/g, (url) => (keep && url.replace(/[.,;:!?]+$/, "").replace(/\/+$/, "") === keep ? url : ""))
+    .replace(platform === "x" ? /$^/ : /\b(?:www\.)?property-lens\.ai\b/gi, "PropertyLens")
+    .replace(/ {2,}/g, " ")
+    .replace(/[ \t]+$/gm, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+  return out;
+}
+
+/** The closing line that carries a Quora answer's link — phrased for what the page shows. */
+function linkLine(landing: string): string {
+  const path = landing.replace(/^https?:\/\/[^/]+/, "");
+  const what =
+    path.startsWith("/p/") || path.startsWith("/dd/") ? "the full numbers and the RERA record for this project are here" :
+    path.startsWith("/compare") ? "the two side by side, after every cost, are here" :
+    path.startsWith("/map?loc=") ? "every project on this corridor, scored on one map, is here" :
+    path.startsWith("/map") ? "every analysed Bengaluru project, scored on one map, is here" :
+    path.startsWith("/developers") ? "the developer-by-developer delivery records are here" :
+    path.startsWith("/?dev=") ? "every project from this developer, scored, is here" :
+    "all 1,850+ analysed Bengaluru projects, ranked with net returns, are here";
+  return `If you want to check these numbers yourself, ${what}: ${landing}`;
+}
+
+/**
+ * Half of the Quora answers carry one PropertyLens link as a closing line;
+ * the rest stay link-free. Leads that already carry one keep it; the
+ * highest-fit link-free ones are topped up until half the Quora leads link.
+ */
+function linkHalfOfQuora(leads: ScoutLead[]): number {
+  const quora = leads.filter((l) => l.platform === "quora").sort((a, b) => b.fit - a.fit);
+  const has = (l: ScoutLead) => l.draft.includes(l.landing);
+  let linked = quora.filter(has).length;
+  const target = Math.ceil(quora.length / 2);
+  let added = 0;
+  for (const l of quora) {
+    if (linked >= target) break;
+    if (has(l)) continue;
+    l.draft = `${l.draft.trimEnd()}\n\n${linkLine(l.landing)}`;
+    l.riskNote = "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.";
+    linked++; added++;
+  }
+  return added;
+}
+
 const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
 const cr = (n: number) => (n >= 1e7 ? `₹${(n / 1e7).toFixed(2)} Cr` : `₹${(n / 1e5).toFixed(1)} L`);
 
@@ -363,14 +416,17 @@ beat forty mediocre ones, and a mediocre one gets the account banned.
 HARD RULES for every draft you write:
 1. The comment must stand on its own. If the reader never clicks, they should still have got a real
    answer — a specific number, a concrete method, a correction of a wrong assumption.
-2. NO LINKS. Never put a URL in a draft, on any platform, for any reason. No bare URLs, no markdown
-   links, no "you can find it at ...", and no naming the domain in running text. Attribution comes
-   from the author's profile credential ("Founder at property-lens.ai") and from the screenshot.
-   Pick "landing" and the shot specs as normal — they decide which page is screenshotted, and never
-   appear in the draft.
+2. LINKS — X ONLY. On x, end the draft with the lead's "landing" URL, exactly as given, on its own
+   line; that is the only link, and it counts as 23 characters toward the 280. On EVERY other
+   platform (reddit, quora, linkedin, hn, forum): write no links at all. (On quora the scout appends
+   the landing page as a closing line to half the answers itself — never add one yourself.) No bare URLs, no markdown links, no
+   "you can find it at ...", and no naming the domain in running text. Attribution there comes from
+   the author's profile credential ("Founder at property-lens.ai") and from the screenshot.
+   Pick "landing" and the shot specs as normal on every platform — they decide which page is
+   screenshotted.
 3. You may say you built the tool when it is relevant and honest ("I pulled this from the RERA
    filings myself", "the screenshot is from something I built") — never pretend to be a neutral
-   third party. With no link in the draft, the better move is usually to just answer well and let
+   third party. Where there is no link in the draft, the better move is usually to just answer well and let
    the credential do the attribution. Never write a sentence whose purpose is to sell.
 4. Never promise appreciation, never call a project "the best" as a fact, never give personalised
    investment advice, never tell someone to buy or not buy. PropertyLens is research. Say so if the
@@ -384,7 +440,7 @@ HARD RULES for every draft you write:
    completion date"), and price-per-sq-ft figures marked (assumed) must be called estimates. When
    unsure, describe what the page shows rather than quoting a value.
 7. "landing" and each shot's page must come from the allowed list. Never invent a project id or a
-   path, and never write either of them into the draft.
+   path, and never write either of them into the draft (on x, the landing URL itself is the one exception).
 8. Watch for periodic threads (weekly "buying/renting" megathreads, monthly review threads). Only
    the CURRENT period's thread is live. Never surface one whose period has passed.
 9. The person on the other side may be spending their life savings. Mention the things that
@@ -619,11 +675,13 @@ async function main() {
       try {
         for (const [id, r] of await rewriteBatch(batch, digest)) {
           const lead = queue.leads.find((l) => l.id === id); if (!lead) continue;
-          if (r.draft && r.draft !== lead.draft) { lead.draft = r.draft; changed++; }
+          const draft = r.draft ? enforceLinks(lead.platform, r.draft, lead.landing) : "";
+          if (draft && draft !== lead.draft) { lead.draft = draft; changed++; }
           if (r.shots?.length) lead.shots = r.shots.slice(0, MAX_SHOTS).map((s) => ({ ...s, url: shotUrl(s) }));
         }
       } catch (err) { fail(`rewrite batch ${i / REWRITE_BATCH + 1}`, err); }
     }
+    changed += linkHalfOfQuora(queue.leads);
     note(`rewrote ${changed} drafts`);
     if (!DRY_RUN && changed) fs.writeFileSync(QUEUE_FILE, JSON.stringify(queue, null, 2));
     return;
@@ -678,6 +736,7 @@ async function main() {
     })
     .map((l) => ({
       ...l,
+      draft: enforceLinks(l.platform, l.draft, l.landing),
       id: sha1(canonical(l.url)),
       fit: Math.max(0, Math.min(100, Math.round(l.fit))),
       evergreen: maxAgeFor(l.platform) === null && !!l.evergreen,
@@ -710,6 +769,8 @@ async function main() {
     return Date.now() - Date.parse(l.foundAt) < limit * 36e5;
   });
   queue.leads = [...leads, ...carried].sort((a, b) => b.fit - a.fit);
+  const linkedQuora = linkHalfOfQuora(queue.leads);
+  if (linkedQuora) note(`quora: added the PropertyLens link to ${linkedQuora} answer(s)`);
 
   const before = (previous?.leads ?? []).map((l) => l.id).join(",");
   const after = queue.leads.map((l) => l.id).join(",");
