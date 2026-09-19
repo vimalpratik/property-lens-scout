@@ -613,16 +613,18 @@ fits. Aim for a spread across platforms rather than ten Reddit threads.`;
     max_tokens: 48000,
     betas: ["server-side-fallback-2026-06-01"],
     fallbacks: [{ model: "claude-opus-4-8" }],
-    system: SYSTEM,
+    // The system prompt and the data-heavy user prompt are identical across every tool turn of one call, and the
+    // allow-list + digest barely change between cycles. Caching them cuts the resent-input bill by roughly 90%.
+    system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
     output_config: { effort: "high", format: { type: "json_schema", schema: SCHEMA as unknown as Record<string, unknown> } },
-    tools: [{ type: "web_search_20260318", name: "web_search", max_uses: 12 }],
-    messages: [{ role: "user", content: prompt }],
+    tools: [{ type: "web_search_20260318", name: "web_search", max_uses: 10 }],
+    messages: [{ role: "user", content: [{ type: "text", text: prompt, cache_control: { type: "ephemeral" } }] }],
   }).finalMessage();
 
   if (res.stop_reason === "max_tokens") throw new Error(`hit max_tokens (${res.usage.output_tokens} out) — response truncated`);
   if (res.stop_reason === "refusal") throw new Error(`model declined (${res.stop_details?.category ?? "unknown"})`);
   const text = res.content.filter((b): b is Anthropic.Beta.BetaTextBlock => b.type === "text").map((b) => b.text).join("");
-  note(`model: ${res.model} · in ${res.usage.input_tokens} / out ${res.usage.output_tokens} tokens`);
+  note(`model: ${res.model} · in ${res.usage.input_tokens} (+${res.usage.cache_read_input_tokens ?? 0} cached, ${res.usage.cache_creation_input_tokens ?? 0} written) / out ${res.usage.output_tokens} tokens`);
   const json = text.trim().startsWith("{") ? text : /\{[\s\S]*\}/.exec(text)?.[0];
   if (!json) throw new Error("model returned no JSON");
   return (JSON.parse(json) as { leads: Omit<ScoutLead, "id" | "foundAt">[] }).leads ?? [];
