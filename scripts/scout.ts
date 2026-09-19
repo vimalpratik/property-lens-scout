@@ -248,7 +248,7 @@ interface IndexRow {
   id: string; name: string; builderName: string; locality: string; localityName: string; zone: string;
   status: string; type: string; segment: string; score: number; evidence: number; cagr5: number; cagr10: number;
   irr: number; wealth: number; yield: number; psf: number; psfKind: string; ticket: number; label: string;
-  possession: string | null; units: number | null; verified: boolean; red: number; complaints: number; devRank: number | null;
+  possession: string | null; units: number | null; verified: boolean; red: number; complaints: number | null; devRank: number | null;
 }
 
 let INDEX: IndexRow[] = [];
@@ -334,6 +334,33 @@ function linkHalfOfQuora(leads: ScoutLead[]): number {
   return added;
 }
 
+/**
+ * Replace each digest project's complaint count with the one filed against its
+ * own RERA registration. index.json's "complaints" (and the site's complaint
+ * log) attach another project's complaints from the same promoter — every
+ * Casagrand project shows Casagrand Orlena's 102 — so it must never be quoted.
+ * Each project's own file carries the per-registration count in
+ * rera_signals.complaints; when that can't be read the count becomes unknown.
+ */
+async function loadRegistrationComplaints(ids: Set<string>): Promise<number> {
+  let fixed = 0;
+  const rows = INDEX.filter((r) => ids.has(r.id));
+  for (let i = 0; i < rows.length; i += 8) {
+    await Promise.all(rows.slice(i, i + 8).map(async (r) => {
+      try {
+        const p = JSON.parse(await getText(`${SITE}/data/p/${r.id}.json`, 20_000, 2)) as { project?: { rera_signals?: { complaints?: unknown } } };
+        const n = p.project?.rera_signals?.complaints;
+        r.complaints = typeof n === "number" && Number.isFinite(n) ? n : null;
+        fixed++;
+      } catch (err) {
+        r.complaints = null;
+        fail(`complaints ${r.id}`, err);
+      }
+    }));
+  }
+  return fixed;
+}
+
 const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
 const cr = (n: number) => (n >= 1e7 ? `₹${(n / 1e7).toFixed(2)} Cr` : `₹${(n / 1e5).toFixed(1)} L`);
 
@@ -356,14 +383,14 @@ function projectDigest(perLocality = 4): { text: string; ids: Set<string> } {
     const med = (arr: number[]) => { const s = [...arr].sort((x, y) => x - y); return s[Math.floor(s.length / 2)]; };
     lines.push(`${name} · ${rows.length} · ${Math.round(med(rows.map((r) => r.score)))} · ${pct(med(rows.map((r) => r.cagr5)))} · ₹${Math.round(med(rows.map((r) => r.psf))).toLocaleString("en-IN")}`);
   }
-  lines.push("", "## Projects (id | name | developer | locality | status | score/100 | 5-yr price growth/yr | net-wealth CAGR (8-yr, 75% loan) | cash-flow IRR | gross yield | price per sq ft (observed/assumed) | ticket for the default home | red flags in due diligence | RERA complaints)");
+  lines.push("", "## Projects (id | name | developer | locality | status | score/100 | 5-yr price growth/yr | net-wealth CAGR (8-yr, 75% loan) | cash-flow IRR | gross yield | price per sq ft (observed/assumed) | ticket for the default home | red flags in due diligence | RERA complaints on this registration — unknown means never quote a count)");
   for (const [, rows] of locs) {
     const top = [...rows].sort((a, b) => b.score - a.score).slice(0, perLocality);
     // Also carry the biggest names people ask about by name, even when their score is middling.
     const famous = rows.filter((r) => /prestige|sobha|brigade|godrej|purva|provident|sattva|total environment|embassy|birla|lodha|tata|mahindra|casagrand|assetz/i.test(r.builderName)).sort((a, b) => b.score - a.score).slice(0, 4);
     for (const r of [...new Set([...top, ...famous])]) {
       ids.add(r.id);
-      lines.push([r.id, r.name, r.builderName, r.localityName.split(" (")[0], r.status, r.score.toFixed(0), pct(r.cagr5), pct(r.wealth), pct(r.irr), pct(r.yield), `₹${Math.round(r.psf).toLocaleString("en-IN")} (${r.psfKind})`, cr(r.ticket), String(r.red ?? 0), String(r.complaints ?? 0)].join(" | "));
+      lines.push([r.id, r.name, r.builderName, r.localityName.split(" (")[0], r.status, r.score.toFixed(0), pct(r.cagr5), pct(r.wealth), pct(r.irr), pct(r.yield), `₹${Math.round(r.psf).toLocaleString("en-IN")} (${r.psfKind})`, cr(r.ticket), String(r.red ?? 0), r.complaints === null ? "unknown" : String(r.complaints)].join(" | "));
     }
   }
   return { text: lines.join("\n"), ids };
@@ -438,7 +465,9 @@ HARD RULES for every draft you write:
 6. Never fabricate a number. Quote only figures from the PROJECT DATA block. Every quoted number
    must be labelled with what it is ("PropertyLens score", "projected 5-yr price growth", "RERA
    completion date"), and price-per-sq-ft figures marked (assumed) must be called estimates. When
-   unsure, describe what the page shows rather than quoting a value.
+   unsure, describe what the page shows rather than quoting a value. Complaint counts are only ever
+   the "RERA complaints on this registration" column for that named project — never a promoter
+   total, never a number seen on a project page, and never one marked "unknown".
 7. "landing" and each shot's page must come from the allowed list. Never invent a project id or a
    path, and never write either of them into the draft (on x, the landing URL itself is the one exception).
 8. Watch for periodic threads (weekly "buying/renting" megathreads, monthly review threads). Only
@@ -666,6 +695,8 @@ ${leads.map((l) => `id: ${l.id}\nplatform: ${l.platform}  (thread: ${l.title})\n
 
 async function main() {
   await loadIndex();
+  // Pick the digest projects, correct their complaint counts, then build the digest from the corrected rows.
+  note(`complaints: read the per-registration count for ${await loadRegistrationComplaints(projectDigest().ids)} projects`);
   const { text: digest, ids: digestIds } = projectDigest();
 
   if (REWRITE) {
