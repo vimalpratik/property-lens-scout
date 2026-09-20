@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:39:04.167Z",
+  "generatedAt": "2026-09-20T05:01:35.675Z",
   "leads": [
     {
       "platform": "quora",
@@ -111,6 +111,89 @@
       ],
       "id": "a08ce05a1021e359",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-investing-in-a-flat-in-Bangalore-for-rental-income",
+      "title": "Is it worth investing in a flat in Bangalore for rental income?",
+      "context": "Quora",
+      "postedAt": "2018-11-20T00:00:00Z",
+      "evergreen": true,
+      "fit": 85,
+      "intent": "Wants to know whether Bengaluru rental yields justify buying a flat as an income asset.",
+      "landing": "https://property-lens.ai/p/brigade-insignia-006894",
+      "landingWhy": "This is the project whose 4.5% gross yield and 7.9% net-wealth CAGR the answer quotes; the page shows the full cost stack behind those two numbers, which a homepage cannot.",
+      "draft": "Rent alone rarely carries a Bengaluru purchase, and the yields are the reason. Across the projects I analyse from RERA filings and dated locality price evidence, gross rental yields sit in a band of roughly 2.5% to 4.5%. Brigade Insignia in Yelahanka models at 4.5% gross with an investment score of 81; Lodha's Haven in HSR Layout models at 2.8% gross on a far bigger ticket. Those are gross figures, before maintenance, vacancy, repairs and income tax.\n\nWhich means most of the return has to come from price, and only counts after honest costs. Putting through GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling cost, on a 75% loan held eight years, the projects I model mostly land between about 4% and 9% net-wealth CAGR. Brigade Insignia works out at 7.9% net-wealth CAGR with a 12.2% cash-flow IRR; thin-yield premium stock in HSR lands lower despite the better address.\n\nTwo things buyers consistently underprice. An under-construction flat pays no rent until handover, so you carry two to three years of EMI against zero income — which is why the declared RERA completion date and any extensions already filed matter more than the brochure. And a plot pays no rent at all, ever.\n\nIf income is genuinely the objective, a ready project with an occupancy certificate and a working rental catchment does a different job from a launch at the same price per foot. Research, not advice.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/brigade-insignia-006894",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia: 4.5% gross yield, 7.9% net-wealth CAGR, 12.2% cash-flow IRR on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "haven-007785",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/haven-007785",
+          "caption": "Lodha Haven, HSR: score 85 but 2.8% gross yield — the yield/price trade-off in one screen."
+        }
+      ],
+      "id": "0e0f239d6b1aeda1",
+      "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-it-to-buy-a-flat-worth-1-crore-with-a-top-builder-in-Bangalore-on-Sarjapur-Road",
+      "title": "Is it worth it to buy a flat worth 1 crore with a top builder in Bangalore on Sarjapur Road?",
+      "context": "Quora",
+      "postedAt": "2019-08-04T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to sanity-check a ₹1 Cr Sarjapur Road purchase from a big developer.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
+      "landingWhy": "The Sarjapur Road map puts every analysed project on that stretch with its score next to the corridor median, which is exactly the correction the existing answer needs; a project page alone would look like a pitch for one builder.",
+      "draft": "Check the price assumption before anything else — the per sq ft range in the existing answer no longer exists on that road. In the dated locality evidence I work from, Sarjapur Road's median comes out near ₹8,450 per sq ft and top-builder launches model closer to ₹11,300 (both model estimates, not quoted rates). At that level ₹1 Cr is a compact 3BHK, not the 1,800 sq ft the old arithmetic implies.\n\nSo the question stops being the road and becomes the specific registration. Two examples from the RERA filings: Godrej Lakeside Orchard scores 72 out of 100 with projected price growth of 10.8% a year and a 7.5% net-wealth CAGR after GST, stamp duty, interiors, interest and selling cost on a 75% loan, and carries 2 complaints on that RERA registration. Birla Evara scores 71 with 11.0% a year projected and no complaints on its registration, though its due-diligence read flags one item worth asking about.\n\nBefore paying a booking amount, get four things and read them yourself:\n\n- the original RERA completion date and every extension filed since\n- the quarterly progress reports: construction percentage against bookings percentage\n- confirmation that collections are going through the project's RERA account\n- land title: owned outright, or a joint development agreement, and with whom\n\nA large developer shortens that list but does not remove it. In the data I maintain, individual registrations from very well known Bengaluru names carry double-digit complaint counts. Worth checking the project, not the brand.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=sarjapur-road",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49, median price estimate ₹8,450/sq ft."
+        },
+        {
+          "kind": "dd",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105#dd",
+          "caption": "Due-diligence view for Godrej Lakeside Orchard: RERA timeline, extensions, RERA-account money, 2 complaints on this registration."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: score 71, projected 11.0%/yr, net returns after every cost."
+        }
+      ],
+      "id": "a35fd06dcaa25732",
+      "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
       "platform": "quora",
@@ -234,6 +317,52 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/In-Bangalore-which-is-a-better-place-to-buy-an-apartment-Sarjapur-road-and-around-Bannerghatta-road-and-around-or-Panathur-Marathalli-considering-resale-value-cauvery-water-area-development-connectivity-etc",
+      "title": "In Bangalore, which is a better place to buy an apartment — Sarjapur Road, Bannerghatta Road or Panathur/Marathahalli?",
+      "context": "Quora",
+      "postedAt": "2019-02-17T00:00:00Z",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants a corridor-level comparison for an apartment purchase, weighted to resale and infrastructure.",
+      "landing": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+      "landingWhy": "Bannerghatta/JP Nagar has the highest median score of the three corridors named, so the map showing its 70 analysed projects is the direct evidence for the comparison; the homepage shows no locality breakdown.",
+      "draft": "The three corridors separate more on supply than on price. From the Karnataka RERA filings, Sarjapur Road has 284 analysed residential projects, a median investment score of 49 out of 100, median projected price growth of 9.8% a year over five years and a median price near ₹8,450 per sq ft (a model estimate, not a quoted rate).\n\nBannerghatta Road/JP Nagar: 70 projects, median score 61, 9.5% a year, about ₹8,500 per sq ft estimated. Marathahalli/Kundalahalli/Varthur: 88 projects, median score 59, 9.2% a year, about ₹11,300 estimated — you pay roughly a third more per foot for the shorter commute.\n\nOn resale, the supply gap is the part I would weight. Selling on Sarjapur means competing with stock from 284 registered projects on one stretch; the other two corridors have a quarter to a third of that. The growth forecasts are within half a percentage point of each other, so the differentiator is liquidity and infrastructure, not appreciation.\n\nProject choice moves the needle more than the road does. On Sarjapur, Godrej Lakeside Orchard scores 72 with 10.8% a year projected against a corridor median of 49. Prestige Raintree Park in the Marathahalli/Varthur belt scores 81, Prestige Southern Star on Bannerghatta Road 83.\n\nWhatever you shortlist, read the RERA page for that registration: original completion date versus extensions, quarterly construction progress against bookings, complaints filed on that registration, and whether the land is owned or under a joint development agreement.",
+      "risk": "low",
+      "riskNote": "Locality medians plus named projects make it useful with or without the screenshot. No link, no naming of the tool, no recommendation to buy.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "bannerghatta-jp-nagar",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+          "caption": "Bannerghatta/JP Nagar: 70 analysed projects, median score 61 — the highest of the three corridors."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49 — the supply and liquidity contrast."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "marathahalli-varthur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=marathahalli-varthur",
+          "caption": "Marathahalli/Varthur: 88 projects, median score 59, median price estimate ₹11,300/sq ft."
+        }
+      ],
+      "id": "f1212c97a3dc1ec8",
+      "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://bangalorerealestate.quora.com/Which-are-the-reliable-most-reputed-builders-in-Bangalore",
       "title": "Which are the reliable & most reputed builders in Bangalore?",
       "context": "Quora · BANGALORE REAL ESTATE space",
@@ -268,6 +397,43 @@
       ],
       "id": "4ceb3c0177389c58",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-is-better-to-buy-in-Bangalore-a-flat-or-a-plot",
+      "title": "Which is better to buy in Bangalore, a flat or a plot?",
+      "context": "Quora",
+      "postedAt": "2018-05-09T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know whether a plot or an apartment is the better Bengaluru buy and on what basis.",
+      "landing": "https://property-lens.ai/p/aravya-estate-008180",
+      "landingWhy": "It is a plotted project whose 11.0% projected growth, 9.5% net-wealth CAGR and 0% yield are exactly the plot-versus-flat trade-off the answer describes, with the cost stack visible; a generic page would prove nothing.",
+      "draft": "They earn in completely different ways, so the comparison only works after costs.\n\nA plot produces no rent at all — the entire return is price. In the plotted developments I model from RERA filings, the projected growth genuinely is higher: TBC La Picasso in Attibele shows projected price growth of 12.5% a year over five years, a 9.1% net-wealth CAGR on a 75% loan over eight years and a 14.3% cash-flow IRR, with 0% yield by definition. Godrej's Aravya Estate plots show 11.0% a year projected and a 9.5% net-wealth CAGR.\n\nApartments in stronger locations score far better overall but convert less of it into your pocket. Prestige Southern Star on Bannerghatta Road scores 83 out of 100, yet the net-wealth CAGR after GST, stamp duty, interiors, interest and selling cost is 6.4%.\n\nNotice where the plot numbers sit on the overall scoring, though: TBC La Picasso scores 53 and Aravya Estate 51, because employment access, transit and social infrastructure score poorly that far out. High growth off a low base is not the same thing as a liquid asset you can exit in a month.\n\nThe legal work is heavier on plots — DC conversion, khata, encumbrance certificate, the approved layout plan, and whether the plotted project is registered with K-RERA at all. On an apartment your protections are the RERA account, the declared completion date and the occupancy certificate.\n\nPractical split: a plot is a no-cash-flow position over 7-10 years; a flat gives rent that offsets part of the EMI at a lower growth forecast.",
+      "risk": "low",
+      "riskNote": "Genuinely balanced, names the weaknesses of the plot numbers it quotes, and includes the legal checks. No link, no promotional sentence.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "aravya-estate-008180",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/aravya-estate-008180",
+          "caption": "Aravya Estate plots: projected 11.0%/yr, 9.5% net-wealth CAGR, 0% yield — score 51."
+        },
+        {
+          "kind": "compare",
+          "projectId": "aravya-estate-008180",
+          "projectIdB": "prestige-southern-star-007603",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=aravya-estate-008180&b=prestige-southern-star-007603",
+          "caption": "Plot vs apartment side by side: growth forecast against net-of-cost returns and score."
+        }
+      ],
+      "id": "ffd5f7113a84fd1c",
+      "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
       "platform": "quora",
@@ -382,20 +548,19 @@
     }
   ],
   "stats": {
-    "candidates": 12,
+    "candidates": 5,
     "kept": 4,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2,
-      "reddit": 2
+      "quora": 4
     },
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/Bengaluru: HTTP 429"
     ]
   }
 }
