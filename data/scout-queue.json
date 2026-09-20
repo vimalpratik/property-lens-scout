@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:01:35.675Z",
+  "generatedAt": "2026-09-20T13:05:56.789Z",
   "leads": [
     {
       "platform": "quora",
@@ -206,9 +206,9 @@
       "intent": "Wants to know whether airport-belt plots are a sound purchase and what the real risk is.",
       "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
       "landingWhy": "The Devanahalli/Airport/Bagalur map shows the 212 analysed projects and where scores fall off as you move away from the airport employment cluster — the exact distinction the answer draws between price growth and liquidity.",
-      "draft": "A plot pays no rent, so the entire return has to come out of price growth — after stamp duty, registration, holding costs and selling costs. That single fact settles most Devanahalli plot questions.\n\nOn the figures I pull from Karnataka RERA filings, the Devanahalli / Airport Road / Bagalur belt has 212 registered projects with a median investment score of 50, median projected price growth of 11.2% a year over five years — the highest median among the large Bengaluru localities I cover — and a median price near ₹4,700 a sq ft, which is a model estimate rather than a quoted rate.\n\nGo further out to Doddaballapur Road and Nelamangala and the median score falls to 22 at about ₹3,000 a sq ft (estimate). Projected growth there is similar at 9.2% a year, but employment access, transit and social infrastructure are much weaker, and resale liquidity runs on those. One plotted project on that stretch, SJR Vivo City Phase 1, scores 32 with 10.8% a year projected growth and about 8.5% a year modelled net wealth on a 75% loan, with zero rental yield by definition.\n\nBefore any advance on a layout, the checks that actually protect money are the layout's own RERA registration and sanctioned plan, DC conversion, the mother deed and encumbrance certificate for those survey numbers, release of any bank mortgage on the land, and khata in the promoter's name. Plot trouble in north Bengaluru is almost always a title or approval problem, not a price problem.\n\nThis is research from filings, not investment advice.",
+      "draft": "A plot pays no rent, so the entire return has to come out of price growth — after stamp duty, registration, holding costs and selling costs. That single fact settles most Devanahalli plot questions.\n\nOn the figures I pull from Karnataka RERA filings, the Devanahalli / Airport Road / Bagalur belt has 212 registered projects with a median investment score of 50, median projected price growth of 11.2% a year over five years — the highest median among the large Bengaluru localities I cover — and a median price near ₹4,700 a sq ft, which is a model estimate rather than a quoted rate.\n\nGo further out to Doddaballapur Road and Nelamangala and the median score falls to 22 at about ₹3,000 a sq ft (estimate). Projected growth there is similar at 9.2% a year, but employment access, transit and social infrastructure are much weaker, and resale liquidity runs on those. One plotted project on that stretch, SJR Vivo City Phase 1, scores 32 with 10.8% a year projected growth and about 8.5% a year modelled net wealth on a 75% loan, with zero rental yield by definition.\n\nBefore any advance on a layout, the checks that actually protect money are the layout's own RERA registration and sanctioned plan, DC conversion, the mother deed and encumbrance certificate for those survey numbers, release of any bank mortgage on the land, and khata in the promoter's name. Plot trouble in north Bengaluru is almost always a title or approval problem, not a price problem.\n\nThis is research from filings, not investment advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=devanahalli-airport",
       "risk": "low",
-      "riskNote": "No link, no sales language; the answer is mostly a legal checklist that stands alone. Numbers are quoted only as medians and model projections, and the plot yield of zero is stated as a definitional fact.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "map",
@@ -316,6 +316,43 @@
       "foundAt": "2026-09-18T16:31:33.023Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wlas82/planning_to_book_a_4_bhk_in_myhna_vistara_231241/",
+      "title": "Planning to book a 4 BHK in Myhna Vistara (₹2.31–2.41 Cr) Gunjur – Looking for buyer feedback, risks, and genuine owners",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-20T07:50:16+00:00",
+      "evergreen": false,
+      "fit": 82,
+      "intent": "Wants real risks and buyer experience before putting ~₹2.35 Cr into an under-construction 4BHK in Gunjur.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-varthur",
+      "landingWhy": "The project itself isn't in my dataset, but the Varthur–Sarjapur Road locality view shows the scores, projected growth and price evidence for exactly the belt Gunjur sits in, which is what decides this purchase — the homepage would show the whole city.",
+      "draft": "Gunjur sits in the Varthur–Sarjapur belt, and at ₹2.3-2.4 Cr the numbers that decide this are handover risk and rent, not headline appreciation. Under construction you pay EMI and rent at the same time with zero income until OC, and 4BHKs in that belt run roughly 3-3.5% gross yield once handed over — about ₹6-7 L a year on a ₹2.35 Cr ticket, before maintenance and vacancy.\n\nBefore you pay the booking amount, pull the K-RERA page for that exact registration number and read four things: the sanctioned completion date and every extension filed against it, the quarterly progress updates versus the money already withdrawn from the RERA account, the complaint entries on that registration, and the land documents (joint development share, any mortgage on the land).\n\nFor context, from my own analysis of K-RERA filings and quarterly updates (scores are my model, per-sq-ft figures are estimates):\n\n• Sarjapur Road belt, 284 projects — median score 49, projected 9.8%/yr, ₹8,450/sqft\n• Marathahalli–Varthur belt, 88 projects — median score 59, projected 9.2%/yr, ₹11,300/sqft\n• Brigade Sanctuary, Varthur–Sarjapur Rd — score 57, projected 9.4%/yr, 3 red flags in its filings\n\nAsk for the RERA account statement and the latest quarterly progress report in writing. A promoter who won't share either has told you something about the process.",
+      "risk": "low",
+      "riskNote": "No link, no product name in the text; the value is the RERA checklist and locality medians. Attribution rests on the profile credential, which keeps it clear of r/indianrealestate's broker allergy.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-varthur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-varthur",
+          "caption": "Locality view of the Varthur–Sarjapur Road belt where Gunjur sits: scores and projected price growth per project."
+        },
+        {
+          "kind": "dd",
+          "projectId": "brigade-sanctuary",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-sanctuary#dd",
+          "caption": "Due-diligence dashboard for a comparable Varthur–Sarjapur project — RERA timeline, extensions, money withdrawn vs construction, red flags."
+        }
+      ],
+      "id": "ad6771f4d8e7ee7c",
+      "foundAt": "2026-09-20T13:05:56.789Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/In-Bangalore-which-is-a-better-place-to-buy-an-apartment-Sarjapur-road-and-around-Bannerghatta-road-and-around-or-Panathur-Marathalli-considering-resale-value-cauvery-water-area-development-connectivity-etc",
       "title": "In Bangalore, which is a better place to buy an apartment — Sarjapur Road, Bannerghatta Road or Panathur/Marathahalli?",
@@ -360,6 +397,43 @@
       ],
       "id": "f1212c97a3dc1ec8",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-buying-a-flat-apartment-a-good-investment-option-in-Bangalore",
+      "title": "Is buying a flat/apartment a good investment option in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2020-01-01T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants to know whether a Bengaluru flat is a sound investment compared with the alternatives.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The answer rests on the spread of net returns across the whole city; the ranked city view is the only page that shows that range, and no single project page would.",
+      "draft": "As an asset class it is mediocre; as a selection problem it is workable. That is what the filings show. Gross rental yields across the Bengaluru projects I've analysed from Karnataka RERA records sit roughly between 2.5% and 4.5%, so rent never carries the case on its own — the outcome depends on price growth and on how much of it survives the costs.\n\nThe costs are the part most comparisons skip: GST on under-construction, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest through the build and the hold, and selling costs at the end. Put those through and a project projected to appreciate around 10% a year typically nets 5-8% as a net-wealth CAGR on a 75% home loan over eight years.\n\nThree from the dataset, same city and same eight years. Haven in the HSR and BTM belt scores 85 on my 0-100 model with a 2.8% gross yield but a 7.2% net-wealth CAGR. Radiance Gardenia in Hennur, ready, scores 69 with a 4.3% gross yield and 7.0% net. Sobha Silicon Oasis Phase 4 Wing 9 in Electronic City, also ready, scores 52 and nets 3.4%. The gap between registrations is wider than the gap between asset classes.\n\nBefore committing, check the registration's extension history, the complaints filed on that registration number, escrow withdrawals against construction progress, land ownership, and for a ready home the occupancy certificate. This is research, not investment advice.",
+      "risk": "low",
+      "riskNote": "Answers the asset-class question honestly, including the unflattering 3.4% case. No link, no brand mention in text.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked cards: the spread of scores and net returns across analysed Bengaluru registrations."
+        },
+        {
+          "kind": "project",
+          "projectId": "haven-007785",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/haven-007785",
+          "caption": "Haven (HSR/BTM): score 85, 2.8% gross yield but 7.2% net-wealth CAGR after every cost on a 75% loan."
+        }
+      ],
+      "id": "a18b48049c3f9afc",
+      "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
       "platform": "quora",
@@ -473,6 +547,80 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-right-time-to-purchase-a-flat-in-Bangalore",
+      "title": "Is it right time to purchase a flat in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2020-01-01T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Wants a timing call on entering the Bengaluru market.",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The answer's central claim is that within-locality spread beats timing; the Whitefield map is the page that shows that spread project by project.",
+      "draft": "Timing the Bengaluru market matters far less than picking the registration, because the spread between projects inside one locality is wider than anything the city does in a year. In Whitefield, across the 90 registered projects I've analysed from Karnataka RERA filings, the median score on my 0-100 model is 58 and median projected price growth is 9.1% a year — but individual registrations in those same few kilometres run from the low 40s to the high 80s.\n\nTwo of them. Mahindra Blossom scores 87 with projected price growth of 11.4% a year and an 8.2% net-wealth CAGR after every cost on a 75% loan. Pursuit of a Radical Rhapsody, also Whitefield, scores 43 with 8.0% projected and carries six red flags in its due-diligence review, mostly around the RERA timeline and extensions. Same locality, same year, same buyer.\n\nIf the timing question is really about interest rates, model your own cash flow instead. Under construction you carry EMI and rent together with no income until handover, GST applies on the base price, and stamp duty and registration land on top. A ready home lets you see the building, read the occupancy certificate, and start rent immediately — that lever is usually bigger than the month you sign in.\n\nSo: check the extension history, complaints on that registration number, and escrow withdrawals against construction progress. Research, not advice.",
+      "risk": "low",
+      "riskNote": "Reframes rather than predicts, makes no appreciation promise, no link. Complaint counts deliberately not quoted for the project where they're unknown.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield map: 90 analysed registrations, scores from the low 40s to the high 80s in one locality."
+        },
+        {
+          "kind": "compare",
+          "projectId": "mahindra-blossom-008348-171225",
+          "projectIdB": "total-environment-pursuit-of-a-radical-rhapsody",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=mahindra-blossom-008348-171225&b=total-environment-pursuit-of-a-radical-rhapsody",
+          "caption": "Side by side: score 87 with 11.4%/yr projected against score 43 with six due-diligence red flags, both Whitefield."
+        }
+      ],
+      "id": "e42dd364becc4f00",
+      "foundAt": "2026-09-20T13:05:56.789Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wl71vs/century_kindle_phase_1/",
+      "title": "Century Kindle - Phase 1",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-20T04:27:39+00:00",
+      "evergreen": false,
+      "fit": 74,
+      "intent": "Wants opinions on a Century Real Estate launch and on whether the builder is safe.",
+      "landing": "https://property-lens.ai/?dev=Century%20Real%20Estate",
+      "landingWhy": "The question is really about the developer's record; the Century Real Estate page ranks their analysed registrations side by side, which is where the spread within one builder shows up.",
+      "draft": "Century's record reads project by project, not company-wide, and the spread inside their own portfolio is wide enough that \"is Century good\" isn't a usable question. From the K-RERA filings and quarterly updates I've gone through (scores are my own model as of Sep 2026):\n\n• Century Regalia Project 2, Old Airport Rd — score 73, projected 11.0%/yr, 2 red flags, 0 complaints on that registration\n• Century Codename Blue Moon, Jakkur — score 44, projected 9.9%/yr, 6 red flags in the due-diligence review\n\nSame promoter, 29 points apart on the same scale where 12 points is one standard deviation.\n\nSo for Kindle Phase 1, check that registration specifically: sanctioned completion date plus every extension filed, construction progress against the money already withdrawn from the RERA account, complaint entries on that registration number, and whether the land is owned outright or held under a joint development agreement. A first-phase launch has no delivery record of its own, so the filings and the promoter's other ongoing registrations are all the evidence there is.",
+      "risk": "low",
+      "riskNote": "No link and no product mention; the comment is a builder-record answer with a checklist. Naming a weak project of the same developer keeps it from sounding like promotion.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Century Real Estate",
+          "url": "https://property-lens.ai/?dev=Century%20Real%20Estate",
+          "caption": "Century Real Estate's analysed registrations ranked by score — the 73 vs 44 spread inside one promoter."
+        },
+        {
+          "kind": "dd",
+          "projectId": "century-codename-blue-moon",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/century-codename-blue-moon#dd",
+          "caption": "Due-diligence view of a Century project showing the six red flags: RERA timeline, extensions and filing gaps."
+        }
+      ],
+      "id": "086f6a2047a53632",
+      "foundAt": "2026-09-20T13:05:56.789Z"
+    },
+    {
       "platform": "reddit",
       "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wkb0gp/right_now_rent_vs_buy_in_short_term_can_make_flat/",
       "title": "Right now Rent Vs Buy in short term can make flat free and give you 2.5 crore additional corpus!",
@@ -508,6 +656,80 @@
       ],
       "id": "91232ac117f9ade2",
       "foundAt": "2026-09-19T18:39:04.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wkrxb3/hi_has_anyone_evaluated_the_villa_project_called/",
+      "title": "Has anyone evaluated the villa project called \"MJ Terra Vista\"? Any views? It's on Begur Koppa road!",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-19T17:20:06+00:00",
+      "evergreen": false,
+      "fit": 66,
+      "intent": "Wants an evaluation of a small-promoter villa project on Begur Koppa Road before going further.",
+      "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+      "landingWhy": "The project isn't in the dataset, but the Electronic City / Hosur Road map shows how the 115 analysed registrations in that same southern belt score, which is the honest evidence available for a locality call.",
+      "draft": "Begur Koppa Road is a belt where the filings are the whole story — small-promoter villa projects there have almost no public delivery record to lean on. Across the 115 registered projects I've analysed on the Electronic City and Hosur Road side, the median score on my model is 41 against a city average of 50, and median projected price growth is 9.1% a year, so the locality itself isn't doing the heavy lifting.\n\nFor a villa specifically, pull the K-RERA page for that registration and read the sanctioned completion date plus every extension, the quarterly progress updates against money withdrawn from the RERA account, complaint entries on that registration, and whether the land is owned or under a joint development agreement (ask for the sharing ratio). Confirm the layout approval too — plan sanction, not revenue land.\n\nAnd an under-construction villa pays no rent, so your holding cost is EMI plus rent until handover. Model that before the advance.",
+      "risk": "low",
+      "riskNote": "No link; answer is a checklist plus locality medians and is explicit that the specific project isn't in the dataset, so no fabricated claim about it.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "electronic-city-hosur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+          "caption": "Electronic City / Hosur Road belt: 115 analysed registrations, median score 41 vs city average 50."
+        },
+        {
+          "kind": "dd",
+          "projectId": "primetownn-phase-1-008043",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/primetownn-phase-1-008043#dd",
+          "caption": "Due-diligence dashboard for a plotted project in the same belt — RERA timeline, escrow withdrawals, complaints."
+        }
+      ],
+      "id": "a765bebd5df5df60",
+      "foundAt": "2026-09-20T13:05:56.789Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wl76ze/is_real_estate_in_india_past_its_phase_of/",
+      "title": "Is real estate in India past its phase of exponential growth and nearing a more normal upward trajectory from here?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-20T04:35:03+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants a view on whether property returns are normalising from here.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The claim is about the distribution of net returns across a whole city, which only the ranked city view shows; a single project page would not support it.",
+      "draft": "Headline price growth and what a buyer actually keeps are two different numbers, and the gap is where the exponential-growth story already died. In Bengaluru, where I've modelled every registered project of the top 200 developers from K-RERA filings, projected price growth clusters around 8-12% a year — but after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, the net-wealth CAGR on a 75% loan over eight years usually lands between 4% and 9%.\n\n• Godrej Woods, Yelahanka — score 81, projected 12.2%/yr, net-wealth CAGR 9.2%\n• Prestige Southern Star, Bannerghatta Rd — score 83, projected 10.8%/yr, net CAGR 6.4%\n• Sobha Silicon Oasis Ph4 W9, E-City (ready) — score 52, projected 7.6%/yr, net CAGR 3.4%\n\nSo at the net level the normalisation you're describing has largely happened already. What's left is dispersion between projects, not between years — a 5-point difference in the same city over the same eight years. Scores are my own model over K-RERA filings as of Sep 2026; per-sq-ft inputs are estimates.",
+      "risk": "medium",
+      "riskNote": "Thread is pan-India while the data is Bengaluru-only, so the draft is explicit that the figures are Bengaluru. No link, no product name; still a fit judgement call rather than a perfect match.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked city cards showing the spread of projected growth against net-wealth CAGR after all costs."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-woods-008248",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-woods-008248",
+          "caption": "Godrej Woods: 12.2%/yr projected growth turning into a 9.2% net-wealth CAGR once every cost is deducted."
+        }
+      ],
+      "id": "634144768f8d6164",
+      "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
       "platform": "reddit",
@@ -548,19 +770,19 @@
     }
   ],
   "stats": {
-    "candidates": 5,
-    "kept": 4,
+    "candidates": 33,
+    "kept": 6,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 4
+      "reddit": 4,
+      "quora": 2
     },
     "errors": [
       "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
