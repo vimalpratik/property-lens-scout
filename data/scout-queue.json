@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-09-21T15:10:04.564Z",
+  "generatedAt": "2026-09-21T20:28:12.063Z",
   "leads": [
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/What-is-the-best-location-to-buy-a-1-crore-flat-in-Bangalore-purely-for-investment-purposes",
+      "title": "What is the best location to buy a 1 crore flat in Bangalore, purely for investment purposes?",
+      "context": "Quora — Bangalore investment property",
+      "postedAt": "2020-11-19T00:00:00Z",
+      "evergreen": true,
+      "fit": 90,
+      "intent": "Wants the locality where a ₹1 Cr flat works hardest as an investment.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city score map is the page that actually ranks localities, which is what the question asks; the homepage would bury it.",
+      "draft": "At a ₹1 Crore ticket you are not really choosing a locality, you are choosing between a small unit in an expensive one and a full-size unit in a mid-priced one — and on the data the second usually scores better.\n\nMedian investment scores by locality, from the RERA-filed projects I analyse (50 is the analysed Bengaluru average, 12 points is one standard deviation): Jayanagar / Basavanagudi 66, HSR / BTM / Koramangala fringe 63, Bannerghatta Road / JP Nagar 61, Marathahalli / Varthur 59, Whitefield 58, Hebbal / Thanisandra 59, Sarjapur Road 49. Median prices run from roughly ₹8,500 per sq ft on Bannerghatta Road to about ₹15,050 in Jayanagar — both model estimates.\n\nUnder ₹1 Crore, the strongest-scoring projects I have are Prestige Southern Star on Bannerghatta Road (score 83, ₹64.2 L for the default unit), Assetz Canvas & Cove 2.0 Block A (81, ₹45.3 L), Casagrand Estancia in Yelahanka (83, ₹54.9 L) and Evergreen at Prestige Raintree Park in Marathahalli (81, ₹68.4 L).\n\nOne caution that changes the maths: gross yields across these sit near 3-4.5%, and an under-construction home earns no rent until handover. Modelled net-wealth CAGRs after GST, stamp duty, interiors, interest and selling costs land around 6.4-9.6% on a 75% loan over eight years, not the numbers you hear at a sales office.\n\nPurely for investment, resale liquidity matters as much as growth — which is why the deep-employment corridors keep outscoring the cheap outskirts.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked cards showing the highest-scoring Bengaluru projects and their ticket sizes."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-southern-star-007603",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-southern-star-007603",
+          "caption": "Prestige Southern Star: score 83, ₹64.2 L default unit, 10.8%/yr projected growth, 0 complaints on this registration."
+        }
+      ],
+      "id": "32b9a2fc1046e5f4",
+      "foundAt": "2026-09-21T20:28:12.063Z"
+    },
     {
       "platform": "quora",
       "url": "https://www.quora.com/Which-would-be-a-better-option-to-purchase-a-flat-for-investment-Yelahanka-or-Sarjapur-Road",
@@ -74,6 +111,43 @@
       ],
       "id": "21c98c457d5b67ed",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/I-am-planning-to-buy-a-flat-in-South-Bangalore-Which-location-is-more-preferable",
+      "title": "I am planning to buy a flat in South Bangalore. Which location is more preferable?",
+      "context": "Quora — South Bengaluru localities",
+      "postedAt": "2021-01-28T00:00:00Z",
+      "evergreen": true,
+      "fit": 86,
+      "intent": "Wants to pick the better South Bengaluru locality for a flat.",
+      "landing": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+      "landingWhy": "Bannerghatta Road / JP Nagar is the corridor the data actually favours among affordable South Bengaluru options; the locality view shows the project scores behind that claim.",
+      "draft": "In South Bengaluru the surprise in the data is that Kanakapura Road is both pricier and weaker than Bannerghatta Road on the projects I analyse from RERA filings.\n\nMedian investment scores, where 50 is the analysed Bengaluru average: Jayanagar / Basavanagudi 66 at about ₹15,050 per sq ft, Bannerghatta Road / JP Nagar / Arekere 61 at about ₹8,500, Kanakapura Road / Talaghattapura 43 at about ₹9,200, Electronic City / Hosur Road 41 at about ₹5,850. All per-sq-ft figures are model estimates, not quoted rates. Median projected five-year price growth is 9.5% a year on Bannerghatta Road against 8.3% on Kanakapura Road.\n\nThe reason is mostly employment access and social infrastructure — Bannerghatta Road reaches the Electronic City and ORR job pools and has metro work in its favour, while much of the Kanakapura stock sits beyond the daily-commute band and is priced as if it does not.\n\nAt the project level, Prestige Southern Star on Bannerghatta Road scores 83 with 10.8% a year projected growth and 0 complaints on that registration; Assetz Canvas & Cove 2.0 Block A scores 81. The strongest Kanakapura Road project I have is Sattva Forest Ridge at 68.\n\nIf you are buying to live in, commute time will matter more than any of this. If resale matters, check the registration itself: extensions filed, complaints, and whether the quarterly progress reports show construction keeping up with bookings.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "bannerghatta-jp-nagar",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+          "caption": "Bannerghatta Road / JP Nagar: 70 projects analysed, median score 61, median projected growth 9.5%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "kanakapura-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=kanakapura-road",
+          "caption": "Kanakapura Road: 80 projects, median score 43 despite a higher median price estimate."
+        }
+      ],
+      "id": "94125d8ba7d5caf7",
+      "foundAt": "2026-09-21T20:28:12.063Z"
     },
     {
       "platform": "quora",
@@ -194,6 +268,43 @@
       ],
       "id": "a08ce05a1021e359",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-this-a-right-time-to-buy-a-flat-in-Bangalore-or-I-should-continue-stay-in-a-rented-apartment",
+      "title": "Is this a right time to buy a flat in Bangalore or should I continue to stay in a rented apartment?",
+      "context": "Quora — rent vs buy Bengaluru",
+      "postedAt": "2022-02-15T00:00:00Z",
+      "evergreen": true,
+      "fit": 85,
+      "intent": "Rent-versus-buy decision for a home in Bengaluru right now.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The rent-vs-buy comparison needs the whole analysed set — scores, yields and after-cost returns across 1,850+ projects — not one project page.",
+      "draft": "The number that settles most rent-versus-buy arguments in Bengaluru is the gross rental yield, and across the registered projects I analyse it sits between roughly 2.5% and 4.5%. A home that returns 3% in rent while a loan costs you far more than that is, in cash-flow terms, more expensive than renting the same home — the case for buying has to come from price growth and from not being moved on by a landlord.\n\nOn growth, the model says Bengaluru medians run around 8-11% a year over five years depending on the corridor, off the office pipeline, supply in the filings and dated infrastructure events. Feed that through every cost — GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest, selling costs — and the net-wealth CAGR on a 75% loan over eight years comes out near 5-8% for most projects. Mahindra Newhaven in HSR models 7.7%, Brigade Lakefront Crimson in Whitefield 5.6%.\n\nSo the honest framing is not \"is this the right time\". It is: are you staying in the same city for eight-plus years, is your job stable enough for that EMI, and is the specific project clean on RERA — registered completion date, extensions filed, complaints on that registration, payments into the RERA-designated account, occupancy certificate before you move in.\n\nIf you would move cities in three years, renting almost always wins on this maths. If you are staying, buying stops being about timing the market.",
+      "risk": "low",
+      "riskNote": "Explicitly refuses to give a personal buy/don't-buy verdict; figures labelled; no link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "mahindra-newhaven-007668",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-newhaven-007668",
+          "caption": "Mahindra Newhaven: 3.1% gross yield versus a 7.7% modelled net-wealth CAGR after all costs on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-lakefront-crimson-000503",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
+          "caption": "Brigade Lakefront Crimson (ready, Whitefield): score 73, 3.1% gross yield, 5.6% net-wealth CAGR."
+        }
+      ],
+      "id": "07afe60179313dda",
+      "foundAt": "2026-09-21T20:28:12.063Z"
     },
     {
       "platform": "quora",
@@ -612,6 +723,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Where-in-Bengaluru-is-the-cheapest-to-buy-a-flat",
+      "title": "Where in Bengaluru is the cheapest to buy a flat?",
+      "context": "Quora — Bengaluru affordable housing",
+      "postedAt": "2022-05-30T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants the cheapest places to buy a flat in Bengaluru.",
+      "landing": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
+      "landingWhy": "It is the cheapest corridor in the analysed set and also the weakest-scoring one — the locality view shows both facts together, which is the point of the answer.",
+      "draft": "Cheapest by a clear margin is the Doddaballapur Road / Nelamangala / Dabaspet belt, at a median of about ₹3,000 per sq ft across the 21 registered projects I analyse there — that per-sq-ft is a model estimate. Attibele / Anekal / Chandapura and the Devanahalli belt follow at roughly ₹4,700, then Old Madras Road / Hoskote around ₹5,650 and Electronic City around ₹5,850.\n\nThe catch is visible in the same data. Doddaballapur Road has a median investment score of 22 out of 100 against a Bengaluru average of 50, and Attibele / Anekal 36. Scores that low are driven by employment access, transit and resale liquidity, not by construction quality — it is hard to exit these homes at your price when you need to.\n\nSome concrete tickets there: SJR Vivo City Phase 1 at ₹28.2 L (score 32), Kgf Ozone Nest at ₹24.8 L (score 31), and at the other end New Haven Bengaluru Phase V, a Tata project, which models a 1.6% net-wealth CAGR over eight years on a 75% loan after all costs.\n\nIf cheap is the constraint, Devanahalli is usually the better version of cheap — median projected growth 11.2% a year over five years, and projects like Sattva Aeropolis Phase 2 at ₹32.0 L with a score of 67.\n\nWhatever you shortlist, check the K-RERA registration, the extensions already taken and the complaints against that specific registration before paying anything.",
+      "risk": "low",
+      "riskNote": "Gives the literal answer plus the risk, naming weak projects honestly; no link and no sales language.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "doddaballapur-nelamangala",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
+          "caption": "Doddaballapur Road / Nelamangala: cheapest corridor at ~₹3,000/sq ft (estimate) but a median score of 22."
+        },
+        {
+          "kind": "project",
+          "projectId": "new-haven-bengaluru-phase-v-005198",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/new-haven-bengaluru-phase-v-005198",
+          "caption": "New Haven Bengaluru Phase V: score 12, 1.6% modelled net-wealth CAGR after every cost."
+        }
+      ],
+      "id": "669b877ac5357bb0",
+      "foundAt": "2026-09-21T20:28:12.063Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Are-flats-in-Bangalore-overpriced",
       "title": "Are flats in Bangalore overpriced?",
       "context": "Quora",
@@ -720,43 +868,6 @@
       ],
       "id": "4ceb3c0177389c58",
       "foundAt": "2026-09-19T12:33:51.264Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wlatkq/myhna_vistara_161_cr_vs_prestige_garden_breeze/",
-      "title": "Myhna Vistara (₹1.61 Cr) vs Prestige Garden Breeze (₹2.25 Cr) – Which Offers Better Value?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-20T07:52:26+00:00",
-      "evergreen": false,
-      "fit": 78,
-      "intent": "Wants to know which of two Sarjapur-area projects is better value at a 64 lakh price gap.",
-      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
-      "landingWhy": "The question is really 'what is fair value on Sarjapur Road' — the locality map shows every analysed project in that corridor with scores and modelled price per sq ft, which the homepage does not.",
-      "draft": "The 64 lakh gap only means something once you convert both quotes to price per sq ft on carpet area and add what sits outside the quoted price: GST if under construction, stamp duty and registration at roughly 6.6%, floor rise, club and infra charges, then interiors. On a 2.25 Cr quote that stack is usually another 20-25 lakh before you hold keys.\n\nThe other half of the comparison is the registration, not the brand. Pull both K-RERA pages and compare the declared completion date, how many extensions have been filed, and complaints logged against that specific registration number — a builder's good project and its bad one look the same in a brochure.\n\nFor a sense of where better-scoring Sarjapur Road projects sit in the Karnataka RERA data I've analysed (filings plus quarterly progress reports):\n\n• Godrej Lakeside Orchard — score 72, projected 5-yr price growth 10.8%/yr, 2 complaints on that registration\n\n• Birla Evara — score 71, projected 11.0%/yr, 0 complaints\n\n• Sarjapur Road median of 284 analysed projects — score 49, 9.8%/yr, about ₹8,450/sq ft (modelled estimate)\n\nScores are mine, from a free tool I built; 50 is the average analysed Bengaluru project. It's research, not a buy call.",
-      "risk": "medium",
-      "riskNote": "r/indianrealestate tolerates data comments but not pitches. No link, numbers written out, tool ownership disclosed once at the end rather than sold.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road score map — all 284 analysed projects with scores and modelled price per sq ft."
-        },
-        {
-          "kind": "project",
-          "projectId": "godrej-lakeside-orchard-007105",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
-          "caption": "Godrej Lakeside Orchard: score 72 and projected 10.8%/yr price growth, the corridor benchmark quoted in the comment."
-        }
-      ],
-      "id": "ff77bc320990b8cc",
-      "foundAt": "2026-09-20T18:53:25.081Z"
     },
     {
       "platform": "quora",
@@ -908,43 +1019,6 @@
     },
     {
       "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wll1pl/brigade_belvedere_now_preapproved_with_bank_of/",
-      "title": "Brigade Belvedere — Now Pre-Approved with Bank of Baroda | By Credwise",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-20T16:08:03+00:00",
-      "evergreen": false,
-      "fit": 74,
-      "intent": "Readers of a broker post need to know whether bank pre-approval says anything about the project's safety or value.",
-      "landing": "https://property-lens.ai/dd/brigade-belvedere-008549",
-      "landingWhy": "The thread turns on what a lender approval does and doesn't cover; the due-diligence dashboard for this exact registration shows RERA timeline, extensions, escrow flow and complaints, which a project page alone wouldn't.",
-      "draft": "A bank pre-approval (APF) is a credit view of the builder and the title. It means the lender is willing to fund flats there — not that the project is on schedule or fairly priced.\n\nThe things worth pulling before anyone treats this as a green light are on the K-RERA page for this registration: declared completion date, how many extensions have been filed, quarterly construction progress against bookings, and complaints logged against that registration number.\n\nFrom the RERA filings and quarterly progress reports I've analysed for the Budigere Cross / Old Madras Road corridor:\n\n• Brigade Belvedere — score 61, projected 5-yr price growth 11.2%/yr, 0 complaints on this registration, 2 red flags in the due-diligence review\n\n• Brigade Citrine — score 64, projected 10.7%/yr, 0 complaints\n\n• Brigade Calista Phase 2 — score 63, projected 10.4%/yr, 0 complaints\n\n• Godrej Woodscapes Phase 2 — score 62, projected 10.8%/yr, 2 complaints\n\nScores are from a free tool I built; 50 is the average analysed Bengaluru project, and the growth figures are model projections, not promises.",
-      "risk": "medium",
-      "riskNote": "Replying under a promotional post; the draft corrects the APF framing and adds registration-level facts rather than pitching, and carries no link.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "brigade-belvedere-008549",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-belvedere-008549#dd",
-          "caption": "Brigade Belvedere due diligence: RERA timeline, extensions, escrow flow, complaints on this registration and the two red flags."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Brigade Group",
-          "url": "https://property-lens.ai/?dev=Brigade%20Group",
-          "caption": "Brigade Group's analysed Bengaluru projects ranked, showing where Belvedere sits against Citrine and Calista."
-        }
-      ],
-      "id": "74bb4a08e8825a0c",
-      "foundAt": "2026-09-20T18:53:25.081Z"
-    },
-    {
-      "platform": "reddit",
       "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wmaf3f/moved_from_a_house_lease_to_26k_rent_should_i/",
       "title": "Moved from a house lease to ₹26K rent — should I invest the ₹16L or buy a ₹1.2Cr apartment?",
       "context": "r/personalfinanceindia",
@@ -979,60 +1053,23 @@
       ],
       "id": "55aa8f62dc123d08",
       "foundAt": "2026-09-21T15:10:04.564Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wl83ag/2014_2026_study_showcase_techies_are_backbone_for/",
-      "title": "2014 - 2026 study showcase techies are backbone for 3BHK+ in Hyderabad, Bengaluru, Pune",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-20T05:22:24+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Discussing whether tech salaries are what sustain 3BHK demand in Bengaluru and peer cities.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The point being made is a city-wide one; the score map is where the corridor-by-corridor spread in price and projected growth is visible in one view.",
-      "draft": "The Bengaluru half holds up, but \"techies buy 3BHK\" flattens a corridor spread that is enormous here.\n\nAcross the 1,854 Bengaluru projects I've analysed from Karnataka RERA filings, the median modelled price per sq ft runs from about ₹4,700 in Devanahalli to about ₹13,650 in HSR/BTM. The same 3BHK is a 60 lakh product on one edge of the city and a 2 Cr product on the other, bought by the same salary band on very different loan maths.\n\nProjected growth runs the other way, which is the part people get wrong:\n\n• Devanahalli / Bagalur — median score 50, projected 5-yr growth 11.2%/yr, about ₹4,700/sq ft\n\n• Whitefield (Hoodi / Varthur Rd) — median 58, 9.1%/yr, about ₹11,750/sq ft\n\n• HSR / BTM / Koramangala fringe — median 63, 9.7%/yr, about ₹13,650/sq ft\n\nGross rental yields on the analysed projects mostly sit between 2.5% and 4.5%, so the thesis is an appreciation bet, not an income one. Figures are model estimates from a free tool I built.",
-      "risk": "medium",
-      "riskNote": "Data-heavy reply to a study post; no link, no product language, and the growth numbers are labelled as projections.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "hsr-koramangala-south",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=hsr-koramangala-south",
-          "caption": "HSR / BTM / Koramangala fringe — median score 63 and the city's highest median modelled price at about ₹13,650/sq ft."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "devanahalli-airport",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
-          "caption": "Devanahalli corridor at the other end — median about ₹4,700/sq ft with the highest median projected growth."
-        }
-      ],
-      "id": "ae587cc4f4c82378",
-      "foundAt": "2026-09-20T18:53:25.081Z"
     }
   ],
   "stats": {
-    "candidates": 10,
-    "kept": 5,
+    "candidates": 0,
+    "kept": 4,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 4,
-      "reddit": 1
+      "quora": 4
     },
     "errors": [
-      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429"
     ]
   }
 }
