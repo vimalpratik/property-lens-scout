@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:53:25.081Z",
+  "generatedAt": "2026-09-21T05:07:37.164Z",
   "leads": [
     {
       "platform": "quora",
@@ -185,6 +185,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-is-the-best-area-in-Bangalore-to-buy-a-flat-solely-for-investment-purpose",
+      "title": "Which is the best area in Bangalore to buy a flat solely for investment purpose?",
+      "context": "Quora",
+      "postedAt": "2018-08-02T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants the single best Bengaluru locality to buy a flat purely as an investment.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The score map is the locality-by-locality comparison the question asks for; the homepage would not show how areas rank against each other.",
+      "draft": "The area with the fastest projected price growth and the area with the best return after costs are usually not the same place, which is why \"buy in the outskirts\" only half answers this.\n\nAcross 1,854 registered Bengaluru projects scored from Karnataka RERA filings, quarterly progress updates and dated locality price evidence, the medians look like this:\n\n• HSR Layout / BTM / Koramangala fringe — 42 projects, median score 63, median projected 9.7%/yr\n• Whitefield (Hoodi / Varthur Road) — 90 projects, median 58, 9.1%/yr\n• Devanahalli / Airport Road / Bagalur — 212 projects, median 50, 11.2%/yr\n• Doddaballapur Road / Nelamangala — 21 projects, median 22, 9.2%/yr\n\nDevanahalli has the highest median projected growth of any large locality and the lowest median price of the four, around ₹4,700 per sq ft as an estimate. It still only scores average, because growth is one of eleven factors and rental demand, resale liquidity and developer delivery record pull it back.\n\nThe bigger point: the spread inside a locality is wider than the spread between localities. Casagrand Estancia in Yelahanka scores 83 with projected 12.2%/yr and a net-wealth CAGR of 9.6% over eight years on a 75% loan after GST, stamp duty, interiors, interest and selling costs. New Haven Bengaluru Phase V on Doddaballapur Road scores 12 on the same method with a 1.6% net-wealth CAGR. Picking the right area and then the wrong project inside it costs more than picking the wrong area.\n\nFor a pure investment, also note gross yields in Bengaluru mostly run 2.5 to 4.5 percent, so rent does not carry the EMI, and an under-construction flat earns nothing until handover.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia: score 83, projected 12.2%/yr and the net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "yelahanka-jakkur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
+          "caption": "Score map of the Yelahanka / Jakkur corridor showing how projects in one locality spread across the scale."
+        }
+      ],
+      "id": "653e4e2ad0f33360",
+      "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
       "platform": "quora",
@@ -695,6 +732,43 @@
       "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
+      "platform": "quora",
+      "url": "https://www.quora.com/What-are-some-of-the-best-areas-to-buy-a-flat-invest-in-real-estate-in-Bangalore",
+      "title": "What are some of the best areas to buy a flat/invest in real estate in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2017-11-09T00:00:00Z",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Wants areas worth investing in, and the top existing answer pushes plots in the Sarjapur–Attibele–Anekal belt.",
+      "landing": "https://property-lens.ai/map?loc=attibele-anekal",
+      "landingWhy": "The existing answer recommends the Attibele–Anekal belt specifically; the locality view shows the 134 analysed projects there and how low the median scores actually run, which is the direct evidence for the correction.",
+      "draft": "The existing suggestion of plots in the Sarjapur–Attibele–Anekal belt deserves a caveat with numbers attached. Across 134 registered projects analysed in Attibele / Anekal / Chandapura from Karnataka RERA filings, the median project scores 36 out of 100, against 49 for Sarjapur Road's 284 projects and 58 for Whitefield's 90. Median projected price growth in Attibele is 10.3% a year, so the growth story is real; what is weak is rental demand, employment access and resale liquidity.\n\nThat matters most for plots, because a plot earns no rent at all. The entire return has to come from resale, and resale in a thin market is the hardest part to model. Two examples from the belt:\n\n• Tbc La Picasso (plotted) — score 53, projected 12.5%/yr, net-wealth CAGR 9.1% on a 75% loan, gross yield 0%\n• Brillio and Commercial at Brigade Valencia — score 59, projected 10.3%/yr, net-wealth CAGR 5.3%, gross yield 4.3%\n\nThe plotted project shows the higher modelled return precisely because you avoid GST and interiors, not because the land is better located. That upside only exists if you can sell when you want to.\n\nIf you do go for a plot out there, the legal checks are different from an apartment: RERA registration for the layout, approved layout plan and release order, clear title and encumbrance certificate for the exact survey number, khata, and confirmation that your plot sits inside the sanctioned layout rather than an extension sold on paper. That is where money is actually lost in this belt.",
+      "risk": "low",
+      "riskNote": "Corrects an older answer with labelled data rather than pitching anything; no link, no domain, no recommendation to buy. Legal-check paragraph is the part that earns its place.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "attibele-anekal",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=attibele-anekal",
+          "caption": "Attibele / Anekal / Chandapura: 134 analysed projects, median score 36, median projected 10.3%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "tbc-la-picasso-008550",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/tbc-la-picasso-008550",
+          "caption": "Tbc La Picasso: plotted project, score 53, projected 12.5%/yr, zero rental yield by definition."
+        }
+      ],
+      "id": "3bfc6dcdf4445185",
+      "foundAt": "2026-09-21T05:07:37.164Z"
+    },
+    {
       "platform": "reddit",
       "url": "https://www.reddit.com/r/indianrealestate/comments/1wll1pl/brigade_belvedere_now_preapproved_with_bank_of/",
       "title": "Brigade Belvedere — Now Pre-Approved with Bank of Baroda | By Credwise",
@@ -881,20 +955,18 @@
     }
   ],
   "stats": {
-    "candidates": 34,
-    "kept": 5,
-    "skippedSeen": 3,
+    "candidates": 11,
+    "kept": 2,
+    "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2,
-      "reddit": 3
+      "quora": 2
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
