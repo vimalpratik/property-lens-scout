@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:28:40.539Z",
+  "generatedAt": "2026-09-22T19:46:58.122Z",
   "leads": [
     {
       "platform": "quora",
@@ -305,6 +305,43 @@
       ],
       "id": "a08ce05a1021e359",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnf1m9/i_scraped_bengaluru_rera_quarterly_sales_data/",
+      "title": "I scraped Bengaluru RERA quarterly sales data, only 34.1% of units launched since Jan 2025 are sold",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-22T16:56:29+00:00",
+      "evergreen": false,
+      "fit": 85,
+      "intent": "Shared a scrape of K-RERA quarterly filings and wants the number pressure-tested by people who know the data.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "It is the due-diligence dashboard for the exact registration referenced in the comment — complaints, extensions and money through the RERA account on one registration — which proves the point about complaints attaching to registrations, not builder names.",
+      "draft": "The 34% is real but the denominator moves — a project registered in Q2 2026 sits in the same bucket as one from Jan 2025, so vintage explains a chunk of it before demand does.\n\nTwo other fields in those same quarterly filings are worth pulling while your scraper is running: money withdrawn from the designated RERA account against percentage of work certified, and the extension applications. Those two together say more about a promoter's cash position than booking percentage does.\n\nOne trap if you aggregate by builder name: complaints attach to a registration, not to a project. Mahindra Blossom has two Bengaluru registrations — one carries 15 RERA complaints on that registration, the other zero. Same name on the hoarding.\n\nI parse the same filings across 1,854 Bengaluru projects, so happy to compare notes on phase-splitting and de-registered entries.",
+      "risk": "low",
+      "riskNote": "No link, no product name in the text; it is a data-methodology reply on a data thread, which is what that sub rewards. The one figure quoted is the complaint count on a named registration.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view of the Mahindra Blossom registration carrying 15 RERA complaints, with RERA-account withdrawals vs work certified."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Mahindra Lifespaces",
+          "url": "https://property-lens.ai/?dev=Mahindra%20Lifespaces",
+          "caption": "Both Mahindra Blossom registrations side by side — same marketing name, different registration records."
+        }
+      ],
+      "id": "80214a09ae473767",
+      "foundAt": "2026-09-22T19:46:58.122Z"
     },
     {
       "platform": "quora",
@@ -833,6 +870,43 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnck70/overall_only_32_of_bengaluru_real_estate_supply/",
+      "title": "Overall only 32% of Bengaluru Real Estate supply is booked apparently",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-22T15:25:33+00:00",
+      "evergreen": false,
+      "fit": 80,
+      "intent": "Wants to know whether a 32% booked figure means Bengaluru is oversupplied and what it means for a buyer.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The claim is that unsold stock is concentrated in specific corridors; the city score map shows the per-locality spread the comment quotes, which the homepage list does not.",
+      "draft": "Unsold percentage on its own says less than it looks like, because most of it sits in the far-out launch belts rather than in the corridors people actually want.\n\nFrom the K-RERA filings I have parsed for 1,854 Bengaluru projects — projects analysed, median PropertyLens score, median projected 5-yr price growth, median price per sq ft (mostly model estimates):\n\n• Whitefield (Hoodi/Varthur Rd) — 90, score 58, 9.1%/yr, ₹11,750\n• Sarjapur Road — 284, score 49, 9.8%/yr, ₹8,450\n• Devanahalli/Bagalur — 212, score 50, 11.2%/yr, ₹4,700\n• Doddaballapur/Nelamangala — 21, score 22, 9.2%/yr, ₹3,000\n\nSarjapur and Devanahalli alone carry roughly 500 registered projects, which is where the unsold stock piles up. If you are buying, ask for that one project's quarterly progress update and compare units booked with work certified — the city average tells you nothing about the tower you are signing for.",
+      "risk": "low",
+      "riskNote": "No link, no brand name in the text, and the figures are written out because comment images are disabled there. Reads as a data correction, not promotion.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49 — the biggest single supply pool in the city."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "doddaballapur-nelamangala",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
+          "caption": "Doddaballapur / Nelamangala: median score 22 across 21 analysed projects, where weak absorption concentrates."
+        }
+      ],
+      "id": "60aa2333e42a6709",
+      "foundAt": "2026-09-22T19:46:58.122Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-apartment-with-80-lakhs-in-Bangalore-What-is-your-view-on-investment-and-stay-with-rent",
       "title": "Is it worth buying a 3 BHK apartment with 80 lakhs in Bangalore? Investment vs staying on rent?",
@@ -1241,55 +1315,55 @@
     },
     {
       "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wmaf3f/moved_from_a_house_lease_to_26k_rent_should_i/",
-      "title": "Moved from a house lease to ₹26K rent — should I invest the ₹16L or buy a ₹1.2Cr apartment?",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-09-21T11:44:16+00:00",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnhub9/myhna_vistara_gunjur_is_myhna_reliable_for_a_1520/",
+      "title": "Myhna Vistara Gunjur – Is Myhna Reliable for a 15–20 Year Family Home?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-22T18:35:38+00:00",
       "evergreen": false,
-      "fit": 62,
-      "intent": "Wants to know whether a ₹1.2 Cr flat beats staying on rent and investing the freed-up lease money.",
-      "landing": "https://property-lens.ai/p/sumadhura-epitome-i-007044",
-      "landingWhy": "It is a real ₹1.20 Cr Bengaluru flat with the full after-cost return breakdown, which is exactly the comparison the OP is trying to make.",
-      "draft": "₹26k rent against a ₹1.2 Cr flat is a 2.6% gross yield, and that number should drive the decision. At that yield the flat only wins on price growth, and the growth has to survive the costs.\n\nRun it with every cost in: GST where applicable, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs. Across the Bengaluru projects I've modelled from the RERA filings, the 8-year net-wealth CAGR on a 75% loan usually lands in the 4-8% band even where projected price growth is 10%+/yr.\n\nThree Bengaluru projects near your ticket, same order each line (PropertyLens score, projected 5-yr price growth, net-wealth CAGR after all costs, gross yield):\n• Sumadhura Epitome-I, Mahadevapura — 66, 9.3%/yr, 4.7%, 3.1%\n• Nikoo Homes V Phase 2, Hennur Road — 72, 10.4%/yr, 6.4%, 3.3%\n• Godrej Vanantara, Bannerghatta Road — 80, 11.5%/yr, 7.3%, 3.1%\n\nBasis: Karnataka RERA filings, per-sq-ft inputs are model estimates. If you're not in Bengaluru the ratio logic still holds, only the growth assumption changes.",
-      "risk": "low",
-      "riskNote": "No link, no tool name pitch, no markdown table. The comment is pure arithmetic plus labelled figures, which is what r/personalfinanceindia rewards; city is flagged as Bengaluru-specific so it doesn't mislead if OP is elsewhere.",
+      "fit": 64,
+      "intent": "Wants to judge whether a smaller Bengaluru builder is safe for a long-hold family home in Gunjur.",
+      "landing": "https://property-lens.ai/dd/brigade-sanctuary",
+      "landingWhy": "It is the due-diligence dashboard for the nearest benchmark project on the same Varthur–Sarjapur stretch, showing exactly the fields the comment tells them to pull for Myhna — extensions, RERA-account withdrawals, red flags.",
+      "draft": "For a 15-20 year end-use hold, the builder question is mostly answerable from K-RERA rather than from opinion. On the promoter's other registrations, check three things: how many extensions each one needed, complaints filed against that specific registration, and whether the finished ones actually have an occupancy certificate.\n\nThen in the quarterly progress updates compare percentage of work certified against money withdrawn from the designated RERA account. A promoter drawing well ahead of construction on an earlier project is the pattern that turns into a stalled site later. Also confirm the land is owned or on a registered joint-development agreement, not an unregistered MoU.\n\nLocality context for Gunjur, from the filings I have parsed: 88 registered projects in the Marathahalli/Varthur belt, median PropertyLens score 59, median projected 5-yr price growth 9.2%/yr, median ₹11,300 per sq ft (model estimate). Brigade Sanctuary on the same stretch scores 57 with three due-diligence red flags, so the corridor is not carrying anyone by itself.",
+      "risk": "medium",
+      "riskNote": "The project itself is not in my dataset, so the draft quotes no number for it and gives the verification method plus a named nearby benchmark instead. No link, no claim about Myhna either way.",
       "shots": [
         {
-          "kind": "project",
-          "projectId": "sumadhura-epitome-i-007044",
+          "kind": "dd",
+          "projectId": "brigade-sanctuary",
           "projectIdB": "",
           "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/p/sumadhura-epitome-i-007044",
-          "caption": "A ₹1.20 Cr Bengaluru flat: 3.1% gross yield, 4.7% net-wealth CAGR after every cost on a 75% loan."
+          "url": "https://property-lens.ai/p/brigade-sanctuary#dd",
+          "caption": "Due-diligence view for Brigade Sanctuary on the Varthur–Sarjapur stretch: RERA timeline, extensions and three red flags."
         },
         {
-          "kind": "project",
-          "projectId": "godrej-vanantara-008653",
+          "kind": "map",
+          "projectId": "",
           "projectIdB": "",
-          "locality": "",
+          "locality": "sarjapur-varthur",
           "developer": "",
-          "url": "https://property-lens.ai/p/godrej-vanantara-008653",
-          "caption": "Higher-scoring comparison at 80, projected 11.5%/yr, net-wealth CAGR 7.3%."
+          "url": "https://property-lens.ai/map?loc=sarjapur-varthur",
+          "caption": "Score map of the Varthur–Sarjapur Road pocket around Gunjur."
         }
       ],
-      "id": "55aa8f62dc123d08",
-      "foundAt": "2026-09-21T15:10:04.564Z"
+      "id": "480e07ed5b57f607",
+      "foundAt": "2026-09-22T19:46:58.122Z"
     }
   ],
   "stats": {
-    "candidates": 7,
-    "kept": 2,
+    "candidates": 36,
+    "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2
+      "reddit": 3
     },
     "errors": [
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
