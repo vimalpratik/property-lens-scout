@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:09:01.819Z",
+  "generatedAt": "2026-09-22T13:28:40.539Z",
   "leads": [
     {
       "platform": "quora",
@@ -391,9 +391,9 @@
       "intent": "Wants a concrete pre-purchase due-diligence checklist for a Bengaluru apartment.",
       "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
       "landingWhy": "A due-diligence dashboard for one registration shows exactly the documents the answer tells them to pull — RERA timeline and extensions, construction versus bookings, complaints on that registration — instead of a generic homepage.",
-      "draft": "Check the RERA registration number, not the builder's brand. Every registration files its own quarterly progress report, and in the set I work with the complaints logged against a single registration run from zero to fifteen — including registrations belonging to large, well-regarded developers. Brand reputation is an average; you are buying one tower under one number.\n\nThe things that actually protect money, in the order I would do them:\n\n- The RERA registration's original completion date and every extension since. Two extensions on a project that is a third built is the loudest signal you will get.\n- The quarterly progress reports: percentage of construction done against percentage of units booked and money collected. Bookings far ahead of construction, with money already withdrawn from the designated RERA account, is the classic stalled-project setup.\n- Complaints and court cases against that registration and the promoter, plus any charge on the land from an NBFC or housing finance company.\n- Land ownership: is the promoter the owner or a joint development partner, and does the JD agreement plus the approved plan match the survey numbers in your agreement?\n\nFor ready flats add the occupancy certificate and the khata — an apartment without an OC is a resale problem and a home-loan problem for your buyer, not just for you.\n\nAll of this is public. The K-RERA portal has the registration page, the QPRs and the complaint register; ask the sales team for the registration number and read them yourself before paying the booking amount. I pull these filings for a living and the gap between the brochure and the QPR is where most of the risk lives.",
+      "draft": "Check the RERA registration number, not the builder's brand. Every registration files its own quarterly progress report, and in the set I work with the complaints logged against a single registration run from zero to fifteen — including registrations belonging to large, well-regarded developers. Brand reputation is an average; you are buying one tower under one number.\n\nThe things that actually protect money, in the order I would do them:\n\n- The RERA registration's original completion date and every extension since. Two extensions on a project that is a third built is the loudest signal you will get.\n- The quarterly progress reports: percentage of construction done against percentage of units booked and money collected. Bookings far ahead of construction, with money already withdrawn from the designated RERA account, is the classic stalled-project setup.\n- Complaints and court cases against that registration and the promoter, plus any charge on the land from an NBFC or housing finance company.\n- Land ownership: is the promoter the owner or a joint development partner, and does the JD agreement plus the approved plan match the survey numbers in your agreement?\n\nFor ready flats add the occupancy certificate and the khata — an apartment without an OC is a resale problem and a home-loan problem for your buyer, not just for you.\n\nAll of this is public. The K-RERA portal has the registration page, the QPRs and the complaint register; ask the sales team for the registration number and read them yourself before paying the booking amount. I pull these filings for a living and the gap between the brochure and the QPR is where most of the risk lives.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/dd/mahindra-blossom-008348",
       "risk": "low",
-      "riskNote": "Pure method answer, no link, no project recommended. The only quantified claim (0 to 15 complaints on a single registration) comes straight from the RERA complaint column in the dataset.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "dd",
@@ -668,6 +668,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Why-is-there-no-resale-value-for-apartments-in-Bangalore",
+      "title": "Why is there no resale value for apartments in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2018-11-20T00:00:00Z",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Believes Bengaluru flats don't appreciate on resale and wants to know why.",
+      "landing": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
+      "landingWhy": "A ready Whitefield project page shows the headline projected growth and the net-wealth CAGR side by side — the exact gap that explains the 'no resale value' feeling; a map wouldn't show the cost stack.",
+      "draft": "The premise is half right, and the half that is wrong matters. Resale prices in Bengaluru do move — the analysed localities show median projected price growth between roughly 8% and 11% a year — but the owner's own return is much lower, because the price has to climb past everything you paid on entry and exit.\n\nTwo ready projects from the dataset I built off Karnataka RERA filings and locality price evidence:\n\n• Brigade Lakefront Crimson, Whitefield — score 73, projected 8.7%/yr, net-wealth CAGR 5.6% on a 75% loan, gross yield 3.1%\n• Godrej United, KR Puram — score 63, projected 8.3%/yr, net-wealth CAGR 5.4%, 3 RERA complaints on that registration\n\nThe gap between 8.7% and 5.6% is GST or stamp duty and registration paid on entry, interiors, maintenance and vacancy through the holding period, loan interest, and brokerage on exit. That gap is what people experience as \"no resale value\".\n\nThe second reason is supply. In corridors where hundreds of new registrations are live, your five-year-old flat competes with a new launch a kilometre away that has a fresher spec and a builder who can offer payment plans. That is why resale liquidity deserves to be scored separately from price growth: an older unit in a deep, employment-rich micro-market sells; the same vintage in a corridor with heavy new supply sits.\n\nPractical version: assume roughly 5-6% a year net on a well-chosen ready flat, and treat anything above that as luck rather than plan.",
+      "risk": "low",
+      "riskNote": "Corrects a widely held belief with figures rather than promoting; no links, no domain mentioned.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-lakefront-crimson-000503",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
+          "caption": "Brigade Lakefront Crimson: projected 8.7%/yr headline versus 5.6% net-wealth CAGR after every cost."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-united-000003",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-united-000003",
+          "caption": "Godrej United, a ready KR Puram project, showing the same gap between price growth and net return."
+        }
+      ],
+      "id": "4e9798ba37e66e7e",
+      "foundAt": "2026-09-22T13:28:40.539Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/What-is-the-best-locality-in-Bangalore-to-buy-a-residential-apartment-with-a-budget-of-around-50Lakhs",
       "title": "What is the best locality in Bangalore to buy a residential apartment with a budget of around 50 lakhs?",
       "context": "Quora",
@@ -794,6 +831,43 @@
       ],
       "id": "f1212c97a3dc1ec8",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-apartment-with-80-lakhs-in-Bangalore-What-is-your-view-on-investment-and-stay-with-rent",
+      "title": "Is it worth buying a 3 BHK apartment with 80 lakhs in Bangalore? Investment vs staying on rent?",
+      "context": "Quora",
+      "postedAt": "2021-03-17T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Deciding between buying a ~₹80 L 3BHK and continuing to rent.",
+      "landing": "https://property-lens.ai/p/birla-evara-007487",
+      "landingWhy": "Birla Evara sits almost exactly at the asker's ₹72-80 L ticket, and its page shows the rent assumption, the net-wealth CAGR and the cash-flow IRR for a 75% loan — the buy-versus-rent arithmetic in one place.",
+      "draft": "At ₹80 L in Bengaluru, rent will not cover the EMI, and that is the whole decision. Gross rental yields on the projects I analysed from RERA filings and locality rent evidence cluster between about 2.5% and 4.5%, so the rent side is small; the case for buying rests on price growth and forced saving, not cash flow.\n\nTwo projects near your budget from that dataset:\n\n• Birla Evara, Sarjapur Road — score 71, ₹72.3 L for the default unit, projected price growth 11.0%/yr, gross yield 3.9%, net-wealth CAGR 8.7% on a 75% loan, zero RERA complaints on that registration\n• Prestige Pine Forest, Whitefield — score 78, ₹63.5 L, projected 10.4%/yr, gross yield 3.8%, net-wealth CAGR 6.9%\n\nThose net figures already subtract GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, interest and selling costs. Compare them honestly against what the same monthly outgo would do elsewhere over eight years, and note the under-construction catch: no rent until handover, so you pay EMI and your own rent at the same time for two to four years.\n\nIf you buy, the protections matter more than the clubhouse. Check the completion date on the registration and how many extensions have already been filed, whether construction progress matches bookings in the quarterly updates, whether collections are going through the RERA account, and for a ready flat, the occupancy certificate.\n\nThis is research, not a recommendation on your specific situation.",
+      "risk": "low",
+      "riskNote": "Answers the buy-vs-rent question with figures and caveats, no link, no domain named; explicitly declines to give personal advice.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: ₹72.3 L ticket, 3.9% gross yield, 8.7% net-wealth CAGR on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest, Whitefield — score 78 at a ₹63.5 L ticket, for comparison."
+        }
+      ],
+      "id": "2d7df373c2354247",
+      "foundAt": "2026-09-22T13:28:40.539Z"
     },
     {
       "platform": "quora",
@@ -1204,19 +1278,18 @@
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 4,
+    "candidates": 7,
+    "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 4
+      "quora": 2
     },
     "errors": [
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
