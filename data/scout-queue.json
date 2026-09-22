@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:28:12.063Z",
+  "generatedAt": "2026-09-22T05:09:01.819Z",
   "leads": [
     {
       "platform": "quora",
@@ -111,6 +111,43 @@
       ],
       "id": "21c98c457d5b67ed",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-Devanahalli-a-worthy-location-for-real-estate-in-Bangalore",
+      "title": "Is Devanahalli a worthy location for real estate in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2018-09-02T00:00:00Z",
+      "evergreen": true,
+      "fit": 86,
+      "intent": "Wants to know whether the airport corridor is genuinely worth buying into or just hype.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "The whole question is about one corridor; the Devanahalli locality page carries the 212 analysed projects, the median score and the growth evidence behind it, which a homepage list does not.",
+      "draft": "Devanahalli has the highest projected price growth of any large Bengaluru corridor in my analysis of the RERA-registered stock — median 11.2% a year over five years across 212 analysed projects — and the median investment score is still only 50, which is exactly the city average. Those two facts are not a contradiction. Growth expectation is one of eleven factors; rental demand, existing social infrastructure and resale liquidity out there score below the city average today, and they pull the composite back to the middle.\n\nWhat that means in rupees: the median price is around ₹4,700 per sq ft (estimate) versus roughly ₹11,750 in Whitefield. Eleven percent on a ₹4,700 base is fewer rupees per sq ft per year than nine percent on ₹11,750, so \"fastest growing corridor\" and \"most money made\" are not the same sentence.\n\nExamples from the analysed set, with the score, the projected 5-yr growth and the complaints logged on that specific RERA registration:\n\n- Sattva Aeropolis Phase 2 — score 67, 11.7%/yr projected, gross yield 3.8%, 0 complaints\n- Cobalt at Brigade El Dorado — score 66, 10.9%/yr, 0 complaints\n- Birla Trimaya Phase 2 — score 65, 11.6%/yr, 0 complaints\n\nIf you are looking at plots rather than apartments there, the due diligence is different and harder: DC conversion order, khata, the planning authority approval the layout sits under, and whether the survey numbers in the sale deed match the approved layout. Plots also earn no rent while you hold them.\n\nResearch, not investment advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=devanahalli-airport",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli / airport corridor: 212 analysed projects, median score 50, median projected 5-yr growth 11.2%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "sattva-aeropolis-phase-2-008119",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-aeropolis-phase-2-008119",
+          "caption": "Sattva Aeropolis Phase 2 — score 67, projected 11.7%/yr, ₹32.0 L for the default unit."
+        }
+      ],
+      "id": "bfbb1b55e4e15d58",
+      "foundAt": "2026-09-22T05:09:01.819Z"
     },
     {
       "platform": "quora",
@@ -280,9 +317,9 @@
       "intent": "Rent-versus-buy decision for a home in Bengaluru right now.",
       "landing": "https://property-lens.ai/",
       "landingWhy": "The rent-vs-buy comparison needs the whole analysed set — scores, yields and after-cost returns across 1,850+ projects — not one project page.",
-      "draft": "The number that settles most rent-versus-buy arguments in Bengaluru is the gross rental yield, and across the registered projects I analyse it sits between roughly 2.5% and 4.5%. A home that returns 3% in rent while a loan costs you far more than that is, in cash-flow terms, more expensive than renting the same home — the case for buying has to come from price growth and from not being moved on by a landlord.\n\nOn growth, the model says Bengaluru medians run around 8-11% a year over five years depending on the corridor, off the office pipeline, supply in the filings and dated infrastructure events. Feed that through every cost — GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest, selling costs — and the net-wealth CAGR on a 75% loan over eight years comes out near 5-8% for most projects. Mahindra Newhaven in HSR models 7.7%, Brigade Lakefront Crimson in Whitefield 5.6%.\n\nSo the honest framing is not \"is this the right time\". It is: are you staying in the same city for eight-plus years, is your job stable enough for that EMI, and is the specific project clean on RERA — registered completion date, extensions filed, complaints on that registration, payments into the RERA-designated account, occupancy certificate before you move in.\n\nIf you would move cities in three years, renting almost always wins on this maths. If you are staying, buying stops being about timing the market.",
+      "draft": "The number that settles most rent-versus-buy arguments in Bengaluru is the gross rental yield, and across the registered projects I analyse it sits between roughly 2.5% and 4.5%. A home that returns 3% in rent while a loan costs you far more than that is, in cash-flow terms, more expensive than renting the same home — the case for buying has to come from price growth and from not being moved on by a landlord.\n\nOn growth, the model says Bengaluru medians run around 8-11% a year over five years depending on the corridor, off the office pipeline, supply in the filings and dated infrastructure events. Feed that through every cost — GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest, selling costs — and the net-wealth CAGR on a 75% loan over eight years comes out near 5-8% for most projects. Mahindra Newhaven in HSR models 7.7%, Brigade Lakefront Crimson in Whitefield 5.6%.\n\nSo the honest framing is not \"is this the right time\". It is: are you staying in the same city for eight-plus years, is your job stable enough for that EMI, and is the specific project clean on RERA — registered completion date, extensions filed, complaints on that registration, payments into the RERA-designated account, occupancy certificate before you move in.\n\nIf you would move cities in three years, renting almost always wins on this maths. If you are staying, buying stops being about timing the market.\n\nIf you want to check these numbers yourself, all 1,850+ analysed Bengaluru projects, ranked with net returns, are here: https://property-lens.ai/",
       "risk": "low",
-      "riskNote": "Explicitly refuses to give a personal buy/don't-buy verdict; figures labelled; no link.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "project",
@@ -342,6 +379,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/I-am-planning-to-buy-an-apartment-in-Bangalore-What-are-the-important-things-I-have-to-check-before-investing",
+      "title": "I am planning to buy an apartment in Bangalore. What are the important things I have to check before investing?",
+      "context": "Quora",
+      "postedAt": "2017-02-19T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants a concrete pre-purchase due-diligence checklist for a Bengaluru apartment.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "A due-diligence dashboard for one registration shows exactly the documents the answer tells them to pull — RERA timeline and extensions, construction versus bookings, complaints on that registration — instead of a generic homepage.",
+      "draft": "Check the RERA registration number, not the builder's brand. Every registration files its own quarterly progress report, and in the set I work with the complaints logged against a single registration run from zero to fifteen — including registrations belonging to large, well-regarded developers. Brand reputation is an average; you are buying one tower under one number.\n\nThe things that actually protect money, in the order I would do them:\n\n- The RERA registration's original completion date and every extension since. Two extensions on a project that is a third built is the loudest signal you will get.\n- The quarterly progress reports: percentage of construction done against percentage of units booked and money collected. Bookings far ahead of construction, with money already withdrawn from the designated RERA account, is the classic stalled-project setup.\n- Complaints and court cases against that registration and the promoter, plus any charge on the land from an NBFC or housing finance company.\n- Land ownership: is the promoter the owner or a joint development partner, and does the JD agreement plus the approved plan match the survey numbers in your agreement?\n\nFor ready flats add the occupancy certificate and the khata — an apartment without an OC is a resale problem and a home-loan problem for your buyer, not just for you.\n\nAll of this is public. The K-RERA portal has the registration page, the QPRs and the complaint register; ask the sales team for the registration number and read them yourself before paying the booking amount. I pull these filings for a living and the gap between the brochure and the QPR is where most of the risk lives.",
+      "risk": "low",
+      "riskNote": "Pure method answer, no link, no project recommended. The only quantified claim (0 to 15 complaints on a single registration) comes straight from the RERA complaint column in the dataset.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view for one registration: 15 RERA complaints logged on this registration alongside the timeline and progress data."
+        },
+        {
+          "kind": "dd",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487#dd",
+          "caption": "The same dashboard on a cleaner file — 0 complaints on this registration, one red flag raised."
+        }
+      ],
+      "id": "999e048d6c4e2614",
+      "foundAt": "2026-09-22T05:09:01.819Z"
     },
     {
       "platform": "quora",
@@ -723,6 +797,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Which-is-the-best-area-in-Bangalore-for-rental-yield",
+      "title": "Which is the best area in Bangalore for rental yield?",
+      "context": "Quora",
+      "postedAt": "2018-11-27T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants to know which Bengaluru locality gives the best rental return on an apartment.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "Yield is a locality-by-locality question, and the score map lets them see corridors side by side; a single project page would answer a narrower question than the one asked.",
+      "draft": "Across the registered projects I analyse, gross rental yields in Bengaluru cluster between 2.5% and 4.5%, and almost nothing clears 5%. The choice of area moves that number by roughly a percentage point; the choice of ticket size moves it by more. Compact units near an employment node do best, large luxury units in central Bengaluru do worst — central and Malleswaram stock in the set mostly sits at 2.5% to 3%.\n\nExamples from the analysed set, gross yield before costs:\n\n- Brigade Insignia, Yelahanka — 4.5% gross, score 81, ₹42.1 L for the default unit\n- Casagrand Estancia, Yelahanka — 4.4% gross, score 83\n- Radiance Gardenia, Hennur (ready) — 4.3% gross, ₹32.7 L\n- Godrej Lakeside Orchard, Sarjapur Road — 4.3% gross\n\nNet is the number that matters and it is roughly a point to a point and a half lower once you take out society maintenance, property tax, about a month of vacancy a year and brokerage on each re-let. So a 4.3% gross is a 3% net in hand, before income tax.\n\nTwo things people forget. An under-construction flat earns nothing at all until handover, so two or three years of your holding period have zero rent against full interest. And plots earn no rent ever. Modelled over eight years with a 75% home loan and after GST, stamp duty, registration, interiors, interest and selling costs, net-wealth CAGRs in the analysed set mostly land between 4% and 9% — which tells you Bengaluru residential is a price-growth bet with rent as partial carry, not an income asset.",
+      "risk": "low",
+      "riskNote": "No link, gives the honest answer that yields are low everywhere, which reads as analysis rather than promotion. All yields quoted are per-project figures from the dataset.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia, Yelahanka — 4.5% gross yield, the highest in the compact-ticket set, score 81."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hebbal-thanisandra",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hebbal-thanisandra",
+          "caption": "Hebbal / Thanisandra locality view for comparison: median score 59 at a median ₹11,750 per sq ft (estimate)."
+        }
+      ],
+      "id": "687d6b6b61f4846c",
+      "foundAt": "2026-09-22T05:09:01.819Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Where-in-Bengaluru-is-the-cheapest-to-buy-a-flat",
       "title": "Where in Bengaluru is the cheapest to buy a flat?",
       "context": "Quora — Bengaluru affordable housing",
@@ -868,6 +979,43 @@
       ],
       "id": "4ceb3c0177389c58",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-investing-in-flat-built-by-A-Class-builder-in-a-prime-locality-in-Bangalore-where-1BHK-around-70-lakhs-or-2BHK-around-1-15CR-where-1BHK-gives-25K-and-2BHK-around-45K-rental-income",
+      "title": "Is it worth investing in a flat by an A-class builder in a prime Bangalore locality — 1BHK ₹70L at ₹25k rent, or 2BHK ₹1.15Cr at ₹45k?",
+      "context": "Quora",
+      "postedAt": "2021-07-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know whether those two specific rent-to-price combinations are a good investment, and which is better.",
+      "landing": "https://property-lens.ai/p/radiance-gardenia-005430",
+      "landingWhy": "It is a ready, rentable, compact-ticket project whose page shows the full after-all-costs return on exactly the arithmetic the asker is doing; a homepage list would not show the cost stack.",
+      "draft": "Run the arithmetic first: ₹25,000 a month on ₹70 lakh is 4.29% gross, and ₹45,000 on ₹1.15 crore is 4.70% gross. Both are at the top of the Bengaluru range — across the registered projects I analyse, gross yields cluster between 2.5% and 4.5%. So on these quoted numbers the 2BHK is the better yielding asset, which is the opposite of the usual assumption that smaller always yields more.\n\nNow add what the price tag leaves out. GST if it is under construction, stamp duty and registration of roughly 6-7%, interiors, and 1-2% brokerage on exit. Your real capital is about 12-15% above the sticker, which turns that 4.70% into roughly 4.1%. Take off maintenance, property tax and a month of vacancy a year and you are at about 3% net, before income tax on the rent.\n\nWith a 75% loan at current rates, that rent does not cover the EMI — so the return is price growth, and the rent only reduces your carry. For a comparable ready flat in the analysed set, Radiance Gardenia in Hennur scores 69 with a 4.3% gross yield on a ₹32.7 L ticket, and the modelled eight-year return after every cost comes out at 7.0% net-wealth CAGR with an 8.6% cash-flow IRR. That is the order of magnitude to plan around, not the headline yield.\n\nOn \"A-class builder\": the brand is an average, the registration is the asset. Complaints logged against a single RERA registration in my set run from zero to fifteen, and some of the worst files carry famous names. Check the registration number's own record.",
+      "risk": "low",
+      "riskNote": "Answers the asker's own numbers with arithmetic they can verify, no link, no recommendation to buy either unit. Quoted project figures come from the dataset and are labelled.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/radiance-gardenia-005430",
+          "caption": "Radiance Gardenia, Hennur — 4.3% gross yield, 7.0% net-wealth CAGR and 8.6% cash-flow IRR after every cost."
+        },
+        {
+          "kind": "compare",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "brigade-insignia-006894",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=radiance-gardenia-005430&b=brigade-insignia-006894",
+          "caption": "Two compact-ticket projects side by side: gross yield versus the after-cost net return."
+        }
+      ],
+      "id": "81085f09a9d03141",
+      "foundAt": "2026-09-22T05:09:01.819Z"
     },
     {
       "platform": "quora",
@@ -1063,13 +1211,12 @@
       "quora": 4
     },
     "errors": [
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
