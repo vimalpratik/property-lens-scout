@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:42:51.354Z",
+  "generatedAt": "2026-09-23T19:43:14.772Z",
   "leads": [
     {
       "platform": "quora",
@@ -390,43 +390,6 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnf1m9/i_scraped_bengaluru_rera_quarterly_sales_data/",
-      "title": "I scraped Bengaluru RERA quarterly sales data, only 34.1% of units launched since Jan 2025 are sold",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-22T16:56:29+00:00",
-      "evergreen": false,
-      "fit": 85,
-      "intent": "Shared a scrape of K-RERA quarterly filings and wants the number pressure-tested by people who know the data.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "It is the due-diligence dashboard for the exact registration referenced in the comment — complaints, extensions and money through the RERA account on one registration — which proves the point about complaints attaching to registrations, not builder names.",
-      "draft": "The 34% is real but the denominator moves — a project registered in Q2 2026 sits in the same bucket as one from Jan 2025, so vintage explains a chunk of it before demand does.\n\nTwo other fields in those same quarterly filings are worth pulling while your scraper is running: money withdrawn from the designated RERA account against percentage of work certified, and the extension applications. Those two together say more about a promoter's cash position than booking percentage does.\n\nOne trap if you aggregate by builder name: complaints attach to a registration, not to a project. Mahindra Blossom has two Bengaluru registrations — one carries 15 RERA complaints on that registration, the other zero. Same name on the hoarding.\n\nI parse the same filings across 1,854 Bengaluru projects, so happy to compare notes on phase-splitting and de-registered entries.",
-      "risk": "low",
-      "riskNote": "No link, no product name in the text; it is a data-methodology reply on a data thread, which is what that sub rewards. The one figure quoted is the complaint count on a named registration.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "Due-diligence view of the Mahindra Blossom registration carrying 15 RERA complaints, with RERA-account withdrawals vs work certified."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Mahindra Lifespaces",
-          "url": "https://property-lens.ai/?dev=Mahindra%20Lifespaces",
-          "caption": "Both Mahindra Blossom registrations side by side — same marketing name, different registration records."
-        }
-      ],
-      "id": "80214a09ae473767",
-      "foundAt": "2026-09-22T19:46:58.122Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-this-a-right-time-to-buy-a-flat-in-Bangalore-or-I-should-continue-stay-in-a-rented-apartment",
       "title": "Is this a right time to buy a flat in Bangalore or should I continue to stay in a rented apartment?",
@@ -499,6 +462,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-a-good-time-to-buy-an-apartment-in-whitefield-Bangalore",
+      "title": "Is it a good time to buy an apartment in Whitefield Bangalore?",
+      "context": "Quora",
+      "postedAt": "2025-02-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants a read on whether to buy in Whitefield now and what the risks are.",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The honest answer is that the spread inside Whitefield is wider than the timing question — the Whitefield locality map shows the per-project scores that make that case, which the homepage cannot.",
+      "draft": "Timing matters less here than which registration you actually sign. Whitefield's 90 analysed projects have a median score of 58 out of 100 and median projected price growth of 9.1% a year in my reading of the K-RERA filings — above the city middle, but the spread inside the locality is far wider than the gap between localities.\n\nThree live examples, same corridor:\n\n- Prestige Pine Forest — score 78, projected 10.4% a year, entry ticket about ₹63.5 L, zero RERA complaints on that registration\n- Brigade Lakefront Crimson, ready — score 73, projected 8.7% a year, gross yield 3.1%\n- Mahindra Blossom — two separate RERA registrations: one scores 87 with no complaints, the other scores 79 and carries 15 complaints on that registration\n\nThat last line is the real lesson. Same developer, same project name, different registration numbers, completely different complaint records. Look up the exact registration number printed in your agreement, not the marketing name.\n\nOn returns, be realistic: after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, an eight-year hold on a 75% loan lands roughly in the 6-8% net-wealth CAGR range on the stronger Whitefield projects, with gross rental yields around 3-4%.\n\nSo the useful questions are not about timing. They are whether the completion date has already been extended, how much has been built versus sold, how much money has moved through the RERA account, and whether the land title is clean. This is research, not advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=whitefield-hoodi",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view for the Mahindra Blossom registration carrying 15 RERA complaints."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: score 78, projected 10.4%/yr, zero complaints on that registration."
+        }
+      ],
+      "id": "a235e76a6cb6bc2b",
+      "foundAt": "2026-09-23T19:43:14.772Z"
     },
     {
       "platform": "quora",
@@ -1036,43 +1036,6 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnck70/overall_only_32_of_bengaluru_real_estate_supply/",
-      "title": "Overall only 32% of Bengaluru Real Estate supply is booked apparently",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-22T15:25:33+00:00",
-      "evergreen": false,
-      "fit": 80,
-      "intent": "Wants to know whether a 32% booked figure means Bengaluru is oversupplied and what it means for a buyer.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The claim is that unsold stock is concentrated in specific corridors; the city score map shows the per-locality spread the comment quotes, which the homepage list does not.",
-      "draft": "Unsold percentage on its own says less than it looks like, because most of it sits in the far-out launch belts rather than in the corridors people actually want.\n\nFrom the K-RERA filings I have parsed for 1,854 Bengaluru projects — projects analysed, median PropertyLens score, median projected 5-yr price growth, median price per sq ft (mostly model estimates):\n\n• Whitefield (Hoodi/Varthur Rd) — 90, score 58, 9.1%/yr, ₹11,750\n• Sarjapur Road — 284, score 49, 9.8%/yr, ₹8,450\n• Devanahalli/Bagalur — 212, score 50, 11.2%/yr, ₹4,700\n• Doddaballapur/Nelamangala — 21, score 22, 9.2%/yr, ₹3,000\n\nSarjapur and Devanahalli alone carry roughly 500 registered projects, which is where the unsold stock piles up. If you are buying, ask for that one project's quarterly progress update and compare units booked with work certified — the city average tells you nothing about the tower you are signing for.",
-      "risk": "low",
-      "riskNote": "No link, no brand name in the text, and the figures are written out because comment images are disabled there. Reads as a data correction, not promotion.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road: 284 analysed projects, median score 49 — the biggest single supply pool in the city."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "doddaballapur-nelamangala",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
-          "caption": "Doddaballapur / Nelamangala: median score 22 across 21 analysed projects, where weak absorption concentrates."
-        }
-      ],
-      "id": "60aa2333e42a6709",
-      "foundAt": "2026-09-22T19:46:58.122Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-apartment-with-80-lakhs-in-Bangalore-What-is-your-view-on-investment-and-stay-with-rent",
       "title": "Is it worth buying a 3 BHK apartment with 80 lakhs in Bangalore? Investment vs staying on rent?",
@@ -1296,6 +1259,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-it-good-to-invest-in-property-in-Whitefield-Will-I-get-a-good-return-if-I-wish-to-sell-it-in-future-like-after-5-or-6-years",
+      "title": "Is it good to invest in property in Whitefield? Will I get a good return if I sell after 5 or 6 years?",
+      "context": "Quora",
+      "postedAt": "2023-09-15T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know the realistic resale return on a Whitefield flat held five to six years.",
+      "landing": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
+      "landingWhy": "The question is about net return on exit, and this ready Whitefield project's returns breakdown shows price growth versus net-wealth CAGR after every cost — the homepage shows no cost stack at all.",
+      "draft": "On a five to six year hold the costs, not the market, usually decide your answer. GST at 5% on an under-construction flat, Karnataka stamp duty and registration, interiors, and brokerage on the way out together eat a large slice of the ticket, and a short hold gives that slice fewer years to amortise. That is why headline appreciation and realised return are two different numbers.\n\nFrom the Whitefield projects in my RERA-filings dataset, on an eight-year hold with a 75% loan and every cost deducted:\n\n- Brigade Lakefront Crimson, ready — projected price growth 8.7% a year, net-wealth CAGR 5.6%, gross rental yield 3.1%\n- Prestige Pine Forest, under construction — projected 10.4% a year, net-wealth CAGR 6.9%, cash-flow IRR 10.7%\n\nCut those holds to five or six years and the net numbers get worse, not better, because entry costs are spread thinner and an under-construction flat pays no rent until handover.\n\nWhitefield itself is not the problem: 90 analysed projects, median score 58 out of 100. The variation between projects inside the locality is much larger than the variation between localities, so resale liquidity depends on which tower you own, how the building is maintained, and whether the occupancy certificate was actually issued.\n\nIf resale in five years is the plan, favour a ready project with an OC in hand and check the complaint record on that specific RERA registration before you buy. Research, not investment advice.",
+      "risk": "low",
+      "riskNote": "No link, no buy recommendation; corrects the common mistake of reading appreciation as return, which is the substance the thread lacks.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-lakefront-crimson-000503",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
+          "caption": "Brigade Lakefront Crimson: 8.7%/yr projected growth becomes a 5.6% net-wealth CAGR after all costs."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: projected 10.4%/yr, 6.9% net-wealth CAGR, 10.7% cash-flow IRR on a 75% loan."
+        }
+      ],
+      "id": "0dea339d0868f9c2",
+      "foundAt": "2026-09-23T19:43:14.772Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/My-apartment-builder-is-not-registering-in-RERA-but-is-ensuring-he-will-get-my-flat-registered-without-RERA-registration-Is-this-possible-What-are-the-long-term-implications-or-risks-if-I-go-ahead-Property-in-question-is-in-Bangalore",
       "title": "My apartment builder is not registering in RERA but says he will get my flat registered without RERA registration — what are the risks? (Bangalore)",
       "context": "Quora — Bangalore buyer, unregistered project",
@@ -1515,60 +1515,22 @@
       ],
       "id": "3bfc6dcdf4445185",
       "foundAt": "2026-09-21T05:07:37.164Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wnhub9/myhna_vistara_gunjur_is_myhna_reliable_for_a_1520/",
-      "title": "Myhna Vistara Gunjur – Is Myhna Reliable for a 15–20 Year Family Home?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-22T18:35:38+00:00",
-      "evergreen": false,
-      "fit": 64,
-      "intent": "Wants to judge whether a smaller Bengaluru builder is safe for a long-hold family home in Gunjur.",
-      "landing": "https://property-lens.ai/dd/brigade-sanctuary",
-      "landingWhy": "It is the due-diligence dashboard for the nearest benchmark project on the same Varthur–Sarjapur stretch, showing exactly the fields the comment tells them to pull for Myhna — extensions, RERA-account withdrawals, red flags.",
-      "draft": "For a 15-20 year end-use hold, the builder question is mostly answerable from K-RERA rather than from opinion. On the promoter's other registrations, check three things: how many extensions each one needed, complaints filed against that specific registration, and whether the finished ones actually have an occupancy certificate.\n\nThen in the quarterly progress updates compare percentage of work certified against money withdrawn from the designated RERA account. A promoter drawing well ahead of construction on an earlier project is the pattern that turns into a stalled site later. Also confirm the land is owned or on a registered joint-development agreement, not an unregistered MoU.\n\nLocality context for Gunjur, from the filings I have parsed: 88 registered projects in the Marathahalli/Varthur belt, median PropertyLens score 59, median projected 5-yr price growth 9.2%/yr, median ₹11,300 per sq ft (model estimate). Brigade Sanctuary on the same stretch scores 57 with three due-diligence red flags, so the corridor is not carrying anyone by itself.",
-      "risk": "medium",
-      "riskNote": "The project itself is not in my dataset, so the draft quotes no number for it and gives the verification method plus a named nearby benchmark instead. No link, no claim about Myhna either way.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "brigade-sanctuary",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-sanctuary#dd",
-          "caption": "Due-diligence view for Brigade Sanctuary on the Varthur–Sarjapur stretch: RERA timeline, extensions and three red flags."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-varthur",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-varthur",
-          "caption": "Score map of the Varthur–Sarjapur Road pocket around Gunjur."
-        }
-      ],
-      "id": "480e07ed5b57f607",
-      "foundAt": "2026-09-22T19:46:58.122Z"
     }
   ],
   "stats": {
-    "candidates": 0,
+    "candidates": 5,
     "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 2
     },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
