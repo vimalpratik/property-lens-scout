@@ -1,6 +1,52 @@
 {
-  "generatedAt": "2026-09-22T19:46:58.122Z",
+  "generatedAt": "2026-09-23T04:53:33.019Z",
   "leads": [
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/What-location-is-better-to-buy-a-flat-for-investment-purpose-between-Budhigere-cross-Yelahanka-Thanisandra-KR-Puram-and-Whitefield",
+      "title": "What location is better to buy a flat for investment purpose between Budigere Cross, Yelahanka, Thanisandra, KR Puram and Whitefield?",
+      "context": "Quora",
+      "postedAt": "2021-11-09T00:00:00Z",
+      "evergreen": true,
+      "fit": 92,
+      "intent": "Wants a ranked, evidence-based choice among five north/east Bengaluru localities for an investment flat.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "Five localities in one question — the city score map is the only page that lets the reader hold all five against each other instead of reading five separate project pages.",
+      "draft": "Across all five, the projected price growth is remarkably similar — 8.8% to 10.3% a year over five years — so growth is not the thing that separates them. Entry price and project quality are. Medians from the Karnataka RERA filings I have analysed:\n\n• Hoskote/Budigere Cross — 146 projects, median score 42, projected 10.2%/yr, ₹5,650 a sq ft (estimate)\n• Yelahanka/Jakkur — 120 projects, median score 54, projected 10.3%/yr, ₹10,350\n• Hebbal/Thanisandra — 52 projects, median score 59, projected 9.7%/yr, ₹11,750\n• KR Puram/Mahadevapura — 39 projects, median score 54, projected 8.8%/yr, ₹7,950\n• Whitefield (Hoodi/Varthur Road) — 90 projects, median score 58, projected 9.1%/yr, ₹11,750\n\n50 is the average analysed Bengaluru project and 12 points is one standard deviation, so Budigere Cross at 42 is genuinely below average — cheap entry, but weak rental demand, thin resale liquidity and the heaviest launch pipeline of the five.\n\nIndividual projects swing far wider than localities, which is why the locality question is the wrong one to settle first. Brigade Citrine at Budigere Cross scores 64 with projected 10.7%/yr, ₹44.8 L for the default unit, no red flags and no complaints on the registration; Brigade Insignia in Yelahanka scores 81 at ₹42.1 L with one complaint. A good project in a mediocre locality beats the reverse for resale.\n\nWhatever you shortlist, read the registration itself: original completion date, every extension, complaints on that registration, and whether money is moving through the RERA account.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hoskote-budigere",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hoskote-budigere",
+          "caption": "Hoskote/Budigere Cross: 146 analysed projects, median score 42 — below the city average of 50."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hebbal-thanisandra",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hebbal-thanisandra",
+          "caption": "Hebbal/Thanisandra: median score 59 at a median ₹11,750 a sq ft (estimate)."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "yelahanka-jakkur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
+          "caption": "Yelahanka/Jakkur: median score 54, median projected growth 10.3%/yr."
+        }
+      ],
+      "id": "3eda27248c454cf5",
+      "foundAt": "2026-09-23T04:53:33.019Z"
+    },
     {
       "platform": "quora",
       "url": "https://www.quora.com/What-is-the-best-location-to-buy-a-1-crore-flat-in-Bangalore-purely-for-investment-purposes",
@@ -37,6 +83,43 @@
       ],
       "id": "32b9a2fc1046e5f4",
       "foundAt": "2026-09-21T20:28:12.063Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/How-good-is-it-to-invest-in-an-apartment-of-Brigade-Orchards-Devanahalli-from-an-investment-perspective",
+      "title": "How good is it to invest in an apartment of Brigade Orchards Devanahalli from an investment perspective?",
+      "context": "Quora",
+      "postedAt": "2020-02-18T00:00:00Z",
+      "evergreen": true,
+      "fit": 89,
+      "intent": "Wants an investment read on a specific Devanahalli project rather than a brochure summary.",
+      "landing": "https://property-lens.ai/p/laurel-maple-at-brigade-orchards-008505",
+      "landingWhy": "The question names the project, and this page carries that registration's score, projected growth and post-cost returns — the homepage or a locality map would answer a question that was not asked.",
+      "draft": "The current registration inside Brigade Orchards, Laurel & Maple, scores 65 out of 100 on my analysis of the Karnataka RERA filings — above the Bengaluru average of 50, where 12 points is one standard deviation. Projected 5-year price growth is 11.6% a year, price estimate ₹8,000 a sq ft, default ticket ₹58.0 L, and the due diligence throws up no red flags and no complaints on that registration.\n\nThe returns after costs are the useful part. Net-wealth CAGR over eight years on a 75% home loan, after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, is 7.3%, with a cash-flow IRR of 12.3% and a gross rental yield of 3.4%. That low yield is the Devanahalli signature: high projected appreciation, very little rent, and nothing at all before handover.\n\nContext on the corridor: 212 registered projects analysed around Devanahalli/Airport Road/Bagalur, median score 50, median projected growth 11.2% a year, median price estimate ₹4,700 a sq ft. So the growth case is broad-based, but so is the supply — that pipeline is what will compete with your resale. Sattva Aeropolis Phase 2 nearby scores 67 with projected 11.7%/yr at a ₹32.0 L default ticket.\n\nBefore booking, read the registration's original completion date and every extension filed, the construction progress against bookings in the quarterly updates, and whether collections are moving through the RERA designated account. Research, not investment advice.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/laurel-maple-at-brigade-orchards-008505",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "laurel-maple-at-brigade-orchards-008505",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/laurel-maple-at-brigade-orchards-008505",
+          "caption": "Laurel & Maple at Brigade Orchards: score 65, projected 11.6%/yr, 7.3% net-wealth CAGR after all costs."
+        },
+        {
+          "kind": "dd",
+          "projectId": "laurel-maple-at-brigade-orchards-008505",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/laurel-maple-at-brigade-orchards-008505#dd",
+          "caption": "Due diligence: RERA timeline and extensions, construction vs bookings, no red flags, no complaints on this registration."
+        }
+      ],
+      "id": "a91d4d164beac1d4",
+      "foundAt": "2026-09-23T04:53:33.019Z"
     },
     {
       "platform": "quora",
@@ -416,6 +499,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-Whitefield-Bangalore-the-best-location-to-buy-a-flat",
+      "title": "Is Whitefield, Bangalore the best location to buy a flat?",
+      "context": "Quora",
+      "postedAt": "2019-07-21T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to know whether Whitefield deserves its reputation as the top place to buy a flat in Bengaluru.",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The question is about one locality's standing, and the Whitefield map shows its project-by-project scores and projected growth rather than a generic city view.",
+      "draft": "Whitefield reads well on today's fundamentals and only average on future upside, and it is worth separating the two. Across the 90 registered Whitefield (Hoodi/Varthur Road) projects I have analysed from the Karnataka RERA filings, the median score is 58 against a city average of 50, but median projected 5-year price growth is 9.1% a year — below Devanahalli at 11.2% and Mysore Road/RR Nagar at 10.6%. Median price estimate is ₹11,750 a sq ft, roughly 40% above Sarjapur Road.\n\nThat is the trade you are making: you are paying for employment access, transit and social infrastructure that already exist, not for a rerating still to come. For an end-user that is usually the right trade. For a pure investor it often is not.\n\nWithin Whitefield the spread is wide. Prestige Pine Forest scores 78 with projected 10.4%/yr and ₹63.5 L for the default unit; Brigade Lakefront Crimson, ready, scores 73 with projected 8.7%/yr.\n\nAlso, complaints attach to a registration, not to a brand. Two Mahindra Blossom registrations sit in the same dataset: one shows 15 complaints on that registration, the other shows none. Same developer, same project name. So pull the specific registration number in your agreement and check its extensions, its complaint record and whether collections are going through the RERA designated account before you decide anything.\n\nNo locality is \"the best\" — it depends on whether you are buying to live or to sell, and this is research rather than advice.",
+      "risk": "medium",
+      "riskNote": "Names a project with 15 complaints, so it must be accurate: the count is the complaints on that specific registration in the dataset, and the draft says exactly that and contrasts it with the sibling registration. No link, no verdict on any developer.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield (Hoodi/Varthur Road): 90 analysed projects, median score 58, median projected growth 9.1%/yr."
+        },
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due diligence for the Mahindra Blossom registration showing 15 complaints on that registration."
+        }
+      ],
+      "id": "ffef053b60736402",
+      "foundAt": "2026-09-23T04:53:33.019Z"
     },
     {
       "platform": "quora",
@@ -1352,18 +1472,18 @@
     }
   ],
   "stats": {
-    "candidates": 36,
+    "candidates": 2,
     "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "quora": 3
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
