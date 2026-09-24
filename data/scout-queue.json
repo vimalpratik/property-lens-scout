@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T05:02:42.989Z",
+  "generatedAt": "2026-09-24T20:01:41.642Z",
   "leads": [
     {
       "platform": "quora",
@@ -1444,6 +1444,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Are-people-in-Bangalore-getting-good-rental-incomes-from-their-investment",
+      "title": "Are people in Bangalore getting good rental incomes from their investment?",
+      "context": "Quora",
+      "postedAt": "2020-09-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Wants to know what rental returns Bengaluru property actually delivers.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city map lets the reader see yields and scores across every locality rather than one project, which matches a city-wide question about rental returns.",
+      "draft": "Gross yields in Bengaluru sit roughly between 2.5% and 4.5%, and the good end is not where most people look.\n\nFrom my analysis of the K-RERA filings and dated locality rent evidence, the higher-yield names tend to be mid-ticket rather than premium. Brigade Insignia in Yelahanka shows a 4.5% gross yield with a default ticket around Rs 42 lakh; Radiance Gardenia on Hennur Road, ready, shows 4.3% at about Rs 33 lakh. At the other end, Haven in the HSR/BTM belt shows 2.8% at about Rs 2.06 crore and Sobha Insignia in Bellandur 2.5% at about Rs 3.27 crore. Bigger cheque, lower yield, almost without exception.\n\nGross is not what lands in your account. Take out maintenance, property tax, a month or two of vacancy a year, brokerage on each re-let and repairs, and a 4% gross becomes roughly 3% net. On a loan at current rates, the rent covers nowhere near the EMI on any of these.\n\nThat is why rent alone is a weak reason to own here. Once price growth is included, Radiance Gardenia works out at a 7.0% net-wealth CAGR over eight years on a 75% loan after every cost, including stamp duty, interiors and selling cost. The appreciation, not the rent, is doing the work.\n\nWorth comparing that against what the same money does elsewhere before committing.",
+      "risk": "low",
+      "riskNote": "Corrects an optimistic assumption with sourced yield figures; ticket sizes and yields quoted exactly as in the dataset. No link, no advice to buy.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia: 4.5% gross yield, score 81, default ticket about Rs 42 lakh."
+        },
+        {
+          "kind": "project",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/radiance-gardenia-005430",
+          "caption": "Radiance Gardenia (ready): 4.3% gross yield, 7.0% net-wealth CAGR after all costs on a 75% loan."
+        }
+      ],
+      "id": "1dac70133a1fdc61",
+      "foundAt": "2026-09-24T20:01:41.642Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Is-it-right-time-to-purchase-a-flat-in-Bangalore",
       "title": "Is it right time to purchase a flat in Bangalore?",
       "context": "Quora",
@@ -1592,18 +1629,18 @@
     }
   ],
   "stats": {
-    "candidates": 11,
-    "kept": 2,
+    "candidates": 3,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 2
+      "quora": 1
     },
     "errors": [
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
