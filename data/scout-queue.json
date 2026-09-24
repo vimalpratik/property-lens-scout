@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:43:14.772Z",
+  "generatedAt": "2026-09-24T05:02:42.989Z",
   "leads": [
     {
       "platform": "quora",
@@ -1515,22 +1515,95 @@
       ],
       "id": "3bfc6dcdf4445185",
       "foundAt": "2026-09-21T05:07:37.164Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1wo63zw/karnataka_high_court_refuses_to_quash_money/",
+      "title": "Karnataka High Court refuses to quash money laundering proceedings against real estate firm Ozone Urbana Infra Developers",
+      "context": "r/bangalore",
+      "postedAt": "2026-09-23T13:31:48+00:00",
+      "evergreen": false,
+      "fit": 70,
+      "intent": "Readers are reacting to a developer's legal trouble and implicitly asking how exposed flat buyers are and what they can check.",
+      "landing": "https://property-lens.ai/dd/kgf-ozone-nest-007948",
+      "landingWhy": "It is the due-diligence dashboard for Ozone Group's registered project in the dataset, showing exactly the filings the comment tells people to read — registration timeline, extensions, construction vs bookings, money through the RERA account and complaints on that registration.",
+      "draft": "Worth separating the promoter from the project when news like this lands. A PMLA proceeding against the company does not by itself cloud the title of an individual flat, but it raises the odds of funding gaps and slow construction, and that is what actually costs a buyer money.\n\nWhat you can check yourself on the K-RERA portal for any project you are considering:\n\n• Registration validity date and how many extensions have been filed against it\n• Quarterly progress reports — construction percentage against units booked\n• Complaints filed against that registration number, not against the brand\n• Land documents in the filing: title, JDA, encumbrance certificate, whose name the land is in\n\nI pull this data for Bengaluru projects from the RERA filings (dataset as of Sep 2026). With promoters heading into trouble the pattern is almost always the same: bookings far ahead of construction, and extensions stacking up, months before anything reaches a courtroom.",
+      "risk": "medium",
+      "riskNote": "r/bangalore is hostile to anything broker-shaped, so the comment carries no link, no tool name and no project score — just the checkable method plus one honest line that I work with the filings.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "kgf-ozone-nest-007948",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/kgf-ozone-nest-007948#dd",
+          "caption": "Due-diligence dashboard for Ozone Group's registered project: RERA timeline, extensions, construction vs bookings, complaints on the registration."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Ozone Group",
+          "url": "https://property-lens.ai/?dev=Ozone%20Group",
+          "caption": "Ozone Group's analysed Bengaluru project card with its score and flags."
+        }
+      ],
+      "id": "47a3e95f60107b0b",
+      "foundAt": "2026-09-24T05:02:42.989Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wo7xoi/help_me_decide_should_i_buy_a_second_home/",
+      "title": "Help me decide - should I buy a second home",
+      "context": "r/personalfinanceindia",
+      "postedAt": "2026-09-23T14:42:59+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants help deciding whether a second home is a sensible use of money versus other options.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The compare view puts two projects side by side with the full cost stack — GST, stamp duty, interiors, vacancy, maintenance, loan interest, selling cost — which is exactly the gross-versus-net gap the comment is about, and it is more useful here than any single project page.",
+      "draft": "Before you compare a second home with anything else, run it on a net basis: after GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest and selling costs. The gap between the headline yield and what you actually keep is usually the whole argument.\n\nFor Bengaluru, which is the city I have the filings data for, new apartments model out roughly like this on an eight-year hold with a 75% loan (PropertyLens model on RERA filings and dated locality price evidence, Sep 2026):\n\n• Haven, HSR/BTM — score 85, gross yield 2.8%, net-wealth CAGR 7.2%\n• Prestige Pine Forest, Whitefield — score 78, gross yield 3.8%, net-wealth CAGR 6.9%\n• Godrej Lakeside Orchard, Sarjapur Road — score 72, gross yield 4.3%, net-wealth CAGR 7.5%\n\nThe thing people miss: an under-construction home earns no rent until handover, so the cash-flow IRR and the wealth CAGR can point in different directions for years. Worth modelling your specific case rather than taking anyone's rule of thumb, mine included.",
+      "risk": "medium",
+      "riskNote": "No link and no tool naming beyond labelling the model behind the numbers. Figures are explicitly Bengaluru-only and flagged as such, and the comment gives no buy/don't-buy instruction.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "godrej-lakeside-orchard-007105",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=prestige-pine-forest-007048&b=godrej-lakeside-orchard-007105",
+          "caption": "Two of the quoted projects side by side: gross yield, net-wealth CAGR and cash-flow IRR after every cost."
+        },
+        {
+          "kind": "project",
+          "projectId": "haven-007785",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/haven-007785",
+          "caption": "HSR/BTM project card — score 85, 2.8% gross yield but 7.2% net-wealth CAGR on a 75% loan."
+        }
+      ],
+      "id": "5f76049bf1809483",
+      "foundAt": "2026-09-24T05:02:42.989Z"
     }
   ],
   "stats": {
-    "candidates": 5,
+    "candidates": 11,
     "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2
+      "reddit": 2
     },
     "errors": [
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
