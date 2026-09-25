@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:06:01.614Z",
+  "generatedAt": "2026-09-25T13:56:04.676Z",
   "leads": [
     {
       "platform": "quora",
@@ -1074,6 +1074,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/A-builder-in-Bangalore-delayed-an-apartment-project-by-more-than-three-years-Can-we-approach-the-consumer-court-about-this-What-should-the-buyers-do",
+      "title": "A builder in Bangalore delayed an apartment project by more than three years. Can we approach the consumer court?",
+      "context": "Quora",
+      "postedAt": "2020-01-01T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Delayed allottees want to know which forum to use and what to do next.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence page is the evidence for the answer's central point — that extensions, construction-versus-bookings and the complaint count sit on the public registration; this one shows 15 complaints logged on a single Whitefield registration.",
+      "draft": "You can use either forum, but not both on the same cause of action, so choose deliberately. Under Section 18 of RERA, if the promoter misses the completion date recorded in the registration, allottees can either withdraw and claim a refund with interest, or stay in the project and claim interest for every month of delay. For that specific relief a K-RERA complaint is usually cheaper and faster than a consumer commission.\n\nWhat decides these matters is documentation, and most of it is already public. From the project's K-RERA page save the original completion date, every extension the promoter applied for and the order granting it, the quarterly progress reports showing work completed against bookings and money collected, and the withdrawals from the designated 70% account. Add your allotment letter, agreement, payment receipts and all written communication.\n\nThree-year delays are rarely quiet. Complaints are counted per registration and are public — in the Bengaluru dataset I maintain, one Whitefield registration has 15 complaints logged against it alone. If yours is similar, there are likely existing orders on the same project you can cite, and other allottees to file jointly with, which strengthens the record and shares the cost.\n\nAlso check whether the occupancy certificate is still pending and whether the promoter has raised NBFC funding secured against the project land, since both affect what can realistically be recovered. A written demand citing Section 18 before filing usually helps.",
+      "risk": "medium",
+      "riskNote": "Legal-adjacent, so the draft sticks to procedure and public records and does not tell anyone what to claim; no link, no domain, and the named complaint count is the per-registration figure only.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Complaint register on one Whitefield registration: 15 complaints logged against that single registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "Another registration with 7 complaints, showing timeline, extensions and construction against bookings."
+        }
+      ],
+      "id": "fa512610ec5cffd5",
+      "foundAt": "2026-09-25T13:56:04.676Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-apartment-with-80-lakhs-in-Bangalore-What-is-your-view-on-investment-and-stay-with-rent",
       "title": "Is it worth buying a 3 BHK apartment with 80 lakhs in Bangalore? Investment vs staying on rent?",
       "context": "Quora",
@@ -1592,20 +1629,19 @@
     }
   ],
   "stats": {
-    "candidates": 6,
+    "candidates": 7,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
