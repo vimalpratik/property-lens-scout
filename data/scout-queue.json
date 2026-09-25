@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T13:56:04.676Z",
+  "generatedAt": "2026-09-25T20:03:47.256Z",
   "leads": [
     {
       "platform": "quora",
@@ -825,9 +825,9 @@
       "intent": "Wants to know whether the premium end of Sarjapur Road is a sound place to buy, versus other corridors or cheaper stock on the same road",
       "landing": "https://property-lens.ai/map?loc=sarjapur-road",
       "landingWhy": "The question is about a corridor, not one project — the Sarjapur Road locality map shows the score and growth spread across all 278 analysed projects there, which is exactly the claim the answer rests on. A single project page or the homepage would not show that dispersion.",
-      "draft": "Sarjapur Road holds up better as a mid-market corridor than as a premium one, and the numbers are the reason. Across the 278 registered Sarjapur Road projects I have analysed from the Karnataka RERA filings, the median investment score is 54 out of 100 and median projected price growth is about 10.5% a year over five years, at a median price near ₹8,450 per sq ft — that price is an estimate derived from locality evidence, not a quoted rate.\n\nThe premium end asks roughly ₹13,800 per sq ft (also an estimate), about 60% above the corridor median, and gross rental yield at that price works out near 2.8-2.9% against about 4.3% at the mid-market end. So at the top of the road you are paying for the product and betting almost entirely on appreciation.\n\nThe spread inside one road is wider than the gap between roads. Godrej Lakeside Orchard scores 76 with projected 11.4% a year; Birla Evara 75 at 11.7%; Lodha's Elanza 70 at 11.9% on a roughly ₹1.8 Cr default ticket; Haven Phase 2 69 at 10.9%.\n\nWhatever you shortlist, what protects you sits in the RERA record, not the brochure: the original completion date against extensions filed, the quarterly progress report (construction percentage against bookings percentage), withdrawals from the project's designated account, complaints against that registration, and clean land ownership with an occupancy certificate at the end. Elanza shows one complaint, Haven Phase 2 none; elsewhere in Bengaluru I have seen 15 and 102 complaints against a single registration.\n\nAnd read the return after every cost rather than the price line. GST, stamp duty and registration, interiors, maintenance and loan interest pull an 11% appreciation projection down to roughly 7-8.6% net-wealth CAGR on these, with no rent at all until handover. This is research, not advice.",
+      "draft": "Sarjapur Road holds up better as a mid-market corridor than as a premium one, and the numbers are the reason. Across the 278 registered Sarjapur Road projects I have analysed from the Karnataka RERA filings, the median investment score is 54 out of 100 and median projected price growth is about 10.5% a year over five years, at a median price near ₹8,450 per sq ft — that price is an estimate derived from locality evidence, not a quoted rate.\n\nThe premium end asks roughly ₹13,800 per sq ft (also an estimate), about 60% above the corridor median, and gross rental yield at that price works out near 2.8-2.9% against about 4.3% at the mid-market end. So at the top of the road you are paying for the product and betting almost entirely on appreciation.\n\nThe spread inside one road is wider than the gap between roads. Godrej Lakeside Orchard scores 76 with projected 11.4% a year; Birla Evara 75 at 11.7%; Lodha's Elanza 70 at 11.9% on a roughly ₹1.8 Cr default ticket; Haven Phase 2 69 at 10.9%.\n\nWhatever you shortlist, what protects you sits in the RERA record, not the brochure: the original completion date against extensions filed, the quarterly progress report (construction percentage against bookings percentage), withdrawals from the project's designated account, complaints against that registration, and clean land ownership with an occupancy certificate at the end. Elanza shows one complaint, Haven Phase 2 none; elsewhere in Bengaluru I have seen 15 and 102 complaints against a single registration.\n\nAnd read the return after every cost rather than the price line. GST, stamp duty and registration, interiors, maintenance and loan interest pull an 11% appreciation projection down to roughly 7-8.6% net-wealth CAGR on these, with no rent at all until handover. This is research, not advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=sarjapur-road",
       "risk": "low",
-      "riskNote": "No link, no product name in the text; the figures are sourced to RERA filings and the profile credential carries attribution. Quora deletes link-bearing answers, so everything of value is in the prose.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "map",
@@ -905,6 +905,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/What-are-the-pros-and-cons-of-buying-an-under-construction-property-in-Bangalore",
+      "title": "What are the pros and cons of buying an under construction property in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2017-11-21T00:00:00Z",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants the real trade-offs of buying under construction rather than ready, including the risks.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence dashboard for one registration is the concrete proof of the answer's main point — complaints, extensions and construction-vs-bookings sit on the registration, not on the project brochure.",
+      "draft": "The most useful thing to understand about under-construction in Bengaluru is that your protection attaches to a registration number, not to a project name.\n\nOne example from the K-RERA register: the project marketed as Mahindra Blossom appears under two separate registrations, and on one of them the complaints filed against that registration are zero while on the other there are 15. Same brand, same site, completely different picture. Whatever you are shown, ask which registration number your tower sits under and read that one — its approved completion date, every extension already taken, construction progress against bookings, and how much money has actually moved through the RERA account.\n\nThe financial trade-off, after every cost — 5% GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling cost — is that under-construction usually still models better than ready stock, because you buy earlier in the price curve. Godrej Lakeside Orchard on Sarjapur Road, for instance, models at a 7.5% net-wealth CAGR over eight years on a 75% loan; a well-regarded ready project like Prestige Gulmohar on Hennur models at 5.5% on the same assumptions.\n\nThe cost of that is real: an under-construction flat pays you no rent until handover, GST applies where it does not on a ready resale, and a two-year extension quietly moves your break-even out by two years of EMI.\n\nSo: better economics if the developer delivers, worse if they slip. The registration page is where you find out which you are dealing with, along with land title, court cases and the promoter's credit rating.",
+      "risk": "low",
+      "riskNote": "Names a real complaint count only from the 'complaints on this registration' column and frames it as a method, not an accusation. No link, no advice to buy or avoid.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view for this Mahindra Blossom registration: 15 complaints on this registration number, plus RERA timeline and extensions."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
+          "caption": "Godrej Lakeside Orchard — 7.5% net-wealth CAGR after all costs on a 75% loan, 12.4% cash-flow IRR."
+        }
+      ],
+      "id": "ba8d8ef4a1c5523e",
+      "foundAt": "2026-09-25T20:03:47.256Z"
     },
     {
       "platform": "quora",
@@ -1636,12 +1673,11 @@
       "quora": 1
     },
     "errors": [
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
