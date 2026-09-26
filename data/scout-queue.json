@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T20:03:47.256Z",
+  "generatedAt": "2026-09-26T05:09:13.665Z",
   "leads": [
     {
       "platform": "quora",
@@ -499,6 +499,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://quora.com/How-does-Electronic-City-compare-with-Whitefield-and-Sarjapur-Road-for-luxury-apartments-in-Bangalore",
+      "title": "How does Electronic City compare with Whitefield and Sarjapur Road for luxury apartments in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2024-05-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants a comparison of Electronic City against Whitefield and Sarjapur Road for high-ticket apartments.",
+      "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+      "landingWhy": "The weak link in the question is Electronic City itself (median score 41 across 115 projects); the locality map is the page that shows that distribution, which the homepage cannot.",
+      "draft": "Electronic City is the weakest of the three for high-ticket apartments, and the gap is wide.\n\nFrom the Karnataka RERA filings I have analysed: Electronic City / Hosur Road / Bommasandra shows 115 projects with a median score of 41, median projected price growth 9.1% a year, median ₹5,850 per sq ft (estimate). Whitefield's median is 58 at ₹11,750, Sarjapur Road's 49 at ₹8,450. On my scale 50 is the average analysed Bengaluru project and 12 points is about one standard deviation, so Electronic City sits nearly a full deviation below Whitefield.\n\nThe luxury stock shows it. In Electronic City, Assetz Ren & Rei scores 59 on a ticket near ₹1.27 crore, with a modelled net-wealth CAGR of 3.7% over eight years after GST, stamp duty, registration, interiors, vacancy, maintenance, interest and selling costs on a 75% loan; Purva Silversky scores 65 at ₹1.17 crore and 3.3% gross yield. In Whitefield, Prestige Pine Forest scores 78 with 10.4% a year projected growth and a 6.9% net-wealth CAGR at a much smaller ₹63.5 lakh default ticket.\n\nThat pattern is normal: luxury projects in corridors where the surrounding resale market is mid-market tend to underperform, because your exit buyer pool is thin. Electronic City is good for end-use if you work in the park; it is the hardest of the three to resell at a premium price point.\n\nWhichever you pick, read the RERA timeline, extensions, and complaints on the exact registration number before paying anything. Not investment advice.",
+      "risk": "low",
+      "riskNote": "No link and no promotional framing; the substance is the locality medians and two named project comparisons. Risk is only that a broker answer disagrees.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "electronic-city-hosur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+          "caption": "Electronic City / Hosur Road: 115 analysed projects, median score 41."
+        },
+        {
+          "kind": "compare",
+          "projectId": "assetz-ren-rei-007501",
+          "projectIdB": "prestige-pine-forest-007048",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=assetz-ren-rei-007501&b=prestige-pine-forest-007048",
+          "caption": "Assetz Ren & Rei (score 59, 3.7% net CAGR) against Prestige Pine Forest (78, 6.9%)."
+        }
+      ],
+      "id": "680c48548ce70f4c",
+      "foundAt": "2026-09-26T05:09:13.665Z"
     },
     {
       "platform": "quora",
@@ -1666,18 +1703,19 @@
     }
   ],
   "stats": {
-    "candidates": 7,
+    "candidates": 3,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
-      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
