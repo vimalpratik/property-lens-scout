@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T05:09:13.665Z",
+  "generatedAt": "2026-09-26T13:13:01.798Z",
   "leads": [
     {
       "platform": "quora",
@@ -1700,22 +1700,59 @@
       ],
       "id": "3bfc6dcdf4445185",
       "foundAt": "2026-09-21T05:07:37.164Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1wqnfwl/and_the_weekend_apartment_hunt_continues/",
+      "title": "And the weekend apartment hunt continues..",
+      "context": "r/Bengaluru",
+      "postedAt": "2026-09-26T10:46:12+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Someone doing the rounds of Bengaluru apartments and sizing up whether the asking prices and areas are sane.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city score map lets a hunter compare localities side by side on score, projected growth and price evidence in one view, which is exactly the stage they're at — the homepage leads with a single project list instead.",
+      "draft": "If this is a buying hunt rather than a renting one, the thing that moves the decision most isn't the price per sq ft the sales guy quotes, it's what the builder's own RERA filings say. Ask for the registration number on site, then check the sanctioned completion date, every extension filed since, the quarterly progress reports and the complaints logged against that exact registration. All of it is public on the K-RERA site, free.\n\nRough locality picture from the RERA filings and dated price evidence I've been compiling myself (scores are my own model, 50 is the average analysed Bengaluru project, per sq ft figures are estimates not quotes):\n\n• Marathahalli / Varthur — median score 59, median projected 9.2%/yr, est ₹11,300/sq ft\n\n• Whitefield (Hoodi / Varthur Rd) — 58, 9.1%/yr, est ₹11,750\n\n• Hennur Road / Kothanur — 55, 9.3%/yr, est ₹10,350\n\n• Sarjapur Road — 49, 9.8%/yr, est ₹8,450\n\nAlso worth doing before you sign anything: ask to see the occupancy certificate if it's ready stock, and confirm payments go into the RERA escrow account and not some other one.",
+      "risk": "medium",
+      "riskNote": "r/Bengaluru bans anything broker-shaped, so the draft carries no link, no product name and no CTA — just RERA process plus four locality lines. Opens by hedging for rent vs buy so it doesn't misread the post. Worst case it's a rental hunt and the comment is simply ignored.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield (Hoodi / Varthur Road) score map: 90 projects analysed, median score 58, median projected 9.1%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "marathahalli-varthur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=marathahalli-varthur",
+          "caption": "Marathahalli / Kundalahalli / Varthur: 88 projects, median score 59, median estimated ₹11,300/sq ft."
+        }
+      ],
+      "id": "251d14796c1f08de",
+      "foundAt": "2026-09-26T13:13:01.798Z"
     }
   ],
   "stats": {
-    "candidates": 3,
+    "candidates": 15,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1
+      "reddit": 1
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
