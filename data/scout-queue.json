@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T05:26:42.141Z",
+  "generatedAt": "2026-09-27T14:05:00.167Z",
   "leads": [
     {
       "platform": "quora",
@@ -120,6 +120,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-to-buy-a-flat-in-Salarpuria-Sattva-Signet-Residential-project-located-on-Sarjapur-Road-Bangalore",
+      "title": "Is it worth to buy a flat in Salarpuria Sattva Signet residential project located on Sarjapur Road Bangalore?",
+      "context": "Quora",
+      "postedAt": "2022-08-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 88,
+      "intent": "Wants an honest read on one named project before committing roughly a crore.",
+      "landing": "https://property-lens.ai/p/salarpuria-sattva-signet-003772",
+      "landingWhy": "The question names one specific registered project, and this is the page that carries that project's score, projected growth, post-cost returns and the due-diligence flags — the homepage would make the reader hunt for it.",
+      "draft": "Treat it as an average-to-slightly-above-average performer on the numbers rather than a bargain or a disaster. On my own analysis of the Karnataka RERA filings, Salarpuria-Sattva Signet scores 57 out of 100, where 50 is the average analysed Bengaluru project and 12 points is one standard deviation.\n\nThe figures behind that: projected price growth of about 9.5% a year over five years, a gross rental yield near 3.5%, and after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, a net-wealth CAGR of roughly 5.8% over eight years on a 75% loan, with a cash-flow IRR around 7.4%. The per-square-foot figure used, about ₹14,100, is a modelled estimate for the Bellandur/ORR stretch the project actually sits on, not a quoted price.\n\nThe due-diligence side should weigh more than the score. That registration carries zero RERA complaints, but the financial and legal review throws one red flag, so put three questions to the sales team in writing:\n\n- the current RERA completion date and every extension filed so far\n- percentage of construction completed versus percentage of units booked in the latest quarterly progress update\n- confirmation that collections are going through the RERA designated account\n\nNone of this is advice to buy or not buy; it is what the filings support. Before you decide, price it against two other under-construction projects in the same band on the same corridor, because on Sarjapur Road the spread between projects is wider than the spread between builder brands.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/salarpuria-sattva-signet-003772",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "salarpuria-sattva-signet-003772",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/salarpuria-sattva-signet-003772",
+          "caption": "Sattva Signet: score 57/100, 9.5%/yr projected growth, 5.8% net-wealth CAGR after all costs."
+        },
+        {
+          "kind": "dd",
+          "projectId": "salarpuria-sattva-signet-003772",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/salarpuria-sattva-signet-003772#dd",
+          "caption": "Due-diligence view: RERA timeline and extensions, construction vs bookings, complaints on this registration."
+        }
+      ],
+      "id": "aeffd4018b11f3bf",
+      "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
       "platform": "quora",
@@ -1822,56 +1859,57 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/Bengaluru/comments/1wqnfwl/and_the_weekend_apartment_hunt_continues/",
-      "title": "And the weekend apartment hunt continues..",
-      "context": "r/Bengaluru",
-      "postedAt": "2026-09-26T10:46:12+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Someone doing the rounds of Bengaluru apartments and sizing up whether the asking prices and areas are sane.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The city score map lets a hunter compare localities side by side on score, projected growth and price evidence in one view, which is exactly the stage they're at — the homepage leads with a single project list instead.",
-      "draft": "If this is a buying hunt rather than a renting one, the thing that moves the decision most isn't the price per sq ft the sales guy quotes, it's what the builder's own RERA filings say. Ask for the registration number on site, then check the sanctioned completion date, every extension filed since, the quarterly progress reports and the complaints logged against that exact registration. All of it is public on the K-RERA site, free.\n\nRough locality picture from the RERA filings and dated price evidence I've been compiling myself (scores are my own model, 50 is the average analysed Bengaluru project, per sq ft figures are estimates not quotes):\n\n• Marathahalli / Varthur — median score 59, median projected 9.2%/yr, est ₹11,300/sq ft\n\n• Whitefield (Hoodi / Varthur Rd) — 58, 9.1%/yr, est ₹11,750\n\n• Hennur Road / Kothanur — 55, 9.3%/yr, est ₹10,350\n\n• Sarjapur Road — 49, 9.8%/yr, est ₹8,450\n\nAlso worth doing before you sign anything: ask to see the occupancy certificate if it's ready stock, and confirm payments go into the RERA escrow account and not some other one.",
-      "risk": "medium",
-      "riskNote": "r/Bengaluru bans anything broker-shaped, so the draft carries no link, no product name and no CTA — just RERA process plus four locality lines. Opens by hedging for rent vs buy so it doesn't misread the post. Worst case it's a rental hunt and the comment is simply ignored.",
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
+      "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
+      "context": "Quora",
+      "postedAt": "2020-09-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 70,
+      "intent": "Wants to know which format actually returns more in Bengaluru, villas/plots or flats.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The answer rests on a like-for-like contrast between a small rent-bearing home and a large low-yield one in the same locality, which is precisely what the compare view puts side by side.",
+      "draft": "Split it by whether the asset earns rent, not by villa versus apartment — that is what the numbers actually separate. Across the Bengaluru projects I have scored from the RERA filings, gross rental yield falls steadily as ticket size rises, and villas and plots sit at the far end of that curve.\n\nTwo from the same locality, Hennur Road, which makes the point cleanly:\n\n- Radiance Gardenia, ready, default ticket about ₹32.7 lakh — gross yield 4.3%, net-wealth CAGR 7.0% over 8 years on a 75% loan\n- Assetz Mizu & Ki, under construction, about ₹3.47 Cr — gross yield 2.6%, net-wealth CAGR 6.0%\n\nPlots and land-only products earn nothing until something is built, so the whole return has to come from price. One Anekal plot project in the dataset shows projected price growth of 12.5% a year and a 9.1% net-wealth CAGR on a 0% yield — attractive on paper, but the entire case rests on that growth number being right, with no rent to cushion a slow patch.\n\nThe cost side is what people underestimate on villas. Those net figures are after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, and a villa carries far more interiors and upkeep per rupee of rent than a 2BHK does.\n\nWhichever format you pick, the protection is identical: RERA registration and completion date, extensions filed, complaints on that specific registration, clean land ownership, and for a ready home the occupancy certificate.",
+      "risk": "low",
+      "riskNote": "Generic-sounding question answered with specific, sourced figures; no link, no recommendation, and the villa/plot claim is framed by what the data actually distinguishes (rent-bearing vs not).",
       "shots": [
         {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "whitefield-hoodi",
+          "kind": "compare",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "assetz-mizu-ki-008862",
+          "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
-          "caption": "Whitefield (Hoodi / Varthur Road) score map: 90 projects analysed, median score 58, median projected 9.1%/yr."
+          "url": "https://property-lens.ai/compare?a=radiance-gardenia-005430&b=assetz-mizu-ki-008862",
+          "caption": "Small ready flat vs ₹3.47 Cr home in the same locality: 4.3% vs 2.6% gross yield, 7.0% vs 6.0% net CAGR."
         },
         {
-          "kind": "map",
-          "projectId": "",
+          "kind": "project",
+          "projectId": "tbc-la-picasso-008550",
           "projectIdB": "",
-          "locality": "marathahalli-varthur",
+          "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/map?loc=marathahalli-varthur",
-          "caption": "Marathahalli / Kundalahalli / Varthur: 88 projects, median score 59, median estimated ₹11,300/sq ft."
+          "url": "https://property-lens.ai/p/tbc-la-picasso-008550",
+          "caption": "A plot project: 12.5%/yr projected growth, 9.1% net-wealth CAGR, 0% rental yield."
         }
       ],
-      "id": "251d14796c1f08de",
-      "foundAt": "2026-09-26T13:13:01.798Z"
+      "id": "159450904eda9f93",
+      "foundAt": "2026-09-27T14:05:00.167Z"
     }
   ],
   "stats": {
-    "candidates": 27,
-    "kept": 3,
+    "candidates": 5,
+    "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "quora": 2
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
