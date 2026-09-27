@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T13:13:01.798Z",
+  "generatedAt": "2026-09-27T05:26:42.141Z",
   "leads": [
     {
       "platform": "quora",
@@ -194,6 +194,43 @@
       ],
       "id": "21c98c457d5b67ed",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqirjk/how_should_i_evaluate_maintenance_costs_across/",
+      "title": "How should I evaluate maintenance costs across amenity-heavy Sumadhura projects?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-26T05:57:10+00:00",
+      "evergreen": false,
+      "fit": 86,
+      "intent": "Wants a method to judge whether the maintenance charge on an amenity-heavy Sumadhura project is reasonable.",
+      "landing": "https://property-lens.ai/?dev=Sumadhura",
+      "landingWhy": "The developer view puts both registered Sumadhura projects side by side with score, yield and net return after maintenance — the homepage would not show the per-project cost drag the thread is asking about.",
+      "draft": "Judge maintenance as a share of the rent it eats, not as a rupee-per-sq-ft number in isolation. At ₹4/sq ft/month on a 1,500 sq ft flat that is ₹72,000 a year, and Bengaluru gross yields on new apartments sit around 3%, so maintenance alone is eating something like a fifth of gross rent before vacancy and property tax.\n\nRunning the two registered Sumadhura projects through their RERA filings with every cost subtracted (GST, stamp duty, interiors, vacancy, maintenance, loan interest, selling costs, 75% loan, 8 years):\n\n• Sumadhura Epitome-I, KR Puram — PropertyLens score 66, gross yield 3.1%, net-wealth CAGR 4.7%\n\n• Sumadhura Pramoda, Mysore Rd/RR Nagar — score 65, gross yield 3.1%, net-wealth CAGR 6.0%\n\nBefore booking, ask for three things in writing: the per-sq-ft rate in the agreement and whether it is a fixed rate or actuals, the one-time corpus and sinking fund amounts, and the clubhouse/STP/water-body operating assumption behind the rate. Amenity-heavy campuses drift upward once the builder hands over to the association, and the special levy usually lands in year five or six.",
+      "risk": "low",
+      "riskNote": "No link, no product name in the text; the answer is a costing method plus two figures from the filings. Credential in the profile does the attribution.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "sumadhura-epitome-i-007044",
+          "projectIdB": "sumadhura-pramoda-007625",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=sumadhura-epitome-i-007044&b=sumadhura-pramoda-007625",
+          "caption": "Epitome-I vs Pramoda: score, gross yield and net-wealth CAGR after maintenance and every other cost."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Sumadhura",
+          "url": "https://property-lens.ai/?dev=Sumadhura",
+          "caption": "All analysed Sumadhura registrations ranked, with scores and projected growth."
+        }
+      ],
+      "id": "021fb05192e8b6da",
+      "foundAt": "2026-09-27T05:26:42.141Z"
     },
     {
       "platform": "quora",
@@ -1147,6 +1184,43 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqtilk/3_things_to_check_before_buying_property_in/",
+      "title": "3 Things to Check Before Buying Property in Bengaluru",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-26T15:35:06+00:00",
+      "evergreen": false,
+      "fit": 80,
+      "intent": "Collecting the due-diligence checks that actually matter before buying in Bengaluru.",
+      "landing": "https://property-lens.ai/dd/casagrand-meridian-005482",
+      "landingWhy": "A real due-diligence dashboard — RERA timeline, construction vs bookings, complaints on that registration — is the evidence for the checks the comment describes; the homepage shows none of it.",
+      "draft": "The check almost nobody does is the promoter's quarterly progress report on the K-RERA portal. It shows construction percentage against bookings and the money withdrawn from the RERA account, so a project that is 70% sold and 25% built is a funding gap you can see before you pay anything.\n\nSecond, pull the complaint register against that exact registration number, not the builder's name. Same city, same league of developers, very different records:\n\n• Casagrand Meridian, KR Puram — PropertyLens score 55, 7 complaints on that registration, 2 due-diligence red flags\n\n• Prestige Raintree Park, Varthur — score 81, 1 complaint, no red flags\n\n• Sobha Madison Heights Townpark Phase 1 — score 51, 3 complaints\n\nThird, count the extensions. Every extension filing moves the RERA completion date, and the date in the brochure is almost never the date in the filing. All of the above comes out of K-RERA filings; I built the tool that parses them, so I read a lot of these.",
+      "risk": "low",
+      "riskNote": "No link, no domain named. Complaint counts are per-registration only, as filed. Tone is a checklist addition, not a pitch.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "Due-diligence view: complaints on this registration, red flags, RERA timeline and extensions."
+        },
+        {
+          "kind": "dd",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981#dd",
+          "caption": "A clean file for contrast: construction vs bookings and money through the RERA account."
+        }
+      ],
+      "id": "e52abc315a800d58",
+      "foundAt": "2026-09-27T05:26:42.141Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/A-builder-in-Bangalore-delayed-an-apartment-project-by-more-than-three-years-Can-we-approach-the-consumer-court-about-this-What-should-the-buyers-do",
       "title": "A builder in Bangalore delayed an apartment project by more than three years. Can we approach the consumer court?",
@@ -1665,6 +1739,52 @@
       "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqkdhv/price_of_a_plot_in_north_bangalore_tangled_up_in/",
+      "title": "Price of a Plot in North Bangalore: Tangled up in the Green by Total Environment",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-09-26T07:32:29+00:00",
+      "evergreen": false,
+      "fit": 74,
+      "intent": "Wants to know whether the asking price on a North Bengaluru Total Environment plot is sane.",
+      "landing": "https://property-lens.ai/?dev=Total%20Environment",
+      "landingWhy": "Shows Total Environment's registered projects with scores and red-flag counts, which is the developer-record evidence the price question really turns on; the homepage is city-wide.",
+      "draft": "Two things to hold any North Bengaluru plot price against: the locality median, and the fact that a plot earns no rent, so every year you hold it is pure carrying cost with nothing offsetting the loan interest.\n\nMedians from the registered projects analysed in each corridor (median score, projected 5-yr price growth, median price per sq ft — the price figures are estimates built from dated locality evidence):\n\n• Yelahanka / Jakkur — 120 projects, score 54, 10.3%/yr, ~₹10,350\n\n• Devanahalli / Airport / Bagalur — 212 projects, score 50, 11.2%/yr, ~₹4,700\n\n• Doddaballapur Rd / Nelamangala — 21 projects, score 22, 9.2%/yr, ~₹3,000\n\nOn the promoter, their other registrations are worth reading first: Lost in the Greens scores 50 and Pursuit of a Radical Rhapsody in Whitefield scores 43 with six due-diligence red flags in its RERA file. For a plot specifically, ask for the approved layout plan and release order, the khata, the RERA registration of the plotted development, and whether roads and STP are handed to the authority — that is what decides resale liquidity later.",
+      "risk": "low",
+      "riskNote": "No link and no domain in text; red-flag count and scores are from the data block, plot-specific legal checks carry the value.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/total-environment-pursuit-of-a-radical-rhapsody#dd",
+          "caption": "Six due-diligence red flags in the RERA file for Pursuit of a Radical Rhapsody."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Total Environment",
+          "url": "https://property-lens.ai/?dev=Total%20Environment",
+          "caption": "Total Environment's analysed registrations, scored."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "yelahanka-jakkur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
+          "caption": "North Bengaluru corridor scores and projected growth for price benchmarking."
+        }
+      ],
+      "id": "478db4683e9613a7",
+      "foundAt": "2026-09-27T05:26:42.141Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/What-are-some-of-the-best-areas-to-buy-a-flat-invest-in-real-estate-in-Bangalore",
       "title": "What are some of the best areas to buy a flat/invest in real estate in Bangalore?",
@@ -1740,19 +1860,18 @@
     }
   ],
   "stats": {
-    "candidates": 15,
-    "kept": 1,
+    "candidates": 27,
+    "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 1
+      "reddit": 3
     },
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
