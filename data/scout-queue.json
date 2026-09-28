@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T19:48:02.482Z",
+  "generatedAt": "2026-09-28T05:34:50.588Z",
   "leads": [
     {
       "platform": "quora",
@@ -268,43 +268,6 @@
       ],
       "id": "21c98c457d5b67ed",
       "foundAt": "2026-09-19T12:33:51.264Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqirjk/how_should_i_evaluate_maintenance_costs_across/",
-      "title": "How should I evaluate maintenance costs across amenity-heavy Sumadhura projects?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-26T05:57:10+00:00",
-      "evergreen": false,
-      "fit": 86,
-      "intent": "Wants a method to judge whether the maintenance charge on an amenity-heavy Sumadhura project is reasonable.",
-      "landing": "https://property-lens.ai/?dev=Sumadhura",
-      "landingWhy": "The developer view puts both registered Sumadhura projects side by side with score, yield and net return after maintenance — the homepage would not show the per-project cost drag the thread is asking about.",
-      "draft": "Judge maintenance as a share of the rent it eats, not as a rupee-per-sq-ft number in isolation. At ₹4/sq ft/month on a 1,500 sq ft flat that is ₹72,000 a year, and Bengaluru gross yields on new apartments sit around 3%, so maintenance alone is eating something like a fifth of gross rent before vacancy and property tax.\n\nRunning the two registered Sumadhura projects through their RERA filings with every cost subtracted (GST, stamp duty, interiors, vacancy, maintenance, loan interest, selling costs, 75% loan, 8 years):\n\n• Sumadhura Epitome-I, KR Puram — PropertyLens score 66, gross yield 3.1%, net-wealth CAGR 4.7%\n\n• Sumadhura Pramoda, Mysore Rd/RR Nagar — score 65, gross yield 3.1%, net-wealth CAGR 6.0%\n\nBefore booking, ask for three things in writing: the per-sq-ft rate in the agreement and whether it is a fixed rate or actuals, the one-time corpus and sinking fund amounts, and the clubhouse/STP/water-body operating assumption behind the rate. Amenity-heavy campuses drift upward once the builder hands over to the association, and the special levy usually lands in year five or six.",
-      "risk": "low",
-      "riskNote": "No link, no product name in the text; the answer is a costing method plus two figures from the filings. Credential in the profile does the attribution.",
-      "shots": [
-        {
-          "kind": "compare",
-          "projectId": "sumadhura-epitome-i-007044",
-          "projectIdB": "sumadhura-pramoda-007625",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=sumadhura-epitome-i-007044&b=sumadhura-pramoda-007625",
-          "caption": "Epitome-I vs Pramoda: score, gross yield and net-wealth CAGR after maintenance and every other cost."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Sumadhura",
-          "url": "https://property-lens.ai/?dev=Sumadhura",
-          "caption": "All analysed Sumadhura registrations ranked, with scores and projected growth."
-        }
-      ],
-      "id": "021fb05192e8b6da",
-      "foundAt": "2026-09-27T05:26:42.141Z"
     },
     {
       "platform": "quora",
@@ -622,9 +585,9 @@
       "intent": "Wants a comparison of Electronic City against Whitefield and Sarjapur Road for high-ticket apartments.",
       "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
       "landingWhy": "The weak link in the question is Electronic City itself (median score 41 across 115 projects); the locality map is the page that shows that distribution, which the homepage cannot.",
-      "draft": "Electronic City is the weakest of the three for high-ticket apartments, and the gap is wide.\n\nFrom the Karnataka RERA filings I have analysed: Electronic City / Hosur Road / Bommasandra shows 115 projects with a median score of 41, median projected price growth 9.1% a year, median ₹5,850 per sq ft (estimate). Whitefield's median is 58 at ₹11,750, Sarjapur Road's 49 at ₹8,450. On my scale 50 is the average analysed Bengaluru project and 12 points is about one standard deviation, so Electronic City sits nearly a full deviation below Whitefield.\n\nThe luxury stock shows it. In Electronic City, Assetz Ren & Rei scores 59 on a ticket near ₹1.27 crore, with a modelled net-wealth CAGR of 3.7% over eight years after GST, stamp duty, registration, interiors, vacancy, maintenance, interest and selling costs on a 75% loan; Purva Silversky scores 65 at ₹1.17 crore and 3.3% gross yield. In Whitefield, Prestige Pine Forest scores 78 with 10.4% a year projected growth and a 6.9% net-wealth CAGR at a much smaller ₹63.5 lakh default ticket.\n\nThat pattern is normal: luxury projects in corridors where the surrounding resale market is mid-market tend to underperform, because your exit buyer pool is thin. Electronic City is good for end-use if you work in the park; it is the hardest of the three to resell at a premium price point.\n\nWhichever you pick, read the RERA timeline, extensions, and complaints on the exact registration number before paying anything. Not investment advice.",
+      "draft": "Electronic City is the weakest of the three for high-ticket apartments, and the gap is wide.\n\nFrom the Karnataka RERA filings I have analysed: Electronic City / Hosur Road / Bommasandra shows 115 projects with a median score of 41, median projected price growth 9.1% a year, median ₹5,850 per sq ft (estimate). Whitefield's median is 58 at ₹11,750, Sarjapur Road's 49 at ₹8,450. On my scale 50 is the average analysed Bengaluru project and 12 points is about one standard deviation, so Electronic City sits nearly a full deviation below Whitefield.\n\nThe luxury stock shows it. In Electronic City, Assetz Ren & Rei scores 59 on a ticket near ₹1.27 crore, with a modelled net-wealth CAGR of 3.7% over eight years after GST, stamp duty, registration, interiors, vacancy, maintenance, interest and selling costs on a 75% loan; Purva Silversky scores 65 at ₹1.17 crore and 3.3% gross yield. In Whitefield, Prestige Pine Forest scores 78 with 10.4% a year projected growth and a 6.9% net-wealth CAGR at a much smaller ₹63.5 lakh default ticket.\n\nThat pattern is normal: luxury projects in corridors where the surrounding resale market is mid-market tend to underperform, because your exit buyer pool is thin. Electronic City is good for end-use if you work in the park; it is the hardest of the three to resell at a premium price point.\n\nWhichever you pick, read the RERA timeline, extensions, and complaints on the exact registration number before paying anything. Not investment advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=electronic-city-hosur-road",
       "risk": "low",
-      "riskNote": "No link and no promotional framing; the substance is the locality medians and two named project comparisons. Risk is only that a broker answer disagrees.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "map",
@@ -1295,43 +1258,6 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqtilk/3_things_to_check_before_buying_property_in/",
-      "title": "3 Things to Check Before Buying Property in Bengaluru",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-26T15:35:06+00:00",
-      "evergreen": false,
-      "fit": 80,
-      "intent": "Collecting the due-diligence checks that actually matter before buying in Bengaluru.",
-      "landing": "https://property-lens.ai/dd/casagrand-meridian-005482",
-      "landingWhy": "A real due-diligence dashboard — RERA timeline, construction vs bookings, complaints on that registration — is the evidence for the checks the comment describes; the homepage shows none of it.",
-      "draft": "The check almost nobody does is the promoter's quarterly progress report on the K-RERA portal. It shows construction percentage against bookings and the money withdrawn from the RERA account, so a project that is 70% sold and 25% built is a funding gap you can see before you pay anything.\n\nSecond, pull the complaint register against that exact registration number, not the builder's name. Same city, same league of developers, very different records:\n\n• Casagrand Meridian, KR Puram — PropertyLens score 55, 7 complaints on that registration, 2 due-diligence red flags\n\n• Prestige Raintree Park, Varthur — score 81, 1 complaint, no red flags\n\n• Sobha Madison Heights Townpark Phase 1 — score 51, 3 complaints\n\nThird, count the extensions. Every extension filing moves the RERA completion date, and the date in the brochure is almost never the date in the filing. All of the above comes out of K-RERA filings; I built the tool that parses them, so I read a lot of these.",
-      "risk": "low",
-      "riskNote": "No link, no domain named. Complaint counts are per-registration only, as filed. Tone is a checklist addition, not a pitch.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "casagrand-meridian-005482",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
-          "caption": "Due-diligence view: complaints on this registration, red flags, RERA timeline and extensions."
-        },
-        {
-          "kind": "dd",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-raintree-park-006981#dd",
-          "caption": "A clean file for contrast: construction vs bookings and money through the RERA account."
-        }
-      ],
-      "id": "e52abc315a800d58",
-      "foundAt": "2026-09-27T05:26:42.141Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/A-builder-in-Bangalore-delayed-an-apartment-project-by-more-than-three-years-Can-we-approach-the-consumer-court-about-this-What-should-the-buyers-do",
       "title": "A builder in Bangalore delayed an apartment project by more than three years. Can we approach the consumer court?",
@@ -1589,6 +1515,52 @@
       ],
       "id": "4ceb3c0177389c58",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-areas-in-Bangalore-are-good-to-buy-plots-as-investments",
+      "title": "Which areas in Bangalore are good to buy plots as investments?",
+      "context": "Quora",
+      "postedAt": "2019-09-12T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know which Bengaluru belts are sensible for plot investment.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "Devanahalli is the belt this question usually lands on, and the locality map shows how widely projects there score rather than treating the whole corridor as one bet.",
+      "draft": "The cheap plot belts are cheap for reasons the scores make visible. Doddaballapur Road/Nelamangala/Dabaspet has a median of about ₹3,000/sq ft (estimated) across 21 analysed projects, but a median score of 22 against the 50 city average — that is well over two standard deviations below, driven by employment access, transit and social infrastructure rather than by price.\n\nFor comparison, Devanahalli/Airport Road/Bagalur: 212 projects analysed, median score 50, projected 11.2%/yr price growth, median about ₹4,700/sq ft (estimated). Attibele/Anekal/Chandapura: 134 projects, median score 36, 10.3%/yr projected, about ₹4,700. Same price band, very different underlying market.\n\nAt project level the spread inside a belt is wider still. SJR Vivo City Phase 1 on Doddaballapur Road scores 32 with 10.8%/yr projected; TBC La Picasso in Attibele scores 53 with 12.5%/yr projected and a modelled net-wealth CAGR near 9.1% over eight years. Both show zero rental yield, because plots earn nothing while you hold them — every rupee of return has to arrive at resale.\n\nA high projected growth number sitting next to a low score usually means cheap and far, not undervalued. Before any plot cheque: confirm the layout approval and DC conversion order, the khata in the seller's name, a thirteen-year encumbrance certificate, that the layout itself is RERA registered where required, and walk the survey number with the sketch in hand. Land disputes in these belts are the risk that actually destroys capital.",
+      "risk": "low",
+      "riskNote": "No link, no favoured project, and the strongest line warns against the belts people usually get sold — low ban risk on Quora.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli corridor: 212 analysed projects with scores and 11.2%/yr median projected growth."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "doddaballapur-nelamangala",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
+          "caption": "Doddaballapur/Nelamangala: cheapest per sq ft, median score 22."
+        },
+        {
+          "kind": "project",
+          "projectId": "tbc-la-picasso-008550",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/tbc-la-picasso-008550",
+          "caption": "TBC La Picasso: score 53, 12.5%/yr projected, zero rental yield as a plot."
+        }
+      ],
+      "id": "0e0dcd159addcbff",
+      "foundAt": "2026-09-28T05:34:50.588Z"
     },
     {
       "platform": "quora",
@@ -1850,52 +1822,6 @@
       "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wqkdhv/price_of_a_plot_in_north_bangalore_tangled_up_in/",
-      "title": "Price of a Plot in North Bangalore: Tangled up in the Green by Total Environment",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-26T07:32:29+00:00",
-      "evergreen": false,
-      "fit": 74,
-      "intent": "Wants to know whether the asking price on a North Bengaluru Total Environment plot is sane.",
-      "landing": "https://property-lens.ai/?dev=Total%20Environment",
-      "landingWhy": "Shows Total Environment's registered projects with scores and red-flag counts, which is the developer-record evidence the price question really turns on; the homepage is city-wide.",
-      "draft": "Two things to hold any North Bengaluru plot price against: the locality median, and the fact that a plot earns no rent, so every year you hold it is pure carrying cost with nothing offsetting the loan interest.\n\nMedians from the registered projects analysed in each corridor (median score, projected 5-yr price growth, median price per sq ft — the price figures are estimates built from dated locality evidence):\n\n• Yelahanka / Jakkur — 120 projects, score 54, 10.3%/yr, ~₹10,350\n\n• Devanahalli / Airport / Bagalur — 212 projects, score 50, 11.2%/yr, ~₹4,700\n\n• Doddaballapur Rd / Nelamangala — 21 projects, score 22, 9.2%/yr, ~₹3,000\n\nOn the promoter, their other registrations are worth reading first: Lost in the Greens scores 50 and Pursuit of a Radical Rhapsody in Whitefield scores 43 with six due-diligence red flags in its RERA file. For a plot specifically, ask for the approved layout plan and release order, the khata, the RERA registration of the plotted development, and whether roads and STP are handed to the authority — that is what decides resale liquidity later.",
-      "risk": "low",
-      "riskNote": "No link and no domain in text; red-flag count and scores are from the data block, plot-specific legal checks carry the value.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/total-environment-pursuit-of-a-radical-rhapsody#dd",
-          "caption": "Six due-diligence red flags in the RERA file for Pursuit of a Radical Rhapsody."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Total Environment",
-          "url": "https://property-lens.ai/?dev=Total%20Environment",
-          "caption": "Total Environment's analysed registrations, scored."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "yelahanka-jakkur",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
-          "caption": "North Bengaluru corridor scores and projected growth for price benchmarking."
-        }
-      ],
-      "id": "478db4683e9613a7",
-      "foundAt": "2026-09-27T05:26:42.141Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/What-are-some-of-the-best-areas-to-buy-a-flat-invest-in-real-estate-in-Bangalore",
       "title": "What are some of the best areas to buy a flat/invest in real estate in Bangalore?",
@@ -2008,19 +1934,18 @@
     }
   ],
   "stats": {
-    "candidates": 43,
-    "kept": 3,
+    "candidates": 6,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "quora": 1
     },
     "errors": [
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
