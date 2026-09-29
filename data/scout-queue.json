@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:52:28.073Z",
+  "generatedAt": "2026-09-29T14:53:40.876Z",
   "leads": [
     {
       "platform": "quora",
@@ -573,6 +573,52 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Why-should-I-invest-in-3-BHK-apartments-on-Sarjapur-Road-Bangalore",
+      "title": "Why should I invest in 3 BHK apartments on Sarjapur Road, Bangalore?",
+      "context": "Quora",
+      "postedAt": "2019-08-14T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to know whether a 3BHK on Sarjapur Road is a sound purchase and what the real upside is.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
+      "landingWhy": "The Sarjapur Road locality map shows all 284 registered projects scored side by side, which is the actual answer to 'is this corridor worth it' — the homepage would just show the city.",
+      "draft": "Sarjapur Road is the largest single sub-market in Bengaluru by registered supply, and that is the part most 3BHK pitches skip.\n\nThere are 284 registered projects there in the K-RERA set I analyse. The median score is 49 out of 100 (50 is the average analysed Bengaluru project), median projected price growth is 9.8% a year over five years, and the median price works out to about ₹8,450 per sq ft as a model estimate, not a quoted rate. Heavy supply is why the median is only ordinary despite decent projected growth — at exit you compete with everyone else's flat.\n\nTwo at the top of that locality in the same data: Godrej Lakeside Orchard scores 72 with projected 10.8% a year and has 2 RERA complaints on that registration; Birla Evara scores 71 with projected 11.0% a year, zero complaints on its registration and one due-diligence flag.\n\nOn the 3BHK question specifically, gross yields in these projects run roughly 3.9-4.3%, so rent will not carry an EMI. The case rests on price growth and your own use, not cash flow — and an under-construction unit earns nothing at all until handover.\n\nBefore booking, check the RERA completion date and every extension filed against it, the complaints on that exact registration number, and whether the promoter owns the land or is building under a joint development agreement. Sarjapur's standing risk has always been infrastructure timing, so separate what is funded from what is announced. This is research, not investment advice.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=sarjapur-road",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Scores for all 284 registered Sarjapur Road projects, median 49 with 9.8%/yr projected growth."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: score 71, projected 11.0%/yr price growth, net-wealth CAGR 8.7%."
+        },
+        {
+          "kind": "dd",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105#dd",
+          "caption": "Godrej Lakeside Orchard due diligence: RERA timeline, bookings vs construction, 2 complaints on this registration."
+        }
+      ],
+      "id": "922a9e4d617c0ac4",
+      "foundAt": "2026-09-29T14:53:40.876Z"
     },
     {
       "platform": "quora",
@@ -1897,18 +1943,19 @@
     }
   ],
   "stats": {
-    "candidates": 4,
+    "candidates": 7,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
