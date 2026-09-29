@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T16:49:13.795Z",
+  "generatedAt": "2026-09-29T05:52:28.073Z",
   "leads": [
     {
       "platform": "quora",
@@ -157,43 +157,6 @@
       ],
       "id": "207e0dcf51edbe2e",
       "foundAt": "2026-09-28T16:49:13.795Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wrh253/why_are_bangalore_apartment_prices_rising_almost/",
-      "title": "Why are Bangalore apartment prices rising almost like plot prices?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-27T10:42:50+00:00",
-      "evergreen": false,
-      "fit": 88,
-      "intent": "Wants to understand why Bengaluru flat prices are moving like land prices, and whether that is sustainable.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The locality score map shows every Bengaluru corridor's median score, median projected growth and median price per sq ft side by side — which is exactly the comparison the question is about, and the homepage buries it behind a search.",
-      "draft": "Because rents have not moved with them. Across the Bengaluru projects I have scored off the Karnataka RERA filings, gross rental yield is running 2.5-4.5%, so most of the recent apartment gain is price-to-rent expansion — the same mechanism that drives plot prices, which carry no rent at all.\n\nMedian price level and median project score by corridor (per-sq-ft figures are model estimates from dated locality evidence, Sep 2026):\n\n• Whitefield Hoodi/Varthur — about ₹11,750/sq ft, median score 58, median projected price growth 9.1%/yr\n• Sarjapur Road — about ₹8,450/sq ft, median score 49, projected 9.8%/yr\n• Devanahalli/Bagalur — about ₹4,700/sq ft, median score 50, projected 11.2%/yr\n• HSR/BTM/Koramangala fringe — about ₹13,650/sq ft, median score 63, projected 9.7%/yr\n\nWhere flats and plots genuinely diverge is after costs. Once GST, stamp duty and registration, interiors, maintenance and loan interest are in, the modelled net-wealth CAGR on most under-construction flats lands around 5-8% against headline price growth of 9-11%. Plots skip the 5% GST and the maintenance, which is a large part of why their net numbers look better at similar headline growth.",
-      "risk": "low",
-      "riskNote": "No link, no product name in the text; it is a data answer with the numbers written out since comment images are usually disabled in this sub. The only self-reference is 'projects I have scored off the RERA filings', which is honest and not a pitch.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road locality map: 284 analysed projects, median score 49, median projected growth 9.8%/yr."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "devanahalli-airport",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
-          "caption": "Devanahalli corridor: lowest median price per sq ft in the set but the highest median projected growth, 11.2%/yr."
-        }
-      ],
-      "id": "89d4949281409baa",
-      "foundAt": "2026-09-27T19:48:02.482Z"
     },
     {
       "platform": "quora",
@@ -1055,43 +1018,6 @@
       "foundAt": "2026-09-23T13:42:51.354Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wrfjke/considering_pushkalam_heritage_old_madras/",
-      "title": "Considering Pushkalam Heritage, Old Madras Road/Budigere Cross – any reviews or existing buyers here?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-27T09:11:14+00:00",
-      "evergreen": false,
-      "fit": 82,
-      "intent": "Wants reviews and a sanity check before booking a flat on the Budigere Cross / Old Madras Road stretch.",
-      "landing": "https://property-lens.ai/map?loc=hoskote-budigere",
-      "landingWhy": "The Hoskote/Budigere Cross locality map ranks every registered project on that exact stretch, so the asker can place a small-promoter project against the corridor median instead of against marketing claims.",
-      "draft": "No first-hand review of that project, but the corridor context matters more than usual here. Hoskote/Budigere Cross/Old Madras Road is one of the widest-spread markets in the city — 146 registered projects analysed, median score 42 against a citywide average of 50, median around ₹5,650/sq ft (model estimate, Sep 2026). Project selection does far more work than the road does.\n\nBetter-scoring projects on that stretch, for a reference point (scores from K-RERA filings, Sep 2026):\n\n• Brigade Citrine — score 64, projected price growth 10.7%/yr, 0 complaints on the registration\n• Brigade Calista Phase 2 — 63, 10.4%/yr, 0 complaints\n• Godrej Woodscapes Phase 2 — 62, 10.8%/yr, 2 complaints on the registration\n• Brigade Belvedere — 61, 11.2%/yr, 2 red flags in due diligence\n\nWhatever you decide, pull the project's K-RERA page yourself: registration validity and any extensions already filed, the promoter's quarterly progress updates (construction percentage against bookings percentage), withdrawals from the RERA designated account, the complaint register, and the land ownership or joint development document. A promoter with a single registration that has already taken an extension is the pattern that catches buyers out.",
-      "risk": "low",
-      "riskNote": "Answers a project nobody here has data on by giving the verifiable corridor picture plus the RERA checks, with no link and no naming of the tool. Figures are written out because comment images do not render in this sub.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "hoskote-budigere",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=hoskote-budigere",
-          "caption": "Hoskote/Budigere Cross: 146 analysed projects, median score 42, median projected growth 10.2%/yr."
-        },
-        {
-          "kind": "project",
-          "projectId": "brigade-citrine-007287",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-citrine-007287",
-          "caption": "Brigade Citrine, the highest-scoring project on that corridor at 64, as a benchmark for anything else on Old Madras Road."
-        }
-      ],
-      "id": "4188d4a3c6ab47cd",
-      "foundAt": "2026-09-27T19:48:02.482Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/What-are-the-pros-and-cons-of-buying-an-under-construction-property-in-Bangalore",
       "title": "What are the pros and cons of buying an under construction property in Bangalore?",
@@ -1786,6 +1712,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/What-are-the-good-apartments-to-buy-near-the-Whitefield-Bangalore-area-within-a-40-50-lakhs-budget-It-can%E2%80%99t-be-more-than-50-lakhs",
+      "title": "What are good apartments to buy near Whitefield, Bangalore within a 40-50 lakh budget?",
+      "context": "Quora",
+      "postedAt": "2021-09-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Wants specific east Bengaluru options under 50 lakhs.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "A budget search needs the city map where every analysed project carries its score and ticket, not a single project or locality page.",
+      "draft": "In Whitefield proper, a new apartment from a large developer under 50 lakhs has effectively stopped existing. Median pricing there works out around ₹11,750 per sq ft on my estimates, so even a compact 2BHK lands well past 60 lakhs before charges.\n\nWhat is still within reach is one ring out, east and north-east. Modelled tickets for the default unit in each project, from my analysis of the RERA filings:\n\n• Prestige Raintree Park, Marathahalli/Varthur — score 81, about ₹47.5 L, projected 10.6%/yr price growth, 1 complaint on that registration\n• Brigade Lakecrest, KR Puram/Mahadevapura — score 75, about ₹46.8 L, projected 10.6%/yr, 0 complaints\n• Brigade Citrine, Budigere Cross — score 64, about ₹44.8 L, projected 10.7%/yr, 0 complaints\n\nScore is out of 100, where 50 is the average analysed Bengaluru project. Those tickets are modelled for a default unit size, not quotes — floor, facing, corner premium, car park, clubhouse and infrastructure charges move the real number by several lakhs, and GST plus stamp duty and registration add more on top.\n\nThe other route at this budget is resale in the older Whitefield societies, where you avoid GST entirely. If you go that way, insist on the occupancy certificate, the khata and the latest maintenance dues certificate, and confirm the society has no pending litigation — resale carries no RERA protection, so the paperwork is the only protection you get.\n\nI build a free tool that scores these projects off the RERA filings; it is research, not a recommendation on any one of them.",
+      "risk": "low",
+      "riskNote": "Corrects the budget assumption honestly before listing alternatives, flags that tickets are modelled, and adds resale-specific protections. No link, no steering to a single project.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked project cards across the city, filterable by budget."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
+          "caption": "Prestige Raintree Park: score 81, projected 10.6%/yr, modelled ticket for the default unit."
+        }
+      ],
+      "id": "282235b4c0483a1b",
+      "foundAt": "2026-09-29T05:52:28.073Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Are-people-in-Bangalore-getting-good-rental-incomes-from-their-investment",
       "title": "Are people in Bangalore getting good rental incomes from their investment?",
       "context": "Quora",
@@ -1896,43 +1859,6 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wrcwz3/brigade_wtc_eoi_form_shared_by_cp/",
-      "title": "Brigade WTC EOI form shared by CP",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-09-27T06:33:06+00:00",
-      "evergreen": false,
-      "fit": 70,
-      "intent": "Deciding whether to sign and pay an expression-of-interest cheque handed over by a channel partner for a Brigade WTC launch.",
-      "landing": "https://property-lens.ai/dd/brigade-wtc-annexe-003095",
-      "landingWhy": "The due-diligence page for the existing Brigade WTC Annexe registration shows the RERA timeline, extensions, money through the RERA account and complaint position — the paperwork an EOI signer is being asked to trust before registration.",
-      "draft": "Before signing an EOI through a channel partner, check whether that specific tower is registered with K-RERA yet. Section 3 of the Act bars a promoter from accepting any advance or deposit for an unregistered project, and pre-registration EOI money is the hardest kind to get back if you walk away.\n\nTwo practical things: get the refund clause and the timeline in writing on the promoter's letterhead, not the CP's, and pay the promoter's account directly. A CP-collected EOI with no registration number on the form is worth nothing at the authority.\n\nOn the Brigade WTC registration already in my dataset (Brigade WTC Annexe, from RERA filings as of Sep 2026): score 48 against a city average of 50, projected 5-yr price growth 9.0%/yr, gross yield 2.9%, modelled net-wealth CAGR 3.9% over eight years on a 75% loan, and one red flag in the due-diligence review. Different tower and a different registration from whatever the CP is selling, so not a verdict on your unit — but worth asking the sales team why the modelled net return sits that far below headline price growth.",
-      "risk": "medium",
-      "riskNote": "Mild self-reference to a dataset, no link and no domain named. The legal point about EOI before RERA registration stands on its own, and the numbers are flagged as a different registration so nobody mistakes them for a verdict on the launch.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "brigade-wtc-annexe-003095",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-wtc-annexe-003095#dd",
-          "caption": "Brigade WTC Annexe due diligence: RERA timeline, extensions, money through the RERA account and complaint position."
-        },
-        {
-          "kind": "project",
-          "projectId": "brigade-wtc-annexe-003095",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-wtc-annexe-003095",
-          "caption": "Score 48, projected 9.0%/yr, net-wealth CAGR 3.9% on a 75% loan after all costs."
-        }
-      ],
-      "id": "9a9ea63c5aa05f24",
-      "foundAt": "2026-09-27T19:48:02.482Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -1971,19 +1897,18 @@
     }
   ],
   "stats": {
-    "candidates": 7,
+    "candidates": 4,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 1
+      "quora": 1
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/personalfinanceindia: HTTP 429"
     ]
   }
 }
