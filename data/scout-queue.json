@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:53:57.999Z",
+  "generatedAt": "2026-09-30T14:59:34.997Z",
   "leads": [
     {
       "platform": "quora",
@@ -536,6 +536,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/I-had-seen-one-apartment-in-Bangalore-They-have-RERA-approved-and-no-litigation-but-OC-and-CC-is-not-there-Shall-I-buy-or-not",
+      "title": "RERA approved, no litigation, but OC and CC are not there — shall I buy?",
+      "context": "Quora",
+      "postedAt": "2020-09-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to know how much protection RERA registration gives when the occupancy certificate is missing.",
+      "landing": "https://property-lens.ai/dd/prestige-westwoods-000248",
+      "landingWhy": "A due-diligence dashboard for a completed project shows exactly the artefacts they are missing — RERA timeline, complaints on the registration, handover documents — rather than a generic landing page.",
+      "draft": "RERA registration and an occupancy certificate protect you against completely different things, so the absence of the OC is the live problem here.\n\nThe OC is the local authority's certificate that the building was completed as sanctioned and is fit to occupy. Without it: property tax is commonly levied at penal rates, permanent water and power connections can be refused or stay on temporary status, khata transfer gets messy, several lenders will not fund a resale, and any sanctioned-plan deviation is your problem after you have paid. Under Section 17 of the RERA Act the promoter is required to obtain the completion or occupancy certificate and hand it over — 'it will come later' is not a term you should accept verbally.\n\nAlso worth correcting a common assumption: 'no litigation' is not the same as 'no disputes'. Complaints sit on the K-RERA register per registration number, and completed projects are not automatically clean. In the Bengaluru filings I work through, Prestige Westwoods, a ready project, shows 11 RERA complaints on that registration, and Salarpuria-Sattva Anugraha shows 4. Pull the register for the exact registration number rather than the builder name.\n\nBefore you decide, ask for the sanctioned plan and the deviation position, the application status for the OC with a date, and the last quarterly progress report filed. If the seller cannot produce them, that is your answer on how far along it really is.\n\nResearch, not advice — I cannot tell you whether to buy this one.",
+      "risk": "low",
+      "riskNote": "No link; complaint counts are taken only from the per-registration column and attributed as such. Reads as a legal/process answer, which is what the thread asks for.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "prestige-westwoods-000248",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-westwoods-000248#dd",
+          "caption": "Due-diligence view of a completed project showing 11 RERA complaints on that registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "salarpuria-sattva-anugraha-000407",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/salarpuria-sattva-anugraha-000407#dd",
+          "caption": "Same dashboard for another ready project — 4 complaints on the registration, plus timeline and handover items."
+        }
+      ],
+      "id": "293061aeb546eeee",
+      "foundAt": "2026-09-30T14:59:34.997Z"
     },
     {
       "platform": "quora",
@@ -1943,18 +1980,19 @@
     }
   ],
   "stats": {
-    "candidates": 15,
+    "candidates": 0,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 1
+      "quora": 1
     },
     "errors": [
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429"
     ]
   }
 }
