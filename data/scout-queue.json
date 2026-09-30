@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:59:34.997Z",
+  "generatedAt": "2026-09-30T20:52:28.905Z",
   "leads": [
     {
       "platform": "quora",
@@ -1943,56 +1943,55 @@
     },
     {
       "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wswzs7/second_guessing_buying_a_plot/",
-      "title": "Second guessing buying a plot",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-09-29T01:30:49+00:00",
+      "url": "https://www.reddit.com/r/bangalore/comments/1wu0qon/field_data_why_4_out_of_10_structural_site_audits/",
+      "title": "Field Data: Why 4 out of 10 structural site audits failed concrete slump tests in North Bengaluru this quarter (and the 2026 material price baseline)",
+      "context": "r/bangalore",
+      "postedAt": "2026-09-30T09:49:56+00:00",
       "evergreen": false,
       "fit": 62,
-      "intent": "Having doubts about a plot purchase and wants a sanity check on whether the money makes sense.",
-      "landing": "https://property-lens.ai/p/aravya-estate-008180",
-      "landingWhy": "A plotted-development page is the only view that shows the thing the OP is second-guessing: zero rental income, so the entire net-wealth CAGR comes from the growth assumption, with every cost line (stamp duty, registration, holding, loan interest, selling) laid out and each figure marked observed or assumed.",
-      "draft": "A plot earns zero rent, so your whole return is the growth assumption — which means the answer swings hard on a number nobody can observe yet. I pulled these out of the Karnataka RERA filings myself; they are Bengaluru plotted projects, but the structure is the same anywhere.\n\nPlots skip GST, but stamp duty, registration, holding cost and loan interest still apply. Net-wealth CAGR below is over 8 years on a 75% loan, all costs in:\n\n• Aravya Estate (Godrej) — score 51, projected 11.0%/yr, 0% yield, net 9.5%/yr\n• TBC La Picasso (Attibele) — score 53, projected 12.5%/yr, 0% yield, net 9.1%/yr\n• SJR Vivo City Ph 1 (Doddaballapur Rd) — score 32, projected 10.8%/yr, net 8.5%/yr\n• Kurubarapalya (KNS, ready) — score 65, projected 10.1%/yr, net 5.5%/yr\n\nBasis: PropertyLens scores from RERA filings and dated locality price evidence; per-sq-ft inputs are model estimates.\n\nNote the localities. Doddaballapur Road's median analysed project scores 22 of 100; Yelahanka's is 54. Cheap plots are rarely cheap by accident.\n\nBefore you sign: is the layout RERA-registered, is the land converted with an approved layout plan and A-khata, and do the plot numbers on the sale deed match the released ones. That decides whether you can resell at all.",
+      "intent": "Wants hard evidence on construction quality in North Bengaluru and what a buyer can actually verify.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence dashboard is the page that shows the RERA timeline, extensions, construction vs bookings and the complaint register for one registration — the exact paper trail a buyer can check when they can't run a slump test.",
+      "draft": "A buyer can't run a slump test, but K-RERA gives an adjacent paper trail that almost nobody reads: every promoter files a quarterly progress report with construction percentage against bookings, and complaints are logged against the individual registration, not the brand.\n\nI pull those filings for a research tool I built. A few North Bengaluru registrations, on the same two measures (PropertyLens score, then complaints on that registration, K-RERA filings as of Sep 2026):\n\n• Casagrand Estancia, Yelahanka — score 83, 0 complaints\n• Godrej Woods, Yelahanka — score 81, 1 complaint\n• Birla Trimaya Phase 2, Devanahalli — score 65, 0 complaints\n• Mahindra Blossom, Whitefield, for contrast — score 79, 15 complaints on that one registration\n\n50 is the average analysed Bengaluru project, so score and complaint count move independently. Repeated completion-date extensions plus a complaint cluster on one registration is the closest public proxy there is to the quality failures you're documenting.",
       "risk": "medium",
-      "riskNote": "r/personalfinanceindia tolerates data but not pitches. No link, no domain named, figures written out because comment images are usually off, and the disclosure is limited to 'I pulled these from the RERA filings myself'. The locality caveat keeps it honest if the OP's plot is outside Bengaluru.",
+      "riskNote": "r/bangalore is hostile to anything broker-like, so the comment carries no link, no project pitch and no recommendation — just the filings-based method and four labelled numbers. Builder disclosure is one clause, not a sell.",
       "shots": [
         {
-          "kind": "project",
-          "projectId": "aravya-estate-008180",
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
           "projectIdB": "",
           "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/p/aravya-estate-008180",
-          "caption": "A plotted project's economics: 0% rental yield, projected 11.0%/yr growth, 9.5% net-wealth CAGR after all costs."
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view for the Mahindra Blossom registration: RERA timeline, extensions and the 15 complaints logged against it."
         },
         {
-          "kind": "compare",
-          "projectId": "aravya-estate-008180",
-          "projectIdB": "kurubarapalya-000865",
+          "kind": "dd",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
           "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/compare?a=aravya-estate-008180&b=kurubarapalya-000865",
-          "caption": "Two plots compared — same zero rent, very different net returns once costs and locality scores are applied."
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086#dd",
+          "caption": "Same dashboard for Casagrand Estancia, Yelahanka — construction vs bookings and a clean complaint register."
         }
       ],
-      "id": "b69695d221c53fe6",
-      "foundAt": "2026-09-29T20:53:57.999Z"
+      "id": "160752295b5a3344",
+      "foundAt": "2026-09-30T20:52:28.905Z"
     }
   ],
   "stats": {
-    "candidates": 0,
+    "candidates": 6,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1
+      "reddit": 1
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429"
+      "reddit r/personalfinanceindia: HTTP 429"
     ]
   }
 }
