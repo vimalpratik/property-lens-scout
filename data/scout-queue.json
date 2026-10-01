@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:31:04.766Z",
+  "generatedAt": "2026-10-01T21:05:46.428Z",
   "leads": [
     {
       "platform": "quora",
@@ -622,9 +622,9 @@
       "intent": "Wants to know how much protection RERA registration gives when the occupancy certificate is missing.",
       "landing": "https://property-lens.ai/dd/prestige-westwoods-000248",
       "landingWhy": "A due-diligence dashboard for a completed project shows exactly the artefacts they are missing — RERA timeline, complaints on the registration, handover documents — rather than a generic landing page.",
-      "draft": "RERA registration and an occupancy certificate protect you against completely different things, so the absence of the OC is the live problem here.\n\nThe OC is the local authority's certificate that the building was completed as sanctioned and is fit to occupy. Without it: property tax is commonly levied at penal rates, permanent water and power connections can be refused or stay on temporary status, khata transfer gets messy, several lenders will not fund a resale, and any sanctioned-plan deviation is your problem after you have paid. Under Section 17 of the RERA Act the promoter is required to obtain the completion or occupancy certificate and hand it over — 'it will come later' is not a term you should accept verbally.\n\nAlso worth correcting a common assumption: 'no litigation' is not the same as 'no disputes'. Complaints sit on the K-RERA register per registration number, and completed projects are not automatically clean. In the Bengaluru filings I work through, Prestige Westwoods, a ready project, shows 11 RERA complaints on that registration, and Salarpuria-Sattva Anugraha shows 4. Pull the register for the exact registration number rather than the builder name.\n\nBefore you decide, ask for the sanctioned plan and the deviation position, the application status for the OC with a date, and the last quarterly progress report filed. If the seller cannot produce them, that is your answer on how far along it really is.\n\nResearch, not advice — I cannot tell you whether to buy this one.",
+      "draft": "RERA registration and an occupancy certificate protect you against completely different things, so the absence of the OC is the live problem here.\n\nThe OC is the local authority's certificate that the building was completed as sanctioned and is fit to occupy. Without it: property tax is commonly levied at penal rates, permanent water and power connections can be refused or stay on temporary status, khata transfer gets messy, several lenders will not fund a resale, and any sanctioned-plan deviation is your problem after you have paid. Under Section 17 of the RERA Act the promoter is required to obtain the completion or occupancy certificate and hand it over — 'it will come later' is not a term you should accept verbally.\n\nAlso worth correcting a common assumption: 'no litigation' is not the same as 'no disputes'. Complaints sit on the K-RERA register per registration number, and completed projects are not automatically clean. In the Bengaluru filings I work through, Prestige Westwoods, a ready project, shows 11 RERA complaints on that registration, and Salarpuria-Sattva Anugraha shows 4. Pull the register for the exact registration number rather than the builder name.\n\nBefore you decide, ask for the sanctioned plan and the deviation position, the application status for the OC with a date, and the last quarterly progress report filed. If the seller cannot produce them, that is your answer on how far along it really is.\n\nResearch, not advice — I cannot tell you whether to buy this one.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/dd/prestige-westwoods-000248",
       "risk": "low",
-      "riskNote": "No link; complaint counts are taken only from the per-registration column and attributed as such. Reads as a legal/process answer, which is what the thread asks for.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "dd",
@@ -1139,6 +1139,52 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/What-are-the-reasons-to-invest-in-Sarjapur-Road-Bangalore",
+      "title": "What are the reasons to invest in Sarjapur Road, Bangalore?",
+      "context": "Quora",
+      "postedAt": "2020-11-05T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants the real case for and against buying on the Sarjapur Road corridor.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
+      "landingWhy": "The Sarjapur Road map shows the 284-project supply picture and the per-project scores behind the answer; the homepage would bury both.",
+      "draft": "The honest case for Sarjapur Road is employment access and price per sq ft. The honest case against it is supply, and most answers here skip that half.\n\n284 registered residential projects analysed on that corridor from Karnataka RERA filings — the largest pipeline of any Bengaluru locality in my dataset, around three times Whitefield's 90. Locality medians: PropertyLens score 49 out of 100 (50 is the average analysed Bengaluru project), projected price growth 9.8% a year over five years, median price about ₹8,450 per sq ft, which is a model estimate rather than a quoted rate.\n\nThat pipeline is why the median sits just below average despite genuinely good office access — it lands on resale liquidity and on price versus comparables. If you intend to exit in five years, you exit against whatever is still unsold in the towers next door.\n\nTwo of the stronger ones there:\n• Godrej Lakeside Orchard — score 72, projected 10.8%/yr, net-wealth CAGR 7.5% after every cost on an 8-year hold with a 75% loan, 2 RERA complaints on that registration\n• Birla Evara — score 71, projected 11.0%/yr, net 8.7%, 0 RERA complaints on that registration\n\nBefore booking on this road, treat infrastructure announcements as announcements: the metro line serving Sarjapur is still at the approval stage, and alignment news is not a handover date. Ask instead for the sanctioned K-RERA completion date and the extensions already filed, the BWSSB connection position, and how much of your payment actually routes through the RERA-designated account.",
+      "risk": "low",
+      "riskNote": "Names the downside of the corridor rather than selling it; no link, no buy call, figures all labelled to source.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49, projected 9.8%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
+          "caption": "Godrej Lakeside Orchard: score 72, projected 10.8%/yr, net-wealth CAGR 7.5%."
+        },
+        {
+          "kind": "dd",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487#dd",
+          "caption": "Birla Evara due diligence: RERA timeline, complaints on that registration, escrow flow."
+        }
+      ],
+      "id": "1b16c560ead804ac",
+      "foundAt": "2026-10-01T21:05:46.428Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Which-would-be-the-best-area-to-buy-a-property-in-Bangalore-for-investment",
       "title": "Which would be the best area to buy a property in Bangalore for investment?",
       "context": "Quora",
@@ -1376,6 +1422,43 @@
       ],
       "id": "f1212c97a3dc1ec8",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/What-is-the-right-time-to-buy-a-flat-in-Bangalore",
+      "title": "What is the right time to buy a flat in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2021-02-10T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants to know whether to buy now or wait for a better entry point.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The ranked city list shows the project-to-project spread in score and post-cost returns that the answer argues matters more than timing.",
+      "draft": "Timing matters less here than which project you pick. The gap between two Bengaluru projects booked in the same week is wider than the gap between buying this year and next.\n\nWorking through Karnataka RERA filings and dated locality price evidence for 1,854 Bengaluru projects, projected five-year price growth clusters between roughly 8% and 12% a year depending on locality, and gross rental yields mostly land between 2.5% and 4.5%. Neither range moves fast enough for \"wait six months\" to be a strategy.\n\nWhat decides the outcome is the cost stack: GST where applicable, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs. Put those through and the net lands far below the headline growth number. Two current examples, both net-wealth CAGR on an eight-year hold with a 75% loan:\n• Casagrand Estancia, Yelahanka — score 83, projected 12.2%/yr, net 9.6%, cash-flow IRR 16.5%\n• Prestige Suncrest, Electronic City — score 62, projected 9.4%/yr, net 4.2%\n\nSame city, same month, more than five percentage points of difference after costs. That is the decision worth agonising over, not the quarter you sign in.\n\nThe timing point people do miss: an under-construction flat pays no rent until handover, so two or three years of EMI run with nothing on the other side. If you are weighing ready against under-construction, model that explicitly, and check the sanctioned RERA completion date, extensions already taken, complaints on that exact registration, money routed through the RERA account, and the occupancy certificate before possession.",
+      "risk": "low",
+      "riskNote": "Reframes a vague timing question with sourced ranges; no link, no recommendation, no promotional sentence.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked cards showing how far scores and post-cost returns spread in the same market."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia: score 83, projected 12.2%/yr, net-wealth CAGR 9.6%, IRR 16.5%."
+        }
+      ],
+      "id": "3f42450afdbcbb36",
+      "foundAt": "2026-10-01T21:05:46.428Z"
     },
     {
       "platform": "quora",
@@ -2088,59 +2171,22 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/bangalore/comments/1wu0qon/field_data_why_4_out_of_10_structural_site_audits/",
-      "title": "Field Data: Why 4 out of 10 structural site audits failed concrete slump tests in North Bengaluru this quarter (and the 2026 material price baseline)",
-      "context": "r/bangalore",
-      "postedAt": "2026-09-30T09:49:56+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Wants hard evidence on construction quality in North Bengaluru and what a buyer can actually verify.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "The due-diligence dashboard is the page that shows the RERA timeline, extensions, construction vs bookings and the complaint register for one registration — the exact paper trail a buyer can check when they can't run a slump test.",
-      "draft": "A buyer can't run a slump test, but K-RERA gives an adjacent paper trail that almost nobody reads: every promoter files a quarterly progress report with construction percentage against bookings, and complaints are logged against the individual registration, not the brand.\n\nI pull those filings for a research tool I built. A few North Bengaluru registrations, on the same two measures (PropertyLens score, then complaints on that registration, K-RERA filings as of Sep 2026):\n\n• Casagrand Estancia, Yelahanka — score 83, 0 complaints\n• Godrej Woods, Yelahanka — score 81, 1 complaint\n• Birla Trimaya Phase 2, Devanahalli — score 65, 0 complaints\n• Mahindra Blossom, Whitefield, for contrast — score 79, 15 complaints on that one registration\n\n50 is the average analysed Bengaluru project, so score and complaint count move independently. Repeated completion-date extensions plus a complaint cluster on one registration is the closest public proxy there is to the quality failures you're documenting.",
-      "risk": "medium",
-      "riskNote": "r/bangalore is hostile to anything broker-like, so the comment carries no link, no project pitch and no recommendation — just the filings-based method and four labelled numbers. Builder disclosure is one clause, not a sell.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "Due-diligence view for the Mahindra Blossom registration: RERA timeline, extensions and the 15 complaints logged against it."
-        },
-        {
-          "kind": "dd",
-          "projectId": "casagrand-estancia-008086",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-estancia-008086#dd",
-          "caption": "Same dashboard for Casagrand Estancia, Yelahanka — construction vs bookings and a clean complaint register."
-        }
-      ],
-      "id": "160752295b5a3344",
-      "foundAt": "2026-09-30T20:52:28.905Z"
     }
   ],
   "stats": {
-    "candidates": 11,
+    "candidates": 3,
     "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 2
     },
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/Bengaluru: HTTP 429"
     ]
   }
 }
