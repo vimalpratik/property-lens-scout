@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:08:36.156Z",
+  "generatedAt": "2026-10-01T15:31:04.766Z",
   "leads": [
     {
       "platform": "quora",
@@ -536,6 +536,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/How-do-I-verify-the-RERA-document-in-Bangalore-using-the-RERA-number",
+      "title": "How do I verify the RERA document in Bangalore using the RERA number?",
+      "context": "Quora",
+      "postedAt": "2024-08-18T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants the actual procedure to check a Karnataka RERA registration and know what it does and does not prove.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "A due-diligence dashboard for one registration shows exactly the artefacts the answer tells them to read — timeline, extensions, bookings vs construction, RERA account money, complaints.",
+      "draft": "Verifying a Karnataka RERA number takes five minutes on the K-RERA portal, but the certificate is the least useful thing filed there. Search the registration number or project name, open the project page, and read the filings in this order.\n\n• Registration certificate — the proposed completion date, validity, and every extension filed since the original registration\n• Quarterly progress reports — units booked against units actually built, and money received and withdrawn from the designated project account\n• Complaints — cases registered against that specific registration number, not against the promoter as a whole\n• Uploaded documents — land title or joint development agreement, encumbrance certificate, sanctioned plan, lender NOC\n\nTwo things people get wrong. A registration number proves registration, not approval of construction quality or of the clauses in your agreement. And the date that binds the promoter is the one on the certificate after extensions, not the date in the brochure — so check that the completion date and the carpet area in your agreement match the filing, word for word.\n\nComplaint counts vary enormously between registrations in the same city. Of the Bengaluru registrations I track from the K-RERA register, the larger Mahindra Blossom registration shows 15 complaints logged against it while Prestige Pine Forest shows none. That is a reason to ask the promoter specific questions, not a verdict on either project.\n\nBefore you take handover, also insist on the occupancy certificate and khata, and check that the amenities listed in the registration are actually built.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/dd/mahindra-blossom-008348",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view of one registration: RERA timeline, extensions, bookings vs construction, complaints on that registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105#dd",
+          "caption": "The same dashboard for another project, showing money through the designated RERA account."
+        }
+      ],
+      "id": "b4d757098e345810",
+      "foundAt": "2026-10-01T15:31:04.766Z"
     },
     {
       "platform": "quora",
@@ -1943,6 +1980,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/What-are-some-reasons-to-buy-a-flat-in-Whitefield-Bangalore",
+      "title": "What are some reasons to buy a flat in Whitefield, Bangalore?",
+      "context": "Quora",
+      "postedAt": "2022-06-30T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Wants the genuine case for buying in Whitefield, and implicitly the caveats the brochures leave out.",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The Whitefield map carries the 90-project median score and growth spread the answer leans on, and shows how widely projects differ inside the same pin code.",
+      "draft": "Whitefield is one of the stronger Bengaluru corridors on the numbers, which is not the same as every project in it being strong. Across 90 registered Whitefield projects I have analysed from the RERA filings, the median PropertyLens score is 58 against 50 for the average analysed Bengaluru project, median projected 5-year price growth is 9.1% a year, and the median working price is about ₹11,750 per sq ft — a model estimate, not a registered rate.\n\nThe reasons that survive scrutiny are office density within a short commute, the metro line, and resale depth: enough transactions happen here that an exit is easier than in the outer plot belts. Rental yield is not one of them. Brigade Lakefront Crimson, a ready project, shows a 3.1% gross yield at roughly ₹1.16 Cr in my model, which is typical for the corridor.\n\nProject choice swings the outcome more than the locality does. Prestige Pine Forest scores 78 with projected growth of 10.4% a year and no complaints on that registration. At the other end, a well-known partially-ready Whitefield address in my set scores 43 and carries six due-diligence red flags at an observed ₹19,950 per sq ft. Same pin code, very different risk.\n\nBefore committing, check the RERA completion date as it stands after extensions, complaints logged against that specific registration, and occupancy certificate status for your tower. This is research rather than advice, but those three checks are what separate the two cases above.",
+      "risk": "low",
+      "riskNote": "No link and no sales language; the unflattering comparison is kept unnamed and sourced to red-flag counts, and the complaint figure quoted is the per-registration one.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield: 90 analysed projects, median score 58, median projected growth 9.1%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: score 78, projected 10.4%/yr, zero complaints on that registration."
+        }
+      ],
+      "id": "7caea74dbb4ef6d5",
+      "foundAt": "2026-10-01T15:31:04.766Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/What-are-some-of-the-best-areas-to-buy-a-flat-invest-in-real-estate-in-Bangalore",
       "title": "What are some of the best areas to buy a flat/invest in real estate in Bangalore?",
       "context": "Quora",
@@ -2054,18 +2128,19 @@
     }
   ],
   "stats": {
-    "candidates": 14,
+    "candidates": 11,
     "kept": 2,
-    "skippedSeen": 1,
+    "skippedSeen": 0,
     "byPlatform": {
       "quora": 2
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
