@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:52:28.905Z",
+  "generatedAt": "2026-10-01T06:08:36.156Z",
   "leads": [
     {
       "platform": "quora",
@@ -539,6 +539,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/While-buying-a-property-what-should-we-choose-ready-to-move-in-or-under-construction-property-in-Bangalore",
+      "title": "While buying a property, what should we choose, ready-to-move-in or under-construction property in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2022-02-19T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to decide between a ready flat and an under-construction one in Bengaluru.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The question is literally a two-option comparison; the compare page shows a ready and an under-construction project side by side on score, growth, yield and net return, which the homepage cannot.",
+      "draft": "Under-construction wins on projected growth; ready wins on cash flow and on not carrying delivery risk. In Whitefield, Prestige Pine Forest (under construction) carries a PropertyLens score of 78 with projected price growth of 10.4% a year and a net-wealth CAGR of 6.9% after all costs on a 75% loan, while Brigade Lakefront Crimson (ready) scores 73 with 8.7% a year and 5.6%. The ready one earns rent from handover day; the under-construction one earns none until possession and pays GST on top.\n\nHebbal looks similar — Brigade Senate 1 and Senate 2, both ready, score 67 each with 9.3% projected growth, 6.1% net CAGR and gross yields near 2.8%. Scores and growth from Karnataka RERA filings plus dated locality price evidence.\n\nSo the real question is what you are being paid for the risk. For under construction, open the K-RERA page for that exact registration and read four things: the original completion date, how many extensions have been filed, construction progress against bookings in the quarterly updates, and complaints filed on that registration. Casagrand Meridian in KR Puram, for instance, shows 7 complaints on its registration and a score of 55.\n\nFor a ready flat the equivalents are the occupancy certificate, khata, and whether what is built matches the sanctioned plan — plus an actual look at the maintenance corpus and the association's accounts.\n\nIf you need to live in it now, ready is usually the cheaper mistake. Over an eight-year hold the gap mostly comes down to whether the builder delivers on time.\n\nIf you want to check these numbers yourself, the two side by side, after every cost, are here: https://property-lens.ai/compare",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "brigade-lakefront-crimson-000503",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=prestige-pine-forest-007048&b=brigade-lakefront-crimson-000503",
+          "caption": "Under-construction vs ready in Whitefield: score 78 / 10.4% growth / 6.9% net CAGR against score 73 / 8.7% / 5.6%."
+        },
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "Due-diligence view behind the delivery-risk point: RERA timeline, extensions and the 7 complaints on this registration."
+        }
+      ],
+      "id": "fb6e057db3015771",
+      "foundAt": "2026-10-01T06:08:36.156Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/I-had-seen-one-apartment-in-Bangalore-They-have-RERA-approved-and-no-litigation-but-OC-and-CC-is-not-there-Shall-I-buy-or-not",
       "title": "RERA approved, no litigation, but OC and CC are not there — shall I buy?",
       "context": "Quora",
@@ -1062,6 +1099,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-would-be-the-best-area-to-buy-a-property-in-Bangalore-for-investment",
+      "title": "Which would be the best area to buy a property in Bangalore for investment?",
+      "context": "Quora",
+      "postedAt": "2018-09-14T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants to know which Bengaluru locality to buy in for investment returns.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city map ranks every analysed locality by score and projected growth, which is the whole question; a single project or developer page would answer only part of it.",
+      "draft": "The highest-scoring areas and the highest-growth areas in Bengaluru are not the same places, and that is where most \"best area\" answers go wrong.\n\nBy median project score across the registered projects I analysed in each locality (Karnataka RERA filings plus dated locality price evidence): Jayanagar/Basavanagudi 66, HSR/BTM/Koramangala fringe 63, Malleswaram/Rajajinagar 63, Bannerghatta/JP Nagar 61, Marathahalli/Varthur 59, Whitefield 58. Those are places where jobs, transit, social infrastructure and resale liquidity already exist, and their median projected price growth sits in a 9.1-9.7% a year band.\n\nRank by projected growth instead and it flips. Devanahalli/Airport corridor has the highest median at 11.2% a year but a median score of only 50 and a median price near ₹4,700 per sq ft (an estimate) — growth off a small base that depends on the office and infrastructure pipeline actually arriving. Mysore Road/RR Nagar sits at 10.6% with a median score of 54. Doddaballapur Road/Nelamangala is the caution: median score 22.\n\nTwo things matter more than the area itself:\n\n- after GST, stamp duty, registration, interiors, vacancy, maintenance, loan interest and selling costs, net-wealth CAGR on a 75% loan typically lands around 5-8%, not the 10-11% price line\n- gross rental yields in Bengaluru run roughly 2.5-4.5%, so holding period does most of the work\n\nAnd within a single locality, project scores span 20-30 points. Choosing the project, the builder's delivery record and the RERA status carefully beats choosing the pin code.",
+      "risk": "low",
+      "riskNote": "Old but still-ranking question with generic answers; this one adds locality medians and a cost-after-everything correction, with no link and no promotional sentence.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Highest median projected growth in the city (11.2%/yr) sitting on a median locality score of 50."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "jayanagar-basavanagudi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=jayanagar-basavanagudi",
+          "caption": "The other end: median project score 66 with 9.3%/yr projected growth and a ₹15,050/sq ft median estimate."
+        }
+      ],
+      "id": "b08d3e993067b6f3",
+      "foundAt": "2026-10-01T06:08:36.156Z"
     },
     {
       "platform": "quora",
@@ -1980,18 +2054,18 @@
     }
   ],
   "stats": {
-    "candidates": 6,
-    "kept": 1,
-    "skippedSeen": 0,
+    "candidates": 14,
+    "kept": 2,
+    "skippedSeen": 1,
     "byPlatform": {
-      "reddit": 1
+      "quora": 2
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
