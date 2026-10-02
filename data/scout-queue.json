@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T21:05:46.428Z",
+  "generatedAt": "2026-10-02T20:49:09.121Z",
   "leads": [
     {
       "platform": "quora",
@@ -1102,9 +1102,9 @@
       "intent": "Wants an evidence-based read on whether Whitefield is still a good place to invest.",
       "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
       "landingWhy": "The asker's question is about the locality as a whole; the Whitefield map shows the spread of scores behind the median rather than one project's page.",
-      "draft": "Whitefield holds up on the data, with one trap worth knowing first: two RERA registrations under the same project name can have completely different records. Mahindra Blossom appears in my dataset under two registrations — one shows 0 complaints on that registration, the other shows 15. Same name, same developer. Check the registration number written on your agreement, not the brochure.\n\nOn the locality itself: across 90 analysed registered projects in Whitefield (Hoodi / Varthur Road), the median investment score is 58 against 50 for the average analysed Bengaluru project, median projected price growth is 9.1%/yr and the median price is around ₹11,750/sq ft (a model estimate unless the filing carried one). So it grades above average, but mostly on employment access, rental demand and resale liquidity — the cheaper eastern corridors project higher growth simply off a lower base.\n\nTwo examples from the same set: Prestige Pine Forest scores 78 with projected 10.4%/yr and ₹63.5 L for the default unit, 0 complaints on that registration; Brigade Lakefront Crimson, ready, scores 73 with projected 8.7%/yr.\n\nGross yields there run roughly 3-4%, so rent will not service a loan. The investment case is appreciation plus the fact that a Whitefield unit actually rents and resells quickly, which matters more than most buyers price in.\n\nBefore committing, read the quarterly progress reports and the extension history on the specific registration, and for ready stock ask for the occupancy certificate.",
+      "draft": "Whitefield holds up on the data, with one trap worth knowing first: two RERA registrations under the same project name can have completely different records. Mahindra Blossom appears in my dataset under two registrations — one shows 0 complaints on that registration, the other shows 15. Same name, same developer. Check the registration number written on your agreement, not the brochure.\n\nOn the locality itself: across 90 analysed registered projects in Whitefield (Hoodi / Varthur Road), the median investment score is 58 against 50 for the average analysed Bengaluru project, median projected price growth is 9.1%/yr and the median price is around ₹11,750/sq ft (a model estimate unless the filing carried one). So it grades above average, but mostly on employment access, rental demand and resale liquidity — the cheaper eastern corridors project higher growth simply off a lower base.\n\nTwo examples from the same set: Prestige Pine Forest scores 78 with projected 10.4%/yr and ₹63.5 L for the default unit, 0 complaints on that registration; Brigade Lakefront Crimson, ready, scores 73 with projected 8.7%/yr.\n\nGross yields there run roughly 3-4%, so rent will not service a loan. The investment case is appreciation plus the fact that a Whitefield unit actually rents and resells quickly, which matters more than most buyers price in.\n\nBefore committing, read the quarterly progress reports and the extension history on the specific registration, and for ready stock ask for the occupancy certificate.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=whitefield-hoodi",
       "risk": "low",
-      "riskNote": "Opens with a verifiable, protective fact rather than a pitch. Complaint counts are quoted only as per-registration figures from the named project rows; no link and no domain mentioned.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "dd",
@@ -2063,6 +2063,52 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Which-area-of-Bangalore-has-cheap-flats",
+      "title": "Which area of Bangalore has cheap flats?",
+      "context": "Quora",
+      "postedAt": "2017-10-23T00:00:00Z",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Budget buyer wants to know where sub-₹50L flats actually exist and what the catch is.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "This is a budget-first question, so the ranked project cards with ticket sizes across the whole city answer it better than any single locality page.",
+      "draft": "Cheap flats exist in Bengaluru, and the price difference is almost entirely the corridor, not the builder. Median prices per sq ft on our estimates: Attibele / Anekal about ₹4,700, Devanahalli about ₹4,700, Hoskote / Budigere about ₹5,650, Electronic City about ₹5,850 — against ₹11,750 in Whitefield and ₹13,650 on the HSR / Koramangala fringe.\n\nThe catch shows in the quality medians. Attibele's median PropertyLens score is 36 across 134 analysed projects and Doddaballapur Road's is 22 across 21, where 50 is the average analysed Bengaluru project. Cheap corridors contain a lot of weak projects, so picking the corridor is not enough.\n\nSub-₹45 L default tickets that still score respectably, from the RERA-based data:\n\n- Sattva Aeropolis Phase 2, Devanahalli — score 67, ₹32.0 L, projected 11.7%/yr\n- Brigade Insignia, Yelahanka — score 81, ₹42.1 L, projected 11.0%/yr\n- Brigade Calista Phase 2, Budigere — score 63, ₹38.2 L, projected 10.4%/yr\n- Brillio at Brigade Valencia, Attibele — score 59, ₹28.1 L, projected 10.3%/yr\n\nThose tickets are the unit price only. GST where applicable, stamp duty and registration, other charges and interiors all sit on top, so budget well above the quoted number.\n\nAt this end of the market the single most useful check is free: the project's K-RERA registration page, its extensions, and whether quarterly construction progress matches the bookings taken.",
+      "risk": "low",
+      "riskNote": "Answers the budget question with real tickets and names the quality trade-off; no link, no steering toward a specific purchase.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked city-wide project cards with scores and default ticket sizes, filterable to sub-₹50 L."
+        },
+        {
+          "kind": "project",
+          "projectId": "sattva-aeropolis-phase-2-008119",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-aeropolis-phase-2-008119",
+          "caption": "Sattva Aeropolis Phase 2: ₹32.0 L default ticket at score 67."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia: score 81 at a ₹42.1 L default ticket in Yelahanka."
+        }
+      ],
+      "id": "0ca8ee66d4ac886e",
+      "foundAt": "2026-10-02T20:49:09.121Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/What-are-some-reasons-to-buy-a-flat-in-Whitefield-Bangalore",
       "title": "What are some reasons to buy a flat in Whitefield, Bangalore?",
       "context": "Quora",
@@ -2174,19 +2220,19 @@
     }
   ],
   "stats": {
-    "candidates": 3,
-    "kept": 2,
+    "candidates": 5,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2
+      "quora": 1
     },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
