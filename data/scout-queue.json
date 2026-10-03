@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:49:09.121Z",
+  "generatedAt": "2026-10-03T05:27:31.673Z",
   "leads": [
     {
       "platform": "quora",
@@ -1951,6 +1951,43 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wvotxa/looking_in_sumdhaura_folium_elm_tower_phase_4/",
+      "title": "Looking in Sumdhaura Folium , ELM tower phase 4, Needs suggestions",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-02T08:56:37+00:00",
+      "evergreen": false,
+      "fit": 76,
+      "intent": "Wants a sanity check on a specific Whitefield-belt tower/phase before booking",
+      "landing": "https://property-lens.ai/map?loc=whitefield-hoodi",
+      "landingWhy": "The Whitefield locality map shows every analysed registration in that belt with its score and projected growth, which is what a 'is this tower worth it' question needs — the homepage would just show the city list.",
+      "draft": "Before comparing towers, compare registrations. A later phase is usually its own K-RERA registration with its own completion date, its own extension history and its own complaint record, so ask for that registration number and read that phase's quarterly progress updates rather than the project brochure.\n\nFor a price sanity check: across the 90 analysed projects in the Whitefield (Hoodi/Varthur Road) belt the median comes out at a score of 58, about 9.1%/yr projected 5-year price growth and roughly ₹11,750/sq ft (that rate is a model estimate, not a quoted price). Nearby registrations for context, from Karnataka RERA filings and dated locality price evidence:\n\n• Prestige Pine Forest, Whitefield — score 78, projected 10.4%/yr, 0 complaints on the registration\n• Brigade Lakefront Crimson, Whitefield (ready) — score 73, projected 8.7%/yr, 1 complaint\n• Sumadhura Epitome-I, KR Puram — score 66, projected 9.3%/yr, 0 complaints\n\nScores are from the tool I built on the filings; 50 is the average analysed Bengaluru project. If the quoted rate sits well above the locality and the tower is an early phase, what protects you is the agreement, the extension record and the share of collections going through the RERA designated account, not the amenity list.",
+      "risk": "medium",
+      "riskNote": "r/indianrealestate dislikes anything broker-flavoured, so the comment carries the full answer, names no site, links nothing, and discloses plainly that I built the data tool.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Score map of the Whitefield (Hoodi) belt — median score 58 and projected growth across 90 analysed registrations."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: score 78, projected 10.4%/yr, zero complaints on the registration."
+        }
+      ],
+      "id": "d88a89c0d361f16e",
+      "foundAt": "2026-10-03T05:27:31.673Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/What-are-the-good-apartments-to-buy-near-the-Whitefield-Bangalore-area-within-a-40-50-lakhs-budget-It-can%E2%80%99t-be-more-than-50-lakhs",
       "title": "What are good apartments to buy near Whitefield, Bangalore within a 40-50 lakh budget?",
@@ -2060,6 +2097,43 @@
       ],
       "id": "e42dd364becc4f00",
       "foundAt": "2026-09-20T13:05:56.789Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wvtrtv/finally_booked_at_century_mirai_bangalore_why_i/",
+      "title": "Finally booked at Century Mirai (Bangalore)! Why I passed on Prestige, Sobha, Sumadhura, and others (My research notes)",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-02T13:25:38+00:00",
+      "evergreen": false,
+      "fit": 74,
+      "intent": "Shared buyer research on a Century project vs other Bengaluru brands; wants validation and gaps pointed out",
+      "landing": "https://property-lens.ai/?dev=Century%20Real%20Estate",
+      "landingWhy": "The developer view lists Century's registrations with their scores and red-flag counts, which is the registration-level comparison the post is missing; the homepage mixes all 200 developers.",
+      "draft": "Solid writeup. One gap worth closing before the agreement gets registered: do the diligence at the registration level, not the brand level. Two registrations from the same developer routinely look nothing alike in the K-RERA filings.\n\nFrom the filings and quarterly progress updates I pull for Bengaluru projects, the spread inside the big names is wide (scores from the tool I built on that data, 50 = average analysed project):\n\n• Century Regalia Project 2, Old Airport Road — score 73, projected 11.0%/yr price growth, 2 due-diligence red flags, 0 complaints on that registration\n• Prestige Raintree Park, Varthur — score 81, projected 10.6%/yr, 0 red flags, 1 complaint\n• Sumadhura Epitome-I, KR Puram — score 66, projected 9.3%/yr, 0 red flags, 0 complaints\n\nFour things I would pull for your specific registration: how many times the completion date has been extended, booked units versus construction progress in the latest quarterly update, how much of the collection actually went through the RERA designated account, and the land ownership or joint-development terms. All of it is public and free, and it is the part a brand reputation cannot tell you.",
+      "risk": "medium",
+      "riskNote": "OP has already booked, so the reply avoids second-guessing the decision and adds registration-level checks instead; no link, no page named, tool authorship stated once.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Century Real Estate",
+          "url": "https://property-lens.ai/?dev=Century%20Real%20Estate",
+          "caption": "Century Real Estate's analysed registrations ranked by score."
+        },
+        {
+          "kind": "dd",
+          "projectId": "century-regalia-project-2-007586",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/century-regalia-project-2-007586#dd",
+          "caption": "Due-diligence dashboard for Century Regalia Project 2 — RERA timeline, money through the RERA account, and the 2 red flags."
+        }
+      ],
+      "id": "734f2a59120ca929",
+      "foundAt": "2026-10-03T05:27:31.673Z"
     },
     {
       "platform": "quora",
@@ -2182,6 +2256,43 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1wvob02/looking_to_purchase_a_plot_in_kns_candrill/",
+      "title": "Looking to purchase a plot in KNS Candrill",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-02T08:20:52+00:00",
+      "evergreen": false,
+      "fit": 72,
+      "intent": "Wants an opinion on a KNS plotted layout before booking",
+      "landing": "https://property-lens.ai/?dev=KNS%20Infrastructure",
+      "landingWhy": "Shows KNS's own registered layouts with scores and red-flag counts, which is the only like-for-like evidence on this developer; the homepage buries it among 200 builders.",
+      "draft": "Two things to settle before any plot booking: whether the layout has its final release order with conversion and khata in place, and whether it is a K-RERA registered plotted development. Plotted layouts are registrable, and the registration gives you dated progress filings for the amenities you are being promised plus the complaint record.\n\nOn the maths, a plot earns no rent, so the entire return has to come from price. In the dataset I maintain from RERA filings, KNS's two Kurubarapalya layouts come out at a score of 65 with about 10.1%/yr projected 5-year price growth, 0% gross yield and no red flags in the due-diligence view (scores from the tool I built on the filings; 50 is the average analysed Bengaluru project).\n\nAlso ask whether the quoted rate includes the development and amenity charge, since on plots that is often a separate agreement and it changes your real cost per sq ft. And pull a 30-year EC yourself rather than accepting the seller's copy.",
+      "risk": "medium",
+      "riskNote": "Plot threads attract agents, so the comment leads with title and approval checks, names no site and links nothing; the only figures quoted are for KNS's own analysed layouts.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "KNS Infrastructure",
+          "url": "https://property-lens.ai/?dev=KNS%20Infrastructure",
+          "caption": "KNS Infrastructure's analysed layouts with scores and projected growth."
+        },
+        {
+          "kind": "dd",
+          "projectId": "kurubarapalya-000865",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/kurubarapalya-000865#dd",
+          "caption": "Due-diligence view for a KNS Kurubarapalya layout — RERA timeline, land ownership and complaint record."
+        }
+      ],
+      "id": "4aa72e5fe4120040",
+      "foundAt": "2026-10-03T05:27:31.673Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2220,19 +2331,18 @@
     }
   ],
   "stats": {
-    "candidates": 5,
-    "kept": 1,
+    "candidates": 29,
+    "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1
+      "reddit": 3
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429"
     ]
   }
 }
