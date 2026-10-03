@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T05:27:31.673Z",
+  "generatedAt": "2026-10-03T19:18:07.787Z",
   "leads": [
     {
       "platform": "quora",
@@ -2328,21 +2328,59 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wwd2sn/analyst_view_on_indian_real_estate/",
+      "title": "Analyst view on Indian Real Estate",
+      "context": "r/personalfinanceindia",
+      "postedAt": "2026-10-03T03:31:05+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants an analytical, numbers-first view of whether Indian residential real estate actually delivers returns.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The ranked city list is the page that shows the full spread of net-of-cost returns across Bengaluru projects, which is the claim the comment makes; a single project page would not.",
+      "draft": "The number that usually gets skipped in these discussions is the gap between projected price growth and what you actually keep. I model Bengaluru projects off Karnataka RERA filings, and once GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest and selling costs come out, the picture changes a lot.\n\nOn a 75% home loan over eight years, net-wealth CAGR for Bengaluru apartments mostly lands between 4% and 8% a year even where projected price growth is 9-12%. Gross rental yields sit around 2.5-4.5%, and an under-construction flat earns nothing at all until handover.\n\n• Casagrand Estancia, Yelahanka — PropertyLens score 83, projected 12.2%/yr, net-wealth CAGR 9.6%\n• Prestige Suncrest, Electronic City — score 62, projected 9.4%/yr, net-wealth CAGR 4.2%\n• New Haven Phase V, Doddaballapur Road — score 12, projected 7.6%/yr, net-wealth CAGR 1.6%\n\nBasis: K-RERA filings, promoter quarterly updates and dated locality price evidence. The growth figures are model projections, not promises, and the per-sq-ft inputs behind them are estimates.",
+      "risk": "medium",
+      "riskNote": "r/personalfinanceindia is hostile to anything broker-flavoured. No link, no domain, no call to action; the comment is pure numbers with the method and basis stated, and the self-disclosure is a single honest clause.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "prestige-suncrest-007512",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=casagrand-estancia-008086&b=prestige-suncrest-007512",
+          "caption": "Two Bengaluru projects side by side: 9.6% vs 4.2% net-wealth CAGR after every cost on the same 75% loan."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked cards showing the full spread of scores and projected returns across analysed Bengaluru projects."
+        }
+      ],
+      "id": "83658f34e49dd29b",
+      "foundAt": "2026-10-03T19:18:07.787Z"
     }
   ],
   "stats": {
-    "candidates": 29,
-    "kept": 3,
+    "candidates": 12,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "reddit": 1
     },
     "errors": [
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429"
+      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
