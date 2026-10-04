@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T06:02:58.839Z",
+  "generatedAt": "2026-10-04T14:08:33.882Z",
   "leads": [
     {
       "platform": "quora",
@@ -1721,6 +1721,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-devanahalli-a-good-place-to-invest-residential-plot",
+      "title": "Is Devanahalli a good place to invest in a residential plot?",
+      "context": "Quora",
+      "postedAt": "2020-06-17T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know if a residential plot in Devanahalli is a sound investment",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "The Devanahalli locality view carries the 212-project median score and growth figures the answer rests on, including how ordinary the median is against the headline growth — the homepage averages that away.",
+      "draft": "Devanahalli has the highest median projected price growth of any Bengaluru locality I have scored — 11.2% a year over five years across 212 analysed projects — and among the big corridors the lowest median rate, roughly ₹4,700 per sq ft (a modelled estimate, not a quote). That is the case for the area.\n\nThe case for caution is the structure of a plot. It earns no rent at all, so the entire return is price growth minus stamp duty and registration, holding costs and selling costs, with no rental cushion if the growth arrives late. In my model one plotted Godrej project shows gross yield 0.0%, projected price growth 11.0% a year, a net-wealth CAGR of 9.5% and a cash-flow IRR of 16.4% on a 75% loan — the IRR looks large because the outflows are small and lumpy, not because a plot is safer than an apartment.\n\nFor plots the legal checks matter more than for flats, because the protections are thinner:\n\n- RERA registration of the plotted layout, the approved layout plan, and release of any mortgage over your specific plot.\n- DC conversion from agricultural use, and A khata rather than B khata.\n- Land ownership and title as filed with RERA, plus a current encumbrance certificate.\n\nAlso worth knowing: the median PropertyLens score in Devanahalli is 50, exactly the analysed-Bengaluru average, so the corridor as a whole is ordinary even though the growth expectation is the highest. Individual layouts vary enormously. Research, not investment advice.",
+      "risk": "low",
+      "riskNote": "No link, no plot recommended, and the headline growth number is immediately qualified by the no-rent structure and the legal checklist, which is what a plot buyer actually needs.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli / Airport corridor: 212 analysed projects, median score 50, median projected growth 11.2%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "aravya-estate-008180",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/aravya-estate-008180",
+          "caption": "A plotted project in the dataset: gross yield 0.0% with a 9.5% net-wealth CAGR — the no-rent maths referenced in the answer."
+        }
+      ],
+      "id": "be68e62709c21084",
+      "foundAt": "2026-10-04T14:08:33.882Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Which-areas-in-Bangalore-are-good-to-buy-plots-as-investments",
       "title": "Which areas in Bangalore are good to buy plots as investments?",
       "context": "Quora",
@@ -2258,15 +2295,18 @@
   ],
   "stats": {
     "candidates": 5,
-    "kept": 0,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 1
+    },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
