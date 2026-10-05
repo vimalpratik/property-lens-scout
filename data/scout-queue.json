@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:53:38.831Z",
+  "generatedAt": "2026-10-05T17:13:30.931Z",
   "leads": [
     {
       "platform": "reddit",
@@ -2377,6 +2377,43 @@
     },
     {
       "platform": "reddit",
+      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wyaxrx/difficulty_in_getting_home_loan_in_bangalore/",
+      "title": "Difficulty in getting home loan in Bangalore",
+      "context": "r/personalfinanceindia",
+      "postedAt": "2026-10-05T15:06:46+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Wants to understand why a Bengaluru home loan is being held up and what to do about it.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence dashboard is where RERA timeline, extensions, money through the RERA account and complaints on that registration are shown together — the exact file a lender's legal team reads before approving a project.",
+      "draft": "Ask the lender to give the rejection reason in writing — in Bengaluru a large share of these are about the project file, not your income or CIBIL.\n\nThe common project-side blockers: the land sits in a gram panchayat / B-khata layout, the K-RERA registration has lapsed or been extended while construction hasn't moved, a ready flat has no occupancy certificate, or the title is a joint development where the landowner's share isn't cleanly carved out. Most banks maintain an internal approved-project list per builder, and a project missing from it gets declined regardless of how good your salary slip is.\n\nWorth pulling yourself before you reapply:\n\n• K-RERA page for the project: registration validity, every extension, quarterly progress updates\n• Complaints filed against that registration number, not the builder overall\n• Khata type and a 30-year encumbrance certificate\n• Whether the developer is bank-funded or on NBFC money\n\nI read these K-RERA filings for Bengaluru projects for a living. A clean file looks like no extension past the original completion date, construction progress roughly in line with bookings, and nothing open on the registration — some registrations carry a dozen or more complaints, which is usually visible long before a bank says no.",
+      "risk": "medium",
+      "riskNote": "No link and no tool name in the text; the sub tolerates practitioners but not promos, so the value is the written-out checklist. Complaint counts are described generically rather than attached to a project the OP never mentioned.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "What a lender-style due-diligence file looks like: RERA timeline, extensions, construction vs bookings and 15 complaints on this registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048#dd",
+          "caption": "The same dashboard on a cleaner file — no complaints on the registration, for contrast."
+        }
+      ],
+      "id": "230629651d0ed799",
+      "foundAt": "2026-10-05T17:13:30.931Z"
+    },
+    {
+      "platform": "reddit",
       "url": "https://www.reddit.com/r/bangalore/comments/1wxk1xs/bengaluru_metro_network_where_we_are_today_where/",
       "title": "Bengaluru Metro Network — Where We Are Today & Where We're Heading",
       "context": "r/bangalore",
@@ -2414,19 +2451,18 @@
     }
   ],
   "stats": {
-    "candidates": 3,
+    "candidates": 10,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "reddit": 1
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
