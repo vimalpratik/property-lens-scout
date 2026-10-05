@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T19:42:23.549Z",
+  "generatedAt": "2026-10-05T05:53:38.831Z",
   "leads": [
     {
       "platform": "reddit",
@@ -2374,21 +2374,59 @@
       ],
       "id": "96786d0d61132f35",
       "foundAt": "2026-10-04T19:42:23.549Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1wxk1xs/bengaluru_metro_network_where_we_are_today_where/",
+      "title": "Bengaluru Metro Network — Where We Are Today & Where We're Heading",
+      "context": "r/bangalore",
+      "postedAt": "2026-10-04T16:36:23+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants to understand where the metro network is heading and what it means for the city, including which areas it changes.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The thread is about corridors, and the map page is the only view that puts locality-level scores and projected growth side by side against the lines being built.",
+      "draft": "The metro map and the price map don't line up, and that's the interesting part. The corridors still waiting for a line carry the highest projected price growth; the ones connected for years carry the highest prices.\n\nMedians across the 1,854 Bengaluru residential projects I've scored off Karnataka RERA filings and dated locality price evidence (per-sq-ft numbers are model estimates, not transacted averages):\n\n• Devanahalli / airport corridor — median score 50, projected 11.2%/yr, ₹4,700/sq ft\n• Hoskote / Budigere Cross — median score 42, projected 10.2%/yr, ₹5,650/sq ft\n• Whitefield (Hoodi / Varthur Rd) — median score 58, projected 9.1%/yr, ₹11,750/sq ft\n• Jayanagar / Basavanagudi — median score 66, projected 9.3%/yr, ₹15,050/sq ft\n\nTransit is one of eleven factors in that score, and in practice it shows up in resale liquidity and rental demand more than in the growth projection. A station 2 km away does little for you if the project itself is on its third RERA extension, which is the thing worth checking before the line opens.",
+      "risk": "medium",
+      "riskNote": "r/bangalore treats anything broker-flavoured badly, so the comment carries no link, no product name and no recommendation — just locality medians with the source stated, and the numbers stand without the screenshot.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli corridor map: median score 50, highest median projected price growth at 11.2%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield (Hoodi): median score 58 but median projected growth of only 9.1%/yr at ₹11,750/sq ft (estimate)."
+        }
+      ],
+      "id": "8243ffd73cb0c1cc",
+      "foundAt": "2026-10-05T05:53:38.831Z"
     }
   ],
   "stats": {
-    "candidates": 21,
-    "kept": 3,
+    "candidates": 3,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "reddit": 1
     },
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429"
     ]
   }
 }
