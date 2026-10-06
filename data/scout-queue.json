@@ -1,52 +1,6 @@
 {
-  "generatedAt": "2026-10-05T17:13:30.931Z",
+  "generatedAt": "2026-10-06T06:32:08.841Z",
   "leads": [
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wx8ot7/prestige_raintree_park_blr/",
-      "title": "Prestige Raintree Park (BLR)",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-04T06:31:56+00:00",
-      "evergreen": false,
-      "fit": 92,
-      "intent": "Wants an honest read on whether Prestige Raintree Park in Varthur/Marathahalli is a sound buy.",
-      "landing": "https://property-lens.ai/p/prestige-raintree-park-006981",
-      "landingWhy": "The project page carries the exact score, growth projection and after-cost return for this registration, which is what the thread is asking about; the homepage would make them hunt for it.",
-      "draft": "Both Raintree Park registrations score 81 out of 100 on the model I run off the Karnataka RERA filings, against a median of 59 for the 88 projects analysed on the Marathahalli/Varthur side — above average for the corridor rather than an outlier.\n\n• Prestige Raintree Park — score 81, projected 10.6%/yr price growth, 1 RERA complaint on this registration, no red flags in due diligence\n• Evergreen at Prestige Raintree Park — score 81, projected 11.1%/yr, 0 complaints on that registration, no red flags\n\nTwo things worth checking before you book: which registration your tower actually sits under (the phases are registered separately with different completion dates), and the quarterly progress filing — construction percentage against bookings percentage is where slippage shows up long before anyone admits it.\n\nOn money: at the default 2BHK ticket of about ₹47.5 lakh with a 75% loan, the net-wealth CAGR lands near 7.1% after GST, stamp duty, registration, interiors, maintenance and interest. The 10.6% is a price projection, not what you keep.",
-      "risk": "low",
-      "riskNote": "No link, no project recommendation, and the comment answers fully on its own with figures written out. Only self-reference is that I built the model from RERA filings, which is honest and relevant.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
-          "caption": "Raintree Park's score of 81, projected 10.6%/yr growth and after-cost returns on the default unit."
-        },
-        {
-          "kind": "compare",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "evergreen-prestige-raintree-park-008374",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=prestige-raintree-park-006981&b=evergreen-prestige-raintree-park-008374",
-          "caption": "The two Raintree Park registrations side by side — same score, different growth projection and ticket."
-        },
-        {
-          "kind": "dd",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-raintree-park-006981#dd",
-          "caption": "RERA timeline, construction vs bookings and the single complaint on this registration."
-        }
-      ],
-      "id": "90a1bdbad638e820",
-      "foundAt": "2026-10-04T19:42:23.549Z"
-    },
     {
       "platform": "quora",
       "url": "https://www.quora.com/What-location-is-better-to-buy-a-flat-for-investment-purpose-between-Budhigere-cross-Yelahanka-Thanisandra-KR-Puram-and-Whitefield",
@@ -1470,43 +1424,6 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wxclaj/looking_for_plotland_investment_options_in/",
-      "title": "Looking for plot/land investment options in Bangalore – ₹50–70 lakh budget",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-04T10:38:47+00:00",
-      "evergreen": false,
-      "fit": 80,
-      "intent": "Wants specific plot/land options in Bengaluru within a ₹50–70 lakh budget.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The city map lets them filter plotted projects by locality and score in their ticket band, rather than reading a single project page.",
-      "draft": "Plots earn no rent, so the whole return has to come from price — worth holding that in mind when comparing them with apartments at the same ticket.\n\nFrom the K-RERA filings I score, in or near your band:\n• Aravya Estate (Godrej, plots) — score 51/100, projected 11.0%/yr price growth, ₹68.4 L, net-wealth CAGR 9.5% on a 75% loan\n• Kurubarapalya 2 (KNS, ready plots) — score 65, projected 10.1%/yr, ₹64.4 L, net-wealth CAGR 5.5%\n• Aashrithaa Divine Phase 2 — score 61, projected 11.7%/yr, ₹52.8 L, 2 red flags in due diligence\n• Primetownn Phase 1 (Elite Estates) — score 64, projected 11.0%/yr, ₹37.1 L\n\n50 is the average analysed Bengaluru project; the per-sq-ft inputs behind these are modelled estimates, not quotes.\n\nWhatever you shortlist, insist on the RERA registration for the layout, the approved layout plan with your plot number on it, release of that plot from any mortgage, and e-khata before paying. With plots this far out the real risk is resale liquidity, not the headline rate.",
-      "risk": "low",
-      "riskNote": "No links, no pitch. Plot-specific protections (layout approval, mortgage release, e-khata) make it useful even to someone who ignores the figures.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "aravya-estate-008180",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/aravya-estate-008180",
-          "caption": "Aravya Estate plots: score 51, projected 11.0%/yr, and a net-wealth CAGR of 9.5% with no rent assumed."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/",
-          "caption": "City-wide ranked cards, filterable to plotted projects in the ₹50–70 lakh band."
-        }
-      ],
-      "id": "fd92c83ba1e1ad85",
-      "foundAt": "2026-10-04T19:42:23.549Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/What-is-the-right-time-to-buy-a-flat-in-Bangalore",
       "title": "What is the right time to buy a flat in Bangalore?",
@@ -2340,43 +2257,6 @@
     },
     {
       "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1wxcl9h/why_are_affordable_starter_independent_homes_so/",
-      "title": "Why are affordable starter independent homes so difficult to find around Bangalore?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-04T10:38:44+00:00",
-      "evergreen": false,
-      "fit": 66,
-      "intent": "Wants to understand why cheap independent/starter homes barely exist near Bengaluru.",
-      "landing": "https://property-lens.ai/map?loc=attibele-anekal",
-      "landingWhy": "The Attibele/Anekal map shows the affordable belt's scores project by project, which is the evidence that cheap stock exists but scores poorly on access — the actual answer to the question.",
-      "draft": "The cheap independent-home belt does exist — it is 30 to 45 km out, and the scores show exactly why it stays cheap.\n\nOf the 21 projects analysed on Doddaballapur Road/Nelamangala the median investment score is 22 out of 100, where 50 is the average analysed Bengaluru project. Attibele/Anekal/Chandapura sits at 36 across 134 projects. The scores fall on employment access, transit and social infrastructure, not on construction quality.\n\nFor scale, two from that band: Kgf Ozone Nest at roughly ₹24.8 lakh scores 31, SJR Vivo City Phase 1 at ₹28.2 lakh scores 32. For about the same ₹28 lakh, an apartment at Brigade Valencia in Attibele scores 59, because access and resale liquidity are much stronger there.\n\nThat is the mechanism: land anywhere near the job corridors costs more per sq ft than a single-family format can recover, so the product becomes apartments inside and plots outside. Scores come from RERA filings and locality price evidence; the per-sq-ft inputs are modelled estimates.",
-      "risk": "medium",
-      "riskNote": "r/indianrealestate dislikes anything promotional, so the draft carries no link and no tool name — just the locality medians and the structural explanation. Risk is that it reads as data-heavy, not as a pitch.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "attibele-anekal",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=attibele-anekal",
-          "caption": "Attibele/Anekal: 134 analysed projects, median score 36 — cheap stock, weak access scores."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "doddaballapur-nelamangala",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=doddaballapur-nelamangala",
-          "caption": "Doddaballapur/Nelamangala: median score 22, the lowest-scoring belt in the city dataset."
-        }
-      ],
-      "id": "96786d0d61132f35",
-      "foundAt": "2026-10-04T19:42:23.549Z"
-    },
-    {
-      "platform": "reddit",
       "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wyaxrx/difficulty_in_getting_home_loan_in_bangalore/",
       "title": "Difficulty in getting home loan in Bangalore",
       "context": "r/personalfinanceindia",
@@ -2411,58 +2291,20 @@
       ],
       "id": "230629651d0ed799",
       "foundAt": "2026-10-05T17:13:30.931Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/bangalore/comments/1wxk1xs/bengaluru_metro_network_where_we_are_today_where/",
-      "title": "Bengaluru Metro Network — Where We Are Today & Where We're Heading",
-      "context": "r/bangalore",
-      "postedAt": "2026-10-04T16:36:23+00:00",
-      "evergreen": false,
-      "fit": 58,
-      "intent": "Wants to understand where the metro network is heading and what it means for the city, including which areas it changes.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The thread is about corridors, and the map page is the only view that puts locality-level scores and projected growth side by side against the lines being built.",
-      "draft": "The metro map and the price map don't line up, and that's the interesting part. The corridors still waiting for a line carry the highest projected price growth; the ones connected for years carry the highest prices.\n\nMedians across the 1,854 Bengaluru residential projects I've scored off Karnataka RERA filings and dated locality price evidence (per-sq-ft numbers are model estimates, not transacted averages):\n\n• Devanahalli / airport corridor — median score 50, projected 11.2%/yr, ₹4,700/sq ft\n• Hoskote / Budigere Cross — median score 42, projected 10.2%/yr, ₹5,650/sq ft\n• Whitefield (Hoodi / Varthur Rd) — median score 58, projected 9.1%/yr, ₹11,750/sq ft\n• Jayanagar / Basavanagudi — median score 66, projected 9.3%/yr, ₹15,050/sq ft\n\nTransit is one of eleven factors in that score, and in practice it shows up in resale liquidity and rental demand more than in the growth projection. A station 2 km away does little for you if the project itself is on its third RERA extension, which is the thing worth checking before the line opens.",
-      "risk": "medium",
-      "riskNote": "r/bangalore treats anything broker-flavoured badly, so the comment carries no link, no product name and no recommendation — just locality medians with the source stated, and the numbers stand without the screenshot.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "devanahalli-airport",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
-          "caption": "Devanahalli corridor map: median score 50, highest median projected price growth at 11.2%/yr."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "whitefield-hoodi",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
-          "caption": "Whitefield (Hoodi): median score 58 but median projected growth of only 9.1%/yr at ₹11,750/sq ft (estimate)."
-        }
-      ],
-      "id": "8243ffd73cb0c1cc",
-      "foundAt": "2026-10-05T05:53:38.831Z"
     }
   ],
   "stats": {
-    "candidates": 10,
-    "kept": 1,
+    "candidates": 6,
+    "kept": 0,
     "skippedSeen": 0,
-    "byPlatform": {
-      "reddit": 1
-    },
+    "byPlatform": {},
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
