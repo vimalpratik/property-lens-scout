@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:32:08.841Z",
+  "generatedAt": "2026-10-06T15:17:42.192Z",
   "leads": [
     {
       "platform": "quora",
@@ -1148,9 +1148,9 @@
       "intent": "Wants the real case for and against buying on the Sarjapur Road corridor.",
       "landing": "https://property-lens.ai/map?loc=sarjapur-road",
       "landingWhy": "The Sarjapur Road map shows the 284-project supply picture and the per-project scores behind the answer; the homepage would bury both.",
-      "draft": "The honest case for Sarjapur Road is employment access and price per sq ft. The honest case against it is supply, and most answers here skip that half.\n\n284 registered residential projects analysed on that corridor from Karnataka RERA filings — the largest pipeline of any Bengaluru locality in my dataset, around three times Whitefield's 90. Locality medians: PropertyLens score 49 out of 100 (50 is the average analysed Bengaluru project), projected price growth 9.8% a year over five years, median price about ₹8,450 per sq ft, which is a model estimate rather than a quoted rate.\n\nThat pipeline is why the median sits just below average despite genuinely good office access — it lands on resale liquidity and on price versus comparables. If you intend to exit in five years, you exit against whatever is still unsold in the towers next door.\n\nTwo of the stronger ones there:\n• Godrej Lakeside Orchard — score 72, projected 10.8%/yr, net-wealth CAGR 7.5% after every cost on an 8-year hold with a 75% loan, 2 RERA complaints on that registration\n• Birla Evara — score 71, projected 11.0%/yr, net 8.7%, 0 RERA complaints on that registration\n\nBefore booking on this road, treat infrastructure announcements as announcements: the metro line serving Sarjapur is still at the approval stage, and alignment news is not a handover date. Ask instead for the sanctioned K-RERA completion date and the extensions already filed, the BWSSB connection position, and how much of your payment actually routes through the RERA-designated account.",
+      "draft": "The honest case for Sarjapur Road is employment access and price per sq ft. The honest case against it is supply, and most answers here skip that half.\n\n284 registered residential projects analysed on that corridor from Karnataka RERA filings — the largest pipeline of any Bengaluru locality in my dataset, around three times Whitefield's 90. Locality medians: PropertyLens score 49 out of 100 (50 is the average analysed Bengaluru project), projected price growth 9.8% a year over five years, median price about ₹8,450 per sq ft, which is a model estimate rather than a quoted rate.\n\nThat pipeline is why the median sits just below average despite genuinely good office access — it lands on resale liquidity and on price versus comparables. If you intend to exit in five years, you exit against whatever is still unsold in the towers next door.\n\nTwo of the stronger ones there:\n• Godrej Lakeside Orchard — score 72, projected 10.8%/yr, net-wealth CAGR 7.5% after every cost on an 8-year hold with a 75% loan, 2 RERA complaints on that registration\n• Birla Evara — score 71, projected 11.0%/yr, net 8.7%, 0 RERA complaints on that registration\n\nBefore booking on this road, treat infrastructure announcements as announcements: the metro line serving Sarjapur is still at the approval stage, and alignment news is not a handover date. Ask instead for the sanctioned K-RERA completion date and the extensions already filed, the BWSSB connection position, and how much of your payment actually routes through the RERA-designated account.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=sarjapur-road",
       "risk": "low",
-      "riskNote": "Names the downside of the corridor rather than selling it; no link, no buy call, figures all labelled to source.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "map",
@@ -1989,6 +1989,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-flat-in-Bangalore",
+      "title": "Is it worth buying a 3 BHK flat in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2023-06-21T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Wants to know if a 3BHK at ~₹1 Cr+ in Bengaluru is a sound purchase.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "No specific project is named, so the ranked city cards — filterable by ticket and score — are the page that answers 'which ones at this budget hold up', rather than any one project page.",
+      "draft": "As a yield play it rarely clears the bar: gross rental yields across the Bengaluru projects I analyse run about 2.5% to 4.5%, which is below what you pay on a home loan. So a 3BHK has to earn its keep through use and through price growth net of costs.\n\nThree current examples near that ticket, from the K-RERA filings and the model. Godrej Woods, Yelahanka — score 81/100, projected 5-year price growth 12.2% a year, gross yield 3.8%, modelled net-wealth CAGR 9.2% on a 75% loan over eight years, indicative ₹1.07 Cr for the default unit. Nikoo Homes V Phase 2, Hennur Road — score 72, projected 10.4% a year, net-wealth CAGR 6.4%, about ₹1.04 Cr, zero RERA complaints on that registration. Prestige Somerville, Marathahalli — score 76, projected 10.4% a year, net CAGR 6.1%, about ₹1.27 Cr.\n\nNotice the gap between the headline growth and the net figure. GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs take a large share of it, and an under-construction home pays you nothing until handover while you are paying EMI and rent together.\n\nBefore booking anything at that size: compare the RERA completion date with the extensions already granted, read the quarterly progress reports against the bookings declared, and check complaints against that exact registration number rather than against the brand. Those three checks catch most of what goes wrong. Research, not advice.",
+      "risk": "low",
+      "riskNote": "Named projects are used as worked examples with labelled figures, never as recommendations; no link and no promotional sentence.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked Bengaluru project cards around the ₹1 Cr ticket, sorted by score."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-woods-008248",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-woods-008248",
+          "caption": "Godrej Woods: score 81, projected 12.2%/yr, 3.8% gross yield, 9.2% net-wealth CAGR."
+        }
+      ],
+      "id": "c9fa6e6e2fb9d4ea",
+      "foundAt": "2026-10-06T15:17:42.192Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/What-are-the-good-apartments-to-buy-near-the-Whitefield-Bangalore-area-within-a-40-50-lakhs-budget-It-can%E2%80%99t-be-more-than-50-lakhs",
       "title": "What are good apartments to buy near Whitefield, Bangalore within a 40-50 lakh budget?",
       "context": "Quora",
@@ -2294,17 +2331,18 @@
     }
   ],
   "stats": {
-    "candidates": 6,
-    "kept": 0,
+    "candidates": 11,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 1
+    },
     "errors": [
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
