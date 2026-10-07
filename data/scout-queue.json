@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T15:37:39.703Z",
+  "generatedAt": "2026-10-07T21:22:39.142Z",
   "leads": [
     {
       "platform": "quora",
@@ -2513,95 +2513,19 @@
       ],
       "id": "9c40ba36473eb20e",
       "foundAt": "2026-10-07T06:10:44.328Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/Bengaluru/comments/1wywhk2/hebbal_area/",
-      "title": "Hebbal area",
-      "context": "r/Bengaluru",
-      "postedAt": "2026-10-06T07:34:20+00:00",
-      "evergreen": false,
-      "fit": 58,
-      "intent": "Sizing up the Hebbal area — what it is like and whether it is worth putting money into a home there.",
-      "landing": "https://property-lens.ai/map?loc=hebbal-thanisandra",
-      "landingWhy": "A locality thread needs the locality view: the Hebbal/Thanisandra map shows every analysed registration in that pocket with scores, which is the evidence for the median figures in the comment.",
-      "draft": "If this is about buying around Hebbal rather than the traffic: of the 52 Hebbal/Thanisandra/Nagawara projects in the K-RERA set I analyse, the median score is 59 against 50 for the average analysed Bengaluru project, and median projected price growth is 9.7%/yr over five years. Median price works out near ₹11,750/sq ft, an estimate rather than a quoted rate.\n\n• SNN Estates Felicity — score 67, projected 10.3%/yr, under construction, 1 RERA complaint on this registration\n• Mirabelle Phase 2 (G Corp) — score 69, projected 11.6%/yr, 2 red flags in the due-diligence report\n• Brigade Senate 1 — ready, score 67, projected 9.3%/yr, 0 complaints on this registration\n• Prestige Misty Waters Vista Tower — ready, score 67, projected 9.3%/yr, 0 complaints\n\nGross yields in that pocket sit around 2.8-3.6%, so the case rests on price, not rent. Basis is K-RERA filings, promoter quarterly progress updates and the complaint register; scores are from a model I built, not a recommendation.",
-      "risk": "medium",
-      "riskNote": "r/Bengaluru is hostile to anything broker-flavoured, so there is no link, no project is praised, and every figure is written out assuming no image. Opening hedge keeps it honest if the post turns out to be about something other than buying.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "hebbal-thanisandra",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=hebbal-thanisandra",
-          "caption": "Hebbal/Thanisandra map: 52 analysed projects, median score 59, median projected 9.7%/yr."
-        },
-        {
-          "kind": "project",
-          "projectId": "snn-estates-felicity-006568",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/snn-estates-felicity-006568",
-          "caption": "SNN Estates Felicity: score 67, projected 10.3%/yr, 3.6% gross yield."
-        }
-      ],
-      "id": "ddefd1b054d83618",
-      "foundAt": "2026-10-06T21:03:24.018Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wyzub1/is_it_financially_safe_for_us_to_buy_a/",
-      "title": "Is it financially safe for us to buy a residential plot and build a house now ?",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-06T11:10:42+00:00",
-      "evergreen": false,
-      "fit": 55,
-      "intent": "Wants to know whether buying land and building now is financially sound, and what the real cost of that path is.",
-      "landing": "https://property-lens.ai/p/aravya-estate-008180",
-      "landingWhy": "It is a plotted project page where the rental yield is zero and the whole return is modelled from price growth after every cost — the exact arithmetic the comment describes, rather than a generic landing page.",
-      "draft": "The thing that usually decides this isn't the loan, it's that a plot pays you nothing while you hold it and the house pays nothing while you build. Every rupee of return has to come out of price, while you fund stamp duty, registration, GST on the construction contract and interest in the meantime.\n\nSo run it as land + registration + build cost + interest paid during construction, against a realistic year-eight sale price — not land price against land price.\n\nFor scale, from the Karnataka RERA filings for Bengaluru (the city I have data for), two projects my model treats as earning no rent:\n\n• Aravya Estate (Godrej) — score 51/100, projected 11.0%/yr price growth, 9.5% net-wealth CAGR after every cost on a 75% loan\n• Primetownn Phase 1 — score 64/100, projected 11.0%/yr, 0% rental yield\n\nBefore paying anything, confirm the layout has final plan approval and the sites are released, and that title and khata are clean — a RERA number on its own does not settle that.",
-      "risk": "low",
-      "riskNote": "No link, no product pitch, and the Bengaluru figures are explicitly flagged as the city the data covers in case the poster is elsewhere. Numbers written out since comment images are off.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "aravya-estate-008180",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/aravya-estate-008180",
-          "caption": "Plotted project with zero rental yield: all 9.5% net-wealth CAGR comes from price growth after costs."
-        },
-        {
-          "kind": "dd",
-          "projectId": "aravya-estate-008180",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/aravya-estate-008180#dd",
-          "caption": "Due-diligence view: RERA timeline, land ownership and complaint register for the same registration."
-        }
-      ],
-      "id": "7713f3b8c723c1f3",
-      "foundAt": "2026-10-06T21:03:24.018Z"
     }
   ],
   "stats": {
-    "candidates": 14,
-    "kept": 3,
+    "candidates": 8,
+    "kept": 0,
     "skippedSeen": 0,
-    "byPlatform": {
-      "reddit": 3
-    },
+    "byPlatform": {},
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
