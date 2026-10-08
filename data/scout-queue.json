@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T06:18:11.326Z",
+  "generatedAt": "2026-10-08T15:42:52.386Z",
   "leads": [
     {
       "platform": "quora",
@@ -2256,43 +2256,6 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wzlh37/is_buying_a_12_cr_apartment_on_a_12l_combined/",
-      "title": "Is buying a ₹1.2 Cr apartment on a ₹1.2L combined take-home a bad idea?",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-07T02:43:13+00:00",
-      "evergreen": false,
-      "fit": 72,
-      "intent": "Wants a reality check on whether a 1.2 Cr flat is affordable on 1.2L take-home, and what it really costs.",
-      "landing": "https://property-lens.ai/compare",
-      "landingWhy": "The useful evidence here is two similarly priced flats with very different net returns after every cost, which is exactly what the compare view puts side by side; the homepage would just be a list.",
-      "draft": "The number that decides this: 1.2 Cr with 25% down is a 90L loan, about ₹78,000 EMI at 8.5% over 20 years — roughly 65% of a ₹1.2L take-home. Most lenders cap EMI near 50-55% of net income, so at that tenure the sanction itself is likely to be the binding constraint, not your willingness.\n\nAlso, 1.2 Cr is not the cost. Add 5% GST if it is under construction, about 6.6% stamp duty and registration, and interiors — call it 1.35 Cr-plus before you move in, and no rent income at all until handover while you still pay rent somewhere.\n\nIf it's Bengaluru, two flats at the same ticket can land very far apart. From the K-RERA filings and locality price evidence I model (PropertyLens score, projected 5-yr price growth, 8-yr net-wealth CAGR after all costs on a 75% loan, complaints on that registration):\n\n• Godrej Vanantara, Bannerghatta Road — score 80, 11.5%/yr, 7.3%, 0 complaints\n• Sumadhura Epitome-I, Mahadevapura — score 66, 9.3%/yr, 4.7%, 0 complaints\n• Casagrand Meridian, Mahadevapura — score 55, 9.0%/yr, 3.9%, 7 complaints\n\nBefore any of it, pull the RERA page for the registration number: original completion date, extensions filed, and complaints. That is cheaper protection than any EMI calculation.",
-      "risk": "medium",
-      "riskNote": "r/personalfinanceindia dislikes promotion; draft carries no link, no page name, and the EMI and cost-stack answer stands alone even if the OP is not in Bengaluru (hedged explicitly).",
-      "shots": [
-        {
-          "kind": "compare",
-          "projectId": "godrej-vanantara-008653",
-          "projectIdB": "casagrand-meridian-005482",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=godrej-vanantara-008653&b=casagrand-meridian-005482",
-          "caption": "Same ~1.27 Cr ticket, 7.3% vs 3.9% net-wealth CAGR after every cost."
-        },
-        {
-          "kind": "dd",
-          "projectId": "casagrand-meridian-005482",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
-          "caption": "Due-diligence view showing the 7 RERA complaints logged on that registration."
-        }
-      ],
-      "id": "f855eaf2fbcfc14b",
-      "foundAt": "2026-10-07T15:37:39.703Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2328,94 +2291,21 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wzxk36/is_buying_a_1cr_apartment_on_a_23l_combined/",
-      "title": "Is buying a 1CR apartment on a 2.3L combined salary a bad idea?",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-07T14:10:49+00:00",
-      "evergreen": false,
-      "fit": 68,
-      "intent": "Wants to know if the EMI is sustainable and whether the purchase makes financial sense.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The question is 'is a 1 Cr flat sensible', so the city score map with per-project net returns is the evidence, not a single project page or the homepage pitch.",
-      "draft": "At 2.3L combined, 1 Cr with 25% down is a ~75L loan — about ₹65,000 EMI at 8.5% over 20 years, roughly 28% of take-home. The EMI is rarely what breaks these purchases; the entry cost and the net return are.\n\nA 1 Cr sticker is closer to ₹1.15-1.2 Cr before you move in: 5% GST if it is under construction, about 6.6% stamp duty and registration, plus interiors. That is cash on top of the down payment, and it comes straight off your return.\n\nIf this is Bengaluru, headline price growth and what you actually keep are different things once GST, interest, maintenance, vacancy and selling costs are counted. From the K-RERA filings and dated locality price evidence I model (PropertyLens score, projected 5-yr growth, 8-yr net-wealth CAGR on a 75% loan, complaints on that registration):\n\n• Prestige Raintree Park, Varthur Road — 81, 10.6%/yr, 7.1%, 1 complaint\n• Godrej Lakeside Orchard, Sarjapur Road — 72, 10.8%/yr, 7.5%, 2 complaints\n• Brigade Lakecrest, KR Puram — 75, 10.6%/yr, 6.6%, 0 complaints\n• Casagrand Vivacity, Electronic City — 65, 9.6%/yr, 4.8%, 2 complaints\n\nSame city, same loan assumption, nearly three points of difference in what you end up with. Which project you pick matters more than the salary multiple.",
-      "risk": "medium",
-      "riskNote": "No link and no page named; the answer is a complete EMI plus cost-stack calculation, and the project lines are labelled with their basis so it reads as data, not a pitch.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
-          "caption": "Score 81, projected 10.6%/yr price growth and the 7.1% net-wealth CAGR after all costs on a 75% loan."
-        },
-        {
-          "kind": "project",
-          "projectId": "casagrand-vivacity-006830",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-vivacity-006830",
-          "caption": "Same city, 4.8% net-wealth CAGR — the spread between projects at a similar budget."
-        }
-      ],
-      "id": "20c1df379f50fb3b",
-      "foundAt": "2026-10-07T15:37:39.703Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1wzo52i/40m_36f_with_15_cr_corpus_and_5l_monthly_income/",
-      "title": "40M & 36F with ₹1.5 Cr corpus and ₹5L monthly income. Looking to buy a ₹1.5 Cr flat in 3 years.",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-07T05:13:00+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Wants to structure savings and loan for a 1.5 Cr flat purchase three years out.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "They have no project in mind yet, so the city score map with per-project net returns is the right starting page rather than a single project or the homepage.",
-      "draft": "Three years out, the decision that moves your return most is ready versus under construction, not the price negotiation. Under construction you pay EMI and rent together and earn nothing until handover; ready stock pays from day one, but Bengaluru gross yields in the data I work with run about 2.5-4.5%, so rent is not the deciding argument either way.\n\nBudget the real entry cost now: a 1.5 Cr sticker is roughly 1.65-1.7 Cr all in — 5% GST if under construction, about 6.6% stamp duty and registration, plus interiors. That is cash, not loan-funded, so it should sit in the three-year corpus, not in the SIPs you plan to keep.\n\nFrom the K-RERA filings I model (PropertyLens score, projected 5-yr price growth, 8-yr net-wealth CAGR on a 75% loan, complaints on that registration):\n\n• Godrej Vanantara, Bannerghatta Road — 80, 11.5%/yr, 7.3%, 0\n• Mahindra Zen, HSR/BTM — 83, 10.5%/yr, 6.9%, 1\n• Prestige Misty Waters Vista Tower, Hebbal (ready) — 67, 9.3%/yr, 6.1%, 0\n\nWhen you actually shortlist in 2029, check extensions on the RERA registration and construction versus bookings in the quarterly updates — that is where slippage appears long before the builder admits it.",
-      "risk": "medium",
-      "riskNote": "Finance sub, strict on promotion: no link, no page named, and the ready-vs-under-construction plus cost-stack answer is complete on its own.",
-      "shots": [
-        {
-          "kind": "compare",
-          "projectId": "mahindra-zen-006712",
-          "projectIdB": "prestige-misty-waters-vista-tower-002053",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=mahindra-zen-006712&b=prestige-misty-waters-vista-tower-002053",
-          "caption": "Under-construction vs ready at a similar ticket: 6.9% against 6.1% net-wealth CAGR."
-        },
-        {
-          "kind": "dd",
-          "projectId": "godrej-vanantara-008653",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-vanantara-008653#dd",
-          "caption": "Due-diligence view: RERA timeline, extensions and complaints on the registration."
-        }
-      ],
-      "id": "e9b188284c1f208a",
-      "foundAt": "2026-10-07T15:37:39.703Z"
     }
   ],
   "stats": {
-    "candidates": 12,
+    "candidates": 1,
     "kept": 0,
-    "skippedSeen": 1,
+    "skippedSeen": 0,
     "byPlatform": {},
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429"
     ]
   }
 }
