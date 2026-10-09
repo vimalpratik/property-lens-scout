@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T06:20:22.662Z",
+  "generatedAt": "2026-10-09T15:22:08.545Z",
   "leads": [
     {
       "platform": "quora",
@@ -573,6 +573,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/A-builder-in-Bangalore-is-committing-possession-of-2027-while-the-rera-possession-date-is-2032-how-will-this-affect-me-if-the-possession-is-not-given-by-2027-as-currently-being-promised-by-the-builder",
+      "title": "A builder in Bangalore is committing possession of 2027 while the RERA possession date is 2032 — how will this affect me?",
+      "context": "Quora",
+      "postedAt": "2023-12-30T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants to know whether a verbal 2027 handover promise is enforceable when the RERA registration says 2032.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence view is the page that actually shows a RERA timeline with extensions, construction versus bookings, money through the designated account and complaints on that registration — the four things the answer tells them to check.",
+      "draft": "The date that binds the builder is the completion date on the RERA registration, not what the sales team commits. If the registration says 2032 and you get handover in 2032, there is no delay in law — Section 18 will not help you, because the promoter met the date he declared.\n\nTwo things to do before paying anything more. First, insist the agreement for sale carries the possession date you were verbally promised, with the delay compensation clause spelt out per month; an agreement date earlier than the RERA date is enforceable against him. Second, pull the project's quarterly progress reports from the K-RERA portal — they show percentage of construction completed, units booked, and money received and withdrawn from the designated project account. Selling fast while construction sits flat is the pattern that precedes a 2032-style timeline.\n\nAlso check how many extensions that registration has already taken and how many complaints are filed against it specifically, not against the promoter overall. I pulled this for 1,854 registered Bengaluru projects and the spread is real: one large Whitefield registration carries 15 RERA complaints against that single registration, while plenty of comparable projects carry zero.\n\nA five-year gap between the promise and the registration usually means the builder has bought himself room. That is not automatically fraud, but price it in, and get the date fixed in the sale agreement in writing before the next payment.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/dd/mahindra-blossom-008348",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view of a Whitefield registration carrying 15 RERA complaints against that registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "prestige-southern-star-007603",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-southern-star-007603#dd",
+          "caption": "The same dashboard for a registration with no red flags and zero complaints, for contrast."
+        }
+      ],
+      "id": "8f483ebfe12a5a9f",
+      "foundAt": "2026-10-09T15:22:08.545Z"
     },
     {
       "platform": "quora",
@@ -2442,19 +2479,19 @@
     }
   ],
   "stats": {
-    "candidates": 30,
-    "kept": 4,
+    "candidates": 1,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3,
       "quora": 1
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
