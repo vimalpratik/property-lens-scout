@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:22:08.545Z",
+  "generatedAt": "2026-10-10T14:31:33.516Z",
   "leads": [
     {
       "platform": "quora",
@@ -120,43 +120,6 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1x1c3hw/please_suggest_readytomovein_properties_with_2bhk/",
-      "title": "Please suggest ready-to-move-in properties with 2bhk on Sarjapur Road within 1.5",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-09T04:33:39+00:00",
-      "evergreen": false,
-      "fit": 88,
-      "intent": "Wants ready-to-move 2BHK options on Sarjapur Road under ₹1.5 Cr, and which ones are safe to buy.",
-      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
-      "landingWhy": "The Sarjapur Road locality map shows every analysed project in that exact corridor with its score and status, so they can see for themselves how little of the registered stock is actually completed — the homepage would show the whole city.",
-      "draft": "Ready-to-move on Sarjapur Road itself is mostly resale, because almost all the registered stock in that corridor is still under construction. Of the 284 Sarjapur Road projects in the K-RERA-based dataset I maintain, the median project score is 49/100, median projected price growth is 9.8%/yr and the median price works out to about ₹8,450/sqft (that last one is a model estimate, not a quoted rate).\n\nOne thing that genuinely helps you on a completed flat: a unit that already has its occupancy certificate attracts no GST, unlike an under-construction booking, and you can see water supply, lifts and maintenance before paying anything.\n\nClosest completed options on that side of town, PropertyLens scores from RERA filings:\n\n• Brigade Lakefront Crimson, Whitefield — ready, score 73, projected 8.7%/yr, default unit ~₹1.16 Cr, 1 RERA complaint on that registration\n• Abhee Lotus, Bellandur/ORR — ready, score 61, projected 9.1%/yr, default unit ~₹1.73 Cr (over your budget), 0 complaints on that registration\n\nBefore any token: ask for the OC copy, the khata, and the last three years of association accounts and sinking fund balance. A resale flat with no OC is the one trap worth walking away from.",
-      "risk": "low",
-      "riskNote": "No link, no domain named; the comment answers the question with concrete corridor data and an OC/khata checklist. Flagging that one listed option is above budget keeps it honest rather than promotional.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road locality map — 284 analysed projects, median score 49, with ready vs under-construction visible per project."
-        },
-        {
-          "kind": "project",
-          "projectId": "brigade-lakefront-crimson-000503",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
-          "caption": "Brigade Lakefront Crimson: score 73, projected 8.7%/yr, ready, 1 RERA complaint on the registration."
-        }
-      ],
-      "id": "5728464502634a22",
-      "foundAt": "2026-10-09T06:20:22.662Z"
     },
     {
       "platform": "quora",
@@ -1210,43 +1173,6 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1x0o6y8/curious_about_where_bengalurus_next_big_growth/",
-      "title": "Curious about where Bengaluru's next big growth corridor is quietly taking shape?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-08T11:13:35+00:00",
-      "evergreen": false,
-      "fit": 82,
-      "intent": "Wants to know which Bengaluru corridor appreciates next — and the thread needs actual numbers instead of a teaser.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The city map ranks every analysed locality by score and projected growth side by side, which is exactly the comparison the thread is asking for; a single project page would answer a narrower question.",
-      "draft": "The corridors with the highest projected growth in Bengaluru are also the ones with the lowest overall scores. That trade-off is the whole answer, and the airport corridor is the clearest case.\n\nMedians per corridor from the 1,850-odd registered projects I score off K-RERA filings and dated locality price evidence (prices are model estimates):\n\n• Devanahalli / airport — 212 projects, median score 50, projected 11.2%/yr, about ₹4,700/sqft\n• Attibele / Anekal — 134 projects, median score 36, projected 10.3%/yr, about ₹4,700/sqft\n• Hoskote / Budigere — 146 projects, median score 42, projected 10.2%/yr, about ₹5,650/sqft\n• Sarjapur Road — 284 projects, median score 49, projected 9.8%/yr, about ₹8,450/sqft\n\nThe low scores out there are employment access, transit and social infrastructure, not builder quality. Double-digit percentage growth on a ₹4,700 base is arithmetically easy; finding a tenant or an exit buyer in Attibele in year three is not.\n\nIf you need the flat rented from handover, the deep-outskirts corridors are a long wait. If you can hold ten years and don't need the rent, that is a different question — and it's a risk choice, not a prediction.",
-      "risk": "low",
-      "riskNote": "r/indianrealestate dislikes teaser posts; this replies with hard medians and no link, no domain. Framed as a trade-off rather than a recommendation, so it reads as a correction not a pitch.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "devanahalli-airport",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
-          "caption": "Devanahalli / airport corridor: 212 analysed projects, median score 50, median projected growth 11.2%/yr."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "hoskote-budigere",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=hoskote-budigere",
-          "caption": "Hoskote / Budigere: 146 projects, median score 42 — high projected growth, weak access scores."
-        }
-      ],
-      "id": "9a8163ce35735d5c",
-      "foundAt": "2026-10-09T06:20:22.662Z"
     },
     {
       "platform": "quora",
@@ -2439,59 +2365,20 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1x18tq5/dnr_arista_phase_2/",
-      "title": "DNR Arista Phase 2",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-09T01:42:09+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Wants to know whether a phase-2 launch from this Bengaluru builder is worth booking into.",
-      "landing": "https://property-lens.ai/dd/dnr-spring-leaf",
-      "landingWhy": "The due-diligence dashboard shows exactly the registration-level items the comment tells them to pull — RERA timeline, extensions, construction vs bookings, money through the RERA account — for the one DNR project in the dataset.",
-      "draft": "On any phase-2 launch, the only thing that carries over from phase 1 is the brand. Complaints, extensions, the escrow account and the committed completion date all sit against the individual K-RERA registration number, so pull the phase-2 number and read it on its own rather than judging it by how phase 1 went.\n\nFour things worth ten minutes each on the K-RERA portal:\n\n• The quarterly progress update — construction percentage against units booked\n• The committed completion date and any extension already filed\n• Complaints and court cases listed against that registration\n• Land ownership or the JDA, and whether receipts route through the RERA account\n\nFor context on the promoter, the only DNR project in the dataset I maintain is Spring Leaf in Koramangala, ready, with a PropertyLens score of 53, projected price growth of 8.6%/yr and a 4.8% gross yield. That says nothing about Arista — which is the point. Phase-level reading is the only reading that protects you.",
-      "risk": "medium",
-      "riskNote": "I have no analysed figures for this specific project, so the draft says so plainly instead of implying coverage. No link, no domain; the value is the registration-level checklist, which stands alone if nobody clicks anything.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "dnr-spring-leaf",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/dnr-spring-leaf#dd",
-          "caption": "Due-diligence view for DNR Spring Leaf: RERA timeline, extensions, construction vs bookings, money through the RERA account."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "DNR Group",
-          "url": "https://property-lens.ai/?dev=DNR%20Group",
-          "caption": "All analysed DNR Group projects ranked, showing what coverage exists for the promoter."
-        }
-      ],
-      "id": "9715e7769a8540da",
-      "foundAt": "2026-10-09T06:20:22.662Z"
     }
   ],
   "stats": {
-    "candidates": 1,
-    "kept": 1,
+    "candidates": 0,
+    "kept": 0,
     "skippedSeen": 0,
-    "byPlatform": {
-      "quora": 1
-    },
+    "byPlatform": {},
     "errors": [
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429"
     ]
   }
 }
