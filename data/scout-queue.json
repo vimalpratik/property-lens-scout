@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T14:31:33.516Z",
+  "generatedAt": "2026-10-10T20:10:25.219Z",
   "leads": [
     {
       "platform": "quora",
@@ -1175,6 +1175,43 @@
       "foundAt": "2026-09-23T13:42:51.354Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x27e7y/my_experience_with_nambiar_builders_nambiar/",
+      "title": "My experience with Nambiar Builders / Nambiar District 25 – cancellation, refund delays and poor communication",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-10T05:46:43+00:00",
+      "evergreen": false,
+      "fit": 82,
+      "intent": "Wants a refund actually paid out and wants others to know what they are dealing with.",
+      "landing": "https://property-lens.ai/?dev=Nambiar%20Builders",
+      "landingWhy": "Shows every Nambiar registration with its own due-diligence summary, which is the level the complaint register and escrow data actually live at — a homepage would not.",
+      "draft": "Refund delay is one of the few things K-RERA genuinely acts on. A written cancellation plus a Section 18 complaint on that exact registration number is the lever; interest on a delayed refund is payable at SBI's highest MCLR plus 2%, and the complaint is filed online against the registration, not the brand.\n\nTwo things worth pulling before you file. Ask for the RERA account withdrawal statement and the quarterly progress report for your phase, then compare units booked against construction actually certified — a gap there is what refund cases are usually won on.\n\nAlso check the complaint count on your specific registration rather than the promoter's total. From the K-RERA register as pulled into my dataset, it varies enormously between registrations of the same builder:\n\n• Mahindra Blossom (Whitefield) — 15 complaints on that registration\n• Prestige Westwoods (Rajajinagar) — 11\n• Casagrand Meridian (Mahadevapura) — 7\n• Sobha Indraprastha (Rajajinagar) — 5\n\nI scrape these filings for a research tool I built, so happy to say what the register shows for a registration number if you post it.",
+      "risk": "low",
+      "riskNote": "No link, no project pitch, and the complaint figures are quoted per named registration exactly as the data allows. Founder disclosure is one clause at the end, offered as help rather than promotion.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Nambiar Builders",
+          "url": "https://property-lens.ai/?dev=Nambiar%20Builders",
+          "caption": "Nambiar's registered projects ranked, each with its own due-diligence flags."
+        },
+        {
+          "kind": "dd",
+          "projectId": "brigade-sanctuary",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-sanctuary#dd",
+          "caption": "What the due-diligence view contains: RERA timeline and extensions, construction vs bookings, money through the RERA account, complaints."
+        }
+      ],
+      "id": "ce5cda51be68d389",
+      "foundAt": "2026-10-10T20:10:25.219Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/What-are-the-reasons-to-invest-in-Sarjapur-Road-Bangalore",
       "title": "What are the reasons to invest in Sarjapur Road, Bangalore?",
@@ -2210,6 +2247,43 @@
       "foundAt": "2026-09-20T13:05:56.789Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x2bw8h/prestige_lavender_fields_questions/",
+      "title": "Prestige Lavender Fields Questions",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-10T10:25:37+00:00",
+      "evergreen": false,
+      "fit": 74,
+      "intent": "Wants an honest read on a specific Prestige project before putting money in.",
+      "landing": "https://property-lens.ai/?dev=Prestige",
+      "landingWhy": "Ranks Prestige's registered Bengaluru projects against each other, which is the comparison the commenter needs — the homepage mixes in 200 other developers.",
+      "draft": "Almost every question worth asking about that project is answerable from the K-RERA page for its exact registration number, and none of it is in the brochure. Pull four things: the registered completion date and how many extension orders it has taken, the quarterly progress reports (units booked vs construction certified), complaints filed on that registration, and whether the land is owned or held under a joint development agreement.\n\nI don't have Lavender Fields in the set I've analysed, so I'm not going to quote numbers for it. For context on nearby Prestige stock, from RERA filings and locality price evidence:\n\n• Prestige Raintree Park (Varthur) — score 81, projected 10.6%/yr price growth, 1 complaint on that registration\n• Evergreen @ Prestige Raintree Park — score 81, projected 11.1%/yr, 0 complaints\n• Prestige Pine Forest (Whitefield) — score 78, projected 10.4%/yr, 0 complaints\n• Marathahalli/Varthur median across 88 analysed projects — score 59, 9.2%/yr\n\n50 is the average analysed Bengaluru project on that scale. If the price being quoted to you is well above the comparable Prestige launches on the same stretch, that gap is the thing to interrogate, not the amenity list.",
+      "risk": "medium",
+      "riskNote": "r/indianrealestate dislikes anything broker-shaped; the draft names no product, declines to quote figures it doesn't have, and contains no link or tool name.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Prestige",
+          "url": "https://property-lens.ai/?dev=Prestige",
+          "caption": "Prestige's Bengaluru registrations ranked by score, with complaints and red flags per project."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
+          "caption": "Prestige Raintree Park: score 81, projected 10.6%/yr, cost-adjusted returns."
+        }
+      ],
+      "id": "308106d1a97f17be",
+      "foundAt": "2026-10-10T20:10:25.219Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-area-of-Bangalore-has-cheap-flats",
       "title": "Which area of Bangalore has cheap flats?",
@@ -2365,20 +2439,59 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x2c1jd/villas_in_electronic_city/",
+      "title": "Villas in Electronic City",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-10T10:34:33+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Looking for villa options in Electronic City and whether that corridor is a sensible place to put money.",
+      "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+      "landingWhy": "Shows every registered Electronic City project scored individually, which is what the commenter needs to separate the good registrations from a weak-scoring corridor.",
+      "draft": "Electronic City scores worse than its reputation suggests. Across the 115 registered projects I've analysed there, the median score is 41 out of 100 against 50 for the average analysed Bengaluru project, with median projected 5-year price growth of 9.1% a year and a modelled median of about ₹5,850 per sq ft (an estimate, not a quoted rate). The drag is resale liquidity and transit, not the housing stock.\n\nFor a villa the cost structure matters more than the score. No rent until it's built, full loan interest running through construction, and higher maintenance afterwards — that combination is what pushes net returns down. For comparison, apartments there, from RERA filings and locality price evidence:\n\n• Casagrand Vivacity — score 65, projected 9.6%/yr, net-wealth CAGR 4.8% after all costs\n• Purva Silversky — score 65, projected 10.0%/yr, net 4.5%\n• Prestige Suncrest — score 62, projected 9.4%/yr, net 4.2%\n• Assetz Ren & Rei — score 59, projected 9.1%/yr, net 3.7%\n\nVilla and plotted projects need K-RERA registration too, so ask for the registration number, the approved layout plan and the khata before any booking amount moves.",
+      "risk": "medium",
+      "riskNote": "Locality is answered with real figures rather than a product push; no link, no tool name, and the villa-specific gap is stated honestly instead of papered over.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "electronic-city-hosur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+          "caption": "Electronic City score map — median 41 across 115 analysed registered projects."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-vivacity-006830",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-vivacity-006830",
+          "caption": "Casagrand Vivacity: score 65, projected 9.6%/yr, 4.8% net-wealth CAGR after every cost."
+        }
+      ],
+      "id": "03e0ef1a77aeabae",
+      "foundAt": "2026-10-10T20:10:25.219Z"
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 0,
+    "candidates": 31,
+    "kept": 3,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "reddit": 3
+    },
     "errors": [
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
