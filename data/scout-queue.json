@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:10:25.219Z",
+  "generatedAt": "2026-10-11T14:57:51.679Z",
   "leads": [
     {
       "platform": "quora",
@@ -2476,22 +2476,58 @@
       ],
       "id": "03e0ef1a77aeabae",
       "foundAt": "2026-10-10T20:10:25.219Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1x2okxd/to_people_who_bought_25cr_flats_in_202526_with/",
+      "title": "To people who bought 2.5cr+ flats in 2025–26 with huge loans and little liquid savings, what was your reasoning?",
+      "context": "r/personalfinanceindia",
+      "postedAt": "2026-10-10T20:01:21+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants to understand whether the big-ticket flat buyers had a rational case or were stretching.",
+      "landing": "https://property-lens.ai/map?loc=hsr-koramangala-south",
+      "landingWhy": "The HSR/BTM/Koramangala-fringe map is where Bengaluru's 2 Cr+ ticket sits, so it carries the exact projects whose after-cost returns the comment quotes.",
+      "draft": "The number that decides this isn't price growth, it's what survives the costs. On a Rs 2 Cr Bengaluru flat bought with a 75% loan and held eight years, a projected 11%/yr price rise comes out around 7%/yr of net wealth once GST, stamp duty and registration, interiors, loan interest, maintenance and selling costs are counted — and rent at today's yields covers roughly a quarter of the EMI.\n\nFrom the K-RERA filings and dated locality price evidence I work through (score out of 100, 8-year hold, 75% loan):\n\n• Haven, HSR/BTM — score 85, projected 10.9%/yr, net-wealth CAGR 7.2%, gross yield 2.8%\n• Mahindra Newhaven, HSR — 85, 11.4%/yr, 7.7%, 3.1%\n• Mahindra Zen, HSR — 83, 10.5%/yr, 6.9%, 3.3%\n• Assetz Mizumi Reserve, HSR — 72, 10.4%/yr, 7.0%, 3.0%\n\nSo at that ticket the reasoning is usually a home plus forced saving, not alpha. With thin liquid savings what actually bites is a handover slipping 18 months while you pay rent and EMI together, which is why the extensions and complaints on the specific RERA registration are worth reading before the brochure.",
+      "risk": "medium",
+      "riskNote": "Not a Bengaluru-only sub and self-built data is referenced, so the comment carries the full numbers, claims no neutrality, gives no recommendation and contains no link.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "haven-007785",
+          "projectIdB": "mahindra-newhaven-007668",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=haven-007785&b=mahindra-newhaven-007668",
+          "caption": "Two 2 Cr+ HSR projects side by side: scores 85 each, projected growth vs after-cost net-wealth CAGR."
+        },
+        {
+          "kind": "project",
+          "projectId": "mahindra-zen-006712",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-zen-006712",
+          "caption": "Mahindra Zen: score 83, projected 10.5%/yr, net-wealth CAGR 6.9% on a 75% loan after every cost."
+        }
+      ],
+      "id": "73f9d37c3a158210",
+      "foundAt": "2026-10-11T14:57:51.679Z"
     }
   ],
   "stats": {
-    "candidates": 31,
-    "kept": 3,
+    "candidates": 8,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "reddit": 1
     },
     "errors": [
-      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
