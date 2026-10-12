@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T20:22:57.763Z",
+  "generatedAt": "2026-10-12T18:02:25.671Z",
   "leads": [
     {
       "platform": "quora",
@@ -2367,6 +2367,43 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1x3x0gx/kaggalipura_bypass_bengaluru_grows_kanakapura/",
+      "title": "Kaggalipura Bypass: Bengaluru Grows, Kanakapura Road Suffers",
+      "context": "r/Bengaluru",
+      "postedAt": "2026-10-12T09:07:25+00:00",
+      "evergreen": false,
+      "fit": 72,
+      "intent": "Wants to understand whether the bypass helps or hurts the Kanakapura Road corridor, including what it means for people who live or own there.",
+      "landing": "https://property-lens.ai/map?loc=kanakapura-road",
+      "landingWhy": "The locality score map for Kanakapura Road shows the corridor's project-by-project scores and projected growth, which is the evidence for the claim that it already prices above what its access supports — the homepage shows the whole city instead.",
+      "draft": "Kanakapura Road already prices like a corridor with better access than it actually has. Across the 80 registered projects on that stretch in my dataset, the median projected 5-yr price growth is 8.3%/yr — the lowest of any major Bengaluru corridor I track — while the median works out near ₹9,200/sq ft, which is an estimate, not a quoted rate.\n\nFor context, same model, same method (K-RERA filings plus dated locality price evidence):\n\n• Kanakapura Road — 80 projects, median score 43, 8.3%/yr projected\n\n• Mysore Rd / RR Nagar / Kengeri — 78 projects, median 54, 10.6%/yr\n\n• Bannerghatta / JP Nagar — 70 projects, median 61, 9.5%/yr\n\nA bypass that pulls through-traffic off the road helps commute times but doesn't move the things the scores actually turn on — office pipeline, metro access and supply. I built the model, so treat it as research rather than a forecast.",
+      "risk": "low",
+      "riskNote": "No link, no product name, no sales language; the figures stand alone and the only self-reference is an honest one-line disclosure at the end, which r/Bengaluru tolerates far better than a plug.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "kanakapura-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=kanakapura-road",
+          "caption": "Kanakapura Road locality map: 80 analysed projects, median score 43 and median projected 5-yr growth 8.3%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "mysore-road-rr-nagar-kengeri",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
+          "caption": "Mysore Road / RR Nagar / Kengeri for comparison: median score 54 and 10.6%/yr projected on a cheaper base."
+        }
+      ],
+      "id": "8a36608f48717c7f",
+      "foundAt": "2026-10-12T18:02:25.671Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2402,60 +2439,22 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1x2okxd/to_people_who_bought_25cr_flats_in_202526_with/",
-      "title": "To people who bought 2.5cr+ flats in 2025–26 with huge loans and little liquid savings, what was your reasoning?",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-10T20:01:21+00:00",
-      "evergreen": false,
-      "fit": 58,
-      "intent": "Wants to understand whether the big-ticket flat buyers had a rational case or were stretching.",
-      "landing": "https://property-lens.ai/map?loc=hsr-koramangala-south",
-      "landingWhy": "The HSR/BTM/Koramangala-fringe map is where Bengaluru's 2 Cr+ ticket sits, so it carries the exact projects whose after-cost returns the comment quotes.",
-      "draft": "The number that decides this isn't price growth, it's what survives the costs. On a Rs 2 Cr Bengaluru flat bought with a 75% loan and held eight years, a projected 11%/yr price rise comes out around 7%/yr of net wealth once GST, stamp duty and registration, interiors, loan interest, maintenance and selling costs are counted — and rent at today's yields covers roughly a quarter of the EMI.\n\nFrom the K-RERA filings and dated locality price evidence I work through (score out of 100, 8-year hold, 75% loan):\n\n• Haven, HSR/BTM — score 85, projected 10.9%/yr, net-wealth CAGR 7.2%, gross yield 2.8%\n• Mahindra Newhaven, HSR — 85, 11.4%/yr, 7.7%, 3.1%\n• Mahindra Zen, HSR — 83, 10.5%/yr, 6.9%, 3.3%\n• Assetz Mizumi Reserve, HSR — 72, 10.4%/yr, 7.0%, 3.0%\n\nSo at that ticket the reasoning is usually a home plus forced saving, not alpha. With thin liquid savings what actually bites is a handover slipping 18 months while you pay rent and EMI together, which is why the extensions and complaints on the specific RERA registration are worth reading before the brochure.",
-      "risk": "medium",
-      "riskNote": "Not a Bengaluru-only sub and self-built data is referenced, so the comment carries the full numbers, claims no neutrality, gives no recommendation and contains no link.",
-      "shots": [
-        {
-          "kind": "compare",
-          "projectId": "haven-007785",
-          "projectIdB": "mahindra-newhaven-007668",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=haven-007785&b=mahindra-newhaven-007668",
-          "caption": "Two 2 Cr+ HSR projects side by side: scores 85 each, projected growth vs after-cost net-wealth CAGR."
-        },
-        {
-          "kind": "project",
-          "projectId": "mahindra-zen-006712",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-zen-006712",
-          "caption": "Mahindra Zen: score 83, projected 10.5%/yr, net-wealth CAGR 6.9% on a 75% loan after every cost."
-        }
-      ],
-      "id": "73f9d37c3a158210",
-      "foundAt": "2026-10-11T14:57:51.679Z"
     }
   ],
   "stats": {
-    "candidates": 0,
+    "candidates": 4,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1
+      "reddit": 1
     },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
