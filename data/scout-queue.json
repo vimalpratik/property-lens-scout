@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:06:53.687Z",
+  "generatedAt": "2026-10-13T21:20:43.544Z",
   "leads": [
     {
       "platform": "reddit",
@@ -1247,6 +1247,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x4oy4v/sattva_songbird_plan_modification_by_sattva_info/",
+      "title": "Sattva Songbird : Plan Modification by Sattva (Info inside)",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-13T06:05:23+00:00",
+      "evergreen": false,
+      "fit": 82,
+      "intent": "Allottees want to know whether the builder can change the sanctioned plan and what their rights and next steps are.",
+      "landing": "https://property-lens.ai/dd/sattva-forest-ridge-007315",
+      "landingWhy": "The thread is about a plan amendment on a Sattva registration. The due-diligence page for another Sattva registration shows exactly the artefacts the comment tells people to pull — RERA timeline and extensions, construction vs bookings, money through the RERA account and complaints against that registration — none of which the homepage shows.",
+      "draft": "Under Section 14 of the RERA Act a promoter cannot alter the sanctioned plans, layout or common areas after the agreements are signed without written consent from two-thirds of the allottees. Only minor changes an architect or engineer certifies as necessary are exempt, and the amended plan has to be filed with K-RERA.\n\nThree things worth pulling from the K-RERA page for that registration number before anyone signs a consent form:\n\n• the current sanctioned plan and the latest quarterly progress report, compared against the plan annexed to your agreement\n\n• whether the completion date on the same registration was extended in the quarter the amendment was filed\n\n• complaints registered against that specific registration, not the promoter's total across projects\n\nI read K-RERA filings for a living. An amendment landing alongside an extension usually points at phasing or funding, not amenities. Put your objection in writing to the promoter and copy K-RERA; an undocumented objection is worth nothing at a hearing later.",
+      "risk": "low",
+      "riskNote": "No link, no product name, no sales sentence. The comment is a rights-and-documents answer that stands alone; the only self-reference is an honest line about working with K-RERA filings.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "sattva-forest-ridge-007315",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-forest-ridge-007315#dd",
+          "caption": "Due-diligence view of another Sattva registration: RERA timeline, extensions, construction vs bookings and complaints on that registration."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Sattva (Salarpuria)",
+          "url": "https://property-lens.ai/?dev=Sattva%20(Salarpuria)",
+          "caption": "Sattva's analysed Bengaluru registrations ranked, so the plan change can be read against the developer's wider delivery record."
+        }
+      ],
+      "id": "0a311ec3cb281501",
+      "foundAt": "2026-10-13T21:20:43.544Z"
     },
     {
       "platform": "reddit",
@@ -2515,43 +2552,6 @@
       "foundAt": "2026-10-13T06:54:07.195Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/Bengaluru/comments/1x3x0gx/kaggalipura_bypass_bengaluru_grows_kanakapura/",
-      "title": "Kaggalipura Bypass: Bengaluru Grows, Kanakapura Road Suffers",
-      "context": "r/Bengaluru",
-      "postedAt": "2026-10-12T09:07:25+00:00",
-      "evergreen": false,
-      "fit": 72,
-      "intent": "Wants to understand whether the bypass helps or hurts the Kanakapura Road corridor, including what it means for people who live or own there.",
-      "landing": "https://property-lens.ai/map?loc=kanakapura-road",
-      "landingWhy": "The locality score map for Kanakapura Road shows the corridor's project-by-project scores and projected growth, which is the evidence for the claim that it already prices above what its access supports — the homepage shows the whole city instead.",
-      "draft": "Kanakapura Road already prices like a corridor with better access than it actually has. Across the 80 registered projects on that stretch in my dataset, the median projected 5-yr price growth is 8.3%/yr — the lowest of any major Bengaluru corridor I track — while the median works out near ₹9,200/sq ft, which is an estimate, not a quoted rate.\n\nFor context, same model, same method (K-RERA filings plus dated locality price evidence):\n\n• Kanakapura Road — 80 projects, median score 43, 8.3%/yr projected\n\n• Mysore Rd / RR Nagar / Kengeri — 78 projects, median 54, 10.6%/yr\n\n• Bannerghatta / JP Nagar — 70 projects, median 61, 9.5%/yr\n\nA bypass that pulls through-traffic off the road helps commute times but doesn't move the things the scores actually turn on — office pipeline, metro access and supply. I built the model, so treat it as research rather than a forecast.",
-      "risk": "low",
-      "riskNote": "No link, no product name, no sales language; the figures stand alone and the only self-reference is an honest one-line disclosure at the end, which r/Bengaluru tolerates far better than a plug.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "kanakapura-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=kanakapura-road",
-          "caption": "Kanakapura Road locality map: 80 analysed projects, median score 43 and median projected 5-yr growth 8.3%/yr."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "mysore-road-rr-nagar-kengeri",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
-          "caption": "Mysore Road / RR Nagar / Kengeri for comparison: median score 54 and 10.6%/yr projected on a cheaper base."
-        }
-      ],
-      "id": "8a36608f48717c7f",
-      "foundAt": "2026-10-12T18:02:25.671Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2624,20 +2624,94 @@
       ],
       "id": "95cbfbdfad941736",
       "foundAt": "2026-10-13T16:06:53.687Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x54ce3/bda_3040_at_hbr_layout_4th_block_bangalore/",
+      "title": "BDA 30*40 at HBR layout 4th block - Bangalore",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-13T18:18:26+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Sanity-check a BDA 30x40 site in HBR Layout 4th Block — paperwork and whether the price/return makes sense.",
+      "landing": "https://property-lens.ai/map?loc=hennur-kothanur",
+      "landingWhy": "HBR 4th Block sits in the Hennur Road / Kothanur / Kalyan Nagar belt; the locality map gives dated, project-level price and growth evidence for the immediate area, which is the only honest price anchor for a BDA site there. The homepage has no locality evidence.",
+      "draft": "A BDA 30x40 is a title-and-khata question before it is a price question, and that is where these deals fall over.\n\nWhat to insist on seeing, in the seller's name:\n\n• original BDA allotment letter, possession certificate and absolute sale deed, plus every sale deed in the chain since\n\n• e-khata matching the deed — registration in BBMP limits now runs off it, and any mismatch stalls the sale\n\n• 30-year encumbrance certificate, property tax paid receipts and betterment charges cleared\n\nOn value: in the Hennur Road / Kothanur / Kalyan Nagar belt next door I have 95 registered projects analysed from RERA filings, median projected price growth 9.3% a year over five years, median apartment price around ₹10,350 per sq ft (an estimate, not a quoted rate). A plot earns zero until you build, so the whole return rides on land appreciation — a ready apartment in that belt like Radiance Gardenia models a 4.3% gross yield by comparison.",
+      "risk": "low",
+      "riskNote": "No link and no page named. Leads with documents that protect the buyer; the locality figures are labelled as medians from filings and the per-sq-ft number is explicitly called an estimate.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hennur-kothanur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hennur-kothanur",
+          "caption": "Hennur Road / Kothanur / Kalyan Nagar scored: 95 analysed projects, median projected growth 9.3% a year."
+        },
+        {
+          "kind": "project",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/radiance-gardenia-005430",
+          "caption": "Radiance Gardenia, ready, score 69 and 4.3% gross yield — the rental comparison a plot does not have."
+        }
+      ],
+      "id": "1f7c53afbfdefd42",
+      "foundAt": "2026-10-13T21:20:43.544Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x4y307/no_emi_till_possession_is_it_really_a_benefit_to/",
+      "title": "\"No EMI till possession\" - Is it really a benefit to buyer",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-13T14:26:06+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Understand whether subvention / no-EMI-till-possession schemes actually benefit the buyer.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The real cost of the scheme is the lost rent and the under-construction cost stack; the compare view shows an under-construction and a ready project in the same locality with net returns after GST, interest and vacancy, which is the evidence for the claim in the comment.",
+      "draft": "It is a subvention scheme: the builder pays your pre-EMI interest for a fixed window, but the loan is sanctioned and disbursed in your name, stage-wise. If the project slips past that window, or the builder stops paying, the EMI and the credit score are yours, not his.\n\nTwo things to get in writing before you sign:\n\n• the construction-linked price list and the subvention price list for the same unit — the gap is what the scheme actually costs you\n\n• the exact end date of the subvention and what happens if the RERA completion date is extended beyond it\n\nThe part nobody prices is rent. Two Hennur Road projects with near-identical scores in my model — one under construction at 70, one ready at 69 — work out to 6.1% versus 7.0% net-wealth CAGR over eight years on a 75% loan, after GST, stamp duty, interest and vacancy. Earning rent from day one is most of that gap, and no subvention gives it back.",
+      "risk": "medium",
+      "riskNote": "Pan-India thread answered with Bengaluru-modelled evidence, so the fit is narrower than the others; no link, no page named, and the comment is a complete answer on subvention mechanics even if nobody clicks anything.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "nikoo-homes-v-phase-1-006418",
+          "projectIdB": "radiance-gardenia-005430",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=nikoo-homes-v-phase-1-006418&b=radiance-gardenia-005430",
+          "caption": "Same locality, under-construction (score 70) versus ready (69): 6.1% vs 7.0% net-wealth CAGR after every cost."
+        },
+        {
+          "kind": "project",
+          "projectId": "nikoo-homes-v-phase-1-006418",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/nikoo-homes-v-phase-1-006418",
+          "caption": "The under-construction case broken out — no rent before handover, with loan interest and GST included."
+        }
+      ],
+      "id": "2c831da0843d9d41",
+      "foundAt": "2026-10-13T21:20:43.544Z"
     }
   ],
   "stats": {
-    "candidates": 28,
-    "kept": 4,
-    "skippedSeen": 0,
+    "candidates": 19,
+    "kept": 3,
+    "skippedSeen": 3,
     "byPlatform": {
-      "reddit": 4
+      "reddit": 3
     },
     "errors": [
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
