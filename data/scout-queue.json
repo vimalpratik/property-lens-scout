@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:20:43.544Z",
+  "generatedAt": "2026-10-14T13:50:41.503Z",
   "leads": [
     {
       "platform": "reddit",
@@ -2515,43 +2515,6 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1x4472l/9_rera_rights_most_homebuyers_dont_know_about/",
-      "title": "9 RERA rights most homebuyers don't know about",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-10-12T15:01:50+00:00",
-      "evergreen": false,
-      "fit": 72,
-      "intent": "Readers want to know which RERA protections actually help them before booking a flat.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "The comment's whole point is that complaints and extensions sit on a specific registration, and this due-diligence page is the registration whose record proves it — RERA timeline, extensions and the complaint count in one view, which neither the homepage nor a project score page shows.",
-      "draft": "Worth adding a tenth: the complaint register is per RERA registration, not per builder — and a project sold under one brand name can sit across two registrations with completely different records.\n\nComplaint counts on these specific registrations, from the K-RERA register (I keep a pull of the Bengaluru filings):\n\n• Mahindra Blossom, Whitefield, reg 008348 — 15\n• Prestige Westwoods, Rajajinagar — 11\n• Casagrand Meridian, KR Puram — 7\n• Sobha Indraprastha, Rajajinagar — 5\n\nThe second Mahindra Blossom registration carries 0 under the same project name. So take the registration number off the agreement, not the brochure, and read that registration's quarterly progress report against its declared completion date.\n\nExtensions and slipped timelines show up in those quarterly filings months before a sales team mentions them, and they are free to read.",
-      "risk": "low",
-      "riskNote": "No link, no domain named, no project recommended — just complaint counts tied to named registrations and a method anyone can repeat on the K-RERA site. The 'I keep a pull of the filings' line is honest disclosure without a pitch, which is what r/personalfinanceindia tolerates.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "Due-diligence view for registration 008348 showing the 15 complaints on that registration plus the RERA timeline."
-        },
-        {
-          "kind": "dd",
-          "projectId": "casagrand-meridian-005482",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
-          "caption": "Casagrand Meridian due diligence — 7 complaints on this registration alongside construction versus bookings."
-        }
-      ],
-      "id": "d18a8730a72f350f",
-      "foundAt": "2026-10-13T06:54:07.195Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2701,18 +2664,17 @@
     }
   ],
   "stats": {
-    "candidates": 19,
-    "kept": 3,
-    "skippedSeen": 3,
-    "byPlatform": {
-      "reddit": 3
-    },
+    "candidates": 5,
+    "kept": 0,
+    "skippedSeen": 0,
+    "byPlatform": {},
     "errors": [
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
