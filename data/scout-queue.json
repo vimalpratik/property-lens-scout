@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:52:07.926Z",
+  "generatedAt": "2026-10-15T13:31:53.832Z",
   "leads": [
     {
       "platform": "quora",
@@ -120,6 +120,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x6hadd/bangalore_property_advice_needed_2_cr_apartment/",
+      "title": "Bangalore property advice needed: ₹2 Cr apartment vs ₹4 Cr villa for a family of 4–6 — which areas should we consider?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-15T09:40:04+00:00",
+      "evergreen": false,
+      "fit": 88,
+      "intent": "Wants to know which Bengaluru areas/format (₹2 Cr flat vs ₹4 Cr villa) suits a large family living there long term.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "They asked about areas, not one project — the score map shows how localities compare across Bengaluru, which the homepage does not.",
+      "draft": "₹4 Cr of villa in Bengaluru almost always sits on the periphery — Sarjapur past Dommasandra, Devanahalli, the Whitefield edge — while ₹2 Cr of apartment buys a core location. So the real trade is commute and handover risk, not luxury.\n\nThe scores below are from a 0-100 model I built on Karnataka RERA filings (50 is the average analysed Bengaluru project), and the complaint count is the K-RERA register entry for that specific registration:\n\n• Haven, HSR/BTM (Lodha) — score 85, projected 10.9%/yr price growth, ticket ₹2.06 Cr, 0 complaints\n• Mahindra Zen, HSR — score 83, 10.5%/yr, ₹1.77 Cr, 1 complaint\n• Godrej Vanantara, Bannerghatta — score 80, 11.5%/yr, ₹1.27 Cr, 0 complaints\n• Prestige Somerville, Marathahalli — score 76, 10.4%/yr, ₹1.27 Cr, 0 complaints\n\nGross rental yield on all four sits around 3%, so for a family that will actually live in it the deciding items are school and office access, the RERA completion date, and any extensions already filed on that registration. That is research, not a recommendation to pick one.",
+      "risk": "low",
+      "riskNote": "No link, no project pushed as 'best', figures labelled with their basis and the model disclosed as mine. r/indianrealestate tolerates data comments; it punishes brochure language, so the draft stays blunt and ends on a caveat.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hsr-koramangala-south",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hsr-koramangala-south",
+          "caption": "Score map of HSR/BTM/Koramangala fringe, where the ₹2 Cr apartment options cluster."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-vanantara-008653",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-vanantara-008653",
+          "caption": "Godrej Vanantara on Bannerghatta Road: score 80, projected 11.5%/yr, ₹1.27 Cr for the default unit."
+        }
+      ],
+      "id": "c1c9532a86aa56d7",
+      "foundAt": "2026-10-15T13:31:53.832Z"
     },
     {
       "platform": "quora",
@@ -573,6 +610,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x5zosp/the_poem_by_shriram_properties_in_bangalore/",
+      "title": "The Poem By Shriram Properties in Bangalore – Connecting fellow buyers regarding stalled construction & legal updates",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-14T18:52:35+00:00",
+      "evergreen": false,
+      "fit": 84,
+      "intent": "Buyers in a stalled Bengaluru project want to organise and know what legal and documentary routes exist.",
+      "landing": "https://property-lens.ai/?dev=Shriram%20Properties",
+      "landingWhy": "Lists the promoter's registered Bengaluru projects side by side, which is what a group of allottees in one stalled registration needs rather than a homepage.",
+      "draft": "For a stalled project the three documents that actually move things are all free on the K-RERA portal: the quarterly progress report for each block, the registration page listing every extension granted, and the complaint register for that registration number.\n\nThe quarterly reports are the useful ones. They carry, per building, construction percentage, units booked, money collected from allottees and money withdrawn from the designated project account, quarter by quarter. If collections kept rising while construction percentage stayed flat, that pattern sits in the promoter's own filing and is the evidence a Section 31 complaint or a Section 18 refund-with-interest claim rests on.\n\nTwo things worth knowing while you organise:\n\n• If registration is revoked, Section 8 allows the authority to let the allottees' association complete the project, so a registered association with documented consent is usually in a stronger position than scattered individual complaints\n• Pull the promoter's other live registrations too — extensions filed across several projects at once usually show up before any public announcement does\n\nI pull these filings for Bengaluru projects as a habit, so happy to explain how to read a specific quarterly form if that helps the group.",
+      "risk": "low",
+      "riskNote": "No link, no accusation against the named builder, no figures invented for a project outside the dataset. Offers method and help, which is what the thread asked for.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Example of the due-diligence view: RERA timeline, extensions and 15 complaints recorded on that one registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "Another registration's dashboard — 7 complaints on the registration and two red flags raised in the filings."
+        }
+      ],
+      "id": "202c714439265547",
+      "foundAt": "2026-10-15T13:31:53.832Z"
     },
     {
       "platform": "quora",
@@ -1498,6 +1572,43 @@
       "foundAt": "2026-09-20T05:01:35.675Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x6gtr3/any_plots_below_5k_bagalur_budigere_belt/",
+      "title": "Any plots below 5k bagalur budigere belt",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-15T09:11:14+00:00",
+      "evergreen": false,
+      "fit": 80,
+      "intent": "Looking for plots under ₹5,000/sq ft in the Bagalur–Budigere belt of north/east Bengaluru.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "That belt is exactly the Devanahalli/Bagalur locality page, where the 212 analysed registrations and their price band sit — far more specific than the homepage.",
+      "draft": "Sub-₹5,000 is roughly the median in the Bagalur/Devanahalli belt, so you are not hunting a bargain there — you are hunting clean approvals. Medians from the K-RERA registered projects I have scored (0-100 model, 50 is the average analysed Bengaluru project):\n\n• Devanahalli / Airport / Bagalur — 212 analysed, median score 50, median projected growth 11.2%/yr, median ₹4,700/sqft (estimate)\n• Hoskote / Budigere Cross / Old Madras Road — 146 analysed, median score 42, 10.2%/yr, ₹5,650 (estimate)\n• Doddaballapur / Nelamangala — 21 analysed, median score 22, 9.2%/yr, ₹3,000 (estimate)\n\nThat last line is the warning: the cheapest belt scores the worst, so rate per sq ft on its own tells you nothing about what you can resell.\n\nFor a plot specifically, two things decide the outcome — DC conversion and khata status on that exact survey number, and the fact that a plot earns no rent, so your whole return is price growth minus holding cost. Ask for the layout's RERA registration number and read its quarterly progress filing before any advance changes hands.",
+      "risk": "low",
+      "riskNote": "Answers the price question directly, adds the plot-specific checks, no link and no project recommended. Medians are labelled as model estimates.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli/Bagalur belt: 212 analysed projects, median ₹4,700/sq ft estimate, median projected growth 11.2%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "hoskote-budigere",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=hoskote-budigere",
+          "caption": "Hoskote/Budigere Cross for comparison — median score 42 across 146 analysed projects."
+        }
+      ],
+      "id": "3e139d35eee1bddd",
+      "foundAt": "2026-10-15T13:31:53.832Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-a-good-time-to-buy-an-apartment-in-Rajarajeshwari-Nagar-Bangalore",
       "title": "Is it a good time to buy an apartment in Rajarajeshwari Nagar, Bangalore?",
@@ -2210,6 +2321,43 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x6bplm/what_exactly_should_you_check_before_booking_a/",
+      "title": "What exactly should you check before booking a new-build project?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-15T03:56:17+00:00",
+      "evergreen": false,
+      "fit": 76,
+      "intent": "Wants a concrete pre-booking checklist for an under-construction project.",
+      "landing": "https://property-lens.ai/dd/prestige-pine-forest-007048",
+      "landingWhy": "A due-diligence dashboard is the literal answer to 'what should I check' — RERA timeline, extensions, construction vs bookings, complaints, all on one registration.",
+      "draft": "The single most useful document is the quarterly progress report the promoter files with the state RERA, and almost nobody reads it. In Karnataka it carries, per building, construction percentage, units booked, money collected from allottees and money withdrawn from the designated project account, quarter by quarter.\n\nCollections climbing while construction percentage stays flat for three quarters is the clearest early warning you will get, and it comes from the builder's own filing rather than from a forum rumour.\n\nFour more things before any booking amount moves:\n\n• Check every extension granted on the registration, not just the current completion date\n• Read the complaint register for that exact registration number — across the Bengaluru projects I have scored most show zero, a handful show seven to fifteen\n• Confirm the land sits in the promoter's name, or get the joint development agreement and the sanctioned plan\n• For a ready unit, ask for the occupancy certificate itself, not a photo of a finished tower\n\nI do this for Bengaluru projects from the K-RERA filings, so the quarterly form is the one I would start with.",
+      "risk": "medium",
+      "riskNote": "General-India thread answered with Karnataka-specific method, which is honest and stated as such. No link, no project promoted, and the complaint range is given without naming anyone.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048#dd",
+          "caption": "What a due-diligence page looks like: RERA timeline, extensions, construction against bookings, complaints on the registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "The contrast case — two red flags and 7 complaints logged on that registration."
+        }
+      ],
+      "id": "7d2a3cdc8cfe86b5",
+      "foundAt": "2026-10-15T13:31:53.832Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-worth-buying-a-3-BHK-flat-in-Bangalore",
       "title": "Is it worth buying a 3 BHK flat in Bangalore?",
@@ -2553,20 +2701,18 @@
     }
   ],
   "stats": {
-    "candidates": 4,
-    "kept": 2,
+    "candidates": 37,
+    "kept": 4,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 2
+      "reddit": 4
     },
     "errors": [
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
