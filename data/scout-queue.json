@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T13:31:53.832Z",
+  "generatedAt": "2026-10-15T19:55:49.383Z",
   "leads": [
     {
       "platform": "quora",
@@ -1284,6 +1284,52 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-area-is-best-to-invest-in-a-property-in-Bangalore-in-2023-VJ-properties",
+      "title": "Which area is best to invest in a property in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2023-05-25T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants the best Bengaluru areas to buy property as an investment.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The question is city-wide, and the score map is the page that ranks every locality's median score and projected growth instead of pushing one project.",
+      "draft": "There is no single best area, but the data does sort them. From the Karnataka RERA filings I score, the corridors with the highest median investment score are Jayanagar / Basavanagudi at 66, HSR Layout / BTM at 63, Malleswaram / Rajajinagar at 63 and Bannerghatta Road / JP Nagar at 61. The first three run Rs 13,500 to Rs 15,000 per sq ft as modelled estimates; Bannerghatta is the only one of the group near Rs 8,500.\n\nIf you are optimising for growth rate instead of stability, the ranking inverts. Devanahalli shows the highest median projected price growth at 11.2% a year over five years, then Mysore Road / RR Nagar / Kengeri at 10.6%, Attibele and Yelahanka at 10.3%. Those are also the corridors where delivery risk and infrastructure timing matter most.\n\nProject choice swamps area choice. Within Yelahanka, Casagrand Estancia scores 83 with projected 12.2% a year and a net-wealth CAGR of 9.6% over eight years on a 75% loan after GST, stamp duty, interiors, maintenance, vacancy, interest and selling costs. Prestige Southern Star on Bannerghatta Road also scores 83, at 10.8% projected growth, with no complaints on its registration. The median project across the city sits near 50.\n\nSo shortlist two corridors on commute and budget, then compare individual registrations on delivery record, extensions, complaints and money routed through the RERA account. This is research, not a recommendation to buy any of them.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "medium",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "yelahanka-jakkur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
+          "caption": "Yelahanka / Jakkur map: 120 analysed projects, median score 54, median projected 10.3%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia: score 83, projected 12.2%/yr, 9.6% net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked cards showing where the median analysed Bengaluru project (score 50) actually sits."
+        }
+      ],
+      "id": "0ff1cca58023a5ce",
+      "foundAt": "2026-10-15T19:55:49.383Z"
     },
     {
       "platform": "quora",
@@ -2701,18 +2747,18 @@
     }
   ],
   "stats": {
-    "candidates": 37,
-    "kept": 4,
+    "candidates": 8,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 4
+      "quora": 1
     },
     "errors": [
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
