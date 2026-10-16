@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T19:55:49.383Z",
+  "generatedAt": "2026-10-16T04:43:03.900Z",
   "leads": [
     {
       "platform": "quora",
@@ -120,6 +120,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x70u9m/north_bengaluru_new_launch_tracker_6329_units/",
+      "title": "North Bengaluru New Launch Tracker: 6,329 Units Tracked, 56.2% Already Sold",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-15T23:27:18+00:00",
+      "evergreen": false,
+      "fit": 88,
+      "intent": "Wants to know what North Bengaluru launch absorption actually implies for a buyer or investor.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "The Devanahalli/airport locality map holds the 212-project set and the per-project scores behind the exact numbers in the comment, instead of a generic homepage.",
+      "draft": "Absorption is only half the picture — the other half is supply, and the airport belt has the deepest pipeline in the city. Across Devanahalli / Airport Road / Bagalur I have 212 registered projects analysed from the K-RERA filings: median projected price growth 11.2% a year over five years, median price around ₹4,700 per sq ft (an estimate derived from locality evidence, not a quoted rate). Yelahanka/Jakkur is 120 projects at roughly ₹10,350.\n\nScores below are from a model I built on the RERA filings and quarterly progress reports — 0-100, where 50 is the average analysed Bengaluru project:\n\n• Casagrand Estancia (Yelahanka) — score 83, projected 12.2%/yr, 0 red flags, 0 complaints on this registration\n• Godrej Woods (Yelahanka) — score 81, projected 12.2%/yr, 1 complaint on this registration\n• Sattva Aeropolis Phase 2 (Devanahalli) — score 67, projected 11.7%/yr, 0 complaints\n• Cobalt at Brigade El Dorado (Devanahalli) — score 66, projected 10.9%/yr, 1 red flag\n\nOne thing a sold-percentage tracker can never show you: money drawn from the RERA designated account against construction progress in the same quarter. That pair is where slippage appears months before it shows on site.",
+      "risk": "low",
+      "riskNote": "No link, no pitch; the figures stand alone and the model is disclosed as mine, which r/indianrealestate tolerates when the data is actually useful.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli/airport score map: 212 analysed projects, median score 50, median projected growth 11.2%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia, Yelahanka — score 83 and 12.2%/yr projected price growth, the top North Bengaluru card."
+        }
+      ],
+      "id": "b9e3c583978adf1c",
+      "foundAt": "2026-10-16T04:43:03.900Z"
     },
     {
       "platform": "reddit",
@@ -2744,21 +2781,59 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x6o90w/ista_spaces_bangalore/",
+      "title": "Ista Spaces - Bangalore",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-15T15:10:28+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants to know whether a smaller Bengaluru builder is safe to book with.",
+      "landing": "https://property-lens.ai/developers",
+      "landingWhy": "The developer list is where delivery records are benchmarked across tracked Bengaluru builders, which is the only way to place a smaller promoter against the market.",
+      "draft": "Ista Spaces is not in the top-200 Bengaluru developer set I track, so I have no score to give you — but everything that matters is public on the K-RERA portal. Pull the project's registration page and read four things in this order.\n\n• Original completion date against every extension filed since registration — extensions are the earliest honest signal of slippage\n• The quarterly progress reports: percentage of construction completed against percentage of units booked. Bookings far ahead of construction is where money starts going elsewhere\n• The complaint register under that specific registration number, not the promoter's overall record\n• Land ownership in the filing — joint-development land with unsettled owner shares is the usual reason an occupancy certificate stalls\n\nAcross the roughly 1,850 Bengaluru projects I have analysed from these filings, the ones that go wrong almost always show one of those four long before anything is visible at site. Also ask for the designated RERA account statement before you pay the second instalment; a promoter who will not share it has told you something.",
+      "risk": "medium",
+      "riskNote": "Smaller builder not in the dataset, so the draft says so outright and gives a method rather than implying coverage; no link, no claim about this builder either way.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "What a K-RERA due-diligence read looks like: timeline and extensions, construction vs bookings, escrow draws, complaints on the registration."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked Bengaluru developer cards — how a promoter's delivery record compares with the tracked set."
+        }
+      ],
+      "id": "494880ae915e0a73",
+      "foundAt": "2026-10-16T04:43:03.900Z"
     }
   ],
   "stats": {
-    "candidates": 8,
-    "kept": 1,
-    "skippedSeen": 0,
+    "candidates": 29,
+    "kept": 2,
+    "skippedSeen": 2,
     "byPlatform": {
-      "quora": 1
+      "reddit": 2
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
