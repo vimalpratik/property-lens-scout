@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T04:43:03.900Z",
+  "generatedAt": "2026-10-16T13:20:30.998Z",
   "leads": [
     {
       "platform": "quora",
@@ -2747,6 +2747,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-it-a-good-investment-to-buy-a-10-year-old-apartment-in-Gottigere-Bangalore",
+      "title": "Is it a good investment to buy a 10-year-old apartment in Gottigere, Bangalore?",
+      "context": "Quora — Bannerghatta Road / Gottigere resale",
+      "postedAt": "2018-02-16T00:00:00Z",
+      "evergreen": true,
+      "fit": 72,
+      "intent": "Wants to know whether an older resale flat on the Bannerghatta stretch is a sound investment.",
+      "landing": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+      "landingWhy": "The Bannerghatta/JP Nagar map shows what the competing new supply on that same stretch scores and is projected to do — the benchmark a resale has to be priced against.",
+      "draft": "An older resale on that stretch can work, but it has to be priced against what the new supply beside it is doing. Bannerghatta Road / JP Nagar / Arekere is one of the stronger corridors in my analysis of the K-RERA filings: 70 registered projects, median score 61 out of 100, median projected price growth about 9.5%/yr, median around ₹8,500/sqft as a modelled estimate.\n\nThe current launches there score well above that median — Prestige Southern Star 83, Assetz Canvas & Cove 2.0 Block A 81, Godrej Vanantara 80. A decade-old building competes with those for the same tenant and, later, the same buyer, so the case for it rests on a visible per sq ft discount plus the costs you avoid: resale attracts no GST, there is no handover delay risk, and the rent starts immediately rather than years later.\n\nWhat I would verify before anything else on a completed building:\n\n• occupancy certificate issued, and khata and property tax receipts in the seller's name\n• encumbrance certificate for 13 years and no pending home loan on the flat\n• association handover done, sinking fund balance, and any pending structural or waterproofing work\n• water source — sanctioned Cauvery connection or borewell plus tankers\n\nGross yields in that corridor sit around 3-4%, so the investment case is appreciation plus avoided rent, not cash flow. RERA does not cover a completed building, which is exactly why the paperwork above carries the weight. Research, not advice.",
+      "risk": "low",
+      "riskNote": "Answers the resale-specific question with checks that apply after RERA stops protecting the buyer; no link, no recommendation.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "bannerghatta-jp-nagar",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=bannerghatta-jp-nagar",
+          "caption": "Bannerghatta Road / JP Nagar corridor: 70 analysed projects, median score 61, median projected 9.5%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-southern-star-007603",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-southern-star-007603",
+          "caption": "Prestige Southern Star, score 83 — the new-supply benchmark a Gottigere resale is priced against."
+        }
+      ],
+      "id": "e6389bfa16eba84e",
+      "foundAt": "2026-10-16T13:20:30.998Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
       "context": "Quora",
@@ -2821,19 +2858,18 @@
     }
   ],
   "stats": {
-    "candidates": 29,
-    "kept": 2,
-    "skippedSeen": 2,
+    "candidates": 12,
+    "kept": 1,
+    "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 2
+      "quora": 1
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
