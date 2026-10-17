@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:40:18.116Z",
+  "generatedAt": "2026-10-17T12:15:47.983Z",
   "leads": [
     {
       "platform": "quora",
@@ -2670,20 +2670,58 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1x86o54/45_minutes_to_cross_aet_junction_on_sarjapur_road/",
+      "title": "45 minutes to cross AET Junction on Sarjapur Road!",
+      "context": "r/bangalore",
+      "postedAt": "2026-10-17T10:13:51+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Venting about the Sarjapur Road commute; the thread is really about whether the corridor is worth living in or buying into.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
+      "landingWhy": "The locality score map shows the whole Sarjapur corridor's 284 analysed projects and where transit/employment access drags the scores down, which is exactly the claim the comment makes; the homepage shows the whole city instead.",
+      "draft": "That junction is a big part of why the corridor scores the way it does. I pulled the K-RERA filings for every registered project by the top 200 developers, and across the 284 on Sarjapur Road the median investment score comes out at 49 out of 100 (50 is the average analysed Bengaluru project) with employment access and transit the weakest factors.\n\nMedian projected price growth there is 9.8% a year and the median price works out to roughly ₹8,450 a sqft, which is a model estimate rather than a quoted rate. Against the corridors feeding the same offices:\n\n• Sarjapur Road — median score 49, projected 9.8%/yr, ~₹8,450/sqft\n• Marathahalli/Varthur — median 59, projected 9.2%/yr, ~₹11,300/sqft\n• Whitefield (Hoodi/Varthur Rd) — median 58, projected 9.1%/yr, ~₹11,750/sqft\n\nSo you pay roughly a quarter less per sqft on Sarjapur, and the discount is more or less AET junction priced in.",
+      "risk": "medium",
+      "riskNote": "r/bangalore treats anything broker-ish harshly, so the comment carries no link, no project pitch and no call to look anything up; it answers the rant with the corridor's own numbers and says plainly that the figures come from RERA filings I work with.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road score map: 284 analysed projects, median score 49, median projected growth 9.8%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "marathahalli-varthur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=marathahalli-varthur",
+          "caption": "Marathahalli/Varthur for contrast: median score 59 on the same scoring."
+        }
+      ],
+      "id": "1cf7c568489af5f3",
+      "foundAt": "2026-10-17T12:15:47.983Z"
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 0,
+    "candidates": 9,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "reddit": 1
+    },
     "errors": [
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
