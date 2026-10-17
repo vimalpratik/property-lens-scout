@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:15:47.983Z",
+  "generatedAt": "2026-10-17T18:34:37.093Z",
   "leads": [
     {
       "platform": "quora",
@@ -2442,6 +2442,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/What-are-5-reasons-why-Whitefield-is-the-best-area-to-buy-a-flat-in-Bangalore-for-a-software-engineer",
+      "title": "What are 5 reasons why Whitefield is the best area to buy a flat in Bangalore for a software engineer?",
+      "context": "Quora",
+      "postedAt": "2021-09-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Wants validation that Whitefield is the best buy for a techie; the honest answer corrects the premise",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The question compares areas, and the city score map is the only page that puts Whitefield, Marathahalli, HSR and Bellandur medians next to each other.",
+      "draft": "Whitefield is solid, but the filings do not make it the best area — the corridors next door score slightly higher on the same measures.\n\nFrom the Karnataka RERA filings and dated locality price evidence across 1,850+ analysed Bengaluru projects, the median investment score is 58 in Whitefield (90 projects), 59 in Marathahalli/Kundalahalli/Varthur, 63 in HSR/BTM/Koramangala fringe and 55 around Bellandur/ORR. Median projected 5-year price growth is 9.1% a year in Whitefield and 9.2% in Marathahalli, so appreciation is not the differentiator; price and commute are.\n\nMedian prices are near ₹11,750 per sq ft in Whitefield, ₹11,300 in Marathahalli and ₹13,650 in HSR — all model estimates, not quoted rates.\n\nFor an engineer the real question is which office cluster you will still be near after your next job change. ITPL and EPIP favour Whitefield; if you might move to ORR or Koramangala, the Varthur-Marathahalli side keeps both open. Within any of these, project choice matters more than the area: Prestige Raintree Park in Marathahalli scores 81 with projected 10.6% a year, Prestige Pine Forest in Whitefield 78 with 10.4% a year and 0 RERA complaints on that registration.\n\nWhatever you shortlist, read the registration's RERA page before booking: sanctioned completion date and extensions, quarterly progress against bookings, money routed through the RERA designated account, complaints on that registration, and the land title. Gross yields across all four corridors are roughly 3-4%, so this is a housing and growth decision, not an income one.",
+      "risk": "low",
+      "riskNote": "Corrects the premise with locality medians rather than promoting anything; no links, no naming a 'best' project, assumed prices flagged as estimates.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield: median score 58, median projected growth 9.1%/yr across 90 analysed projects."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "marathahalli-varthur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=marathahalli-varthur",
+          "caption": "Marathahalli/Varthur for comparison: median score 59, median ₹11,300/sq ft (estimate)."
+        }
+      ],
+      "id": "93303ce4120b531d",
+      "foundAt": "2026-10-17T18:34:37.093Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Which-area-of-Bangalore-has-cheap-flats",
       "title": "Which area of Bangalore has cheap flats?",
       "context": "Quora",
@@ -2710,18 +2747,18 @@
     }
   ],
   "stats": {
-    "candidates": 9,
+    "candidates": 8,
     "kept": 1,
-    "skippedSeen": 0,
+    "skippedSeen": 1,
     "byPlatform": {
-      "reddit": 1
+      "quora": 1
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
