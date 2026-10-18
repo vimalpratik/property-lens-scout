@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:34:37.093Z",
+  "generatedAt": "2026-10-18T04:45:48.067Z",
   "leads": [
     {
       "platform": "quora",
@@ -1388,9 +1388,9 @@
       "intent": "Believes Bengaluru flats don't appreciate on resale and wants to know why.",
       "landing": "https://property-lens.ai/p/brigade-lakefront-crimson-000503",
       "landingWhy": "A ready Whitefield project page shows the headline projected growth and the net-wealth CAGR side by side — the exact gap that explains the 'no resale value' feeling; a map wouldn't show the cost stack.",
-      "draft": "The premise is half right, and the half that is wrong matters. Resale prices in Bengaluru do move — the analysed localities show median projected price growth between roughly 8% and 11% a year — but the owner's own return is much lower, because the price has to climb past everything you paid on entry and exit.\n\nTwo ready projects from the dataset I built off Karnataka RERA filings and locality price evidence:\n\n• Brigade Lakefront Crimson, Whitefield — score 73, projected 8.7%/yr, net-wealth CAGR 5.6% on a 75% loan, gross yield 3.1%\n• Godrej United, KR Puram — score 63, projected 8.3%/yr, net-wealth CAGR 5.4%, 3 RERA complaints on that registration\n\nThe gap between 8.7% and 5.6% is GST or stamp duty and registration paid on entry, interiors, maintenance and vacancy through the holding period, loan interest, and brokerage on exit. That gap is what people experience as \"no resale value\".\n\nThe second reason is supply. In corridors where hundreds of new registrations are live, your five-year-old flat competes with a new launch a kilometre away that has a fresher spec and a builder who can offer payment plans. That is why resale liquidity deserves to be scored separately from price growth: an older unit in a deep, employment-rich micro-market sells; the same vintage in a corridor with heavy new supply sits.\n\nPractical version: assume roughly 5-6% a year net on a well-chosen ready flat, and treat anything above that as luck rather than plan.",
+      "draft": "The premise is half right, and the half that is wrong matters. Resale prices in Bengaluru do move — the analysed localities show median projected price growth between roughly 8% and 11% a year — but the owner's own return is much lower, because the price has to climb past everything you paid on entry and exit.\n\nTwo ready projects from the dataset I built off Karnataka RERA filings and locality price evidence:\n\n• Brigade Lakefront Crimson, Whitefield — score 73, projected 8.7%/yr, net-wealth CAGR 5.6% on a 75% loan, gross yield 3.1%\n• Godrej United, KR Puram — score 63, projected 8.3%/yr, net-wealth CAGR 5.4%, 3 RERA complaints on that registration\n\nThe gap between 8.7% and 5.6% is GST or stamp duty and registration paid on entry, interiors, maintenance and vacancy through the holding period, loan interest, and brokerage on exit. That gap is what people experience as \"no resale value\".\n\nThe second reason is supply. In corridors where hundreds of new registrations are live, your five-year-old flat competes with a new launch a kilometre away that has a fresher spec and a builder who can offer payment plans. That is why resale liquidity deserves to be scored separately from price growth: an older unit in a deep, employment-rich micro-market sells; the same vintage in a corridor with heavy new supply sits.\n\nPractical version: assume roughly 5-6% a year net on a well-chosen ready flat, and treat anything above that as luck rather than plan.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/brigade-lakefront-crimson-000503",
       "risk": "low",
-      "riskNote": "Corrects a widely held belief with figures rather than promoting; no links, no domain mentioned.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "project",
@@ -1542,6 +1542,43 @@
       ],
       "id": "f1212c97a3dc1ec8",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-advisable-to-buy-a-3BHK-flat-for-1-crore-in-Bengaluru-right-now-or-will-prices-come-down-Why",
+      "title": "Is it advisable to buy a 3BHK flat for 1 crore in Bengaluru right now, or will prices come down?",
+      "context": "Quora",
+      "postedAt": "2020-01-18T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Wants to know whether to buy a ~₹1 Cr flat now or wait for a price correction.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The honest answer is that project and locality selection dominates timing, and the city map is where that spread is visible — a single project page would not make the point.",
+      "draft": "The spread between projects in the same city is much wider than any correction you are waiting for, so timing is the smaller question.\n\nOn a ₹1 Cr under-construction flat bought with a 75% home loan, GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs absorb a large slice of the headline appreciation. Run all of those through and a projected price growth near 10% a year typically lands as a net-wealth CAGR in the 6-8% range over eight years.\n\nSame method applied to three real registrations, from RERA filings and dated locality price evidence:\n• Prestige Raintree Park, Varthur Road — PropertyLens score 81, projected 5-yr growth 10.6%/yr, net-wealth CAGR 7.1%, 1 complaint on that registration\n• Birla Evara, Sarjapur Road — score 71, projected 11.0%/yr, net-wealth CAGR 8.7%, 0 complaints\n• Sobha Silicon Oasis Phase 4 Wing 9, Electronic City, ready — score 52, projected 7.6%/yr, net-wealth CAGR 3.4%\n\nThat is roughly five percentage points a year of difference between a good pick and an average one, compounding. No plausible six-month price move is worth that much.\n\nTwo things people underestimate at this ticket. Gross rental yields in Bengaluru sit around 2.5-4.3%, so an under-construction flat earns nothing until handover and the waiting period is a real cost. And the protection that matters is documentary: registered completion date and extension history, complaints on that registration, money routed through the RERA account against construction progress, clean land ownership, and the occupancy certificate for anything sold as ready.\n\nI build research tools for this, so treat the above as evidence to check, not advice to act on.",
+      "risk": "low",
+      "riskNote": "Refuses the buy/don't-buy framing, no link, all figures labelled and sourced to the named registrations.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Bengaluru projects ranked by score, showing the spread between an average and a top-decile pick."
+        },
+        {
+          "kind": "project",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
+          "caption": "Prestige Raintree Park: score 81, projected 10.6%/yr, 7.1% net-wealth CAGR after every cost on a 75% loan."
+        }
+      ],
+      "id": "c9d8cf8aa10afbd7",
+      "foundAt": "2026-10-18T04:45:48.067Z"
     },
     {
       "platform": "quora",
@@ -2749,16 +2786,16 @@
   "stats": {
     "candidates": 8,
     "kept": 1,
-    "skippedSeen": 1,
+    "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
