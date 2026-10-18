@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:39:43.541Z",
+  "generatedAt": "2026-10-18T18:42:29.353Z",
   "leads": [
     {
       "platform": "quora",
@@ -120,6 +120,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-now-a-good-time-to-invest-in-residential-properties-in-Bengaluru-If-so-which-areas-would-be-profitable-for-investment",
+      "title": "Is now a good time to invest in residential properties in Bengaluru? If so, which areas would be profitable for investment?",
+      "context": "Quora — Bengaluru residential investment",
+      "postedAt": "2023-06-12T00:00:00Z",
+      "evergreen": true,
+      "fit": 88,
+      "intent": "Wants to know whether to buy now and which Bengaluru corridors are worth buying into.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The question is corridor-level, and the score map is the only page that shows every analysed locality's median score and projected growth side by side; the homepage would make them hunt for it.",
+      "draft": "Bengaluru isn't one market, and the gap between localities is far wider than the gap between buying now and buying next year. Across the 1,854 registered projects I've scored from Karnataka RERA filings, the median project in Jayanagar/Basavanagudi scores 66 out of 100 on my eleven-factor model and the median around Doddaballapur Road/Nelamangala scores 22.\n\nMedian project score, projected 5-year price growth and median price per sq ft (that last figure an estimate) by corridor:\n\n- Whitefield (Hoodi/Varthur Road), 90 projects — median score 58, projected 9.1%/yr, about ₹11,750\n- Marathahalli/Varthur, 88 projects — median 59, projected 9.2%/yr, about ₹11,300\n- Yelahanka/Jakkur, 120 projects — median 54, projected 10.3%/yr, about ₹10,350\n- Devanahalli/Bagalur, 212 projects — median 50, projected 11.2%/yr, about ₹4,700\n\nThe part most \"which area\" answers skip: headline price growth is not your return. Gross rental yields across this dataset sit around 2.5-4.5%, an under-construction home earns no rent until handover, and a plot earns none ever. On the highest-scoring Yelahanka project I have, Casagrand Estancia (score 83, projected 12.2%/yr), the net-wealth CAGR after GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest and selling costs works out to 9.6% over eight years on a 75% loan.\n\nWhichever corridor you pick, the protections are project-level: RERA registration and how many extensions it has taken, complaints filed against that specific registration, money drawn from the RERA account against construction actually completed, clean land title, and the occupancy certificate before the last instalment.\n\nThis is research, not investment advice.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "yelahanka-jakkur",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=yelahanka-jakkur",
+          "caption": "Yelahanka/Jakkur corridor map with per-project scores and projected 5-year price growth."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia: score 83, projected 12.2%/yr, and the 9.6% net-wealth CAGR left after every cost."
+        }
+      ],
+      "id": "38aa5e086cd0319f",
+      "foundAt": "2026-10-18T18:42:29.353Z"
     },
     {
       "platform": "quora",
@@ -1213,6 +1250,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-Bangalore-the-right-place-for-real-estate-investment-What-is-the-minimum-budget-required",
+      "title": "Is Bangalore the right place for real estate investment? What is the minimum budget required?",
+      "context": "Quora — entry budget for Bengaluru property",
+      "postedAt": "2021-03-08T00:00:00Z",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants a realistic minimum ticket size for buying residential property in Bengaluru.",
+      "landing": "https://property-lens.ai/",
+      "landingWhy": "The city-wide ranked cards let them sort entry tickets against scores, which is exactly the 'what does the minimum actually buy' question; a locality map wouldn't show ticket sizes.",
+      "draft": "For residential, the honest entry point for a credible apartment from one of the city's larger developers is roughly ₹30-55 lakh of sticker price — and the sticker is not the cost.\n\nSome current entry tickets for the default unit, from the Karnataka RERA filings I track:\n\n- Sattva Aeropolis Phase 2, Devanahalli — PropertyLens score 67, ₹32.0 L, projected 11.7%/yr price growth\n- Brigade Calista Phase 2, Budigere Cross — score 63, ₹38.2 L, projected 10.4%/yr\n- Brigade Insignia, Yelahanka — score 81, ₹42.1 L, projected 11.0%/yr\n- Casagrand Estancia, Yelahanka — score 83, ₹54.9 L, projected 12.2%/yr\n\nOn top of any of those sit GST on an under-construction purchase, stamp duty and registration, other charges, interiors and loan interest. That is why Casagrand Estancia's projected 12.2% a year becomes a 9.6% net-wealth CAGR over eight years on a 75% loan once every cost is subtracted — and that is one of the stronger ones in the dataset.\n\nThe cheap end is where budget logic breaks. The median project on Doddaballapur Road/Nelamangala scores 22 out of 100; New Haven Bengaluru Phase V there scores 12, with a modelled net-wealth CAGR of 1.6% on the same assumptions. A low price per sq ft usually buys weak resale liquidity and weak employment access, which only shows up when you try to exit.\n\nWhatever the budget, check the RERA registration, the extensions taken, complaints filed on that registration, and the occupancy certificate. Research, not advice.",
+      "risk": "low",
+      "riskNote": "Names a low-scoring project, so the tone reads as analysis rather than promotion; scores are labelled as model output and no page is linked.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked Bengaluru project cards — scores against entry ticket sizes from ₹32 L upward."
+        },
+        {
+          "kind": "project",
+          "projectId": "sattva-aeropolis-phase-2-008119",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-aeropolis-phase-2-008119",
+          "caption": "Sattva Aeropolis Phase 2: score 67, ₹32.0 L ticket, projected 11.7%/yr."
+        }
+      ],
+      "id": "9b6b3a6e66c1f8af",
+      "foundAt": "2026-10-18T18:42:29.353Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Which-area-is-best-to-invest-in-a-property-in-Bangalore-in-2023-VJ-properties",
       "title": "Which area is best to invest in a property in Bangalore?",
       "context": "Quora",
@@ -1958,6 +2032,43 @@
       ],
       "id": "4ceb3c0177389c58",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-the-right-time-to-invest-in-property-in-Bangalore",
+      "title": "Is it the right time to invest in property in Bangalore?",
+      "context": "Quora — timing question, existing answer claims 20-30% builder discounts",
+      "postedAt": "2020-07-21T00:00:00Z",
+      "evergreen": true,
+      "fit": 78,
+      "intent": "Wants to know whether to buy now, and is being told builders are discounting 20-30%.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The answer turns on two Sarjapur Road projects bought in the same month ending 1.2 points a year apart; the compare view is the page that actually shows that side by side.",
+      "draft": "I'd be careful with the answer above. A 20-30% cut from a large developer is a project-level signal, not a city-wide sale, and it's worth asking what that registration is committed to deliver and by when before treating it as a bargain.\n\nOn timing, the more useful frame is the gap between headline price growth and what you keep. Two Sarjapur Road projects from the same filings:\n\n- Birla Evara — PropertyLens score 71, projected 11.0%/yr price growth, 3.9% gross yield, net-wealth CAGR 8.7% over eight years on a 75% loan, cash-flow IRR 15.9%, 0 complaints on that RERA registration\n- Godrej Lakeside Orchard — score 72, projected 10.8%/yr, 4.3% gross yield, net-wealth CAGR 7.5%, IRR 12.4%, 2 complaints on that registration\n\nSame corridor, same month of buying, more than a percentage point a year apart once GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs are taken out. The month you buy in matters far less than which registration you buy into and what you pay per sq ft against comparables.\n\nIf you're buying under construction, the timing risk that does matter is delivery: how many extensions the project has taken, whether withdrawals from the RERA account track construction actually completed, complaints and court cases against the promoter, and whether the land is owned outright or held under a joint development agreement.\n\nI build this analysis from the K-RERA filings, so treat it as research rather than advice.",
+      "risk": "low",
+      "riskNote": "Politely corrects a weak existing answer, discloses that I build the analysis, quotes only model-labelled figures and complaint counts for the named registrations, and links nothing.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "godrej-lakeside-orchard-007105",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=birla-evara-007487&b=godrej-lakeside-orchard-007105",
+          "caption": "Birla Evara vs Godrej Lakeside Orchard: same corridor, 8.7% vs 7.5% net-wealth CAGR after all costs."
+        },
+        {
+          "kind": "dd",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487#dd",
+          "caption": "Birla Evara due diligence: RERA timeline, escrow drawdown versus construction, 0 complaints on this registration."
+        }
+      ],
+      "id": "42c8560e4792f0c8",
+      "foundAt": "2026-10-18T18:42:29.353Z"
     },
     {
       "platform": "quora",
@@ -2747,17 +2858,19 @@
     }
   ],
   "stats": {
-    "candidates": 3,
-    "kept": 0,
+    "candidates": 0,
+    "kept": 3,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 3
+    },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "reddit r/IndiaTax: HTTP 429"
     ]
   }
 }
