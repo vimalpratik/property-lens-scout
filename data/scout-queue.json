@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T18:42:29.353Z",
+  "generatedAt": "2026-10-19T15:43:26.655Z",
   "leads": [
     {
       "platform": "quora",
@@ -2855,22 +2855,58 @@
       ],
       "id": "159450904eda9f93",
       "foundAt": "2026-09-27T14:05:00.167Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1x9ye5j/whats_the_cost_of_living_in_electronic_city/",
+      "title": "What's the cost of living in Electronic City",
+      "context": "r/Bengaluru",
+      "postedAt": "2026-10-19T14:28:34+00:00",
+      "evergreen": false,
+      "fit": 52,
+      "intent": "Wants to know what living in Electronic City actually costs before moving there.",
+      "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+      "landingWhy": "The Electronic City map is the evidence for the corridor's median price and median score quoted in the comment; the homepage would show nothing about EC.",
+      "draft": "Housing is most of the answer here — the rest of the cost of living in EC is close to the rest of the city.\n\nOn the buy side, the 115 registered Electronic City / Hosur Road projects I pulled from the Karnataka RERA filings have a median price of roughly ₹5,850 per sq ft (an estimate from locality evidence) against about ₹11,750 in Whitefield and ₹13,650 around HSR. Same flat, roughly half.\n\nThe trade-off is in the quality scores: EC's median project scores 41 out of 100 where the average analysed Bengaluru project is 50, mostly on transit and social infrastructure, and median projected 5-year price growth is 9.1%/yr versus 11.2% around Devanahalli.\n\nRent I can't give you a reliable figure for. The thing that actually decides your monthly cost is whether your office is on Hosur Road or on the other side of the ORR — work that out before comparing rents.",
+      "risk": "medium",
+      "riskNote": "r/Bengaluru is hostile to anything broker-flavoured, so the comment carries no link, no tool name and admits what it can't answer (rent). Risk is that the thread is about living costs rather than buying; the housing figures are kept to one paragraph.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "electronic-city-hosur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+          "caption": "Electronic City / Hosur Road: 115 analysed projects, median score 41/100, median price about ₹5,850 per sq ft (estimate)."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "whitefield-hoodi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
+          "caption": "Whitefield for comparison: median score 58, median price about ₹11,750 per sq ft (estimate)."
+        }
+      ],
+      "id": "cbf78d272784ae27",
+      "foundAt": "2026-10-19T15:43:26.655Z"
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 3,
+    "candidates": 9,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 3
+      "reddit": 1
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 404",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
