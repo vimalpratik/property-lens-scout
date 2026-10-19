@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:43:26.655Z",
+  "generatedAt": "2026-10-19T21:09:08.169Z",
   "leads": [
     {
       "platform": "quora",
@@ -2858,6 +2858,43 @@
     },
     {
       "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1x9i19t/arvo_real_estate_company_fraud/",
+      "title": "ARVO Real estate company fraud",
+      "context": "r/bangalore",
+      "postedAt": "2026-10-18T23:51:24Z",
+      "evergreen": false,
+      "fit": 60,
+      "intent": "Warning others about a Bengaluru real estate operator and looking for what buyers should check before paying.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence dashboard for that one registration is the literal evidence for the comment: RERA timeline and extensions, money through the RERA account and the 15 complaints logged against it. The homepage shows none of that.",
+      "draft": "Whatever the company says, the only things that actually protect your money in a Bengaluru deal are documents you can pull yourself for free before any payment.\n\n• K-RERA registration number - anything over 500 sq m or 8 units must be registered, and the project page lists the promoter, timeline and extensions\n• The promoter's quarterly progress filings - construction completed against money collected\n• The complaint register against that exact registration number, not the brand\n• Mother deed, EC, khata, and the occupancy certificate for anything sold as ready\n\nComplaints vary wildly even among names people trust. From the K-RERA complaint register, one Mahindra Blossom registration in Whitefield carries 15 complaints, while Prestige Pine Forest on the same corridor shows 0. I read these filings for every registered project in the city, and most of the trouble is visible in them months before it reaches a court.\n\nPay only into the project's RERA account, never into a separate booking or collection account in another name.",
+      "risk": "low",
+      "riskNote": "No link, no tool name, no sales line - r/bangalore bans anything broker-shaped. The comment is a checklist plus two verifiable complaint counts, useful to the thread whatever the specifics of this company.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view of this registration: 15 RERA complaints logged against it, plus timeline, extensions and RERA-account drawdowns."
+        },
+        {
+          "kind": "dd",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048#dd",
+          "caption": "Same checks on a Whitefield registration with 0 complaints - what a clean register looks like."
+        }
+      ],
+      "id": "5b42af71c6f7204e",
+      "foundAt": "2026-10-19T21:09:08.169Z"
+    },
+    {
+      "platform": "reddit",
       "url": "https://www.reddit.com/r/Bengaluru/comments/1x9ye5j/whats_the_cost_of_living_in_electronic_city/",
       "title": "What's the cost of living in Electronic City",
       "context": "r/Bengaluru",
@@ -2895,18 +2932,19 @@
     }
   ],
   "stats": {
-    "candidates": 9,
+    "candidates": 14,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "reddit": 1
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
