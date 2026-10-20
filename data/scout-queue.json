@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:39:54.444Z",
+  "generatedAt": "2026-10-20T20:02:07.474Z",
   "leads": [
     {
       "platform": "quora",
@@ -2441,6 +2441,52 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
+      "platform": "forum",
+      "url": "https://indiapropertyforum.org/t/best-builder-in-bangalore-brigade-prestige-or-sobha/368",
+      "title": "Best Builder in Bangalore - Brigade, Prestige or Sobha?",
+      "context": "India Property Forum — Bangalore",
+      "postedAt": "2026-10-20T06:00:00Z",
+      "evergreen": false,
+      "fit": 76,
+      "intent": "Wants to pick a builder brand to buy from in Bengaluru.",
+      "landing": "https://property-lens.ai/developers",
+      "landingWhy": "The developers view ranks each builder's individual registrations, which is the point of the reply — the variation inside one brand is larger than the gap between brands, and no single project page shows that.",
+      "draft": "The brand is a weaker signal than the specific registration. In the Karnataka RERA data I work with, the spread inside one builder is wider than the gap between the three:\n\n• Prestige Southern Star, Bannerghatta — score 83, projected 10.8%/yr, 0 complaints on this registration\n• Brigade Insignia, Yelahanka — score 81, projected 11.0%/yr, 1 complaint\n• Sobha Ayana at Dream Acres, Varthur — score 77, projected 10.7%/yr, 0 complaints\n• Prestige Westwoods, Rajajinagar (ready) — score 65, projected 8.7%/yr, 11 complaints\n\nScores are from a model I built on RERA filings and the promoters' quarterly progress reports; 50 is the average analysed Bengaluru project. Same builder, 18 points apart.\n\nSo compare registrations, not logos: complaints filed against that registration, how many times the completion date has been extended, construction progress against bookings, and whether money is actually flowing through the RERA account.",
+      "risk": "medium",
+      "riskNote": "Self-promo rule on this forum is unclear, so the post carries no link and no product name in the text; the figures stand alone and the method is disclosed. If a moderator asks, the model is named in the profile, not the body. Thread freshness taken from the search index showing activity today — drop if the thread turns out to be older.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Prestige",
+          "url": "https://property-lens.ai/?dev=Prestige",
+          "caption": "Prestige's registrations ranked — Southern Star at 83 against Westwoods at 65 with 11 complaints."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Brigade Group",
+          "url": "https://property-lens.ai/?dev=Brigade%20Group",
+          "caption": "Brigade's projects ranked by score, Insignia at 81 at the top."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Sobha",
+          "url": "https://property-lens.ai/?dev=Sobha",
+          "caption": "Sobha's registrations ranked, showing the same within-builder spread."
+        }
+      ],
+      "id": "f74710c299f61170",
+      "foundAt": "2026-10-20T20:02:07.474Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-to-purchase-an-apartment-in-Bangalore",
       "title": "Is it wise to purchase an apartment in Bangalore?",
@@ -2977,6 +3023,43 @@
       "foundAt": "2026-10-20T13:39:54.444Z"
     },
     {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
+      "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
+      "context": "Quora",
+      "postedAt": "2019-04-13T00:00:00Z",
+      "evergreen": true,
+      "fit": 62,
+      "intent": "Wants to know whether an older resale flat in the Rajajinagar belt will appreciate and whether buying it is sensible.",
+      "landing": "https://property-lens.ai/map?loc=malleswaram-rajajinagar",
+      "landingWhy": "The question is about one old building I have no filing-level data on, so the useful evidence is the belt it sits in — the Malleswaram/Rajajinagar map shows scores, modelled growth and prices for the surrounding stock.",
+      "draft": "A nine-year-old flat is a resale purchase, and that already changes the maths in your favour: there is no GST on a completed property with an occupancy certificate, so you skip a cost an under-construction launch would charge you.\n\nI can't quote figures for that specific building, but across the Malleswaram / Rajajinagar / Sadashivanagar projects I've scored from Karnataka RERA filings, the median investment score is 63 out of 100 (50 is the average analysed Bengaluru project) and median projected price growth is about 9.1% a year, at a median estimated ₹12,000 per sq ft. Ready stock there runs thin on rent: MIZU of Kessaku scores 72 at a 3.3% gross yield, Birla Tisya 70 at 2.8%.\n\nThat matters for the appreciation question. Even at roughly 9% modelled price growth, once stamp duty and registration, interiors, maintenance, loan interest and selling costs are taken out, the net-wealth CAGR on the ready projects I've scored in that belt lands between about 5.1% and 6.0% over eight years with a 75% loan. Older stock also carries a refurbishment bill no listing mentions.\n\nFor a building this age, do the unglamorous checks: occupancy certificate, e-khata in the seller's name, encumbrance certificate going back 13 years, association dues and sinking fund balance, water source, and any litigation on the land. Then ask the association how many resales actually closed in the last year — liquidity is usually the real advantage of a large integrated project, and it's measurable before you commit.",
+      "risk": "low",
+      "riskNote": "Honest about not having project-level data for that building rather than stretching a number onto it. No link, no buy/don't-buy verdict.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "malleswaram-rajajinagar",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=malleswaram-rajajinagar",
+          "caption": "Malleswaram / Rajajinagar score map — median analysed score 63, median projected 9.1%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "mizu-of-kessaku-000441",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mizu-of-kessaku-000441",
+          "caption": "MIZU of Kessaku, a ready project in the same belt: score 72, 3.3% gross yield, net-wealth CAGR 6.0%."
+        }
+      ],
+      "id": "25a916c36a0819b2",
+      "foundAt": "2026-10-20T20:02:07.474Z"
+    },
+    {
       "platform": "reddit",
       "url": "https://www.reddit.com/r/indianrealestate/comments/1xa4mb7/godrej_aveline_owners_whasapptelegram_group/",
       "title": "Godrej Aveline Owners WhasApp/Telegram group",
@@ -3049,59 +3132,24 @@
       ],
       "id": "5b42af71c6f7204e",
       "foundAt": "2026-10-19T21:09:08.169Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/Bengaluru/comments/1x9ye5j/whats_the_cost_of_living_in_electronic_city/",
-      "title": "What's the cost of living in Electronic City",
-      "context": "r/Bengaluru",
-      "postedAt": "2026-10-19T14:28:34+00:00",
-      "evergreen": false,
-      "fit": 52,
-      "intent": "Wants to know what living in Electronic City actually costs before moving there.",
-      "landing": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
-      "landingWhy": "The Electronic City map is the evidence for the corridor's median price and median score quoted in the comment; the homepage would show nothing about EC.",
-      "draft": "Housing is most of the answer here — the rest of the cost of living in EC is close to the rest of the city.\n\nOn the buy side, the 115 registered Electronic City / Hosur Road projects I pulled from the Karnataka RERA filings have a median price of roughly ₹5,850 per sq ft (an estimate from locality evidence) against about ₹11,750 in Whitefield and ₹13,650 around HSR. Same flat, roughly half.\n\nThe trade-off is in the quality scores: EC's median project scores 41 out of 100 where the average analysed Bengaluru project is 50, mostly on transit and social infrastructure, and median projected 5-year price growth is 9.1%/yr versus 11.2% around Devanahalli.\n\nRent I can't give you a reliable figure for. The thing that actually decides your monthly cost is whether your office is on Hosur Road or on the other side of the ORR — work that out before comparing rents.",
-      "risk": "medium",
-      "riskNote": "r/Bengaluru is hostile to anything broker-flavoured, so the comment carries no link, no tool name and admits what it can't answer (rent). Risk is that the thread is about living costs rather than buying; the housing figures are kept to one paragraph.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "electronic-city-hosur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
-          "caption": "Electronic City / Hosur Road: 115 analysed projects, median score 41/100, median price about ₹5,850 per sq ft (estimate)."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "whitefield-hoodi",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=whitefield-hoodi",
-          "caption": "Whitefield for comparison: median score 58, median price about ₹11,750 per sq ft (estimate)."
-        }
-      ],
-      "id": "cbf78d272784ae27",
-      "foundAt": "2026-10-19T15:43:26.655Z"
     }
   ],
   "stats": {
-    "candidates": 22,
-    "kept": 4,
+    "candidates": 3,
+    "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3,
+      "forum": 1,
       "quora": 1
     },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 404",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
