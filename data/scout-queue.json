@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:09:08.169Z",
+  "generatedAt": "2026-10-20T13:39:54.444Z",
   "leads": [
     {
       "platform": "quora",
@@ -1259,9 +1259,9 @@
       "intent": "Wants a realistic minimum ticket size for buying residential property in Bengaluru.",
       "landing": "https://property-lens.ai/",
       "landingWhy": "The city-wide ranked cards let them sort entry tickets against scores, which is exactly the 'what does the minimum actually buy' question; a locality map wouldn't show ticket sizes.",
-      "draft": "For residential, the honest entry point for a credible apartment from one of the city's larger developers is roughly ₹30-55 lakh of sticker price — and the sticker is not the cost.\n\nSome current entry tickets for the default unit, from the Karnataka RERA filings I track:\n\n- Sattva Aeropolis Phase 2, Devanahalli — PropertyLens score 67, ₹32.0 L, projected 11.7%/yr price growth\n- Brigade Calista Phase 2, Budigere Cross — score 63, ₹38.2 L, projected 10.4%/yr\n- Brigade Insignia, Yelahanka — score 81, ₹42.1 L, projected 11.0%/yr\n- Casagrand Estancia, Yelahanka — score 83, ₹54.9 L, projected 12.2%/yr\n\nOn top of any of those sit GST on an under-construction purchase, stamp duty and registration, other charges, interiors and loan interest. That is why Casagrand Estancia's projected 12.2% a year becomes a 9.6% net-wealth CAGR over eight years on a 75% loan once every cost is subtracted — and that is one of the stronger ones in the dataset.\n\nThe cheap end is where budget logic breaks. The median project on Doddaballapur Road/Nelamangala scores 22 out of 100; New Haven Bengaluru Phase V there scores 12, with a modelled net-wealth CAGR of 1.6% on the same assumptions. A low price per sq ft usually buys weak resale liquidity and weak employment access, which only shows up when you try to exit.\n\nWhatever the budget, check the RERA registration, the extensions taken, complaints filed on that registration, and the occupancy certificate. Research, not advice.",
+      "draft": "For residential, the honest entry point for a credible apartment from one of the city's larger developers is roughly ₹30-55 lakh of sticker price — and the sticker is not the cost.\n\nSome current entry tickets for the default unit, from the Karnataka RERA filings I track:\n\n- Sattva Aeropolis Phase 2, Devanahalli — PropertyLens score 67, ₹32.0 L, projected 11.7%/yr price growth\n- Brigade Calista Phase 2, Budigere Cross — score 63, ₹38.2 L, projected 10.4%/yr\n- Brigade Insignia, Yelahanka — score 81, ₹42.1 L, projected 11.0%/yr\n- Casagrand Estancia, Yelahanka — score 83, ₹54.9 L, projected 12.2%/yr\n\nOn top of any of those sit GST on an under-construction purchase, stamp duty and registration, other charges, interiors and loan interest. That is why Casagrand Estancia's projected 12.2% a year becomes a 9.6% net-wealth CAGR over eight years on a 75% loan once every cost is subtracted — and that is one of the stronger ones in the dataset.\n\nThe cheap end is where budget logic breaks. The median project on Doddaballapur Road/Nelamangala scores 22 out of 100; New Haven Bengaluru Phase V there scores 12, with a modelled net-wealth CAGR of 1.6% on the same assumptions. A low price per sq ft usually buys weak resale liquidity and weak employment access, which only shows up when you try to exit.\n\nWhatever the budget, check the RERA registration, the extensions taken, complaints filed on that registration, and the occupancy certificate. Research, not advice.\n\nIf you want to check these numbers yourself, all 1,850+ analysed Bengaluru projects, ranked with net returns, are here: https://property-lens.ai/",
       "risk": "low",
-      "riskNote": "Names a low-scoring project, so the tone reads as analysis rather than promotion; scores are labelled as model output and no page is linked.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "list",
@@ -2034,6 +2034,43 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1x9z463/bangalore_underconstruction_buyers_was_your/",
+      "title": "Bangalore under-construction buyers: was your agreement stamp duty calculated including or excluding GST?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-19T14:56:53+00:00",
+      "evergreen": false,
+      "fit": 78,
+      "intent": "Wants to know whether Karnataka stamp duty on an under-construction agreement is computed on a value that includes GST, and whether they were overcharged.",
+      "landing": "https://property-lens.ai/p/prestige-raintree-park-006981",
+      "landingWhy": "A project page shows the full purchase cost stack — GST, stamp duty and registration, other charges, interiors, interest — rolled into a net return, which is the context the stamp-duty line sits in; the homepage shows none of that.",
+      "draft": "Karnataka stamp duty is levied on the consideration recorded in the agreement, not on the GST you pay on top of it — GST is a tax, not part of the price going to the seller. Ask the builder for the duty computation sheet and compare it against the value printed on your registered document.\n\nTwo things cause the confusion: the sub-registrar will still levy on guidance value where that is higher than your agreement value, and in under-construction sales the land and construction agreements are often valued separately, which is where GST quietly gets folded in.\n\nWorth looking at the whole cost stack rather than this one line. From K-RERA filings and a model I built (8-year hold, 75% loan, after GST, stamp duty, registration, interiors, maintenance, interest and selling costs):\n\n• Prestige Raintree Park — projected price growth 10.6%/yr, net-wealth CAGR 7.1%\n• Godrej Lakeside Orchard — projected 10.8%/yr, net-wealth CAGR 7.5%\n• Birla Evara — projected 11.0%/yr, net-wealth CAGR 8.7%\n\nRoughly three points a year disappears into costs most buyers treat as rounding errors, and stamp duty is only one of them.",
+      "risk": "low",
+      "riskNote": "No link, no domain named, no product pitch; the tool is mentioned only as the basis for the numbers. All figures written out because comment images are usually disabled.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
+          "caption": "Prestige Raintree Park: projected 10.6%/yr growth versus 7.1% net-wealth CAGR after every cost."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara, Sarjapur Road: 11.0%/yr projected growth, 8.7% net-wealth CAGR on a 75% loan."
+        }
+      ],
+      "id": "75dd954ef69a5140",
+      "foundAt": "2026-10-20T13:39:54.444Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-the-right-time-to-invest-in-property-in-Bangalore",
       "title": "Is it the right time to invest in property in Bangalore?",
@@ -2402,6 +2439,52 @@
       ],
       "id": "aeb755166e1835af",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-wise-to-purchase-an-apartment-in-Bangalore",
+      "title": "Is it wise to purchase an apartment in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2023-11-30T00:00:00Z",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Wants a straight read on whether a Bengaluru apartment purchase makes financial sense right now.",
+      "landing": "https://property-lens.ai/developers",
+      "landingWhy": "The answer's core claim is that the spread inside one developer is wider than the city call, so the developer-by-developer view is the direct evidence; the homepage can't show that contrast.",
+      "draft": "The city-level question is less useful than it looks, because the spread between projects inside Bengaluru — and inside the same developer — is wider than any difference between cities.\n\nWorking from Karnataka RERA filings for 1,854 analysed Bengaluru projects, scored 0-100 where 50 is the average analysed project and 12 points is one standard deviation: Prestige Pine Forest in Whitefield scores 78 while Prestige Suncrest in Electronic City scores 62; Brigade Insignia scores 81 while Brigade WTC Annexe scores 48. Same brands, very different registrations.\n\nThe second thing to be honest about is the arithmetic. Gross rental yields cluster around 2.5-4.5%, so almost the entire return is price growth, and costs take a real bite. On an eight-year hold with a 75% loan, after GST, stamp duty and registration, interiors, maintenance, vacancy, loan interest and selling costs, Birla Evara on Sarjapur Road works out at a 8.7% net-wealth CAGR against projected price growth of 11.0% a year; Prestige Suncrest at 4.2% against 9.4%. That gap is the cost stack, and it is where most \"my flat doubled\" stories quietly fall apart.\n\nSo it can be sensible if you buy a specific registration with a clean record and hold it long enough to absorb the transaction costs; it rarely is as a two or three year trade. Before signing, read the registered completion date and every extension filed, the complaints logged against that registration, the land ownership documents, and whether withdrawals from the designated project account track construction. Research, not advice.",
+      "risk": "low",
+      "riskNote": "No link and no self-promotional sentence; the numbers and the RERA checklist carry the answer, and the credential handles attribution.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Prestige",
+          "url": "https://property-lens.ai/?dev=Prestige",
+          "caption": "Prestige projects ranked: the 78 to 62 spread inside one developer."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Brigade Group",
+          "url": "https://property-lens.ai/?dev=Brigade%20Group",
+          "caption": "Brigade projects ranked, from Insignia at 81 down to WTC Annexe at 48."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: 11.0%/yr projected growth against an 8.7% net-wealth CAGR after all costs."
+        }
+      ],
+      "id": "cf34a433e2f40dd0",
+      "foundAt": "2026-10-20T13:39:54.444Z"
     },
     {
       "platform": "quora",
@@ -2858,6 +2941,80 @@
     },
     {
       "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xakqvc/nris_whove_bought_property_in_india_remotely_how/",
+      "title": "NRIs who've bought property in India remotely: how did you get comfortable with the decision without being there",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-20T06:30:49+00:00",
+      "evergreen": false,
+      "fit": 68,
+      "intent": "Wants a practical method for diligencing an Indian property purchase from abroad without site visits.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The due-diligence dashboard is exactly the remote checklist the comment describes — RERA timeline and extensions, construction vs bookings, money through the project account, complaints — for the registration whose complaint count the comment cites.",
+      "draft": "What made this workable remotely, at least in Karnataka, was treating the RERA registration number as the unit of diligence instead of the project name. Builders register phases and towers separately and the records differ between them.\n\nConcrete example from the K-RERA filings: Mahindra Blossom in Whitefield appears under two registrations, and the complaints column shows 15 on one and 0 on the other. Same name, same site, two very different records.\n\nFrom abroad you can pull all of this yourself without anyone's help:\n\n• Registered completion date and every extension filed since launch\n• Quarterly progress reports — units booked against floors actually built\n• Withdrawals from the designated project account versus work certified\n• The complaint register and any court cases against the promoter\n\nThen ask the builder in writing for the land title documents and the latest progress report. If what comes back doesn't match the filings, that mismatch is your answer, long before anyone needs to fly down.",
+      "risk": "medium",
+      "riskNote": "Thread is India-wide, not Bengaluru-only, so the draft is explicit that the example and the process are Karnataka RERA. No link, no tool name; it reads as method plus one verifiable fact.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "The Mahindra Blossom registration showing 15 complaints logged on it."
+        },
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348-171225",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348-171225#dd",
+          "caption": "The sibling Mahindra Blossom registration: same name, 0 complaints on it."
+        }
+      ],
+      "id": "03c95493f33cc0eb",
+      "foundAt": "2026-10-20T13:39:54.444Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xa4mb7/godrej_aveline_owners_whasapptelegram_group/",
+      "title": "Godrej Aveline Owners WhasApp/Telegram group",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-19T18:20:40+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "An allottee looking for other Godrej Aveline buyers to compare notes and track the project.",
+      "landing": "https://property-lens.ai/dd/godrej-aveline-008501",
+      "landingWhy": "An owner tracking the build needs the registration's RERA timeline, extensions, bookings-vs-construction and complaint record — the due-diligence view — not a marketing or scoring page.",
+      "draft": "Can't help with the group, but if you've booked there, put a quarterly reminder on the K-RERA progress filings. Each one shows floors completed against units booked and how much has been drawn from the designated project account, which is usually the earliest honest sign of a slip.\n\nOn the current filings this registration has zero complaints logged against it, and one item I'd flag in a due-diligence read — worth putting to the relationship manager in writing. Also check that the completion date in your agreement matches the registered completion date; if it doesn't, ask why now rather than in year three.\n\nFor what it's worth, on the model I built it scores 80 out of 100 where 50 is the average analysed Bengaluru project, with projected price growth of 12.1% a year over five years. That's a projection from locality evidence, not a promise.",
+      "risk": "medium",
+      "riskNote": "Thread is a logistics request, so the draft leads with a useful owner-side action and keeps scores to one closing line. No link, no domain, nothing that reads as a pitch.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "godrej-aveline-008501",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-aveline-008501#dd",
+          "caption": "Godrej Aveline due diligence: RERA timeline, bookings vs construction, zero complaints on this registration."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-aveline-008501",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-aveline-008501",
+          "caption": "Godrej Aveline: score 80, projected 12.1%/yr price growth, ₹92.6 L for the default unit."
+        }
+      ],
+      "id": "d6c1d62db1166d05",
+      "foundAt": "2026-10-20T13:39:54.444Z"
+    },
+    {
+      "platform": "reddit",
       "url": "https://www.reddit.com/r/bangalore/comments/1x9i19t/arvo_real_estate_company_fraud/",
       "title": "ARVO Real estate company fraud",
       "context": "r/bangalore",
@@ -2932,19 +3089,19 @@
     }
   ],
   "stats": {
-    "candidates": 14,
-    "kept": 1,
+    "candidates": 22,
+    "kept": 4,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 1
+      "reddit": 3,
+      "quora": 1
     },
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
