@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:02:07.474Z",
+  "generatedAt": "2026-10-21T05:00:22.520Z",
   "leads": [
     {
       "platform": "quora",
@@ -1499,9 +1499,9 @@
       "intent": "Wants localities and projects where a ₹50 L apartment in Bengaluru is actually possible and not a trap.",
       "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
       "landingWhy": "Devanahalli/Bagalur is where most genuine sub-50 lakh registrations sit, and the locality map shows the spread of scores there rather than one project's marketing.",
-      "draft": "At ₹50 L your choice is mostly the north (Devanahalli, Bagalur, Yelahanka fringe), the Budigere Cross/Hoskote side, Hennur Road, and pockets of the far east. From the Karnataka RERA filings I analyse for Bengaluru's top 200 developers, median price per sq ft is roughly ₹4,700 in the Devanahalli belt and ₹5,650 around Hoskote, against ₹11,750 in Whitefield — that price gap is the only reason a sub-50 lakh 2BHK exists at all. Those per-sq-ft numbers are model estimates.\n\nRegistrations currently in that band, with score (50 is the average analysed Bengaluru project) and projected 5-yr price growth:\n• Sattva Aeropolis Phase 2, Devanahalli — 67, 11.7%/yr, default unit ₹32.0 L, 0 complaints on this registration\n• Brigade Insignia, Yelahanka — 81, 11.0%/yr, ₹42.1 L\n• Brigade Calista Phase 2, Budigere Cross — 63, 10.4%/yr, ₹38.2 L\n• Radiance Gardenia, Hennur Road — 69, 9.1%/yr, ₹32.7 L, and it is ready, so no construction risk\n\nThe catch in the cheap north: the Devanahalli belt has 212 analysed projects with a median score of 50, so the spread is enormous and the locality average tells you almost nothing. Employment access is the weak factor there — rental demand near the airport is thinner than along ORR.\n\nBefore booking anything under construction at this budget, read the registration itself: original completion date, extensions filed, quarterly progress against bookings, complaints on that registration number, and whether collections went through the RERA designated account. That protects 50 lakh better than any amenity list.",
+      "draft": "At ₹50 L your choice is mostly the north (Devanahalli, Bagalur, Yelahanka fringe), the Budigere Cross/Hoskote side, Hennur Road, and pockets of the far east. From the Karnataka RERA filings I analyse for Bengaluru's top 200 developers, median price per sq ft is roughly ₹4,700 in the Devanahalli belt and ₹5,650 around Hoskote, against ₹11,750 in Whitefield — that price gap is the only reason a sub-50 lakh 2BHK exists at all. Those per-sq-ft numbers are model estimates.\n\nRegistrations currently in that band, with score (50 is the average analysed Bengaluru project) and projected 5-yr price growth:\n• Sattva Aeropolis Phase 2, Devanahalli — 67, 11.7%/yr, default unit ₹32.0 L, 0 complaints on this registration\n• Brigade Insignia, Yelahanka — 81, 11.0%/yr, ₹42.1 L\n• Brigade Calista Phase 2, Budigere Cross — 63, 10.4%/yr, ₹38.2 L\n• Radiance Gardenia, Hennur Road — 69, 9.1%/yr, ₹32.7 L, and it is ready, so no construction risk\n\nThe catch in the cheap north: the Devanahalli belt has 212 analysed projects with a median score of 50, so the spread is enormous and the locality average tells you almost nothing. Employment access is the weak factor there — rental demand near the airport is thinner than along ORR.\n\nBefore booking anything under construction at this budget, read the registration itself: original completion date, extensions filed, quarterly progress against bookings, complaints on that registration number, and whether collections went through the RERA designated account. That protects 50 lakh better than any amenity list.\n\nIf you want to check these numbers yourself, every project on this corridor, scored on one map, is here: https://property-lens.ai/map?loc=devanahalli-airport",
       "risk": "low",
-      "riskNote": "No link, no domain named. Complaint count quoted only for the one project where the dataset records it; everything else is score and growth, labelled.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "map",
@@ -1616,6 +1616,43 @@
       ],
       "id": "f1212c97a3dc1ec8",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Where-is-the-best-place-to-buy-2-BHK-apartment-for-50-lakhs-in-Bangalore",
+      "title": "Where is the best place to buy 2 BHK apartment for 50 lakhs in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2019-03-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Budget-first buyer wants to know which corridors and projects are actually reachable at around ₹50 lakh.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "A budget question needs the city-wide map where projects can be seen by locality and score together, not a single project or developer page.",
+      "draft": "At around ₹50 lakh the choice is between a small unit in a strong corridor and a larger one in a weak one, and the scoring gap between those two options is usually 20 points or more.\n\nFrom the RERA-filing dataset I score, these sit inside or near that budget as the modelled entry ticket for the project's default unit:\n\n• Brigade Insignia, Yelahanka — score 81, projected 5-yr price growth 11.0%/yr, ticket ₹42.1 L, gross yield 4.5%\n• Prestige Raintree Park, Varthur Road — score 81, projected 10.6%/yr, ticket ₹47.5 L\n• Brigade Lakecrest, KR Puram — score 75, projected 10.6%/yr, ticket ₹46.8 L\n• Sattva Aeropolis Phase 2, Devanahalli — score 67, projected 11.7%/yr, ticket ₹32.0 L\n\nThe score is 0-100 where 50 is the average analysed Bengaluru project, and the prices behind these tickets are model estimates, so treat them as a shortlist to verify, not quotes.\n\nTwo budget traps worth naming. First, the sticker price is not the outgo: GST on an under-construction home, stamp duty and registration, other charges and interiors all land on top, and a ₹50 lakh flat routinely needs well over ₹55 lakh in cash and loan. Second, all four above are under construction, so they earn no rent until handover — if you are counting on rent to carry the EMI, a ready resale flat at the same budget behaves completely differently.\n\nBefore paying a booking amount, check the RERA completion date, any extensions already filed, and complaints registered against that specific registration number.",
+      "risk": "low",
+      "riskNote": "Budget threads attract brokers, so the draft names costs buyers usually miss and flags that the figures are modelled; no link and no single project is pushed.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked project cards, filterable by budget and score."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia — score 81, projected 11.0%/yr, modelled ticket ₹42.1 L, gross yield 4.5%."
+        }
+      ],
+      "id": "416ea0d95e02ddca",
+      "foundAt": "2026-10-21T05:00:22.520Z"
     },
     {
       "platform": "quora",
@@ -3095,61 +3132,21 @@
       ],
       "id": "d6c1d62db1166d05",
       "foundAt": "2026-10-20T13:39:54.444Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/bangalore/comments/1x9i19t/arvo_real_estate_company_fraud/",
-      "title": "ARVO Real estate company fraud",
-      "context": "r/bangalore",
-      "postedAt": "2026-10-18T23:51:24Z",
-      "evergreen": false,
-      "fit": 60,
-      "intent": "Warning others about a Bengaluru real estate operator and looking for what buyers should check before paying.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "The due-diligence dashboard for that one registration is the literal evidence for the comment: RERA timeline and extensions, money through the RERA account and the 15 complaints logged against it. The homepage shows none of that.",
-      "draft": "Whatever the company says, the only things that actually protect your money in a Bengaluru deal are documents you can pull yourself for free before any payment.\n\n• K-RERA registration number - anything over 500 sq m or 8 units must be registered, and the project page lists the promoter, timeline and extensions\n• The promoter's quarterly progress filings - construction completed against money collected\n• The complaint register against that exact registration number, not the brand\n• Mother deed, EC, khata, and the occupancy certificate for anything sold as ready\n\nComplaints vary wildly even among names people trust. From the K-RERA complaint register, one Mahindra Blossom registration in Whitefield carries 15 complaints, while Prestige Pine Forest on the same corridor shows 0. I read these filings for every registered project in the city, and most of the trouble is visible in them months before it reaches a court.\n\nPay only into the project's RERA account, never into a separate booking or collection account in another name.",
-      "risk": "low",
-      "riskNote": "No link, no tool name, no sales line - r/bangalore bans anything broker-shaped. The comment is a checklist plus two verifiable complaint counts, useful to the thread whatever the specifics of this company.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "Due-diligence view of this registration: 15 RERA complaints logged against it, plus timeline, extensions and RERA-account drawdowns."
-        },
-        {
-          "kind": "dd",
-          "projectId": "prestige-pine-forest-007048",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-pine-forest-007048#dd",
-          "caption": "Same checks on a Whitefield registration with 0 complaints - what a clean register looks like."
-        }
-      ],
-      "id": "5b42af71c6f7204e",
-      "foundAt": "2026-10-19T21:09:08.169Z"
     }
   ],
   "stats": {
-    "candidates": 3,
-    "kept": 2,
+    "candidates": 6,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "forum": 1,
       "quora": 1
     },
     "errors": [
-      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 404",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
