@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T05:00:22.520Z",
+  "generatedAt": "2026-10-21T13:56:10.487Z",
   "leads": [
     {
       "platform": "quora",
@@ -2071,43 +2071,6 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1x9z463/bangalore_underconstruction_buyers_was_your/",
-      "title": "Bangalore under-construction buyers: was your agreement stamp duty calculated including or excluding GST?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-19T14:56:53+00:00",
-      "evergreen": false,
-      "fit": 78,
-      "intent": "Wants to know whether Karnataka stamp duty on an under-construction agreement is computed on a value that includes GST, and whether they were overcharged.",
-      "landing": "https://property-lens.ai/p/prestige-raintree-park-006981",
-      "landingWhy": "A project page shows the full purchase cost stack — GST, stamp duty and registration, other charges, interiors, interest — rolled into a net return, which is the context the stamp-duty line sits in; the homepage shows none of that.",
-      "draft": "Karnataka stamp duty is levied on the consideration recorded in the agreement, not on the GST you pay on top of it — GST is a tax, not part of the price going to the seller. Ask the builder for the duty computation sheet and compare it against the value printed on your registered document.\n\nTwo things cause the confusion: the sub-registrar will still levy on guidance value where that is higher than your agreement value, and in under-construction sales the land and construction agreements are often valued separately, which is where GST quietly gets folded in.\n\nWorth looking at the whole cost stack rather than this one line. From K-RERA filings and a model I built (8-year hold, 75% loan, after GST, stamp duty, registration, interiors, maintenance, interest and selling costs):\n\n• Prestige Raintree Park — projected price growth 10.6%/yr, net-wealth CAGR 7.1%\n• Godrej Lakeside Orchard — projected 10.8%/yr, net-wealth CAGR 7.5%\n• Birla Evara — projected 11.0%/yr, net-wealth CAGR 8.7%\n\nRoughly three points a year disappears into costs most buyers treat as rounding errors, and stamp duty is only one of them.",
-      "risk": "low",
-      "riskNote": "No link, no domain named, no product pitch; the tool is mentioned only as the basis for the numbers. All figures written out because comment images are usually disabled.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "prestige-raintree-park-006981",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
-          "caption": "Prestige Raintree Park: projected 10.6%/yr growth versus 7.1% net-wealth CAGR after every cost."
-        },
-        {
-          "kind": "project",
-          "projectId": "birla-evara-007487",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/birla-evara-007487",
-          "caption": "Birla Evara, Sarjapur Road: 11.0%/yr projected growth, 8.7% net-wealth CAGR on a 75% loan."
-        }
-      ],
-      "id": "75dd954ef69a5140",
-      "foundAt": "2026-10-20T13:39:54.444Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-the-right-time-to-invest-in-property-in-Bangalore",
       "title": "Is it the right time to invest in property in Bangalore?",
@@ -3023,43 +2986,6 @@
       "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xakqvc/nris_whove_bought_property_in_india_remotely_how/",
-      "title": "NRIs who've bought property in India remotely: how did you get comfortable with the decision without being there",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-20T06:30:49+00:00",
-      "evergreen": false,
-      "fit": 68,
-      "intent": "Wants a practical method for diligencing an Indian property purchase from abroad without site visits.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "The due-diligence dashboard is exactly the remote checklist the comment describes — RERA timeline and extensions, construction vs bookings, money through the project account, complaints — for the registration whose complaint count the comment cites.",
-      "draft": "What made this workable remotely, at least in Karnataka, was treating the RERA registration number as the unit of diligence instead of the project name. Builders register phases and towers separately and the records differ between them.\n\nConcrete example from the K-RERA filings: Mahindra Blossom in Whitefield appears under two registrations, and the complaints column shows 15 on one and 0 on the other. Same name, same site, two very different records.\n\nFrom abroad you can pull all of this yourself without anyone's help:\n\n• Registered completion date and every extension filed since launch\n• Quarterly progress reports — units booked against floors actually built\n• Withdrawals from the designated project account versus work certified\n• The complaint register and any court cases against the promoter\n\nThen ask the builder in writing for the land title documents and the latest progress report. If what comes back doesn't match the filings, that mismatch is your answer, long before anyone needs to fly down.",
-      "risk": "medium",
-      "riskNote": "Thread is India-wide, not Bengaluru-only, so the draft is explicit that the example and the process are Karnataka RERA. No link, no tool name; it reads as method plus one verifiable fact.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "The Mahindra Blossom registration showing 15 complaints logged on it."
-        },
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348-171225",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348-171225#dd",
-          "caption": "The sibling Mahindra Blossom registration: same name, 0 complaints on it."
-        }
-      ],
-      "id": "03c95493f33cc0eb",
-      "foundAt": "2026-10-20T13:39:54.444Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3095,58 +3021,21 @@
       ],
       "id": "25a916c36a0819b2",
       "foundAt": "2026-10-20T20:02:07.474Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xa4mb7/godrej_aveline_owners_whasapptelegram_group/",
-      "title": "Godrej Aveline Owners WhasApp/Telegram group",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-19T18:20:40+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "An allottee looking for other Godrej Aveline buyers to compare notes and track the project.",
-      "landing": "https://property-lens.ai/dd/godrej-aveline-008501",
-      "landingWhy": "An owner tracking the build needs the registration's RERA timeline, extensions, bookings-vs-construction and complaint record — the due-diligence view — not a marketing or scoring page.",
-      "draft": "Can't help with the group, but if you've booked there, put a quarterly reminder on the K-RERA progress filings. Each one shows floors completed against units booked and how much has been drawn from the designated project account, which is usually the earliest honest sign of a slip.\n\nOn the current filings this registration has zero complaints logged against it, and one item I'd flag in a due-diligence read — worth putting to the relationship manager in writing. Also check that the completion date in your agreement matches the registered completion date; if it doesn't, ask why now rather than in year three.\n\nFor what it's worth, on the model I built it scores 80 out of 100 where 50 is the average analysed Bengaluru project, with projected price growth of 12.1% a year over five years. That's a projection from locality evidence, not a promise.",
-      "risk": "medium",
-      "riskNote": "Thread is a logistics request, so the draft leads with a useful owner-side action and keeps scores to one closing line. No link, no domain, nothing that reads as a pitch.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "godrej-aveline-008501",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-aveline-008501#dd",
-          "caption": "Godrej Aveline due diligence: RERA timeline, bookings vs construction, zero complaints on this registration."
-        },
-        {
-          "kind": "project",
-          "projectId": "godrej-aveline-008501",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-aveline-008501",
-          "caption": "Godrej Aveline: score 80, projected 12.1%/yr price growth, ₹92.6 L for the default unit."
-        }
-      ],
-      "id": "d6c1d62db1166d05",
-      "foundAt": "2026-10-20T13:39:54.444Z"
     }
   ],
   "stats": {
-    "candidates": 6,
-    "kept": 1,
+    "candidates": 17,
+    "kept": 0,
     "skippedSeen": 0,
-    "byPlatform": {
-      "quora": 1
-    },
+    "byPlatform": {},
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "judge: {\"type\":\"error\",\"error\":{\"details\":null,\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgFVx5nfavFidut6HuZYr\"}"
     ]
   }
 }
