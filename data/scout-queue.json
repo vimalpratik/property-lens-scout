@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:56:10.487Z",
+  "generatedAt": "2026-10-21T20:14:38.800Z",
   "leads": [
     {
       "platform": "quora",
@@ -2441,52 +2441,6 @@
       "foundAt": "2026-09-19T12:33:51.264Z"
     },
     {
-      "platform": "forum",
-      "url": "https://indiapropertyforum.org/t/best-builder-in-bangalore-brigade-prestige-or-sobha/368",
-      "title": "Best Builder in Bangalore - Brigade, Prestige or Sobha?",
-      "context": "India Property Forum — Bangalore",
-      "postedAt": "2026-10-20T06:00:00Z",
-      "evergreen": false,
-      "fit": 76,
-      "intent": "Wants to pick a builder brand to buy from in Bengaluru.",
-      "landing": "https://property-lens.ai/developers",
-      "landingWhy": "The developers view ranks each builder's individual registrations, which is the point of the reply — the variation inside one brand is larger than the gap between brands, and no single project page shows that.",
-      "draft": "The brand is a weaker signal than the specific registration. In the Karnataka RERA data I work with, the spread inside one builder is wider than the gap between the three:\n\n• Prestige Southern Star, Bannerghatta — score 83, projected 10.8%/yr, 0 complaints on this registration\n• Brigade Insignia, Yelahanka — score 81, projected 11.0%/yr, 1 complaint\n• Sobha Ayana at Dream Acres, Varthur — score 77, projected 10.7%/yr, 0 complaints\n• Prestige Westwoods, Rajajinagar (ready) — score 65, projected 8.7%/yr, 11 complaints\n\nScores are from a model I built on RERA filings and the promoters' quarterly progress reports; 50 is the average analysed Bengaluru project. Same builder, 18 points apart.\n\nSo compare registrations, not logos: complaints filed against that registration, how many times the completion date has been extended, construction progress against bookings, and whether money is actually flowing through the RERA account.",
-      "risk": "medium",
-      "riskNote": "Self-promo rule on this forum is unclear, so the post carries no link and no product name in the text; the figures stand alone and the method is disclosed. If a moderator asks, the model is named in the profile, not the body. Thread freshness taken from the search index showing activity today — drop if the thread turns out to be older.",
-      "shots": [
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Prestige",
-          "url": "https://property-lens.ai/?dev=Prestige",
-          "caption": "Prestige's registrations ranked — Southern Star at 83 against Westwoods at 65 with 11 complaints."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Brigade Group",
-          "url": "https://property-lens.ai/?dev=Brigade%20Group",
-          "caption": "Brigade's projects ranked by score, Insignia at 81 at the top."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Sobha",
-          "url": "https://property-lens.ai/?dev=Sobha",
-          "caption": "Sobha's registrations ranked, showing the same within-builder spread."
-        }
-      ],
-      "id": "f74710c299f61170",
-      "foundAt": "2026-10-20T20:02:07.474Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-to-purchase-an-apartment-in-Bangalore",
       "title": "Is it wise to purchase an apartment in Bangalore?",
@@ -3024,18 +2978,18 @@
     }
   ],
   "stats": {
-    "candidates": 17,
+    "candidates": 0,
     "kept": 0,
     "skippedSeen": 0,
     "byPlatform": {},
     "errors": [
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "judge: {\"type\":\"error\",\"error\":{\"details\":null,\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgFVx5nfavFidut6HuZYr\"}"
+      "judge: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgFzq1siAtTVpVguevxu8\"}"
     ]
   }
 }
