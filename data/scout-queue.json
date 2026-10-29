@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:14:38.800Z",
+  "generatedAt": "2026-10-29T21:14:03.334Z",
   "leads": [
     {
       "platform": "quora",
@@ -2903,6 +2903,43 @@
       "foundAt": "2026-10-16T13:20:30.998Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1xig0bw/should_i_stretch_from_80l_to_1cr_for_a_house/",
+      "title": "Should I stretch from ₹80L to ₹1Cr for a house given IT job uncertainty?",
+      "context": "r/personalfinanceindia",
+      "postedAt": "2026-10-29T10:15:30+00:00",
+      "evergreen": false,
+      "fit": 70,
+      "intent": "Decide whether the extra ₹20L of budget is worth the EMI risk while IT employment feels shaky.",
+      "landing": "https://property-lens.ai/p/prestige-pine-forest-007048",
+      "landingWhy": "The project page shows the full cost stack behind the net-wealth CAGR — GST, stamp duty, interiors, vacancy, interest, selling cost — which is exactly the gap between headline price growth and what a stretched buyer keeps.",
+      "draft": "Before stretching, compare what you keep after costs, not the headline price growth. I model Bengaluru projects from the K-RERA filings, and on an 8-year hold with a 75% loan the net-wealth CAGR after GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest and selling costs usually lands 3-4 points below the projected price growth.\n\nIf Bengaluru is your city, three examples on that basis:\n\n• Prestige Pine Forest, Whitefield — score 78/100, projected price growth 10.4%/yr, net-wealth CAGR 6.9%\n• Godrej Lakeside Orchard, Sarjapur Road — score 72, 10.8%/yr, net-wealth CAGR 7.5%\n• Prestige Suncrest, Electronic City — score 62, 9.4%/yr, net-wealth CAGR 4.2%\n\nThe other thing the extra ₹20L buys you is usually an under-construction flat, which pays no rent until handover. So that EMI is carried with nothing offsetting it, for however many years the RERA completion date and its extensions actually run.\n\nNot telling you to buy or not — just make the call on net numbers and on how many months of EMI you can cover without a job.",
+      "risk": "medium",
+      "riskNote": "Thread city is not stated, so the draft explicitly conditions the figures on Bengaluru rather than assuming. No link, no tool name, no markdown table — figures written out as plain lines for a sub that is hostile to anything broker-shaped.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "prestige-pine-forest-007048",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-pine-forest-007048",
+          "caption": "Prestige Pine Forest: score 78, projected 10.4%/yr growth, 6.9% net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
+          "caption": "Godrej Lakeside Orchard: 7.5% net-wealth CAGR against 10.8%/yr projected price growth."
+        }
+      ],
+      "id": "42ea17c31bcc9ae4",
+      "foundAt": "2026-10-29T21:14:03.334Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-gives-better-returns-in-Bengaluru-a-villa-or-an-apartment-Which-is-a-better-investment-in-Bangalore-villas-or-flats",
       "title": "Which gives better returns in Bengaluru, a villa or an apartment?",
@@ -2978,18 +3015,19 @@
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 0,
+    "candidates": 9,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "reddit": 1
+    },
     "errors": [
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndiaTax: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "judge: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgFzq1siAtTVpVguevxu8\"}"
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
