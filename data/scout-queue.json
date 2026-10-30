@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T15:06:57.458Z",
+  "generatedAt": "2026-10-30T20:53:30.919Z",
   "leads": [
     {
       "platform": "quora",
@@ -3088,6 +3088,43 @@
       "foundAt": "2026-10-30T15:06:57.458Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1xjg3wj/the_spectacular_fall_of_green_glen_layout/",
+      "title": "The spectacular fall of Green Glen Layout, Bellandur",
+      "context": "r/bangalore",
+      "postedAt": "2026-10-30T13:58:49+00:00",
+      "evergreen": false,
+      "fit": 64,
+      "intent": "Residents venting about Bellandur's decline, with the unspoken question of whether property there is still worth holding or buying.",
+      "landing": "https://property-lens.ai/map?loc=bellandur-orr",
+      "landingWhy": "The Bellandur/ORR score map is the one page that shows the locality-level picture the thread is arguing about — how the 36 registered projects there actually score once environment and infrastructure are weighed against office access.",
+      "draft": "Bellandur hasn't repriced for any of it. Across the 36 registered projects I've scored there from K-RERA filings, median projected price growth is still about 9.5% a year over five years and the median works out near ₹11,500 a sq ft — that last one is a model estimate, not a registered transaction.\n\nWhat the filings do show is how wide the spread is inside one locality:\n\n• The Urban Forest (Keya Homes) — score 69, projected 10.5%/yr, 0 complaints on that registration\n• Prestige Kew Gardens — score 61, projected 10.8%/yr, 0 complaints\n• Godrej Lake Gardens — score 47, projected 9.5%/yr, 4 RERA complaints on that registration\n• Sobha Insignia — score 47, projected 8.7%/yr, 1 complaint\n\nEnvironment and social infrastructure are two of the eleven factors in that score, and they are exactly what drags ORR projects down; employment access drags them back up, which is why prices have not followed the lake. Scores are mine, built off RERA filings and dated locality price evidence.",
+      "risk": "medium",
+      "riskNote": "r/bangalore treats anything broker-flavoured badly, so the comment carries every figure in plain text, names no product and links nothing. Risk is being read as off-topic data dumping; the opening sentence ties it directly to the thread's claim.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "bellandur-orr",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=bellandur-orr",
+          "caption": "Bellandur/ORR score map — 36 analysed projects, median score 55, median projected growth 9.5%/yr."
+        },
+        {
+          "kind": "dd",
+          "projectId": "godrej-lake-gardens-002581",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lake-gardens-002581#dd",
+          "caption": "Due diligence for Godrej Lake Gardens: RERA timeline and the 4 complaints filed on that registration."
+        }
+      ],
+      "id": "fa177b7e9942cb20",
+      "foundAt": "2026-10-30T20:53:30.919Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3126,18 +3163,18 @@
     }
   ],
   "stats": {
-    "candidates": 27,
-    "kept": 3,
+    "candidates": 3,
+    "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
-      "reddit": 3
+      "reddit": 1
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/personalfinanceindia: HTTP 429"
     ]
   }
 }
