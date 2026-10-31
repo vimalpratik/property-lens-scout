@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T05:56:28.716Z",
+  "generatedAt": "2026-10-31T14:35:38.968Z",
   "leads": [
     {
       "platform": "quora",
@@ -499,6 +499,43 @@
       ],
       "id": "a08ce05a1021e359",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-will-be-the-best-areas-in-Bangalore-to-buy-a-flat-up-to-1-CR-What-can-I-expect-in-the-flat-in-terms-of-area",
+      "title": "Which will be the best areas in Bangalore to buy a flat up to 1 CR? What can I expect in the flat in terms of area?",
+      "context": "Quora",
+      "postedAt": "2022-08-10T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 85,
+      "intent": "Wants shortlistable Bengaluru localities and projects within a 1 Cr budget, and realistic unit sizes.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The question is a shortlist-by-area question across the whole city; the city score map compares all localities at once, which a project page or the homepage cannot do.",
+      "draft": "Under 1 Cr the choice is usually corridor-versus-core, and the numbers say both can work. On locality medians from my model, Jayanagar/Basavanagudi sits at 66 out of 100 and HSR/BTM at 63, but typical prices there of roughly ₹15,050 and ₹13,650 per sq ft (modelled estimates) push a 3BHK well past a crore. Whitefield's median is 58 and Marathahalli/Varthur 59, at an estimated ₹11,750 and ₹11,300.\n\nSpecific registrations currently under 1 Cr for the default unit, with score and projected 5-year price growth:\n\nCasagrand Estancia, Yelahanka — score 83, 12.2% a year, around ₹54.9 lakh. Prestige Southern Star, Bannerghatta Road — 83, 10.8%, around ₹64.2 lakh. Evergreen at Prestige Raintree Park, Varthur — 81, 11.1%, around ₹68.4 lakh. Prestige Pine Forest, Whitefield — 78, 10.4%, around ₹63.5 lakh.\n\nOne correction worth making: high projected growth alone is a trap. Devanahalli's median projected growth is 11.2% a year but its median project score is only 50, and Doddaballapur Road medians 22 — low scores there come from employment access, transit, social infrastructure and resale liquidity, all of which decide whether you can actually sell in year seven.\n\nOn carpet area, ask for the RERA carpet area in the agreement rather than super built-up; the gap is routinely 25-30% and it is the single biggest reason two \"1,200 sq ft\" flats are not the same flat.\n\nResearch, not investment advice.",
+      "risk": "low",
+      "riskNote": "No links, no domain mentioned. Every figure labelled and the per-sq-ft numbers flagged as modelled estimates; the carpet-area point gives the answer standalone value.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "Ranked Bengaluru project cards with score, projected growth and ticket size, filterable under 1 Cr."
+        },
+        {
+          "kind": "project",
+          "projectId": "casagrand-estancia-008086",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-estancia-008086",
+          "caption": "Casagrand Estancia, Yelahanka: score 83, 12.2% projected 5-yr price growth, default unit around ₹54.9 lakh."
+        }
+      ],
+      "id": "28e57f49d461b1ea",
+      "foundAt": "2026-10-31T14:35:38.968Z"
     },
     {
       "platform": "quora",
@@ -1284,6 +1321,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk8kzh/dont_buy_any_property_in_bangalore_before_reading/",
+      "title": "Don't buy any property in Bangalore before reading this!",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-31T12:10:05+00:00",
+      "evergreen": false,
+      "fit": 82,
+      "intent": "Wants the real checklist of things that go wrong when buying a flat in Bangalore, before paying any money.",
+      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
+      "landingWhy": "The thread is about pre-purchase checks; this is the due-diligence dashboard for one specific K-RERA registration — timeline, extensions, construction vs bookings, complaints — which is exactly the document people skip, and it is the registration carrying 15 complaints that proves the point.",
+      "draft": "The check most people skip: complaints in Karnataka sit against a registration number, not a project name. Mahindra Blossom in Whitefield has two K-RERA registrations — one carries 15 complaints on that registration, the other carries zero. Searching the brand name tells you neither.\n\nSo before the booking amount moves, pull the exact registration number printed in your agreement and read its quarterly progress updates: units booked versus construction certified, whether the original completion date has already been extended, and whether the land is owned or sits under a joint development agreement.\n\nA few Bengaluru registrations for scale, same three measures each line (score out of 100 from my own model, projected 5-yr price growth, complaints on that registration in the K-RERA register):\n\n• Mahindra Blossom (reg 008348) — 79, 11.4%/yr, 15 complaints\n• Prestige Pine Forest — 78, 10.4%/yr, 0 complaints\n• Casagrand Meridian — 55, 9.0%/yr, 7 complaints\n• Godrej Lake Gardens — 47, 9.5%/yr, 4 complaints\n\nThe scores are mine, from a free tool I built on the RERA filings; the filings and the complaint register are public either way.",
+      "risk": "medium",
+      "riskNote": "No links, no domain named, numbers fully written out so the comment works without the screenshot. One short disclosure of authorship at the end rather than a pitch; r/indianrealestate tolerates data, not marketing.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
+          "caption": "Due-diligence view for registration 008348: RERA timeline, construction vs bookings and the 15 complaints logged against this registration."
+        },
+        {
+          "kind": "compare",
+          "projectId": "mahindra-blossom-008348",
+          "projectIdB": "mahindra-blossom-008348-171225",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=mahindra-blossom-008348&b=mahindra-blossom-008348-171225",
+          "caption": "Same project name, two registrations side by side — scores 79 vs 87 and 15 complaints vs 0."
+        }
+      ],
+      "id": "136fcae1e6adc5a8",
+      "foundAt": "2026-10-31T14:35:38.968Z"
     },
     {
       "platform": "reddit",
@@ -3088,6 +3162,43 @@
       "foundAt": "2026-10-30T20:53:30.919Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk65gw/beware_of_proptimes_in_bangalore/",
+      "title": "Beware of Proptimes in Bangalore",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-31T09:52:39+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Warning others about a Bengaluru property intermediary; readers want to know how to verify a project without depending on one.",
+      "landing": "https://property-lens.ai/dd/casagrand-meridian-005482",
+      "landingWhy": "The useful reply is 'verify the registration yourself'; this is a worked example of what that verification looks like for one Bengaluru registration, including the complaints logged against it.",
+      "draft": "Everything an intermediary shows you about a Bengaluru project exists for free in the K-RERA filings, and it takes about twenty minutes per registration.\n\nThree things in there decide most outcomes: units sold versus construction certified complete in the promoter's quarterly progress update, whether the original completion date has already been extended, and whether the land is owned outright or held under a joint development agreement. The complaint register is searchable by registration number, not by brand name, which is where people get misled.\n\nSame three measures per line, from the filings (score out of 100 on my own model, projected 5-yr price growth, complaints against that registration):\n\n• Prestige Southern Star — 83, 10.8%/yr, 0\n• Sobha Indraprastha — 65, 10.4%/yr, 5\n• Casagrand Meridian — 55, 9.0%/yr, 7\n\nI run a free tool built on these filings, so I read a lot of them, but the register is public and you don't need anyone's permission to pull it.",
+      "risk": "medium",
+      "riskNote": "Complaint thread about a competitor-adjacent service, so the draft avoids any comparison or pitch, names no product and carries no link; it only tells people how to check for themselves and states the authorship once.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "casagrand-meridian-005482",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
+          "caption": "What a registration-level check looks like: RERA timeline, construction vs bookings and the 7 complaints on this registration."
+        },
+        {
+          "kind": "dd",
+          "projectId": "prestige-southern-star-007603",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-southern-star-007603#dd",
+          "caption": "Same dashboard for a clean registration — no complaints logged, timeline unextended."
+        }
+      ],
+      "id": "fd5e975ce010d878",
+      "foundAt": "2026-10-31T14:35:38.968Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3126,16 +3237,19 @@
     }
   ],
   "stats": {
-    "candidates": 9,
-    "kept": 0,
-    "skippedSeen": 1,
-    "byPlatform": {},
+    "candidates": 37,
+    "kept": 3,
+    "skippedSeen": 0,
+    "byPlatform": {
+      "quora": 1,
+      "reddit": 2
+    },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429"
     ]
   }
 }
