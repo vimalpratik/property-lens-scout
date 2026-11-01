@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:24:54.253Z",
+  "generatedAt": "2026-11-01T15:17:36.269Z",
   "leads": [
     {
       "platform": "quora",
@@ -1284,43 +1284,6 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk8kzh/dont_buy_any_property_in_bangalore_before_reading/",
-      "title": "Don't buy any property in Bangalore before reading this!",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-31T12:10:05+00:00",
-      "evergreen": false,
-      "fit": 82,
-      "intent": "Wants the real checklist of things that go wrong when buying a flat in Bangalore, before paying any money.",
-      "landing": "https://property-lens.ai/dd/mahindra-blossom-008348",
-      "landingWhy": "The thread is about pre-purchase checks; this is the due-diligence dashboard for one specific K-RERA registration — timeline, extensions, construction vs bookings, complaints — which is exactly the document people skip, and it is the registration carrying 15 complaints that proves the point.",
-      "draft": "The check most people skip: complaints in Karnataka sit against a registration number, not a project name. Mahindra Blossom in Whitefield has two K-RERA registrations — one carries 15 complaints on that registration, the other carries zero. Searching the brand name tells you neither.\n\nSo before the booking amount moves, pull the exact registration number printed in your agreement and read its quarterly progress updates: units booked versus construction certified, whether the original completion date has already been extended, and whether the land is owned or sits under a joint development agreement.\n\nA few Bengaluru registrations for scale, same three measures each line (score out of 100 from my own model, projected 5-yr price growth, complaints on that registration in the K-RERA register):\n\n• Mahindra Blossom (reg 008348) — 79, 11.4%/yr, 15 complaints\n• Prestige Pine Forest — 78, 10.4%/yr, 0 complaints\n• Casagrand Meridian — 55, 9.0%/yr, 7 complaints\n• Godrej Lake Gardens — 47, 9.5%/yr, 4 complaints\n\nThe scores are mine, from a free tool I built on the RERA filings; the filings and the complaint register are public either way.",
-      "risk": "medium",
-      "riskNote": "No links, no domain named, numbers fully written out so the comment works without the screenshot. One short disclosure of authorship at the end rather than a pitch; r/indianrealestate tolerates data, not marketing.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/mahindra-blossom-008348#dd",
-          "caption": "Due-diligence view for registration 008348: RERA timeline, construction vs bookings and the 15 complaints logged against this registration."
-        },
-        {
-          "kind": "compare",
-          "projectId": "mahindra-blossom-008348",
-          "projectIdB": "mahindra-blossom-008348-171225",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=mahindra-blossom-008348&b=mahindra-blossom-008348-171225",
-          "caption": "Same project name, two registrations side by side — scores 79 vs 87 and 15 complaints vs 0."
-        }
-      ],
-      "id": "136fcae1e6adc5a8",
-      "foundAt": "2026-10-31T14:35:38.968Z"
     },
     {
       "platform": "quora",
@@ -3125,43 +3088,6 @@
       "foundAt": "2026-11-01T06:24:54.253Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk65gw/beware_of_proptimes_in_bangalore/",
-      "title": "Beware of Proptimes in Bangalore",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-31T09:52:39+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Warning others about a Bengaluru property intermediary; readers want to know how to verify a project without depending on one.",
-      "landing": "https://property-lens.ai/dd/casagrand-meridian-005482",
-      "landingWhy": "The useful reply is 'verify the registration yourself'; this is a worked example of what that verification looks like for one Bengaluru registration, including the complaints logged against it.",
-      "draft": "Everything an intermediary shows you about a Bengaluru project exists for free in the K-RERA filings, and it takes about twenty minutes per registration.\n\nThree things in there decide most outcomes: units sold versus construction certified complete in the promoter's quarterly progress update, whether the original completion date has already been extended, and whether the land is owned outright or held under a joint development agreement. The complaint register is searchable by registration number, not by brand name, which is where people get misled.\n\nSame three measures per line, from the filings (score out of 100 on my own model, projected 5-yr price growth, complaints against that registration):\n\n• Prestige Southern Star — 83, 10.8%/yr, 0\n• Sobha Indraprastha — 65, 10.4%/yr, 5\n• Casagrand Meridian — 55, 9.0%/yr, 7\n\nI run a free tool built on these filings, so I read a lot of them, but the register is public and you don't need anyone's permission to pull it.",
-      "risk": "medium",
-      "riskNote": "Complaint thread about a competitor-adjacent service, so the draft avoids any comparison or pitch, names no product and carries no link; it only tells people how to check for themselves and states the authorship once.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "casagrand-meridian-005482",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/casagrand-meridian-005482#dd",
-          "caption": "What a registration-level check looks like: RERA timeline, construction vs bookings and the 7 complaints on this registration."
-        },
-        {
-          "kind": "dd",
-          "projectId": "prestige-southern-star-007603",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/prestige-southern-star-007603#dd",
-          "caption": "Same dashboard for a clean registration — no complaints logged, timeline unextended."
-        }
-      ],
-      "id": "fd5e975ce010d878",
-      "foundAt": "2026-10-31T14:35:38.968Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3200,19 +3126,16 @@
     }
   ],
   "stats": {
-    "candidates": 28,
-    "kept": 2,
-    "skippedSeen": 2,
-    "byPlatform": {
-      "reddit": 2
-    },
+    "candidates": 3,
+    "kept": 0,
+    "skippedSeen": 0,
+    "byPlatform": {},
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "age: dropped reddit \"A 10:90 payment plan looks attractive until you re\" — posted 24h ago"
+      "reddit r/personalfinanceindia: HTTP 429"
     ]
   }
 }
