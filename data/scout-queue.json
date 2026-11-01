@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:05:35.513Z",
+  "generatedAt": "2026-11-01T06:24:54.253Z",
   "leads": [
     {
       "platform": "quora",
@@ -3052,40 +3052,77 @@
     },
     {
       "platform": "reddit",
-      "url": "https://www.reddit.com/r/bangalore/comments/1xjg3wj/the_spectacular_fall_of_green_glen_layout/",
-      "title": "The spectacular fall of Green Glen Layout, Bellandur",
-      "context": "r/bangalore",
-      "postedAt": "2026-10-30T13:58:49+00:00",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xkhfyd/reviews_on_sjr_parkway_homes_rayasandra/",
+      "title": "Reviews on SJR Parkway homes, Rayasandra",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-31T18:21:24+00:00",
       "evergreen": false,
-      "fit": 64,
-      "intent": "Residents venting about Bellandur's decline, with the unspoken question of whether property there is still worth holding or buying.",
-      "landing": "https://property-lens.ai/map?loc=bellandur-orr",
-      "landingWhy": "The Bellandur/ORR score map is the one page that shows the locality-level picture the thread is arguing about — how the 36 registered projects there actually score once environment and infrastructure are weighed against office access.",
-      "draft": "Bellandur hasn't repriced for any of it. Across the 36 registered projects I've scored there from K-RERA filings, median projected price growth is still about 9.5% a year over five years and the median works out near ₹11,500 a sq ft — that last one is a model estimate, not a registered transaction.\n\nWhat the filings do show is how wide the spread is inside one locality:\n\n• The Urban Forest (Keya Homes) — score 69, projected 10.5%/yr, 0 complaints on that registration\n• Prestige Kew Gardens — score 61, projected 10.8%/yr, 0 complaints\n• Godrej Lake Gardens — score 47, projected 9.5%/yr, 4 RERA complaints on that registration\n• Sobha Insignia — score 47, projected 8.7%/yr, 1 complaint\n\nEnvironment and social infrastructure are two of the eleven factors in that score, and they are exactly what drags ORR projects down; employment access drags them back up, which is why prices have not followed the lake. Scores are mine, built off RERA filings and dated locality price evidence.",
+      "fit": 68,
+      "intent": "Wants an honest read on a specific Rayasandra project before committing.",
+      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
+      "landingWhy": "Rayasandra prices against the Sarjapur Road corridor; the locality map shows the per-project scores and the price evidence the comment cites, which the homepage does not.",
+      "draft": "SJR Parkway isn't in the set I've gone through (registered projects of Bengaluru's top ~200 developers, pulled from K-RERA filings), so I won't pretend to score it. What I can give you is the method and the market it sits in.\n\nOpen the K-RERA page for that exact registration number and read three things: how many extension applications the promoter has filed and what the current completion date is, the quarterly progress report (construction percentage against units booked), and the complaints listed on that registration. A project that is 80% booked and 35% built is the one to walk away from, regardless of reviews.\n\nFor pricing context, from the same filings:\n\n• Sarjapur Road — 284 projects analysed, median score 49, median projected growth 9.8%/yr, median ~₹8,450/sqft (estimate)\n\n• Electronic City / Hosur Road — 115 projects, median score 41, 9.3%... correction, 9.1%/yr, median ~₹5,850/sqft (estimate)\n\nRayasandra sits between those two markets, so price it against them rather than against ORR-side Sarjapur rates. Scores are my own, 50 being the average analysed Bengaluru project.",
       "risk": "medium",
-      "riskNote": "r/bangalore treats anything broker-flavoured badly, so the comment carries every figure in plain text, names no product and links nothing. Risk is being read as off-topic data dumping; the opening sentence ties it directly to the thread's claim.",
+      "riskNote": "No links, no product naming, and it openly says the project isn't in the dataset rather than forcing a fit — that is what keeps it from reading like a broker post in r/indianrealestate. Numbers are written out since comment images are usually disabled.",
       "shots": [
         {
           "kind": "map",
           "projectId": "",
           "projectIdB": "",
-          "locality": "bellandur-orr",
+          "locality": "sarjapur-road",
           "developer": "",
-          "url": "https://property-lens.ai/map?loc=bellandur-orr",
-          "caption": "Bellandur/ORR score map — 36 analysed projects, median score 55, median projected growth 9.5%/yr."
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road corridor map: 284 analysed projects, median score 49, median ₹8,450/sqft estimate."
         },
         {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "electronic-city-hosur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
+          "caption": "Electronic City / Hosur Road for the other side of Rayasandra: median score 41, ₹5,850/sqft estimate."
+        }
+      ],
+      "id": "a8c9bcdbaae2a43c",
+      "foundAt": "2026-11-01T06:24:54.253Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk3vwx/61_branded_residence_projects_in_india_and_only/",
+      "title": "61 branded residence projects in India and only 24 actually completed? what do you even check before paying the brand premium?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-10-31T07:27:10+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Wants a concrete checklist for judging whether a branded/premium project justifies its price.",
+      "landing": "https://property-lens.ai/dd/total-environment-pursuit-of-a-radical-rhapsody",
+      "landingWhy": "That due-diligence file is the evidence for the claim — six red flags on a project selling at an observed ₹19,950/sqft — which a locality or home page could not show.",
+      "draft": "Speaking only for Bengaluru, where I've read the K-RERA filings project by project: the premium usually isn't visible in the delivery record.\n\nOne example. A Whitefield branded project selling at an observed ₹19,950 per sq ft, Total Environment's Pursuit of a Radical Rhapsody, scores 43 out of 100 in my analysis with six red flags in its due-diligence file and projected growth of 8.0% a year. Prestige Pine Forest, mainstream, in the same Whitefield market near the ₹11,750/sqft locality median estimate, scores 78 with no complaints on its registration. 50 is the average analysed Bengaluru project.\n\nWhat I'd check before paying any premium:\n\n• number of extension applications on the RERA registration and the current completion date\n\n• construction percentage against units booked in the quarterly progress reports\n\n• whether withdrawals from the RERA designated account track certified cost incurred\n\n• the promoter's credit rating, NBFC funding and any pending court cases\n\nBrand gets you finishes and a resale story. The filings tell you whether the thing gets built.",
+      "risk": "medium",
+      "riskNote": "Names a project unfavourably, so every figure is sourced to RERA filings and the score is labelled as my model rather than fact. No link, no self-promotion line; the Bengaluru framing is stated up front since the thread is India-wide.",
+      "shots": [
+        {
           "kind": "dd",
-          "projectId": "godrej-lake-gardens-002581",
+          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
           "projectIdB": "",
           "locality": "",
           "developer": "",
-          "url": "https://property-lens.ai/p/godrej-lake-gardens-002581#dd",
-          "caption": "Due diligence for Godrej Lake Gardens: RERA timeline and the 4 complaints filed on that registration."
+          "url": "https://property-lens.ai/p/total-environment-pursuit-of-a-radical-rhapsody#dd",
+          "caption": "The due-diligence file behind the claim: six red flags on a project at an observed ₹19,950/sqft."
+        },
+        {
+          "kind": "compare",
+          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
+          "projectIdB": "prestige-pine-forest-007048",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=total-environment-pursuit-of-a-radical-rhapsody&b=prestige-pine-forest-007048",
+          "caption": "Branded premium versus mainstream in the same Whitefield market: score 43 against 78."
         }
       ],
-      "id": "fa177b7e9942cb20",
-      "foundAt": "2026-10-30T20:53:30.919Z"
+      "id": "7972e954ace74d5e",
+      "foundAt": "2026-11-01T06:24:54.253Z"
     },
     {
       "platform": "reddit",
@@ -3163,19 +3200,19 @@
     }
   ],
   "stats": {
-    "candidates": 1,
-    "kept": 1,
-    "skippedSeen": 0,
+    "candidates": 28,
+    "kept": 2,
+    "skippedSeen": 2,
     "byPlatform": {
-      "quora": 1
+      "reddit": 2
     },
     "errors": [
       "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429"
+      "age: dropped reddit \"A 10:90 payment plan looks attractive until you re\" — posted 24h ago"
     ]
   }
 }
