@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:17:36.269Z",
+  "generatedAt": "2026-11-01T20:36:40.243Z",
   "leads": [
     {
       "platform": "quora",
@@ -2747,6 +2747,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Is-there-a-risk-to-buy-non-rera-property-in-Bangalore-the-project-started-prior-to-RERA-rule-but-2-flats-are-being-sold-now-by-the-owner",
+      "title": "Is there a risk to buy non-RERA property in Bangalore, the project started prior to RERA rule but 2 flats are being sold now by the owner?",
+      "context": "Quora",
+      "postedAt": "2021-11-20T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Wants to know whether buying an unregistered, pre-RERA Bengaluru flat is safe and what to check instead.",
+      "landing": "https://property-lens.ai/dd/godrej-lakeside-orchard-007105",
+      "landingWhy": "A due-diligence dashboard shows exactly what a registered project leaves behind — RERA timeline and extensions, construction versus bookings, money through the RERA account, complaints — which is precisely the paper trail this buyer will not have.",
+      "draft": "Two very different situations are being mixed here, and the risk depends entirely on which one you are in.\n\nIf the building was completed before the Act came into force and has an occupancy certificate, and an individual owner is reselling, registration is not required and nothing is wrong. Your protection is the title chain, not RERA. If any part of the project was still incomplete and without an OC at that point, it had to be registered as an ongoing project, and marketing flats in it unregistered is an offence — that is a real risk, not a technicality.\n\nSo establish the status first, then ask for:\n\n• Occupancy certificate, and the sanctioned plan compared with what is actually built — deviations block home loans and khata transfers\n• Encumbrance certificate going back 30 years, khata, and up-to-date property tax receipts\n• Mother deed and the chain of title, plus the association's no-dues letter\n\nWhat you lose without registration is specific: the 70% project account, dated quarterly progress filings, an enforceable completion commitment and a cheap complaint forum. You also narrow your own resale pool later, because the next buyer's bank will ask the same questions you are asking now.\n\nSeparately, check the promoter rather than only the flat — complaints filed at K-RERA against that registration, pending civil suits, and whether the land is owned outright or held under a joint development agreement. I pull these fields out of the Bengaluru RERA filings project by project, and on the same street two promoters can look nothing alike on them. This is research, not legal advice; have a property lawyer read the documents.",
+      "risk": "low",
+      "riskNote": "Pure due-diligence answer with no link and no recommendation; mentions building the dataset once, as context for the last point.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105#dd",
+          "caption": "What a registered project's paper trail looks like: RERA timeline and extensions, construction versus bookings, money through the RERA account, complaints."
+        },
+        {
+          "kind": "dd",
+          "projectId": "brigade-lakefront-crimson-000503",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-lakefront-crimson-000503#dd",
+          "caption": "A completed project's due-diligence record for comparison — the same fields on a ready building."
+        }
+      ],
+      "id": "7d880b90bfbbd5d0",
+      "foundAt": "2026-11-01T20:36:40.243Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/What-are-5-reasons-why-Whitefield-is-the-best-area-to-buy-a-flat-in-Bangalore-for-a-software-engineer",
       "title": "What are 5 reasons why Whitefield is the best area to buy a flat in Bangalore for a software engineer?",
       "context": "Quora",
@@ -3127,15 +3164,18 @@
   ],
   "stats": {
     "candidates": 3,
-    "kept": 0,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 1
+    },
     "errors": [
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
