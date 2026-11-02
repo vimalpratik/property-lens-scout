@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:25:32.801Z",
+  "generatedAt": "2026-11-02T18:31:56.039Z",
   "leads": [
     {
       "platform": "quora",
@@ -83,6 +83,43 @@
       ],
       "id": "3eda27248c454cf5",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xm53u5/i_am_planning_to_buy_a_flat_in_bengaluru_which/",
+      "title": "I am planning to buy a flat in bengaluru. Which are the best location to buy ?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-02T18:24:40+00:00",
+      "evergreen": false,
+      "fit": 90,
+      "intent": "Wants a shortlist of Bengaluru localities to buy a flat in, with reasons.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The locality score map answers 'which area' directly — median score, projected growth and price per sq ft per corridor — instead of a generic homepage pitch.",
+      "draft": "Projected price growth and project quality do not sit in the same localities, which is what most shortlists get wrong. Across the 1,854 registered Bengaluru projects I score from K-RERA filings, the airport corridor has the highest projected price growth and the lowest prices, while the highest median project scores sit in Jayanagar and the HSR/Koramangala fringe at roughly three times the per-sq-ft.\n\nLocality medians (PropertyLens score out of 100, projected 5-yr price growth per year, median price per sq ft — the per-sq-ft numbers are estimates from dated locality price evidence):\n\n• Jayanagar/Basavanagudi — 66, 9.3%/yr, ₹15,050\n• HSR/BTM/Koramangala fringe — 63, 9.7%/yr, ₹13,650\n• Marathahalli/Varthur — 59, 9.2%/yr, ₹11,300\n• Devanahalli/airport — 50, 11.2%/yr, ₹4,700\n\nSarjapur Road has 284 analysed projects and a median score of 49, so the spread inside one corridor is wider than the gap between corridors. The project matters more than the pin.\n\nWhatever you shortlist, pull the K-RERA page for that exact registration number and check the original completion date, extensions granted and complaints filed before you pay any booking amount.",
+      "risk": "low",
+      "riskNote": "No link, no domain named, no project pushed. Reads as a data answer from someone who works with RERA filings; r/indianrealestate tolerates that when the numbers are in the comment itself.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli/airport corridor: median score 50 and the highest projected price growth of the big corridors at 11.2%/yr."
+        },
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/",
+          "caption": "City-wide ranked project cards showing how wide the score spread is inside a single locality."
+        }
+      ],
+      "id": "637ef26e38e43ade",
+      "foundAt": "2026-11-02T18:31:56.039Z"
     },
     {
       "platform": "quora",
@@ -305,6 +342,43 @@
       ],
       "id": "21c98c457d5b67ed",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Why-do-you-think-it-is-not-wise-to-buy-an-appartment-worth-70-80-lacs-in-urban-Bangalore",
+      "title": "Why do you think it is not wise to buy an apartment worth 70-80 lacs in urban Bangalore?",
+      "context": "Quora",
+      "postedAt": "2019-03-10T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 86,
+      "intent": "Wants to know whether a mid-budget Bengaluru apartment actually makes financial sense.",
+      "landing": "https://property-lens.ai/p/brigade-insignia-006894",
+      "landingWhy": "The project page shows the full after-cost return build-up — GST, stamp duty, interiors, vacancy, maintenance, loan interest — which is exactly the arithmetic the question is arguing about.",
+      "draft": "The honest answer is not \"unwise\" — it is that a Bengaluru apartment at that price returns far less than the rent-plus-appreciation arithmetic people do in their heads, and the gap is almost entirely costs.\n\nGross rental yields on the Bengaluru projects I score sit around 2.5-4.5%. Then GST on under-construction, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and eventual selling costs come off. Modelled over eight years on a 75% home loan, the net-wealth CAGR on most Bengaluru apartments lands roughly between 4% and 8% — and which end you get depends far more on the project than on the budget.\n\nTwo in a similar ticket band from my dataset, built from K-RERA filings:\n\nBrigade Insignia, Yelahanka, under construction — PropertyLens score 81, projected 5-yr price growth 11.0% a year, 4.5% gross yield, 7.9% net-wealth CAGR, default ticket ₹42.1 lakh.\n\nPrestige Suncrest, Electronic City — score 62, projected 9.4% a year, 4.2% gross yield, 4.2% net-wealth CAGR, ticket ₹45.2 lakh.\n\nSimilar money, nearly double the modelled net outcome. Under-construction homes also earn no rent until handover, and that drag is already inside those numbers. Price-per-sq-ft inputs here are model estimates, so treat tickets as indicative.\n\nNone of this says buy or don't buy — it is research, not advice. If you do proceed, read the RERA filing for that registration: original completion date, extensions, complaints against that registration, land ownership, and money moving through the RERA account.",
+      "risk": "low",
+      "riskNote": "No link in the answer; attribution comes from the profile credential. Explicitly says it is research, not advice, and marks the estimated inputs.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "prestige-suncrest-007512",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=brigade-insignia-006894&b=prestige-suncrest-007512",
+          "caption": "Same ticket band, 7.9% vs 4.2% modelled net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia: score 81, 11.0%/yr projected growth, 4.5% gross yield, ₹42.1 L default ticket."
+        }
+      ],
+      "id": "a742454d172559e9",
+      "foundAt": "2026-11-02T18:31:56.039Z"
     },
     {
       "platform": "quora",
@@ -3088,6 +3162,43 @@
       "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xlucbn/the_adwaith_by_sanjeevini_a_buyers_journey_east/",
+      "title": "The Adwaith By Sanjeevini - A Buyer's Journey (East Bangalore)",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-02T11:07:33+00:00",
+      "evergreen": false,
+      "fit": 62,
+      "intent": "Shares and invites views on buying a specific East Bengaluru project from a smaller developer.",
+      "landing": "https://property-lens.ai/?dev=Sanjeevini",
+      "landingWhy": "A developer-level view of Sanjeevini's registered projects is the right evidence for a thread about one of their launches, rather than a city homepage.",
+      "draft": "The quarterly progress filings will tell you more about this than any site visit. For any K-RERA registered project you can pull four things that actually matter: the original completion date plus every extension taken since, percentage of work completed against percentage of units booked, money received into and withdrawn from the designated RERA account, and complaints filed against that specific registration number.\n\nIf bookings are running well ahead of construction and the completion date has already moved once, that is the question to put to the sales team in writing before the next payment milestone.\n\nFor context on the corridor, from the filings I score: KR Puram/Mahadevapura has 39 analysed projects with a median PropertyLens score of 54 and median projected 5-yr growth of 8.8%/yr, while Whitefield's 90 projects sit at a median 58 and 9.1%/yr. East Bengaluru is not one market, and smaller promoters usually lose points on the delivery-record factor rather than on location.",
+      "risk": "medium",
+      "riskNote": "Thread may be the buyer's own promotion; reply stays method-first, quotes no number for this project and names no complaint count, so it cannot be read as either a plug or an attack.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Sanjeevini",
+          "url": "https://property-lens.ai/?dev=Sanjeevini",
+          "caption": "Sanjeevini's registered Bengaluru projects as scored from K-RERA filings."
+        },
+        {
+          "kind": "dd",
+          "projectId": "brigade-lakecrest-007866",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-lakecrest-007866#dd",
+          "caption": "What the due-diligence view looks like for a KR Puram project: RERA timeline, extensions, construction vs bookings, RERA-account money."
+        }
+      ],
+      "id": "ef5b0c39771c5f72",
+      "foundAt": "2026-11-02T18:31:56.039Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3126,18 +3237,19 @@
     }
   ],
   "stats": {
-    "candidates": 7,
-    "kept": 1,
+    "candidates": 32,
+    "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
+      "reddit": 2,
       "quora": 1
     },
     "errors": [
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429"
     ]
   }
 }
