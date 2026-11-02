@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-01T20:36:40.243Z",
+  "generatedAt": "2026-11-02T06:25:32.801Z",
   "leads": [
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/I-am-investing-in-a-3-BHK-flat-in-Bengaluru-I-m-looking-to-hold-this-investment-for-10-years-What-kind-of-rental-returns-can-I-expect",
+      "title": "I am investing in a 3 BHK flat in Bengaluru. I'm looking to hold this investment for 10 years. What kind of rental returns can I expect?",
+      "context": "Quora",
+      "postedAt": "2018-02-16T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 92,
+      "intent": "Wants a realistic rental yield number for a Bengaluru 3BHK held ten years.",
+      "landing": "https://property-lens.ai/p/prestige-raintree-park-006981",
+      "landingWhy": "The project page shows the gross yield and the after-every-cost net-wealth CAGR and IRR for a real Bengaluru 3BHK, which is exactly the number the asker is guessing at — the homepage shows none of that.",
+      "draft": "Gross rental yield on a Bengaluru 3BHK runs roughly 2.5% to 4.5% of the purchase price a year, and it falls as the ticket size rises.\n\nTwo examples from the RERA-registered projects I've scored myself: Prestige Raintree Park in Varthur shows a 4.0% gross yield on its default unit, while Lodha's Haven in the HSR/Koramangala fringe shows 2.8% on a ₹2.06 Cr unit. Same city, same year, very different rent-to-price.\n\nGross is not what reaches your account. Society maintenance, a vacant month or two between tenants, repainting, property tax and income tax on rent all come out of it. If you buy under construction there is no rent at all until handover, so a ten-year hold can easily mean three years of EMI with zero income.\n\nOver ten years the number that matters is total return, not yield. With a 75% loan and every cost counted — GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest, selling cost — my model puts the 8-year net-wealth CAGR for those two projects at 7.1% and 7.2% a year, and rent is the smaller part of it. Price growth does the heavy lifting; rent mostly offsets part of the EMI.\n\nSo plan on rent covering a portion of the EMI rather than all of it, and judge the purchase on locality price evidence, resale liquidity and the builder's delivery record. Those are model estimates built from filings and dated locality evidence, not promises, and the per-sq-ft inputs are estimates rather than registered transaction prices.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/prestige-raintree-park-006981",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "prestige-raintree-park-006981",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/prestige-raintree-park-006981",
+          "caption": "Prestige Raintree Park: 4.0% gross yield, 7.1% net-wealth CAGR after all costs on a 75% loan."
+        },
+        {
+          "kind": "project",
+          "projectId": "haven-007785",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/haven-007785",
+          "caption": "Lodha Haven, HSR fringe: 2.8% gross yield on a ₹2.06 Cr unit — yield falls as ticket size rises."
+        }
+      ],
+      "id": "6832d11c90e26b6e",
+      "foundAt": "2026-11-02T06:25:32.801Z"
+    },
     {
       "platform": "quora",
       "url": "https://www.quora.com/What-location-is-better-to-buy-a-flat-for-investment-purpose-between-Budhigere-cross-Yelahanka-Thanisandra-KR-Puram-and-Whitefield",
@@ -3051,80 +3088,6 @@
       "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xkhfyd/reviews_on_sjr_parkway_homes_rayasandra/",
-      "title": "Reviews on SJR Parkway homes, Rayasandra",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-31T18:21:24+00:00",
-      "evergreen": false,
-      "fit": 68,
-      "intent": "Wants an honest read on a specific Rayasandra project before committing.",
-      "landing": "https://property-lens.ai/map?loc=sarjapur-road",
-      "landingWhy": "Rayasandra prices against the Sarjapur Road corridor; the locality map shows the per-project scores and the price evidence the comment cites, which the homepage does not.",
-      "draft": "SJR Parkway isn't in the set I've gone through (registered projects of Bengaluru's top ~200 developers, pulled from K-RERA filings), so I won't pretend to score it. What I can give you is the method and the market it sits in.\n\nOpen the K-RERA page for that exact registration number and read three things: how many extension applications the promoter has filed and what the current completion date is, the quarterly progress report (construction percentage against units booked), and the complaints listed on that registration. A project that is 80% booked and 35% built is the one to walk away from, regardless of reviews.\n\nFor pricing context, from the same filings:\n\n• Sarjapur Road — 284 projects analysed, median score 49, median projected growth 9.8%/yr, median ~₹8,450/sqft (estimate)\n\n• Electronic City / Hosur Road — 115 projects, median score 41, 9.3%... correction, 9.1%/yr, median ~₹5,850/sqft (estimate)\n\nRayasandra sits between those two markets, so price it against them rather than against ORR-side Sarjapur rates. Scores are my own, 50 being the average analysed Bengaluru project.",
-      "risk": "medium",
-      "riskNote": "No links, no product naming, and it openly says the project isn't in the dataset rather than forcing a fit — that is what keeps it from reading like a broker post in r/indianrealestate. Numbers are written out since comment images are usually disabled.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road corridor map: 284 analysed projects, median score 49, median ₹8,450/sqft estimate."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "electronic-city-hosur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=electronic-city-hosur-road",
-          "caption": "Electronic City / Hosur Road for the other side of Rayasandra: median score 41, ₹5,850/sqft estimate."
-        }
-      ],
-      "id": "a8c9bcdbaae2a43c",
-      "foundAt": "2026-11-01T06:24:54.253Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xk3vwx/61_branded_residence_projects_in_india_and_only/",
-      "title": "61 branded residence projects in India and only 24 actually completed? what do you even check before paying the brand premium?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-10-31T07:27:10+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Wants a concrete checklist for judging whether a branded/premium project justifies its price.",
-      "landing": "https://property-lens.ai/dd/total-environment-pursuit-of-a-radical-rhapsody",
-      "landingWhy": "That due-diligence file is the evidence for the claim — six red flags on a project selling at an observed ₹19,950/sqft — which a locality or home page could not show.",
-      "draft": "Speaking only for Bengaluru, where I've read the K-RERA filings project by project: the premium usually isn't visible in the delivery record.\n\nOne example. A Whitefield branded project selling at an observed ₹19,950 per sq ft, Total Environment's Pursuit of a Radical Rhapsody, scores 43 out of 100 in my analysis with six red flags in its due-diligence file and projected growth of 8.0% a year. Prestige Pine Forest, mainstream, in the same Whitefield market near the ₹11,750/sqft locality median estimate, scores 78 with no complaints on its registration. 50 is the average analysed Bengaluru project.\n\nWhat I'd check before paying any premium:\n\n• number of extension applications on the RERA registration and the current completion date\n\n• construction percentage against units booked in the quarterly progress reports\n\n• whether withdrawals from the RERA designated account track certified cost incurred\n\n• the promoter's credit rating, NBFC funding and any pending court cases\n\nBrand gets you finishes and a resale story. The filings tell you whether the thing gets built.",
-      "risk": "medium",
-      "riskNote": "Names a project unfavourably, so every figure is sourced to RERA filings and the score is labelled as my model rather than fact. No link, no self-promotion line; the Bengaluru framing is stated up front since the thread is India-wide.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/total-environment-pursuit-of-a-radical-rhapsody#dd",
-          "caption": "The due-diligence file behind the claim: six red flags on a project at an observed ₹19,950/sqft."
-        },
-        {
-          "kind": "compare",
-          "projectId": "total-environment-pursuit-of-a-radical-rhapsody",
-          "projectIdB": "prestige-pine-forest-007048",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=total-environment-pursuit-of-a-radical-rhapsody&b=prestige-pine-forest-007048",
-          "caption": "Branded premium versus mainstream in the same Whitefield market: score 43 against 78."
-        }
-      ],
-      "id": "7972e954ace74d5e",
-      "foundAt": "2026-11-01T06:24:54.253Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3163,19 +3126,18 @@
     }
   ],
   "stats": {
-    "candidates": 3,
+    "candidates": 7,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
