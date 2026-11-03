@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:20:35.893Z",
+  "generatedAt": "2026-11-03T21:51:22.912Z",
   "leads": [
     {
       "platform": "quora",
@@ -83,43 +83,6 @@
       ],
       "id": "3eda27248c454cf5",
       "foundAt": "2026-09-23T04:53:33.019Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xm53u5/i_am_planning_to_buy_a_flat_in_bengaluru_which/",
-      "title": "I am planning to buy a flat in bengaluru. Which are the best location to buy ?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-11-02T18:24:40+00:00",
-      "evergreen": false,
-      "fit": 90,
-      "intent": "Wants a shortlist of Bengaluru localities to buy a flat in, with reasons.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The locality score map answers 'which area' directly — median score, projected growth and price per sq ft per corridor — instead of a generic homepage pitch.",
-      "draft": "Projected price growth and project quality do not sit in the same localities, which is what most shortlists get wrong. Across the 1,854 registered Bengaluru projects I score from K-RERA filings, the airport corridor has the highest projected price growth and the lowest prices, while the highest median project scores sit in Jayanagar and the HSR/Koramangala fringe at roughly three times the per-sq-ft.\n\nLocality medians (PropertyLens score out of 100, projected 5-yr price growth per year, median price per sq ft — the per-sq-ft numbers are estimates from dated locality price evidence):\n\n• Jayanagar/Basavanagudi — 66, 9.3%/yr, ₹15,050\n• HSR/BTM/Koramangala fringe — 63, 9.7%/yr, ₹13,650\n• Marathahalli/Varthur — 59, 9.2%/yr, ₹11,300\n• Devanahalli/airport — 50, 11.2%/yr, ₹4,700\n\nSarjapur Road has 284 analysed projects and a median score of 49, so the spread inside one corridor is wider than the gap between corridors. The project matters more than the pin.\n\nWhatever you shortlist, pull the K-RERA page for that exact registration number and check the original completion date, extensions granted and complaints filed before you pay any booking amount.",
-      "risk": "low",
-      "riskNote": "No link, no domain named, no project pushed. Reads as a data answer from someone who works with RERA filings; r/indianrealestate tolerates that when the numbers are in the comment itself.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "devanahalli-airport",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
-          "caption": "Devanahalli/airport corridor: median score 50 and the highest projected price growth of the big corridors at 11.2%/yr."
-        },
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/",
-          "caption": "City-wide ranked project cards showing how wide the score spread is inside a single locality."
-        }
-      ],
-      "id": "637ef26e38e43ade",
-      "foundAt": "2026-11-02T18:31:56.039Z"
     },
     {
       "platform": "quora",
@@ -2931,6 +2894,43 @@
       "foundAt": "2026-10-11T20:22:57.763Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xn58f9/ikea_on_kanakapura_road/",
+      "title": "IKEA on Kanakapura Road",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-03T21:07:50+00:00",
+      "evergreen": false,
+      "fit": 74,
+      "intent": "Wants to know whether an IKEA/retail anchor on Kanakapura Road means the corridor is a good place to buy a flat.",
+      "landing": "https://property-lens.ai/map?loc=kanakapura-road",
+      "landingWhy": "The locality score map shows every analysed Kanakapura Road project with its score and projected growth, which is the evidence for the claim that this corridor is the slowest-growth major stretch — the homepage shows the whole city and proves nothing about Kanakapura Road.",
+      "draft": "A big-box store doesn't move flat prices much; offices and the metro do. Kanakapura Road is already the slowest-growth major corridor in the dataset I maintain: across 80 analysed projects there the median projected price growth is 8.3%/yr over five years, against 11.2% for Devanahalli and 10.6% for Mysore Road/RR Nagar, at a median of about ₹9,200/sq ft (model estimate, not a quoted rate).\n\nThe reason is dull but real. The Green Line gives commuters a way in, but there is very little office stock south-west of Banashankari, and rental demand and resale liquidity track jobs, not retail footfall.\n\nProject level on that stretch, from K-RERA filings and dated locality price evidence (50 is the average analysed Bengaluru project):\n\n• Sattva Forest Ridge — score 68, projected 9.9%/yr, 1 RERA complaint on this registration\n• Casagrand Casablanca — score 62, projected 9.6%/yr, 4 complaints\n• Assetz Meru & Meadow — score 59, projected 10.0%/yr, 0 complaints\n• Sri Sri Sattva — score 56, projected 9.3%/yr, 0 complaints\n\nIf you are buying off the IKEA news, check the registration's extensions and complaint record first — that moves your downside far more than a store does. Disclosure: I build the tool those scores come from.",
+      "risk": "low",
+      "riskNote": "No link, no project recommendation, explicit disclosure of authorship. r/indianrealestate tolerates data-led comments; the figures stand alone without any image.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "kanakapura-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=kanakapura-road",
+          "caption": "Score map of Kanakapura Road / Talaghattapura showing the 80 analysed projects and their median 8.3%/yr projected price growth."
+        },
+        {
+          "kind": "project",
+          "projectId": "sattva-forest-ridge-007315",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-forest-ridge-007315",
+          "caption": "Sattva Forest Ridge: score 68, projected 9.9%/yr growth, net-wealth CAGR 5.5% on a 75% loan — the highest-scoring project quoted in the comment."
+        }
+      ],
+      "id": "f23c8c692c232046",
+      "foundAt": "2026-11-03T21:51:22.912Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-there-a-risk-to-buy-non-rera-property-in-Bangalore-the-project-started-prior-to-RERA-rule-but-2-flats-are-being-sold-now-by-the-owner",
       "title": "Is there a risk to buy non-RERA property in Bangalore, the project started prior to RERA rule but 2 flats are being sold now by the owner?",
@@ -3310,43 +3310,6 @@
       "foundAt": "2026-11-03T16:20:35.893Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xlucbn/the_adwaith_by_sanjeevini_a_buyers_journey_east/",
-      "title": "The Adwaith By Sanjeevini - A Buyer's Journey (East Bangalore)",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-11-02T11:07:33+00:00",
-      "evergreen": false,
-      "fit": 62,
-      "intent": "Shares and invites views on buying a specific East Bengaluru project from a smaller developer.",
-      "landing": "https://property-lens.ai/?dev=Sanjeevini",
-      "landingWhy": "A developer-level view of Sanjeevini's registered projects is the right evidence for a thread about one of their launches, rather than a city homepage.",
-      "draft": "The quarterly progress filings will tell you more about this than any site visit. For any K-RERA registered project you can pull four things that actually matter: the original completion date plus every extension taken since, percentage of work completed against percentage of units booked, money received into and withdrawn from the designated RERA account, and complaints filed against that specific registration number.\n\nIf bookings are running well ahead of construction and the completion date has already moved once, that is the question to put to the sales team in writing before the next payment milestone.\n\nFor context on the corridor, from the filings I score: KR Puram/Mahadevapura has 39 analysed projects with a median PropertyLens score of 54 and median projected 5-yr growth of 8.8%/yr, while Whitefield's 90 projects sit at a median 58 and 9.1%/yr. East Bengaluru is not one market, and smaller promoters usually lose points on the delivery-record factor rather than on location.",
-      "risk": "medium",
-      "riskNote": "Thread may be the buyer's own promotion; reply stays method-first, quotes no number for this project and names no complaint count, so it cannot be read as either a plug or an attack.",
-      "shots": [
-        {
-          "kind": "list",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "Sanjeevini",
-          "url": "https://property-lens.ai/?dev=Sanjeevini",
-          "caption": "Sanjeevini's registered Bengaluru projects as scored from K-RERA filings."
-        },
-        {
-          "kind": "dd",
-          "projectId": "brigade-lakecrest-007866",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/brigade-lakecrest-007866#dd",
-          "caption": "What the due-diligence view looks like for a KR Puram project: RERA timeline, extensions, construction vs bookings, RERA-account money."
-        }
-      ],
-      "id": "ef5b0c39771c5f72",
-      "foundAt": "2026-11-02T18:31:56.039Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3422,16 +3385,15 @@
     }
   ],
   "stats": {
-    "candidates": 27,
-    "kept": 3,
-    "skippedSeen": 3,
+    "candidates": 24,
+    "kept": 1,
+    "skippedSeen": 4,
     "byPlatform": {
-      "quora": 1,
-      "reddit": 2
+      "reddit": 1
     },
     "errors": [
       "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429"
