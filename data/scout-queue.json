@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:31:56.039Z",
+  "generatedAt": "2026-11-03T06:59:24.131Z",
   "leads": [
     {
       "platform": "quora",
@@ -3051,6 +3051,43 @@
       "foundAt": "2026-09-21T05:07:37.164Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xmj41g/how_is_it_going_in_your_neighborhood_downupstable/",
+      "title": "How is it going in your neighborhood - Down/Up/Stable?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-03T04:10:07+00:00",
+      "evergreen": false,
+      "fit": 72,
+      "intent": "Wants ground-level reads on whether local markets are moving up, down or flat.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "A per-locality score map answers 'which part of the city' far better than a homepage, and the thread is explicitly neighbourhood-by-neighbourhood.",
+      "draft": "For Bengaluru the honest answer is that it depends entirely on the corridor, and the spread has got wide. I score every registered project of the top 200 developers from the Karnataka RERA filings, and the supply counts alone carry most of the story: of 1,854 analysed projects, 284 sit on Sarjapur Road and 212 around Devanahalli.\n\n• Whitefield (Hoodi/Varthur Rd) — 90 projects, median score 58, projected 9.1%/yr, about ₹11,750/sqft\n• Sarjapur Road — 284 projects, median 49, projected 9.8%/yr, about ₹8,450/sqft\n• Devanahalli/airport — 212 projects, median 50, projected 11.2%/yr, about ₹4,700/sqft\n• Doddaballapur/Nelamangala — 21 projects, median 22, projected 9.2%/yr, about ₹3,000/sqft\n\nScores and growth are my model's output over RERA filings and dated locality price evidence; the per-sqft figures are modelled estimates, not quoted rates.\n\nWhere new supply is heaviest you feel it in resale first, not in the asking price — sellers hold the number and the listing just sits.",
+      "risk": "low",
+      "riskNote": "No links, no product name in the text, figures written out because comment images are usually disabled. Basis stated plainly so it reads as a data comment, not a pitch.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49 — the heaviest pipeline in the dataset."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli / airport corridor: 212 projects, median score 50, median projected 11.2%/yr."
+        }
+      ],
+      "id": "548aa496df210c69",
+      "foundAt": "2026-11-03T06:59:24.131Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Which-area-of-Bangalore-is-good-to-buy-a-flat-Considering-the-center-of-Bangalore-from-there-every-corner-of-Bangalore-should-be-accessible",
       "title": "Which area of Bangalore is good to buy a flat? Considering the center of Bangalore, every corner should be accessible",
@@ -3234,22 +3271,59 @@
       ],
       "id": "25a916c36a0819b2",
       "foundAt": "2026-10-20T20:02:07.474Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xmkxyd/do_house_prices_never_crash_in_india/",
+      "title": "Do house prices never crash in India?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-03T05:48:06+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "Wants to understand why Indian housing prices appear never to fall.",
+      "landing": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
+      "landingWhy": "The project page breaks a headline growth rate down into net return after GST, stamp duty, interiors, interest and selling costs — the exact gap the comment argues about.",
+      "draft": "Nominal prices rarely fall here; what actually gets destroyed is your return, and it is invisible because almost nobody nets out the costs.\n\nTake a Bengaluru under-construction flat on a 75% loan and subtract every cost — GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest, selling costs — and a 10-11%/yr projected price rise ends up between roughly 6.5% and 9% as a net-wealth CAGR over an eight-year hold. Three from my model over the K-RERA filings:\n\n• Godrej Lakeside Orchard, Sarjapur Rd — projected 10.8%/yr, net-wealth CAGR 7.5%, gross yield 4.3%\n• Birla Evara, Sarjapur Rd — projected 11.0%/yr, net-wealth CAGR 8.7%, gross yield 3.9%\n• Prestige Pine Forest, Whitefield — projected 10.4%/yr, net-wealth CAGR 6.9%, gross yield 3.8%\n\nThe second half of the answer is liquidity. In a bad year sellers hold the asking price and simply don't sell, so the correction shows up as dead resale listings and fatter builder \"offers\" rather than a printed price drop.",
+      "risk": "medium",
+      "riskNote": "Thread is India-wide while the figures are Bengaluru-only, so the draft says so up front. No links, no tool name, figures written out; the net-of-cost point is the substance, not the plug.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "godrej-lakeside-orchard-007105",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lakeside-orchard-007105",
+          "caption": "Projected 10.8%/yr price growth becoming a 7.5% net-wealth CAGR after every cost."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: 11.0%/yr projected growth, 8.7% net-wealth CAGR, 15.9% cash-flow IRR on a 75% loan."
+        }
+      ],
+      "id": "1ebc58f3190bb0ac",
+      "foundAt": "2026-11-03T06:59:24.131Z"
     }
   ],
   "stats": {
-    "candidates": 32,
-    "kept": 3,
-    "skippedSeen": 0,
+    "candidates": 30,
+    "kept": 2,
+    "skippedSeen": 2,
     "byPlatform": {
-      "reddit": 2,
-      "quora": 1
+      "reddit": 2
     },
     "errors": [
+      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
       "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429"
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
