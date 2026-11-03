@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T06:59:24.131Z",
+  "generatedAt": "2026-11-03T16:20:35.893Z",
   "leads": [
     {
       "platform": "quora",
@@ -194,6 +194,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Where-would-you-rate-as-the-best-area-to-invest-for-an-apartment-in-Bangalore-and-why",
+      "title": "Where would you rate as the best area to invest for an apartment in Bangalore and why?",
+      "context": "Quora",
+      "postedAt": "2019-05-14T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 88,
+      "intent": "Wants a defensible ranking of Bengaluru localities for an apartment purchase, with reasons rather than brochure claims.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The locality score map is the direct evidence for a locality-by-locality answer; it shows the per-area scores and projected growth the answer quotes, which the homepage does not.",
+      "draft": "There isn't one best area. The answer splits depending on whether you want the highest expected price growth or the lowest risk of ending up with a flat nobody wants to buy from you.\n\nFrom the 1,850-odd registered Bengaluru projects I analysed from Karnataka RERA filings, the median investment score by locality looks like this, on a 0-100 scale where 50 is the average analysed project: Jayanagar/Basavanagudi 66, HSR/BTM/Koramangala fringe 63, Malleswaram/Rajajinagar 63, Bannerghatta Road/JP Nagar 61, Marathahalli/Varthur 59, Hebbal/Thanisandra 59, Whitefield 58, Devanahalli 50, Sarjapur Road 49, Attibele/Anekal 36.\n\nThe surprise for most people is Sarjapur Road: 284 analysed projects, median score 49, median projected price growth 9.8% a year at a median of roughly ₹8,450 per sq ft (estimate). The supply pipeline there is enormous, and heavy supply is exactly what caps resale liquidity.\n\nHighest projected growth sits with Devanahalli, a median 11.2% a year over five years, but off a much lower median base of about ₹4,700 per sq ft and with far thinner rental demand today. You would be buying the airport corridor's next decade, not current income. The established south and central pockets score well on liquidity and employment access but start near ₹15,000 per sq ft, with gross yields around 2.5 to 3%.\n\nSo choose by what you actually need: rent coverage, an exit in three years, or a ten-year hold. Then check the specific project's RERA registration, the extensions already taken on it and complaints filed against that registration. Two towers on the same road can be worlds apart on those.\n\nThis is research, not investment advice.\n\nIf you want to check these numbers yourself, every analysed Bengaluru project, scored on one map, is here: https://property-lens.ai/map",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road: 284 analysed projects, median score 49, median projected growth 9.8%/yr."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli corridor: highest median projected growth at 11.2%/yr, median score 50."
+        }
+      ],
+      "id": "c89f9a5088fec4db",
+      "foundAt": "2026-11-03T16:20:35.893Z"
     },
     {
       "platform": "quora",
@@ -1395,6 +1432,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xmnbcv/what_are_the_actual_rental_rates_in_bengaluru_is/",
+      "title": "What are the actual rental rates in Bengaluru? Is it better to look at new constructions or older societies?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-03T08:12:37+00:00",
+      "evergreen": false,
+      "fit": 82,
+      "intent": "Wants to know what rent a Bengaluru flat actually fetches, and whether a new project or an older society rents better relative to price.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The comparison view puts two projects' gross yield and after-cost returns side by side, which is exactly the new-vs-older trade-off being asked about; the homepage shows none of that.",
+      "draft": "Rent in Bengaluru scales much slower than price, so the newer and shinier the tower, the worse the yield usually is. Across the registered projects I pulled from the K-RERA filings, gross yields cluster between about 2.5% and 4.5%, and the top of that range is nearly always an outer-corridor or already-ready project, not a new premium one.\n\nFour from the dataset, gross yield then estimated price per sq ft:\n\n• Brigade Insignia, Yelahanka, under construction — 4.5%, about ₹10,650/sqft (estimate)\n\n• Radiance Gardenia, Hennur Road, ready — 4.3%, about ₹8,500/sqft (estimate)\n\n• Haven, HSR/BTM fringe, under construction — 2.8%, about ₹18,750/sqft (estimate)\n\n• Sobha Insignia, Bellandur, ready — 2.5%, about ₹15,000/sqft (estimate)\n\nThose are gross. Take out maintenance, a month of vacancy and repairs and you are typically 1 to 1.5 points lower. An older society in a settled area rents for close to what the new tower next door gets at a much lower entry price, and that gap is where the yield comes from, not the clubhouse.\n\nBasis: gross yields and price estimates from a tool I built on K-RERA filings and dated locality rent evidence; the per-sqft numbers are model estimates, not quotes.",
+      "risk": "low",
+      "riskNote": "No link, no project pitch, figures written out so the comment stands alone if the image is stripped. Tool authorship disclosed once at the end rather than led with, which is what this sub tolerates.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "haven-007785",
+          "projectIdB": "brigade-insignia-006894",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=haven-007785&b=brigade-insignia-006894",
+          "caption": "Gross yield side by side: Haven (HSR/BTM) 2.8% against Brigade Insignia (Yelahanka) 4.5%."
+        },
+        {
+          "kind": "project",
+          "projectId": "radiance-gardenia-005430",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/radiance-gardenia-005430",
+          "caption": "A ready Hennur Road project showing a 4.3% gross yield and 7.0% net-wealth CAGR."
+        }
+      ],
+      "id": "937769472e0c5a57",
+      "foundAt": "2026-11-03T16:20:35.893Z"
     },
     {
       "platform": "quora",
@@ -3200,6 +3274,43 @@
     },
     {
       "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xmq51o/30x40_east_facing_plot_in_gated_community/",
+      "title": "30x40 east facing plot in gated community blr-chandapura available",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-03T11:07:10+00:00",
+      "evergreen": false,
+      "fit": 64,
+      "intent": "Listing a Chandapura gated-community plot; readers in the thread are sizing up whether that belt is worth buying into.",
+      "landing": "https://property-lens.ai/map?loc=attibele-anekal",
+      "landingWhy": "The Attibele/Anekal/Chandapura locality map carries the 134-project median score and growth figures the comment quotes, which no project page or homepage shows.",
+      "draft": "For anyone weighing the area rather than this specific plot: the Attibele/Anekal/Chandapura belt scores worst of the big Bengaluru corridors apart from the Doddaballapur/Nelamangala side. 134 registered projects analysed, median investment score 36 out of 100, against 50 for the average analysed Bengaluru project.\n\nMedian projected price growth there is 10.3% a year over five years, but off a low median base of roughly ₹4,700 per sq ft (estimate), and a plot earns no rent at all, so the whole return has to come from appreciation and from the area actually densifying.\n\nThings worth confirming before money moves on any plot there:\n\n• K-RERA registration of the layout itself, not just the builder's name — plotted developments need it too\n\n• DC conversion order and the sanctioned layout plan matching what is on the ground\n\n• e-khata in the seller's name, plus release deed if it was partitioned family land\n\nBasis: K-RERA filings and dated locality price evidence from a tool I built; the per-sqft figure is a modelled median, not a quoted rate.",
+      "risk": "medium",
+      "riskNote": "It is a for-sale post, so a data comment could read as a put-down; the draft stays neutral on the plot itself and gives buyer checks rather than a verdict. No link, figures written out.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "attibele-anekal",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=attibele-anekal",
+          "caption": "Attibele/Anekal/Chandapura: 134 projects analysed, median score 36, median projected growth 10.3%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "tbc-la-picasso-008550",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/tbc-la-picasso-008550",
+          "caption": "A plotted project in the same belt: score 53, projected 12.5%/yr growth, 0% gross yield because plots earn no rent."
+        }
+      ],
+      "id": "c99da30749fe291e",
+      "foundAt": "2026-11-03T16:20:35.893Z"
+    },
+    {
+      "platform": "reddit",
       "url": "https://www.reddit.com/r/indianrealestate/comments/1xlucbn/the_adwaith_by_sanjeevini_a_buyers_journey_east/",
       "title": "The Adwaith By Sanjeevini - A Buyer's Journey (East Bangalore)",
       "context": "r/indianrealestate",
@@ -3311,19 +3422,19 @@
     }
   ],
   "stats": {
-    "candidates": 30,
-    "kept": 2,
-    "skippedSeen": 2,
+    "candidates": 27,
+    "kept": 3,
+    "skippedSeen": 3,
     "byPlatform": {
+      "quora": 1,
       "reddit": 2
     },
     "errors": [
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429"
     ]
   }
 }
