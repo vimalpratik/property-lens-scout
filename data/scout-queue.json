@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:25:14.085Z",
+  "generatedAt": "2026-11-05T07:00:06.980Z",
   "leads": [
     {
       "platform": "quora",
@@ -157,43 +157,6 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/personalfinanceindia/comments/1xnfj5n/both_30_combined_inhand_72lmonth_looking_at_3bhks/",
-      "title": "Both 30, combined in-hand ₹7.2L/month. Looking at 3BHKs in East Bangalore (~₹3–4Cr) vs continuing to rent & invest equity. Need a sanity check",
-      "context": "r/personalfinanceindia",
-      "postedAt": "2026-11-04T05:01:13+00:00",
-      "evergreen": false,
-      "fit": 88,
-      "intent": "Wants an honest financial comparison between buying a ₹3-4 Cr east Bengaluru 3BHK and renting while investing the difference.",
-      "landing": "https://property-lens.ai/p/nvt-oikos-007694",
-      "landingWhy": "It is a Whitefield project at almost exactly their ₹3 Cr ticket, and the page shows the after-every-cost net-wealth CAGR and cash-flow IRR on a 75% loan rather than a brochure price — which is the exact arithmetic the rent-vs-buy question turns on.",
-      "draft": "The number that decides this isn't price growth, it's yield. A ₹3-4 Cr 3BHK in east Bengaluru rents at roughly 2.5-3% gross, so nearly all of the return has to come from appreciation — you're comparing a leveraged, illiquid single asset against your equity portfolio, not EMI against rent.\n\nI build a research tool on the Karnataka RERA filings, and when the full cost stack goes in (GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest, selling costs) on a 75% loan over 8 years, east Bengaluru at your ticket lands near 6-7% net-wealth CAGR even with 10-11%/yr projected price growth.\n\n• Nvt Oikos, Whitefield — PropertyLens score 74, projected 10.8%/yr, net-wealth CAGR 6.4%, gross yield 2.9%, ₹3.05 Cr\n\n• Mahindra Newhaven, HSR/BTM — score 85, projected 11.4%/yr, CAGR 7.7%, yield 3.1%, ₹2.31 Cr\n\n• Assetz Mizumi Reserve A1/A2/A4, HSR — score 72, projected 10.4%/yr, CAGR 7.0%, yield 3.0%, ₹2.65 Cr\n\n• Mahindra Blossom, Whitefield — score 79, projected 11.4%/yr, CAGR 7.7%, yield 2.9%, ₹1.76 Cr, and 15 RERA complaints on that registration\n\nThose are model projections from RERA filings and dated locality price evidence, not promises, and the per-sq-ft inputs are estimates. Whichever way you go, if it's under construction, read the registration's extension history, complaints and quarterly progress-vs-bookings before the cheque, not after.",
-      "risk": "low",
-      "riskNote": "No link, no domain named, no product pitch; the figures and the cost-stack method are written out so the comment stands alone, with one honest line that I built the tool the scores come from.",
-      "shots": [
-        {
-          "kind": "project",
-          "projectId": "nvt-oikos-007694",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/nvt-oikos-007694",
-          "caption": "Nvt Oikos, Whitefield at a ₹3.05 Cr ticket: score 74, projected 10.8%/yr price growth, and net returns after GST, stamp duty, interiors, interest and selling costs."
-        },
-        {
-          "kind": "compare",
-          "projectId": "nvt-oikos-007694",
-          "projectIdB": "mahindra-newhaven-007668",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/compare?a=nvt-oikos-007694&b=mahindra-newhaven-007668",
-          "caption": "Two east/south-east Bengaluru homes at their budget side by side — score, projected growth, gross yield and net-wealth CAGR on a 75% loan."
-        }
-      ],
-      "id": "1056b09b832ef2d9",
-      "foundAt": "2026-11-04T06:41:27.784Z"
     },
     {
       "platform": "quora",
@@ -2894,43 +2857,6 @@
       "foundAt": "2026-10-11T20:22:57.763Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xn58f9/ikea_on_kanakapura_road/",
-      "title": "IKEA on Kanakapura Road",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-11-03T21:07:50+00:00",
-      "evergreen": false,
-      "fit": 74,
-      "intent": "Wants to know whether an IKEA/retail anchor on Kanakapura Road means the corridor is a good place to buy a flat.",
-      "landing": "https://property-lens.ai/map?loc=kanakapura-road",
-      "landingWhy": "The locality score map shows every analysed Kanakapura Road project with its score and projected growth, which is the evidence for the claim that this corridor is the slowest-growth major stretch — the homepage shows the whole city and proves nothing about Kanakapura Road.",
-      "draft": "A big-box store doesn't move flat prices much; offices and the metro do. Kanakapura Road is already the slowest-growth major corridor in the dataset I maintain: across 80 analysed projects there the median projected price growth is 8.3%/yr over five years, against 11.2% for Devanahalli and 10.6% for Mysore Road/RR Nagar, at a median of about ₹9,200/sq ft (model estimate, not a quoted rate).\n\nThe reason is dull but real. The Green Line gives commuters a way in, but there is very little office stock south-west of Banashankari, and rental demand and resale liquidity track jobs, not retail footfall.\n\nProject level on that stretch, from K-RERA filings and dated locality price evidence (50 is the average analysed Bengaluru project):\n\n• Sattva Forest Ridge — score 68, projected 9.9%/yr, 1 RERA complaint on this registration\n• Casagrand Casablanca — score 62, projected 9.6%/yr, 4 complaints\n• Assetz Meru & Meadow — score 59, projected 10.0%/yr, 0 complaints\n• Sri Sri Sattva — score 56, projected 9.3%/yr, 0 complaints\n\nIf you are buying off the IKEA news, check the registration's extensions and complaint record first — that moves your downside far more than a store does. Disclosure: I build the tool those scores come from.",
-      "risk": "low",
-      "riskNote": "No link, no project recommendation, explicit disclosure of authorship. r/indianrealestate tolerates data-led comments; the figures stand alone without any image.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "kanakapura-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=kanakapura-road",
-          "caption": "Score map of Kanakapura Road / Talaghattapura showing the 80 analysed projects and their median 8.3%/yr projected price growth."
-        },
-        {
-          "kind": "project",
-          "projectId": "sattva-forest-ridge-007315",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/sattva-forest-ridge-007315",
-          "caption": "Sattva Forest Ridge: score 68, projected 9.9%/yr growth, net-wealth CAGR 5.5% on a 75% loan — the highest-scoring project quoted in the comment."
-        }
-      ],
-      "id": "f23c8c692c232046",
-      "foundAt": "2026-11-03T21:51:22.912Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-there-a-risk-to-buy-non-rera-property-in-Bangalore-the-project-started-prior-to-RERA-rule-but-2-flats-are-being-sold-now-by-the-owner",
       "title": "Is there a risk to buy non-RERA property in Bangalore, the project started prior to RERA rule but 2 flats are being sold now by the owner?",
@@ -3274,19 +3200,18 @@
     }
   ],
   "stats": {
-    "candidates": 10,
+    "candidates": 6,
     "kept": 0,
     "skippedSeen": 0,
     "byPlatform": {},
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
       "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "judge: {\"type\":\"error\",\"error\":{\"details\":null,\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgiCdk8c7YBcchEWhkWee\"}"
+      "judge: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgjMMo2M8QP2P2ExD8ZuM\"}"
     ]
   }
 }
