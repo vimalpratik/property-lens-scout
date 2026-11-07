@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T07:00:06.980Z",
+  "generatedAt": "2026-11-07T06:13:40.410Z",
   "leads": [
     {
       "platform": "quora",
@@ -1767,6 +1767,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/What-is-the-best-area-to-invest-money-in-Bangalore-for-both-short-term-and-long-term-gains",
+      "title": "What is the best area to invest money in Bangalore for both short term and long term gains?",
+      "context": "Quora — Bangalore investment areas",
+      "postedAt": "2024-01-05T00:00:00Z",
+      "evergreen": true,
+      "fit": 80,
+      "intent": "Find a Bengaluru area that works for a quick gain as well as a long hold.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "Devanahalli is the corridor with the highest median projected growth and the lowest entry price in the dataset, which is exactly the case the asker is testing; the locality map shows the spread rather than one cherry-picked project.",
+      "draft": "Short-term gains in Bengaluru residential are mostly eaten by transaction costs, and the gap between headline price growth and what you actually keep is the real answer here.\n\nTake Sattva Aeropolis Phase 2 in Devanahalli, one of the better-scoring entries near the airport: score 67, projected 11.7% a year price growth, ₹32.0 L for the default unit, zero red flags in the due-diligence report and zero complaints on that RERA registration. Model the same unit after GST, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and selling costs, over eight years with a 75% loan, and the net-wealth CAGR is 7.7%. Those four points of leakage are almost entirely entry and exit costs, which do not shrink if you sell in year three — they get worse, because you have amortised them over less time.\n\nOn the long-hold question, Devanahalli / Airport Road / Bagalur has 212 analysed projects with a median score of 50, median projected growth of 11.2% a year and a median ₹4,700 per sq ft (an estimate from the model). That is the highest median growth of any corridor I track, and the cheapest entry of the big ones — the trade-off is that it is also under-construction heavy, so there is no rent until handover.\n\nIf you want one practical filter: read the RERA registration's original completion date against the extensions filed, and the complaints logged on that registration. Delay is the thing that actually destroys a short-hold return. Research, not investment advice.",
+      "risk": "low",
+      "riskNote": "Corrects the premise of the question with a costed number instead of a pitch; no link, no recommendation, estimated per-sq-ft figures labelled as estimates.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "sattva-aeropolis-phase-2-008119",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-aeropolis-phase-2-008119",
+          "caption": "Sattva Aeropolis Phase 2: 11.7% projected growth against a 7.7% net-wealth CAGR once every cost is deducted."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli / Airport Road score map — 212 analysed projects, median score 50, median projected growth 11.2% a year."
+        }
+      ],
+      "id": "d6741a0e766d42e5",
+      "foundAt": "2026-11-07T06:13:40.410Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Is-this-right-time-to-buy-house-in-Bangalore",
       "title": "Is this right time to buy house in Bangalore?",
       "context": "Quora",
@@ -3200,18 +3237,18 @@
     }
   ],
   "stats": {
-    "candidates": 6,
-    "kept": 0,
+    "candidates": 0,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 1
+    },
     "errors": [
+      "reddit r/IndiaTax: HTTP 429",
       "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "judge: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgjMMo2M8QP2P2ExD8ZuM\"}"
+      "reddit r/indianrealestate: HTTP 429"
     ]
   }
 }
