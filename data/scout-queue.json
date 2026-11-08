@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:18:45.637Z",
+  "generatedAt": "2026-11-08T15:22:30.599Z",
   "leads": [
     {
       "platform": "quora",
@@ -1432,6 +1432,43 @@
       ],
       "id": "9072afd219034c4a",
       "foundAt": "2026-09-23T13:42:51.354Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Is-it-wise-to-buy-land-near-the-Bangalore-International-Airport-Devanahalli",
+      "title": "Is it wise to buy land near the Bangalore International Airport (Devanahalli)?",
+      "context": "Quora",
+      "postedAt": "2018-03-28T00:00:00Z",
+      "evergreen": true,
+      "fit": 82,
+      "intent": "Wants to know whether land/plots around Devanahalli airport are a sensible purchase.",
+      "landing": "https://property-lens.ai/map?loc=devanahalli-airport",
+      "landingWhy": "Answers the 'is this corridor worth it' part with the 212 analysed Devanahalli projects, their scores and the highest median projected growth in the city — a project page would be too narrow.",
+      "draft": "The Devanahalli corridor has the highest projected price growth of any Bengaluru locality in the set I maintain — median 11.2% a year over 5 years across 212 analysed projects — but its median score is only 50 out of 100, which is exactly the city average, and the median price is around ₹4,700 per sq ft (a modelled estimate).\n\nThat gap is the whole story. Growth is projected off the airport, the office pipeline and announced infrastructure, while the score is dragged down by social infrastructure, transit and resale liquidity today. For a plot the consequence is concrete: land earns zero rent, so every rupee of return has to come from price growth, and if you buy it on a loan you are cash-flow negative for the entire holding period with no tax-friendly rental offset. A plot that doubles in ten years is roughly 7% a year, before registration, maintenance of the compound wall and selling cost.\n\nIf you still want the corridor, the legal checks matter more than the price. Plotted developments need RERA registration too; verify the survey numbers in the registration against the sale deed, DC conversion, khata, encumbrance certificate for 30 years, release of any mortgage, and that approved layout plan matches what is marked on site. Revenue-site plots sold as 'approved' are the standard trap here.\n\nFor comparison, an apartment in the same corridor — Sattva Aeropolis Phase 2, score 67, projected 11.7% a year, ₹32.0 L ticket — does at least produce rent after handover. Research, not advice.",
+      "risk": "low",
+      "riskNote": "Strong legal-protection content, no link, no promotion; the plot-vs-apartment comparison is framed as evidence, not a recommendation.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli/airport corridor: 212 analysed projects, median score 50, median projected growth 11.2%/yr — the highest in the city set."
+        },
+        {
+          "kind": "project",
+          "projectId": "sattva-aeropolis-phase-2-008119",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/sattva-aeropolis-phase-2-008119",
+          "caption": "Sattva Aeropolis Phase 2: score 67, 11.7%/yr projected growth, ₹32.0 L ticket, zero complaints on that registration."
+        }
+      ],
+      "id": "e5f63b53d7a7f2c3",
+      "foundAt": "2026-11-08T15:22:30.599Z"
     },
     {
       "platform": "quora",
@@ -3274,18 +3311,18 @@
     }
   ],
   "stats": {
-    "candidates": 14,
+    "candidates": 7,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429"
     ]
   }
 }
