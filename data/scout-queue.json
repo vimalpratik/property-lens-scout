@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T06:13:40.410Z",
+  "generatedAt": "2026-11-08T06:18:45.637Z",
   "leads": [
     {
       "platform": "quora",
@@ -354,9 +354,9 @@
       "intent": "Wants to know whether a mid-budget Bengaluru apartment actually makes financial sense.",
       "landing": "https://property-lens.ai/p/brigade-insignia-006894",
       "landingWhy": "The project page shows the full after-cost return build-up — GST, stamp duty, interiors, vacancy, maintenance, loan interest — which is exactly the arithmetic the question is arguing about.",
-      "draft": "The honest answer is not \"unwise\" — it is that a Bengaluru apartment at that price returns far less than the rent-plus-appreciation arithmetic people do in their heads, and the gap is almost entirely costs.\n\nGross rental yields on the Bengaluru projects I score sit around 2.5-4.5%. Then GST on under-construction, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and eventual selling costs come off. Modelled over eight years on a 75% home loan, the net-wealth CAGR on most Bengaluru apartments lands roughly between 4% and 8% — and which end you get depends far more on the project than on the budget.\n\nTwo in a similar ticket band from my dataset, built from K-RERA filings:\n\nBrigade Insignia, Yelahanka, under construction — PropertyLens score 81, projected 5-yr price growth 11.0% a year, 4.5% gross yield, 7.9% net-wealth CAGR, default ticket ₹42.1 lakh.\n\nPrestige Suncrest, Electronic City — score 62, projected 9.4% a year, 4.2% gross yield, 4.2% net-wealth CAGR, ticket ₹45.2 lakh.\n\nSimilar money, nearly double the modelled net outcome. Under-construction homes also earn no rent until handover, and that drag is already inside those numbers. Price-per-sq-ft inputs here are model estimates, so treat tickets as indicative.\n\nNone of this says buy or don't buy — it is research, not advice. If you do proceed, read the RERA filing for that registration: original completion date, extensions, complaints against that registration, land ownership, and money moving through the RERA account.",
+      "draft": "The honest answer is not \"unwise\" — it is that a Bengaluru apartment at that price returns far less than the rent-plus-appreciation arithmetic people do in their heads, and the gap is almost entirely costs.\n\nGross rental yields on the Bengaluru projects I score sit around 2.5-4.5%. Then GST on under-construction, stamp duty and registration, other charges, interiors, vacancy, maintenance, loan interest and eventual selling costs come off. Modelled over eight years on a 75% home loan, the net-wealth CAGR on most Bengaluru apartments lands roughly between 4% and 8% — and which end you get depends far more on the project than on the budget.\n\nTwo in a similar ticket band from my dataset, built from K-RERA filings:\n\nBrigade Insignia, Yelahanka, under construction — PropertyLens score 81, projected 5-yr price growth 11.0% a year, 4.5% gross yield, 7.9% net-wealth CAGR, default ticket ₹42.1 lakh.\n\nPrestige Suncrest, Electronic City — score 62, projected 9.4% a year, 4.2% gross yield, 4.2% net-wealth CAGR, ticket ₹45.2 lakh.\n\nSimilar money, nearly double the modelled net outcome. Under-construction homes also earn no rent until handover, and that drag is already inside those numbers. Price-per-sq-ft inputs here are model estimates, so treat tickets as indicative.\n\nNone of this says buy or don't buy — it is research, not advice. If you do proceed, read the RERA filing for that registration: original completion date, extensions, complaints against that registration, land ownership, and money moving through the RERA account.\n\nIf you want to check these numbers yourself, the full numbers and the RERA record for this project are here: https://property-lens.ai/p/brigade-insignia-006894",
       "risk": "low",
-      "riskNote": "No link in the answer; attribution comes from the profile credential. Explicitly says it is research, not advice, and marks the estimated inputs.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "compare",
@@ -573,6 +573,43 @@
       ],
       "id": "a08ce05a1021e359",
       "foundAt": "2026-09-19T12:33:51.264Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/How-good-is-property-from-Godrej-especially-in-Bangalore-for-plots-apartments",
+      "title": "How good is property from Godrej, especially in Bangalore for plots/apartments?",
+      "context": "Quora",
+      "postedAt": "2019-11-01T00:00:00Z",
+      "evergreen": true,
+      "fit": 85,
+      "intent": "Wants to know whether Godrej as a brand is a safe bet in Bengaluru across its projects.",
+      "landing": "https://property-lens.ai/?dev=Godrej%20Properties",
+      "landingWhy": "The question is about the developer, and the developer-filtered list shows every analysed Godrej registration with its score and complaint count — which is the point the answer makes.",
+      "draft": "Judging a Godrej purchase by the brand is the mistake here: across their Bengaluru registrations the scores I compute from Karnataka RERA filings run from the high 40s to the low 80s, which is nearly three standard deviations of spread inside one developer.\n\nFour of their registrations, same measures each time:\n\n• Godrej Woods, Yelahanka — score 81, projected 5-yr growth 12.2% a year, 1 RERA complaint on that registration\n• Godrej Vanantara, Bannerghatta Road — score 80, projected 11.5% a year, 0 complaints\n• Godrej Lakeside Orchard, Sarjapur Road — score 72, projected 10.8% a year, 2 complaints\n• Godrej Lake Gardens, Bellandur — score 47, projected 9.5% a year, 4 complaints and a red flag in the due-diligence read\n\nFifty is the average analysed Bengaluru project on that scale and twelve points is one standard deviation, so the same brand covers both well above and slightly below average here.\n\nWhat drives the difference is mostly location and the specific registration, not construction quality. Godrej builds a lot of Bengaluru stock through joint development agreements with landowners, so for any project you shortlist, read who actually owns the land in the RERA filing, whether the JDA and the power of attorney are registered, how many completion-date extensions have been filed, and what the quarterly progress updates say about construction against bookings.\n\nFor their plotted projects, add DC conversion, the approved layout plan and the release of mortgaged plots to that list. Brand reputation does not substitute for any of it.",
+      "risk": "low",
+      "riskNote": "Not a brand attack or endorsement — spread of scores plus the JDA/land-title checks. No link, complaint counts only per registration.",
+      "shots": [
+        {
+          "kind": "list",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "Godrej Properties",
+          "url": "https://property-lens.ai/?dev=Godrej%20Properties",
+          "caption": "Every analysed Godrej Properties registration in Bengaluru, scores ranging from 47 to 81."
+        },
+        {
+          "kind": "dd",
+          "projectId": "godrej-lake-gardens-002581",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-lake-gardens-002581#dd",
+          "caption": "Godrej Lake Gardens due diligence: 4 RERA complaints on the registration and the red flag referenced."
+        }
+      ],
+      "id": "1f064046f595fcc8",
+      "foundAt": "2026-11-08T06:18:45.637Z"
     },
     {
       "platform": "quora",
@@ -3237,18 +3274,18 @@
     }
   ],
   "stats": {
-    "candidates": 0,
+    "candidates": 14,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
-      "reddit r/IndiaTax: HTTP 429",
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429"
+      "reddit r/IndiaRealEstate: HTTP 429",
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
