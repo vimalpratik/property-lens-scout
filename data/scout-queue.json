@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:22:30.599Z",
+  "generatedAt": "2026-11-09T18:55:30.707Z",
   "leads": [
     {
       "platform": "quora",
@@ -83,6 +83,43 @@
       ],
       "id": "3eda27248c454cf5",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/How-do-rental-yields-vary-across-different-areas-of-Bangalore",
+      "title": "How do rental yields vary across different areas of Bangalore?",
+      "context": "Quora",
+      "postedAt": "2022-03-10T00:00:00Z",
+      "evergreen": true,
+      "fit": 90,
+      "intent": "Wants to know which Bengaluru areas give better rental yield before buying for rent income.",
+      "landing": "https://property-lens.ai/compare",
+      "landingWhy": "The comparison view puts gross yield, ticket and net return for two projects side by side, which is the exact claim the answer makes — yield tracks ticket size, not suburb.",
+      "draft": "Across the Bengaluru projects I have modelled, gross rental yield lands between roughly 2.5% and 4.8%, and the pattern tracks ticket size far more than it tracks which suburb you pick.\n\nFour from the current dataset, gross yield on the default unit:\n\n- Brigade Insignia, Yelahanka, ₹42.1 L ticket — 4.5%\n- Godrej Lakeside Orchard, Sarjapur Road, ₹46.3 L — 4.3%\n- Haven, HSR/BTM fringe, ₹2.06 Cr — 2.8%\n- Sobha Insignia, Bellandur, ₹3.27 Cr — 2.5%\n\nSame city, same tenant pool. A compact unit near a job cluster rents at a much higher fraction of its price than a three-crore apartment, because top-end rents do not scale with capital values.\n\nGross is not what you keep. Society maintenance, a month or two of vacancy between tenants, repainting and broker fees come off first, and property tax after that, so on my numbers a 4% gross is nearer 3% net before income tax. An under-construction flat pays nothing at all until handover, which is commonly three to four years of carry on a loan.\n\nSo the useful framing is segment, not area: affordable stock in Yelahanka, Hennur, KR Puram and the Sarjapur belt clusters near 4 to 4.5%, premium central and ORR stock near 2.5 to 3%. If rent income is the objective the cheaper unit wins on arithmetic; if price growth is the objective that is a different calculation and the answer often flips.\n\nIf you want to check these numbers yourself, the two side by side, after every cost, are here: https://property-lens.ai/compare",
+      "risk": "low",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
+      "shots": [
+        {
+          "kind": "compare",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "haven-007785",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=brigade-insignia-006894&b=haven-007785",
+          "caption": "4.5% gross yield on a ₹42.1 L Yelahanka unit against 2.8% on a ₹2.06 Cr HSR unit, side by side."
+        },
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Where the 4.5% gross comes from, and what is left after costs on a 75% loan."
+        }
+      ],
+      "id": "db332d97a2dbdad4",
+      "foundAt": "2026-11-09T18:55:30.707Z"
     },
     {
       "platform": "quora",
@@ -3308,21 +3345,59 @@
       ],
       "id": "25a916c36a0819b2",
       "foundAt": "2026-10-20T20:02:07.474Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/bangalore/comments/1xrsuyg/i_turned_44_lakh_bangalore_news_stories_into/",
+      "title": "I turned 4.4 lakh Bangalore news stories into vectors. The news still sits in the old centre, but the east has doubled its share since 2012",
+      "context": "r/bangalore",
+      "postedAt": "2026-11-09T14:20:04+00:00",
+      "evergreen": false,
+      "fit": 58,
+      "intent": "A data-driven look at where Bengaluru's attention has shifted geographically since 2012.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city score map is the spatial counterpart to OP's analysis — project counts and projected growth per micro-market, not a product page.",
+      "draft": "The registered-housing data drifts the same way, only further out than the news does. I pulled every K-RERA-registered residential project from Bengaluru's top 200 developers, and the counts by micro-market are badly lopsided east and north:\n\n• Sarjapur Road — 284 projects analysed, median projected price growth 9.8%/yr\n\n• Devanahalli / airport belt — 212 projects, 11.2%/yr\n\n• Hoskote / Budigere / Old Madras Road — 146 projects, 10.2%/yr\n\n• Central Bengaluru (MG Road / Richmond / Lavelle) — 29 projects, 9.0%/yr\n\nSo the old centre still owns the coverage, but it stopped being where the city is physically built — roughly one new registration there for every ten on Sarjapur Road. Basis: K-RERA filings across 1,854 analysed projects, median projected 5-year growth per locality.\n\nIf you still have the story vectors, overlaying them on registration dates by ward would be the interesting next cut — construction leads coverage by a few years in most of these belts.",
+      "risk": "medium",
+      "riskNote": "r/bangalore punishes anything broker-flavoured, so the comment is only data plus a suggestion for OP's next analysis — no link, no product name, no pitch, and all figures written out since comment images are off.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "sarjapur-road",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=sarjapur-road",
+          "caption": "Sarjapur Road's 284 analysed registrations, the densest residential pipeline in the city."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "cbd-central",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=cbd-central",
+          "caption": "Central Bengaluru by contrast: 29 analysed projects, median projected growth 9.0%/yr."
+        }
+      ],
+      "id": "0f36227263bfe797",
+      "foundAt": "2026-11-09T18:55:30.707Z"
     }
   ],
   "stats": {
-    "candidates": 7,
-    "kept": 1,
+    "candidates": 6,
+    "kept": 2,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1
+      "quora": 1,
+      "reddit": 1
     },
     "errors": [
-      "reddit r/IndianHomeBuyers: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429"
     ]
   }
 }
