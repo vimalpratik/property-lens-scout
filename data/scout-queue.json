@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T18:55:30.707Z",
+  "generatedAt": "2026-11-10T07:29:44.946Z",
   "leads": [
     {
       "platform": "quora",
@@ -194,6 +194,43 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xs4ni6/any_owners_of_godrej_woodscapes_budigere_bangalore/",
+      "title": "Any owners of Godrej woodscapes Budigere, Bangalore?",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-09T21:40:52+00:00",
+      "evergreen": false,
+      "fit": 88,
+      "intent": "Wants first-hand experience of Godrej Woodscapes at Budigere Cross before committing — construction quality, delays, whether the location works.",
+      "landing": "https://property-lens.ai/dd/godrej-woodscapes-phase-2-006888",
+      "landingWhy": "The due-diligence dashboard for that exact registration shows the RERA timeline, extensions, construction vs bookings, money through the RERA account and the complaint count — the things owners in the thread cannot tell him, unlike a generic project or homepage view.",
+      "draft": "Not an owner, but I can give you the filing side, which owners usually can't. On the Phase 2 registration there are 2 complaints in the K-RERA register, and the financial/legal due-diligence check I run returned no red flags on it.\n\nIt scores 62/100 in my model against a median of 42 for the Hoskote–Budigere Cross belt, with projected price growth of about 10.8% a year over five years. Most of that gap over the belt is developer delivery record and the Budigere office/infra pipeline, not the product.\n\n• Godrej Woodscapes Ph 2 — score 62, projected 10.8%/yr, 2 complaints, 0 red flags\n• Brigade Citrine — score 64, projected 10.7%/yr, 0 complaints\n• Brigade Calista Ph 2 — score 63, projected 10.4%/yr, 0 complaints\n• Belt median — score 42, projected 10.2%/yr, about ₹5,650/sqft (estimate)\n\nBasis: K-RERA filings and the complaint register. Whatever owners tell you, ask the sales team for the extension history and the latest quarterly progress update, and for resale ask to see the occupancy certificate.",
+      "risk": "low",
+      "riskNote": "No link, no domain named, no sales language; the comment answers the question with RERA-sourced figures written out in full since r/indianrealestate strips images and punishes anything broker-flavoured. Authorship of the dataset is stated plainly once.",
+      "shots": [
+        {
+          "kind": "dd",
+          "projectId": "godrej-woodscapes-phase-2-006888",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-woodscapes-phase-2-006888#dd",
+          "caption": "Due-diligence dashboard for the Woodscapes Phase 2 registration: RERA timeline and extensions, construction vs bookings, RERA-account movement and the 2 complaints."
+        },
+        {
+          "kind": "project",
+          "projectId": "godrej-woodscapes-phase-2-006888",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/godrej-woodscapes-phase-2-006888",
+          "caption": "Score 62/100 and projected 10.8%/yr five-year price growth for Godrej Woodscapes Phase 2, against the Hoskote–Budigere belt median of 42."
+        }
+      ],
+      "id": "6853170906113b4a",
+      "foundAt": "2026-11-10T07:29:44.946Z"
     },
     {
       "platform": "quora",
@@ -832,6 +869,43 @@
       ],
       "id": "0e0f239d6b1aeda1",
       "foundAt": "2026-09-20T05:01:35.675Z"
+    },
+    {
+      "platform": "quora",
+      "url": "https://www.quora.com/Which-is-the-best-apartment-to-buy-in-Bangalore-with-respect-to-investment-for-budget-around-50-lacs",
+      "title": "Which is the best apartment to buy in Bangalore with respect to investment for budget around 50 lacs?",
+      "context": "Quora",
+      "postedAt": "2017-06-01T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 84,
+      "intent": "Wants a shortlist of Bengaluru apartments around a ₹50 lakh ticket that will actually hold value, not a broker's pitch.",
+      "landing": "https://property-lens.ai/p/brigade-insignia-006894",
+      "landingWhy": "It is the highest-scoring project in the data at roughly the ticket asked about, and the page shows the score breakdown plus the after-cost return for that unit — far more use here than a city-wide homepage list.",
+      "draft": "At a ~50 lakh all-in ticket you are really choosing between a compact unit in a strong corridor and a larger one a long way out, and on the evidence the corridor usually wins.\n\nAcross the 1,854 registered Bengaluru projects I score from Karnataka RERA filings, these sit highest near that ticket (score out of 100, where 50 is the city average and 12 points is one standard deviation):\n\nBrigade Insignia, Yelahanka — score 81, default ticket ₹42.1 L, projected price growth 11.0%/yr over five years, 4.5% gross yield.\n\nPrestige Raintree Park, Varthur — score 81, ₹47.5 L, projected 10.6%/yr.\n\nBrigade Lakecrest, KR Puram — score 75, ₹46.8 L, projected 10.6%/yr.\n\nSattva Aeropolis Phase 2, Devanahalli — score 67, ₹32.0 L, projected 11.7%/yr, but the airport belt's median score is 50 and rental demand there is thin today.\n\nTwo things matter more than the ranking. The per-sq-ft figures behind those tickets are model estimates from locality price evidence, not quoted rates, so check the builder's actual quote. And headline price growth is not your return: after GST, stamp duty and registration, interiors, vacancy, maintenance, loan interest and selling costs, those same projects work out around 6-8% net-wealth CAGR over eight years on a 75% loan.\n\nBefore booking anything under construction, read the complaint count on that specific registration, the extension history, and whether collections moved through the RERA designated account. This is research, not advice on what you should buy.",
+      "risk": "low",
+      "riskNote": "No link in the answer per the Quora rule; attribution rests on the profile credential and the appended page. Avoids declaring any project 'the best' and flags assumed price-per-sqft as estimates.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/brigade-insignia-006894",
+          "caption": "Brigade Insignia: score 81/100, ₹42.1 L default ticket, projected 11.0%/yr price growth and 4.5% gross yield."
+        },
+        {
+          "kind": "compare",
+          "projectId": "brigade-insignia-006894",
+          "projectIdB": "prestige-raintree-park-006981",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/compare?a=brigade-insignia-006894&b=prestige-raintree-park-006981",
+          "caption": "Two sub-₹50 L options side by side: Brigade Insignia (Yelahanka) against Prestige Raintree Park (Varthur), score, growth and after-cost returns."
+        }
+      ],
+      "id": "2074c1752d562fb0",
+      "foundAt": "2026-11-10T07:29:44.946Z"
     },
     {
       "platform": "quora",
@@ -3310,6 +3384,43 @@
       "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/indianrealestate/comments/1xrnu14/bda_flats_phase_3_kommaghatta_future_development_and_home_loan_strategy/",
+      "title": "BDA flats phase 3 Kommaghatta future development and home loan strategy",
+      "context": "r/indianrealestate",
+      "postedAt": "2026-11-09T10:01:58+00:00",
+      "evergreen": false,
+      "fit": 64,
+      "intent": "Wants to judge whether the Kommaghatta BDA flats area will develop, and how to think about the loan.",
+      "landing": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
+      "landingWhy": "Kommaghatta sits in the Mysore Road / RR Nagar / Kengeri belt; the locality map gives the 78-project score and growth evidence for exactly that corridor, which the homepage cannot.",
+      "draft": "BDA flats sit outside the K-RERA promoter filing system, so none of the usual checks exist for them — no quarterly progress updates, no designated RERA account, no complaint register. What you can verify instead is the allotment conditions, khata and taxes paid, the resale lock-in period, and whether the block has an occupancy certificate.\n\nFor the corridor itself: 78 analysed projects in the Mysore Road / RR Nagar / Kengeri belt have a median score of 54 and median projected price growth of about 10.6% a year over five years, at a median ₹6,750/sqft (model estimate). That is above the city median score of 50, mostly on the metro line and the Kengeri employment pull.\n\nOn loan sizing, the number people underestimate: after GST, stamp duty, registration, interiors, interest and selling costs, nearby under-construction projects land near 6-7% net-wealth CAGR over eight years on a 75% loan, not the headline growth figure.\n\n• Birla Ojasvi — score 73, projected 11.3%/yr, 7.4% net CAGR\n• Sumadhura Pramoda — score 65, projected 10.4%/yr, 6.0% net CAGR\n• Provident Equinox 4 — score 62, projected 11.5%/yr, 6.9% net CAGR\n\nBasis: K-RERA filings and dated locality price evidence.",
+      "risk": "medium",
+      "riskNote": "No link and no product name in the text; the risk is that BDA stock itself isn't in the dataset, so the draft says that outright rather than pretending otherwise and limits itself to corridor evidence and after-cost maths. No buy/don't-buy advice.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "mysore-road-rr-nagar-kengeri",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
+          "caption": "Mysore Road / RR Nagar / Kengeri belt: 78 projects analysed, median score 54, median projected growth 10.6%/yr."
+        },
+        {
+          "kind": "project",
+          "projectId": "birla-ojasvi-006989",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-ojasvi-006989",
+          "caption": "Birla Ojasvi in the same corridor: score 73, projected 11.3%/yr, 7.4% net-wealth CAGR after every cost on a 75% loan."
+        }
+      ],
+      "id": "5e3d77aa73cf7e2c",
+      "foundAt": "2026-11-10T07:29:44.946Z"
+    },
+    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3385,19 +3496,19 @@
     }
   ],
   "stats": {
-    "candidates": 6,
-    "kept": 2,
+    "candidates": 21,
+    "kept": 3,
     "skippedSeen": 0,
     "byPlatform": {
-      "quora": 1,
-      "reddit": 1
+      "reddit": 2,
+      "quora": 1
     },
     "errors": [
+      "reddit r/bangalore: HTTP 429",
       "reddit r/Bengaluru: HTTP 429",
-      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
