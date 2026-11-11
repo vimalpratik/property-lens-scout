@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T07:29:44.946Z",
+  "generatedAt": "2026-11-11T06:45:29.320Z",
   "leads": [
     {
       "platform": "quora",
@@ -3456,59 +3456,20 @@
       ],
       "id": "25a916c36a0819b2",
       "foundAt": "2026-10-20T20:02:07.474Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/bangalore/comments/1xrsuyg/i_turned_44_lakh_bangalore_news_stories_into/",
-      "title": "I turned 4.4 lakh Bangalore news stories into vectors. The news still sits in the old centre, but the east has doubled its share since 2012",
-      "context": "r/bangalore",
-      "postedAt": "2026-11-09T14:20:04+00:00",
-      "evergreen": false,
-      "fit": 58,
-      "intent": "A data-driven look at where Bengaluru's attention has shifted geographically since 2012.",
-      "landing": "https://property-lens.ai/map",
-      "landingWhy": "The city score map is the spatial counterpart to OP's analysis — project counts and projected growth per micro-market, not a product page.",
-      "draft": "The registered-housing data drifts the same way, only further out than the news does. I pulled every K-RERA-registered residential project from Bengaluru's top 200 developers, and the counts by micro-market are badly lopsided east and north:\n\n• Sarjapur Road — 284 projects analysed, median projected price growth 9.8%/yr\n\n• Devanahalli / airport belt — 212 projects, 11.2%/yr\n\n• Hoskote / Budigere / Old Madras Road — 146 projects, 10.2%/yr\n\n• Central Bengaluru (MG Road / Richmond / Lavelle) — 29 projects, 9.0%/yr\n\nSo the old centre still owns the coverage, but it stopped being where the city is physically built — roughly one new registration there for every ten on Sarjapur Road. Basis: K-RERA filings across 1,854 analysed projects, median projected 5-year growth per locality.\n\nIf you still have the story vectors, overlaying them on registration dates by ward would be the interesting next cut — construction leads coverage by a few years in most of these belts.",
-      "risk": "medium",
-      "riskNote": "r/bangalore punishes anything broker-flavoured, so the comment is only data plus a suggestion for OP's next analysis — no link, no product name, no pitch, and all figures written out since comment images are off.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "sarjapur-road",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=sarjapur-road",
-          "caption": "Sarjapur Road's 284 analysed registrations, the densest residential pipeline in the city."
-        },
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "cbd-central",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=cbd-central",
-          "caption": "Central Bengaluru by contrast: 29 analysed projects, median projected growth 9.0%/yr."
-        }
-      ],
-      "id": "0f36227263bfe797",
-      "foundAt": "2026-11-09T18:55:30.707Z"
     }
   ],
   "stats": {
-    "candidates": 21,
-    "kept": 3,
+    "candidates": 0,
+    "kept": 0,
     "skippedSeen": 0,
-    "byPlatform": {
-      "reddit": 2,
-      "quora": 1
-    },
+    "byPlatform": {},
     "errors": [
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
-      "reddit r/IndiaRealEstate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/indianrealestate: HTTP 429",
+      "reddit r/RealEstateIndia: HTTP 404",
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/personalfinanceindia: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429",
+      "reddit r/IndiaTax: HTTP 429"
     ]
   }
 }
