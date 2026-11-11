@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:45:29.320Z",
+  "generatedAt": "2026-11-11T22:50:07.104Z",
   "leads": [
     {
       "platform": "quora",
@@ -194,43 +194,6 @@
       ],
       "id": "a91d4d164beac1d4",
       "foundAt": "2026-09-23T04:53:33.019Z"
-    },
-    {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xs4ni6/any_owners_of_godrej_woodscapes_budigere_bangalore/",
-      "title": "Any owners of Godrej woodscapes Budigere, Bangalore?",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-11-09T21:40:52+00:00",
-      "evergreen": false,
-      "fit": 88,
-      "intent": "Wants first-hand experience of Godrej Woodscapes at Budigere Cross before committing — construction quality, delays, whether the location works.",
-      "landing": "https://property-lens.ai/dd/godrej-woodscapes-phase-2-006888",
-      "landingWhy": "The due-diligence dashboard for that exact registration shows the RERA timeline, extensions, construction vs bookings, money through the RERA account and the complaint count — the things owners in the thread cannot tell him, unlike a generic project or homepage view.",
-      "draft": "Not an owner, but I can give you the filing side, which owners usually can't. On the Phase 2 registration there are 2 complaints in the K-RERA register, and the financial/legal due-diligence check I run returned no red flags on it.\n\nIt scores 62/100 in my model against a median of 42 for the Hoskote–Budigere Cross belt, with projected price growth of about 10.8% a year over five years. Most of that gap over the belt is developer delivery record and the Budigere office/infra pipeline, not the product.\n\n• Godrej Woodscapes Ph 2 — score 62, projected 10.8%/yr, 2 complaints, 0 red flags\n• Brigade Citrine — score 64, projected 10.7%/yr, 0 complaints\n• Brigade Calista Ph 2 — score 63, projected 10.4%/yr, 0 complaints\n• Belt median — score 42, projected 10.2%/yr, about ₹5,650/sqft (estimate)\n\nBasis: K-RERA filings and the complaint register. Whatever owners tell you, ask the sales team for the extension history and the latest quarterly progress update, and for resale ask to see the occupancy certificate.",
-      "risk": "low",
-      "riskNote": "No link, no domain named, no sales language; the comment answers the question with RERA-sourced figures written out in full since r/indianrealestate strips images and punishes anything broker-flavoured. Authorship of the dataset is stated plainly once.",
-      "shots": [
-        {
-          "kind": "dd",
-          "projectId": "godrej-woodscapes-phase-2-006888",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-woodscapes-phase-2-006888#dd",
-          "caption": "Due-diligence dashboard for the Woodscapes Phase 2 registration: RERA timeline and extensions, construction vs bookings, RERA-account movement and the 2 complaints."
-        },
-        {
-          "kind": "project",
-          "projectId": "godrej-woodscapes-phase-2-006888",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/godrej-woodscapes-phase-2-006888",
-          "caption": "Score 62/100 and projected 10.8%/yr five-year price growth for Godrej Woodscapes Phase 2, against the Hoskote–Budigere belt median of 42."
-        }
-      ],
-      "id": "6853170906113b4a",
-      "foundAt": "2026-11-10T07:29:44.946Z"
     },
     {
       "platform": "quora",
@@ -659,9 +622,9 @@
       "intent": "Wants to know whether Godrej as a brand is a safe bet in Bengaluru across its projects.",
       "landing": "https://property-lens.ai/?dev=Godrej%20Properties",
       "landingWhy": "The question is about the developer, and the developer-filtered list shows every analysed Godrej registration with its score and complaint count — which is the point the answer makes.",
-      "draft": "Judging a Godrej purchase by the brand is the mistake here: across their Bengaluru registrations the scores I compute from Karnataka RERA filings run from the high 40s to the low 80s, which is nearly three standard deviations of spread inside one developer.\n\nFour of their registrations, same measures each time:\n\n• Godrej Woods, Yelahanka — score 81, projected 5-yr growth 12.2% a year, 1 RERA complaint on that registration\n• Godrej Vanantara, Bannerghatta Road — score 80, projected 11.5% a year, 0 complaints\n• Godrej Lakeside Orchard, Sarjapur Road — score 72, projected 10.8% a year, 2 complaints\n• Godrej Lake Gardens, Bellandur — score 47, projected 9.5% a year, 4 complaints and a red flag in the due-diligence read\n\nFifty is the average analysed Bengaluru project on that scale and twelve points is one standard deviation, so the same brand covers both well above and slightly below average here.\n\nWhat drives the difference is mostly location and the specific registration, not construction quality. Godrej builds a lot of Bengaluru stock through joint development agreements with landowners, so for any project you shortlist, read who actually owns the land in the RERA filing, whether the JDA and the power of attorney are registered, how many completion-date extensions have been filed, and what the quarterly progress updates say about construction against bookings.\n\nFor their plotted projects, add DC conversion, the approved layout plan and the release of mortgaged plots to that list. Brand reputation does not substitute for any of it.",
+      "draft": "Judging a Godrej purchase by the brand is the mistake here: across their Bengaluru registrations the scores I compute from Karnataka RERA filings run from the high 40s to the low 80s, which is nearly three standard deviations of spread inside one developer.\n\nFour of their registrations, same measures each time:\n\n• Godrej Woods, Yelahanka — score 81, projected 5-yr growth 12.2% a year, 1 RERA complaint on that registration\n• Godrej Vanantara, Bannerghatta Road — score 80, projected 11.5% a year, 0 complaints\n• Godrej Lakeside Orchard, Sarjapur Road — score 72, projected 10.8% a year, 2 complaints\n• Godrej Lake Gardens, Bellandur — score 47, projected 9.5% a year, 4 complaints and a red flag in the due-diligence read\n\nFifty is the average analysed Bengaluru project on that scale and twelve points is one standard deviation, so the same brand covers both well above and slightly below average here.\n\nWhat drives the difference is mostly location and the specific registration, not construction quality. Godrej builds a lot of Bengaluru stock through joint development agreements with landowners, so for any project you shortlist, read who actually owns the land in the RERA filing, whether the JDA and the power of attorney are registered, how many completion-date extensions have been filed, and what the quarterly progress updates say about construction against bookings.\n\nFor their plotted projects, add DC conversion, the approved layout plan and the release of mortgaged plots to that list. Brand reputation does not substitute for any of it.\n\nIf you want to check these numbers yourself, every project from this developer, scored, is here: https://property-lens.ai/?dev=Godrej%20Properties",
       "risk": "low",
-      "riskNote": "Not a brand attack or endorsement — spread of scores plus the JDA/land-title checks. No link, complaint counts only per registration.",
+      "riskNote": "Carries one PropertyLens link as its closing line (half of Quora answers do). Keep it to that one link.",
       "shots": [
         {
           "kind": "list",
@@ -2849,6 +2812,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Why-is-it-better-to-buy-an-apartment-in-a-pre-launch-stage-in-Bangalore",
+      "title": "Why is it better to buy an apartment in a pre-launch stage in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2018-05-07T00:00:00+00:00",
+      "evergreen": true,
+      "fit": 76,
+      "intent": "Believes pre-launch booking is the smart play; wants the reasons — the premise needs correcting with costs and RERA law.",
+      "landing": "https://property-lens.ai/p/birla-evara-007487",
+      "landingWhy": "The claim in the answer is that headline price growth and net return differ by about three points; the Birla Evara project page is where that specific 11.0% projected versus 8.7% net-wealth CAGR is shown with its cost breakdown.",
+      "draft": "The honest arithmetic: a pre-launch discount is usually 5-10%, and the costs of buying plus the wait eat most of it. Modelling Bengaluru projects from their RERA filings, Birla Evara on Sarjapur Road carries a projected 5-year price growth of 11.0% a year, but the net-wealth CAGR over eight years on a 75% home loan — after GST, stamp duty and registration, other charges, interiors, loan interest, maintenance and selling costs — works out at 8.7%. Godrej Lakeside Orchard: 10.8% projected, 7.5% net. An under-construction home earns no rent until handover, so every quarter of slippage comes straight off that net figure.\n\nThe legal point matters more than the discount. A promoter cannot legally advertise, market or accept money for a project before it is registered with Karnataka RERA. So a genuine pre-launch booking is money paid against something with no registration number, no registered completion date, no RERA account for your money to sit in, and no complaint register you can search. If it has a registration number, it isn't pre-launch — it's just early, and early is a perfectly reasonable thing to buy.\n\nIf you are still tempted, ask for the registration number, the sanctioned plan, the land title documents and the completion date as filed, and insist every payment goes into the project's RERA account with a receipt that names it.\n\nResearch, not advice — but price the discount against a two-year slip, not against the brochure.",
+      "risk": "low",
+      "riskNote": "No link, corrects the question's premise with the law and with cost arithmetic. Names two projects only as worked examples of the net-versus-headline gap, not as recommendations.",
+      "shots": [
+        {
+          "kind": "project",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487",
+          "caption": "Birla Evara: projected 11.0%/yr price growth against an 8.7% net-wealth CAGR after every cost on a 75% loan."
+        },
+        {
+          "kind": "dd",
+          "projectId": "birla-evara-007487",
+          "projectIdB": "",
+          "locality": "",
+          "developer": "",
+          "url": "https://property-lens.ai/p/birla-evara-007487#dd",
+          "caption": "What a registered project actually discloses: RERA timeline, money through the RERA account, complaints."
+        }
+      ],
+      "id": "05fd8f35be596df7",
+      "foundAt": "2026-11-11T22:50:07.104Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-to-purchase-an-apartment-in-Bangalore",
       "title": "Is it wise to purchase an apartment in Bangalore?",
       "context": "Quora",
@@ -3384,43 +3384,6 @@
       "foundAt": "2026-09-27T14:05:00.167Z"
     },
     {
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/indianrealestate/comments/1xrnu14/bda_flats_phase_3_kommaghatta_future_development_and_home_loan_strategy/",
-      "title": "BDA flats phase 3 Kommaghatta future development and home loan strategy",
-      "context": "r/indianrealestate",
-      "postedAt": "2026-11-09T10:01:58+00:00",
-      "evergreen": false,
-      "fit": 64,
-      "intent": "Wants to judge whether the Kommaghatta BDA flats area will develop, and how to think about the loan.",
-      "landing": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
-      "landingWhy": "Kommaghatta sits in the Mysore Road / RR Nagar / Kengeri belt; the locality map gives the 78-project score and growth evidence for exactly that corridor, which the homepage cannot.",
-      "draft": "BDA flats sit outside the K-RERA promoter filing system, so none of the usual checks exist for them — no quarterly progress updates, no designated RERA account, no complaint register. What you can verify instead is the allotment conditions, khata and taxes paid, the resale lock-in period, and whether the block has an occupancy certificate.\n\nFor the corridor itself: 78 analysed projects in the Mysore Road / RR Nagar / Kengeri belt have a median score of 54 and median projected price growth of about 10.6% a year over five years, at a median ₹6,750/sqft (model estimate). That is above the city median score of 50, mostly on the metro line and the Kengeri employment pull.\n\nOn loan sizing, the number people underestimate: after GST, stamp duty, registration, interiors, interest and selling costs, nearby under-construction projects land near 6-7% net-wealth CAGR over eight years on a 75% loan, not the headline growth figure.\n\n• Birla Ojasvi — score 73, projected 11.3%/yr, 7.4% net CAGR\n• Sumadhura Pramoda — score 65, projected 10.4%/yr, 6.0% net CAGR\n• Provident Equinox 4 — score 62, projected 11.5%/yr, 6.9% net CAGR\n\nBasis: K-RERA filings and dated locality price evidence.",
-      "risk": "medium",
-      "riskNote": "No link and no product name in the text; the risk is that BDA stock itself isn't in the dataset, so the draft says that outright rather than pretending otherwise and limits itself to corridor evidence and after-cost maths. No buy/don't-buy advice.",
-      "shots": [
-        {
-          "kind": "map",
-          "projectId": "",
-          "projectIdB": "",
-          "locality": "mysore-road-rr-nagar-kengeri",
-          "developer": "",
-          "url": "https://property-lens.ai/map?loc=mysore-road-rr-nagar-kengeri",
-          "caption": "Mysore Road / RR Nagar / Kengeri belt: 78 projects analysed, median score 54, median projected growth 10.6%/yr."
-        },
-        {
-          "kind": "project",
-          "projectId": "birla-ojasvi-006989",
-          "projectIdB": "",
-          "locality": "",
-          "developer": "",
-          "url": "https://property-lens.ai/p/birla-ojasvi-006989",
-          "caption": "Birla Ojasvi in the same corridor: score 73, projected 11.3%/yr, 7.4% net-wealth CAGR after every cost on a 75% loan."
-        }
-      ],
-      "id": "5e3d77aa73cf7e2c",
-      "foundAt": "2026-11-10T07:29:44.946Z"
-    },
-    {
       "platform": "quora",
       "url": "https://www.quora.com/Is-it-wise-buying-a-flat-in-the-Brigade-Gateway-Apartment-in-Bangalore-It-was-constructed-9-years-ago-and-is-part-of-the-integrated-project-Will-the-prices-go-up-in-the-future",
       "title": "Is it wise buying a flat in Brigade Gateway, constructed 9 years ago? Will prices go up in future?",
@@ -3459,17 +3422,19 @@
     }
   ],
   "stats": {
-    "candidates": 0,
-    "kept": 0,
+    "candidates": 1,
+    "kept": 1,
     "skippedSeen": 0,
-    "byPlatform": {},
+    "byPlatform": {
+      "quora": 1
+    },
     "errors": [
+      "reddit r/IndianHomeBuyers: HTTP 429",
+      "reddit r/bangalore: HTTP 429",
+      "reddit r/Bengaluru: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
-      "reddit r/RealEstateIndia: HTTP 404",
-      "reddit r/IndiaInvestments: HTTP 429",
-      "reddit r/personalfinanceindia: HTTP 429",
-      "reddit r/FIREIndia: HTTP 429",
-      "reddit r/IndiaTax: HTTP 429"
+      "reddit r/RealEstateIndia: HTTP 429",
+      "reddit r/IndiaInvestments: HTTP 429"
     ]
   }
 }
