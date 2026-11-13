@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:50:07.104Z",
+  "generatedAt": "2026-11-13T06:56:49.189Z",
   "leads": [
     {
       "platform": "quora",
@@ -3080,6 +3080,43 @@
     },
     {
       "platform": "quora",
+      "url": "https://www.quora.com/Which-is-the-best-location-to-invest-in-in-Bangalore",
+      "title": "Which is the best location to invest in in Bangalore?",
+      "context": "Quora",
+      "postedAt": "2018-11-09T00:00:00Z",
+      "evergreen": true,
+      "fit": 74,
+      "intent": "Wants a shortlist of Bengaluru localities worth putting money into.",
+      "landing": "https://property-lens.ai/map",
+      "landingWhy": "The city score map is the direct evidence for the locality-by-locality medians the answer compares; a project page would answer a narrower question.",
+      "draft": "The locality with the highest projected price growth in Bengaluru and the locality with the best overall quality score are not the same place, and choosing between them is really the whole question.\n\nFrom the Karnataka RERA filings I have analysed across the city: Devanahalli / Airport Road has 212 registered projects with median projected price growth of 11.2% a year over five years and a median estimated ₹4,700 per sq ft, but a median investment score of only 50 out of 100 — the city average. Jayanagar / Basavanagudi has a median score of 66 with 9.3% projected growth at a median estimated ₹15,050 per sq ft. HSR / BTM / Koramangala fringe sits at 63 and 9.7%.\n\nAt the weak end, Attibele / Anekal medians 36 and Doddaballapur Road 22, despite low entry prices — the scoring there is dragged down by employment access, transit, social infrastructure and resale liquidity, not by price.\n\nSo the practical split: if you need to exit inside five years, weight resale liquidity and rental demand, which favours the established southern and eastern corridors. If you can hold ten years and sit through handover delays, the airport corridor's growth projection is the higher number but a thinner market.\n\nWhatever you shortlist, the deciding evidence is the individual registration, not the locality: extensions taken on the RERA completion date, construction progress against bookings in the quarterly reports, withdrawals from the RERA account, and the complaint register.",
+      "risk": "low",
+      "riskNote": "Older broad question with promotional answers already on it; this one adds labelled, verifiable medians and no link, so it reads as substance rather than placement.",
+      "shots": [
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "devanahalli-airport",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=devanahalli-airport",
+          "caption": "Devanahalli / Airport corridor: 212 projects, median score 50, highest median projected growth at 11.2% a year."
+        },
+        {
+          "kind": "map",
+          "projectId": "",
+          "projectIdB": "",
+          "locality": "jayanagar-basavanagudi",
+          "developer": "",
+          "url": "https://property-lens.ai/map?loc=jayanagar-basavanagudi",
+          "caption": "Jayanagar / Basavanagudi: median score 66 with 9.3% projected growth — quality high, growth lower."
+        }
+      ],
+      "id": "0f0b6314088f8506",
+      "foundAt": "2026-11-13T06:56:49.189Z"
+    },
+    {
+      "platform": "quora",
       "url": "https://www.quora.com/Is-there-a-risk-to-buy-non-rera-property-in-Bangalore-the-project-started-prior-to-RERA-rule-but-2-flats-are-being-sold-now-by-the-owner",
       "title": "Is there a risk to buy non-RERA property in Bangalore, the project started prior to RERA rule but 2 flats are being sold now by the owner?",
       "context": "Quora",
@@ -3422,19 +3459,18 @@
     }
   ],
   "stats": {
-    "candidates": 1,
+    "candidates": 15,
     "kept": 1,
     "skippedSeen": 0,
     "byPlatform": {
       "quora": 1
     },
     "errors": [
-      "reddit r/IndianHomeBuyers: HTTP 429",
-      "reddit r/bangalore: HTTP 429",
-      "reddit r/Bengaluru: HTTP 429",
+      "reddit r/IndiaRealEstate: HTTP 429",
       "reddit r/indianrealestate: HTTP 429",
       "reddit r/RealEstateIndia: HTTP 429",
-      "reddit r/IndiaInvestments: HTTP 429"
+      "reddit r/IndiaInvestments: HTTP 429",
+      "reddit r/FIREIndia: HTTP 429"
     ]
   }
 }
